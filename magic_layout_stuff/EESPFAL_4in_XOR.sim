@@ -1,0 +1,174 @@
+| units: 500000 tech: sky130A format: MIT
+x XOR0 XOR0_bar CLK CLK l=30 w=300 x=-239 y=970 sky130_fd_pr__pfet_01v8
+x Dis GND XOR0_bar GND l=30 w=300 x=-389 y=410 sky130_fd_pr__nfet_01v8
+x x0 CLK EESPFAL_XOR_v3_0/a_n840_410# GND l=30 w=300 x=-869 y=410 sky130_fd_pr__nfet_01v8
+x k0_bar XOR0_bar EESPFAL_XOR_v3_0/a_n1140_410# GND l=30 w=300 x=-1169 y=410 sky130_fd_pr__nfet_01v8
+x k0_bar XOR0 EESPFAL_XOR_v3_0/a_420_410# GND l=30 w=300 x=390 y=410 sky130_fd_pr__nfet_01v8
+x Dis XOR0 GND GND l=30 w=300 x=60 y=410 sky130_fd_pr__nfet_01v8
+x XOR0_bar CLK XOR0 CLK l=30 w=300 x=-89 y=970 sky130_fd_pr__pfet_01v8
+x x0_bar CLK EESPFAL_XOR_v3_0/a_720_410# GND l=30 w=300 x=690 y=410 sky130_fd_pr__nfet_01v8
+x XOR0 CLK XOR0_bar CLK l=30 w=300 x=-389 y=970 sky130_fd_pr__pfet_01v8
+x XOR0_bar XOR0 CLK CLK l=30 w=300 x=60 y=970 sky130_fd_pr__pfet_01v8
+x k0 EESPFAL_XOR_v3_0/a_n840_410# XOR0_bar GND l=30 w=300 x=-719 y=410 sky130_fd_pr__nfet_01v8
+x XOR0 XOR0_bar GND GND l=30 w=300 x=-239 y=410 sky130_fd_pr__nfet_01v8
+x x0_bar EESPFAL_XOR_v3_0/a_n1140_410# CLK GND l=30 w=300 x=-1019 y=410 sky130_fd_pr__nfet_01v8
+x XOR0_bar GND XOR0 GND l=30 w=300 x=-89 y=410 sky130_fd_pr__nfet_01v8
+x x0 EESPFAL_XOR_v3_0/a_420_410# CLK GND l=30 w=300 x=540 y=410 sky130_fd_pr__nfet_01v8
+x k0 EESPFAL_XOR_v3_0/a_720_410# XOR0 GND l=30 w=300 x=840 y=410 sky130_fd_pr__nfet_01v8
+x XOR1 XOR1_bar CLK CLK l=30 w=300 x=-239 y=-531 sky130_fd_pr__pfet_01v8
+x Dis GND XOR1_bar GND l=30 w=300 x=-389 y=29 sky130_fd_pr__nfet_01v8
+x x1 CLK EESPFAL_XOR_v3_1/a_n840_410# GND l=30 w=300 x=-869 y=29 sky130_fd_pr__nfet_01v8
+x k1_bar XOR1_bar EESPFAL_XOR_v3_1/a_n1140_410# GND l=30 w=300 x=-1169 y=29 sky130_fd_pr__nfet_01v8
+x k1_bar XOR1 EESPFAL_XOR_v3_1/a_420_410# GND l=30 w=300 x=390 y=29 sky130_fd_pr__nfet_01v8
+x Dis XOR1 GND GND l=30 w=300 x=60 y=29 sky130_fd_pr__nfet_01v8
+x XOR1_bar CLK XOR1 CLK l=30 w=300 x=-89 y=-531 sky130_fd_pr__pfet_01v8
+x x1_bar CLK EESPFAL_XOR_v3_1/a_720_410# GND l=30 w=300 x=690 y=29 sky130_fd_pr__nfet_01v8
+x XOR1 CLK XOR1_bar CLK l=30 w=300 x=-389 y=-531 sky130_fd_pr__pfet_01v8
+x XOR1_bar XOR1 CLK CLK l=30 w=300 x=60 y=-531 sky130_fd_pr__pfet_01v8
+x k1 EESPFAL_XOR_v3_1/a_n840_410# XOR1_bar GND l=30 w=300 x=-719 y=29 sky130_fd_pr__nfet_01v8
+x XOR1 XOR1_bar GND GND l=30 w=300 x=-239 y=29 sky130_fd_pr__nfet_01v8
+x x1_bar EESPFAL_XOR_v3_1/a_n1140_410# CLK GND l=30 w=300 x=-1019 y=29 sky130_fd_pr__nfet_01v8
+x XOR1_bar GND XOR1 GND l=30 w=300 x=-89 y=29 sky130_fd_pr__nfet_01v8
+x x1 EESPFAL_XOR_v3_1/a_420_410# CLK GND l=30 w=300 x=540 y=29 sky130_fd_pr__nfet_01v8
+x k1 EESPFAL_XOR_v3_1/a_720_410# XOR1 GND l=30 w=300 x=840 y=29 sky130_fd_pr__nfet_01v8
+x XOR2 XOR2_bar CLK CLK l=30 w=300 x=-239 y=-1390 sky130_fd_pr__pfet_01v8
+x Dis GND XOR2_bar GND l=30 w=300 x=-389 y=-1950 sky130_fd_pr__nfet_01v8
+x x2 CLK EESPFAL_XOR_v3_2/a_n840_410# GND l=30 w=300 x=-869 y=-1950 sky130_fd_pr__nfet_01v8
+x k2_bar XOR2_bar EESPFAL_XOR_v3_2/a_n1140_410# GND l=30 w=300 x=-1169 y=-1950 sky130_fd_pr__nfet_01v8
+x k2_bar XOR2 EESPFAL_XOR_v3_2/a_420_410# GND l=30 w=300 x=390 y=-1950 sky130_fd_pr__nfet_01v8
+x Dis XOR2 GND GND l=30 w=300 x=60 y=-1950 sky130_fd_pr__nfet_01v8
+x XOR2_bar CLK XOR2 CLK l=30 w=300 x=-89 y=-1390 sky130_fd_pr__pfet_01v8
+x x2_bar CLK EESPFAL_XOR_v3_2/a_720_410# GND l=30 w=300 x=690 y=-1950 sky130_fd_pr__nfet_01v8
+x XOR2 CLK XOR2_bar CLK l=30 w=300 x=-389 y=-1390 sky130_fd_pr__pfet_01v8
+x XOR2_bar XOR2 CLK CLK l=30 w=300 x=60 y=-1390 sky130_fd_pr__pfet_01v8
+x k2 EESPFAL_XOR_v3_2/a_n840_410# XOR2_bar GND l=30 w=300 x=-719 y=-1950 sky130_fd_pr__nfet_01v8
+x XOR2 XOR2_bar GND GND l=30 w=300 x=-239 y=-1950 sky130_fd_pr__nfet_01v8
+x x2_bar EESPFAL_XOR_v3_2/a_n1140_410# CLK GND l=30 w=300 x=-1019 y=-1950 sky130_fd_pr__nfet_01v8
+x XOR2_bar GND XOR2 GND l=30 w=300 x=-89 y=-1950 sky130_fd_pr__nfet_01v8
+x x2 EESPFAL_XOR_v3_2/a_420_410# CLK GND l=30 w=300 x=540 y=-1950 sky130_fd_pr__nfet_01v8
+x k2 EESPFAL_XOR_v3_2/a_720_410# XOR2 GND l=30 w=300 x=840 y=-1950 sky130_fd_pr__nfet_01v8
+x XOR3 XOR3_bar CLK CLK l=30 w=300 x=-239 y=-2891 sky130_fd_pr__pfet_01v8
+x Dis GND XOR3_bar GND l=30 w=300 x=-389 y=-2331 sky130_fd_pr__nfet_01v8
+x x3 CLK EESPFAL_XOR_v3_3/a_n840_410# GND l=30 w=300 x=-869 y=-2331 sky130_fd_pr__nfet_01v8
+x k3_bar XOR3_bar EESPFAL_XOR_v3_3/a_n1140_410# GND l=30 w=300 x=-1169 y=-2331 sky130_fd_pr__nfet_01v8
+x k3_bar XOR3 EESPFAL_XOR_v3_3/a_420_410# GND l=30 w=300 x=390 y=-2331 sky130_fd_pr__nfet_01v8
+x Dis XOR3 GND GND l=30 w=300 x=60 y=-2331 sky130_fd_pr__nfet_01v8
+x XOR3_bar CLK XOR3 CLK l=30 w=300 x=-89 y=-2891 sky130_fd_pr__pfet_01v8
+x x3_bar CLK EESPFAL_XOR_v3_3/a_720_410# GND l=30 w=300 x=690 y=-2331 sky130_fd_pr__nfet_01v8
+x XOR3 CLK XOR3_bar CLK l=30 w=300 x=-389 y=-2891 sky130_fd_pr__pfet_01v8
+x XOR3_bar XOR3 CLK CLK l=30 w=300 x=60 y=-2891 sky130_fd_pr__pfet_01v8
+x k3 EESPFAL_XOR_v3_3/a_n840_410# XOR3_bar GND l=30 w=300 x=-719 y=-2331 sky130_fd_pr__nfet_01v8
+x XOR3 XOR3_bar GND GND l=30 w=300 x=-239 y=-2331 sky130_fd_pr__nfet_01v8
+x x3_bar EESPFAL_XOR_v3_3/a_n1140_410# CLK GND l=30 w=300 x=-1019 y=-2331 sky130_fd_pr__nfet_01v8
+x XOR3_bar GND XOR3 GND l=30 w=300 x=-89 y=-2331 sky130_fd_pr__nfet_01v8
+x x3 EESPFAL_XOR_v3_3/a_420_410# CLK GND l=30 w=300 x=540 y=-2331 sky130_fd_pr__nfet_01v8
+x k3 EESPFAL_XOR_v3_3/a_720_410# XOR3 GND l=30 w=300 x=840 y=-2331 sky130_fd_pr__nfet_01v8
+C Dis GND 6.62
+R Dis 7827
+= Dis Li_via_M2_1/li_n40_n38#
+= Dis EESPFAL_XOR_v3_0/Dis
+= Dis Li_via_M2_0/li_n40_n38#
+= Dis EESPFAL_XOR_v3_1/Dis
+= Dis Li_via_M2_2/li_n40_n38#
+= Dis EESPFAL_XOR_v3_2/Dis
+= Dis Li_via_M2_3/li_n40_n38#
+= Dis EESPFAL_XOR_v3_3/Dis
+C CLK GND 14.86
+R CLK 55723
+= CLK M1_via_M2_0/m1_n40_n38#
+= CLK EESPFAL_XOR_v3_3/CLK
+= CLK M1_via_M2_2/m1_n40_n38#
+= CLK EESPFAL_XOR_v3_0/CLK
+= CLK M1_via_M2_1/m1_n40_n38#
+= CLK m2_590_20#
+= CLK M1_via_M2_3/m1_n40_n38#
+= CLK EESPFAL_XOR_v3_1/CLK
+= CLK EESPFAL_XOR_v3_2/CLK
+= CLK M1_via_M2_4/m1_n40_n38#
+= CLK m2_590_n2340#
+R GND 17829
+= GND M1_via_M2_0/VSUBS
+= GND M1_via_M2_2/VSUBS
+= GND M1_via_M2_1/VSUBS
+= GND Li_via_M2_1/VSUBS
+= GND Li_via_M2_0/VSUBS
+= GND Li_via_M1_0/VSUBS
+= GND Li_via_M1_0/li_n40_n38#
+= GND EESPFAL_XOR_v3_3/GND!
+= GND EESPFAL_XOR_v3_0/GND!
+= GND M1_via_M2_3/VSUBS
+= GND li_n1318_180#
+= GND Li_via_M2_2/VSUBS
+= GND EESPFAL_XOR_v3_1/GND!
+= GND M1_via_M2_4/VSUBS
+= GND Li_via_M2_3/VSUBS
+= GND Li_via_M1_1/VSUBS
+= GND Li_via_M1_1/li_n40_n38#
+= GND m1_n1398_n2100#
+= GND EESPFAL_XOR_v3_2/GND!
+= GND VSUBS
+= GND li_n1318_n2180#
+R k3 2644
+= k3 EESPFAL_XOR_v3_3/B
+R k3_bar 2348
+= k3_bar EESPFAL_XOR_v3_3/B_bar
+R x3_bar 3006
+= x3_bar EESPFAL_XOR_v3_3/A_bar
+R XOR3_bar 5215
+= XOR3_bar EESPFAL_XOR_v3_3/OUT_bar
+R XOR3 4999
+= XOR3 EESPFAL_XOR_v3_3/OUT
+R x3 3284
+= x3 EESPFAL_XOR_v3_3/A
+R EESPFAL_XOR_v3_3/a_720_410# 300
+R EESPFAL_XOR_v3_3/a_420_410# 300
+R EESPFAL_XOR_v3_3/a_n840_410# 300
+R EESPFAL_XOR_v3_3/a_n1140_410# 300
+R k2 2644
+= k2 EESPFAL_XOR_v3_2/B
+R k2_bar 2348
+= k2_bar EESPFAL_XOR_v3_2/B_bar
+R x2_bar 3006
+= x2_bar EESPFAL_XOR_v3_2/A_bar
+R XOR2_bar 5215
+= XOR2_bar EESPFAL_XOR_v3_2/OUT_bar
+R XOR2 4999
+= XOR2 EESPFAL_XOR_v3_2/OUT
+R x2 3284
+= x2 EESPFAL_XOR_v3_2/A
+R EESPFAL_XOR_v3_2/a_720_410# 300
+R EESPFAL_XOR_v3_2/a_420_410# 300
+R EESPFAL_XOR_v3_2/a_n840_410# 300
+R EESPFAL_XOR_v3_2/a_n1140_410# 300
+R k1 2644
+= k1 EESPFAL_XOR_v3_1/B
+R k1_bar 2348
+= k1_bar EESPFAL_XOR_v3_1/B_bar
+R x1_bar 3006
+= x1_bar EESPFAL_XOR_v3_1/A_bar
+R XOR1_bar 5215
+= XOR1_bar EESPFAL_XOR_v3_1/OUT_bar
+R XOR1 4999
+= XOR1 EESPFAL_XOR_v3_1/OUT
+R x1 3284
+= x1 EESPFAL_XOR_v3_1/A
+R EESPFAL_XOR_v3_1/a_720_410# 300
+R EESPFAL_XOR_v3_1/a_420_410# 300
+R EESPFAL_XOR_v3_1/a_n840_410# 300
+R EESPFAL_XOR_v3_1/a_n1140_410# 300
+R k0 2644
+= k0 EESPFAL_XOR_v3_0/B
+R k0_bar 2348
+= k0_bar EESPFAL_XOR_v3_0/B_bar
+R x0_bar 3006
+= x0_bar EESPFAL_XOR_v3_0/A_bar
+R XOR0_bar 5215
+= XOR0_bar EESPFAL_XOR_v3_0/OUT_bar
+R XOR0 4999
+= XOR0 EESPFAL_XOR_v3_0/OUT
+R x0 3284
+= x0 EESPFAL_XOR_v3_0/A
+R EESPFAL_XOR_v3_0/a_720_410# 300
+R EESPFAL_XOR_v3_0/a_420_410# 300
+R EESPFAL_XOR_v3_0/a_n840_410# 300
+R EESPFAL_XOR_v3_0/a_n1140_410# 300

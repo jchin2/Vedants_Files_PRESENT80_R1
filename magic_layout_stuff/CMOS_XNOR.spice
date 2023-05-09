@@ -1,0 +1,15 @@
+* NGSPICE file created from CMOS_XNOR.ext - technology: sky130A
+
+.subckt CMOS_XNOR XNOR B A_bar A B_bar GND VDD
+X0 VDD B a_n117_546# VDD sky130_fd_pr__pfet_01v8 ad=5.4e+12p pd=2.16e+07u as=1.8e+12p ps=7.2e+06u w=3e+06u l=150000u
+X1 GND A_bar a_n117_n64# GND sky130_fd_pr__nfet_01v8 ad=2.7e+12p pd=1.26e+07u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X2 a_n267_n64# A a_n417_546# VDD sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=1.8e+12p ps=7.2e+06u w=3e+06u l=150000u
+X3 a_n267_n64# B a_n417_n64# GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X4 XNOR a_n267_n64# VDD VDD sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=0p ps=0u w=3e+06u l=150000u
+X5 XNOR a_n267_n64# GND GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=0p ps=0u w=1.5e+06u l=150000u
+X6 a_n117_546# A_bar a_n267_n64# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X7 a_n117_n64# B_bar a_n267_n64# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+X8 a_n417_546# B_bar VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X9 a_n417_n64# A GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+.ends
+

@@ -1,0 +1,23 @@
+| units: 500000 tech: sky130A format: MIT
+x OUT_bar OUT CLK CLK l=30 w=300 x=141 y=146 sky130_fd_pr__pfet_01v8
+x OUT OUT_bar CLK CLK l=30 w=300 x=-158 y=146 sky130_fd_pr__pfet_01v8
+x Dis GND! OUT_bar GND! l=30 w=300 x=-308 y=-413 sky130_fd_pr__nfet_01v8
+x OUT OUT_bar GND! GND! l=30 w=300 x=-158 y=-413 sky130_fd_pr__nfet_01v8
+x Dis OUT GND! GND! l=30 w=300 x=141 y=-413 sky130_fd_pr__nfet_01v8
+x A_bar CLK OUT_bar GND! l=30 w=300 x=-638 y=-413 sky130_fd_pr__nfet_01v8
+x OUT_bar GND! OUT GND! l=30 w=300 x=-8 y=-413 sky130_fd_pr__nfet_01v8
+x OUT_bar CLK OUT CLK l=30 w=300 x=-8 y=146 sky130_fd_pr__pfet_01v8
+x OUT CLK OUT_bar CLK l=30 w=300 x=-308 y=146 sky130_fd_pr__pfet_01v8
+x B OUT a_501_n414# GND! l=30 w=300 x=471 y=-413 sky130_fd_pr__nfet_01v8
+x A a_501_n414# CLK GND! l=30 w=300 x=621 y=-413 sky130_fd_pr__nfet_01v8
+x B_bar OUT_bar CLK GND! l=30 w=300 x=-788 y=-413 sky130_fd_pr__nfet_01v8
+R Dis 1763
+R B_bar 814
+R B 1282
+R A 1475
+R A_bar 1024
+R OUT_bar 5022
+R OUT 4238
+R CLK 12190
+R GND! 5301
+R a_501_n414# 300

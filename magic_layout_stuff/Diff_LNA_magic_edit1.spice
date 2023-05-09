@@ -1,0 +1,89 @@
+* NGSPICE file created from Diff_LNA_magic_edit1.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_0p35_2RLX6B a_124_n501# a_442_n501# a_n194_n501#
++ a_124_69# a_n194_69# a_n512_69# a_442_69# a_n512_n501# VSUBS
+X0 a_n512_n501# a_n512_69# VSUBS sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+X1 a_124_n501# a_124_69# VSUBS sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+X2 a_n194_n501# a_n194_69# VSUBS sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+X3 a_442_n501# a_442_69# VSUBS sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+.ends
+
+.subckt Resistor_20k sky130_fd_pr__res_xhigh_po_0p35_2RLX6B_0/a_442_69# sky130_fd_pr__res_xhigh_po_0p35_2RLX6B_0/a_n512_69#
++ VSUBS
+Xsky130_fd_pr__res_xhigh_po_0p35_2RLX6B_0 m1_1818_696# m1_1818_696# m1_1182_696# m1_1500_1406#
++ m1_1500_1406# sky130_fd_pr__res_xhigh_po_0p35_2RLX6B_0/a_n512_69# sky130_fd_pr__res_xhigh_po_0p35_2RLX6B_0/a_442_69#
++ m1_1182_696# VSUBS sky130_fd_pr__res_xhigh_po_0p35_2RLX6B
+.ends
+
+.subckt nmos_1v8_lvt_5p0_body_4finger a_n990_n10# a_n1230_20#
+X0 a_n960_20# a_n990_n10# a_n1230_20# a_n1230_20# sky130_fd_pr__nfet_01v8_lvt ad=6e+12p pd=2.24e+07u as=9e+12p ps=3.36e+07u w=5e+06u l=150000u
+X1 a_n960_20# a_n990_n10# a_n1230_20# a_n1230_20# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
+X2 a_n1230_20# a_n990_n10# a_n960_20# a_n1230_20# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
+X3 a_n1230_20# a_n990_n10# a_n960_20# a_n1230_20# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
+.ends
+
+.subckt nmos_1v8_lvt_5p0_4finger a_n1110_20# a_n960_20# a_n990_n10# VSUBS
+X0 a_n960_20# a_n990_n10# a_n1110_20# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=6e+12p pd=2.24e+07u as=9e+12p ps=3.36e+07u w=5e+06u l=150000u
+X1 a_n960_20# a_n990_n10# a_n1110_20# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
+X2 a_n1110_20# a_n990_n10# a_n960_20# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
+X3 a_n1110_20# a_n990_n10# a_n960_20# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=5e+06u l=150000u
+.ends
+
+.subckt sky130_fd_pr__res_generic_po_RWRVR8 a_n44_169# a_n44_n242#
+R0 a_n44_n242# a_n44_169# sky130_fd_pr__res_generic_po w=440000u l=1.69e+06u
+.ends
+
+.subckt simple_current_mirror VSUBS VDD Mirror_out
+Xnmos_1v8_lvt_5p0_body_4finger_0 a_n50_n30# VSUBS nmos_1v8_lvt_5p0_body_4finger
+Xnmos_1v8_lvt_5p0_4finger_0 VSUBS Mirror_out a_n50_n30# VSUBS nmos_1v8_lvt_5p0_4finger
+Xsky130_fd_pr__res_generic_po_RWRVR8_0 VDD a_n50_n30# sky130_fd_pr__res_generic_po_RWRVR8
+.ends
+
+.subckt nmos_1v8_lvt_4p5_10finger$1$1 a_530_30# a_1250_0# a_1400_0# a_830_30# a_1280_30#
++ a_1100_0# a_1580_30# a_380_30# a_1130_30# a_680_30# a_950_0# a_1430_30# a_980_30#
++ a_650_0# a_800_0# a_350_0# a_500_0# a_80_30# a_230_30# a_1550_0# a_200_0# VSUBS
+X0 a_230_30# a_200_0# a_80_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.7e+12p pd=1.02e+07u as=2.7e+12p ps=1.02e+07u w=4.5e+06u l=150000u
+X1 a_980_30# a_950_0# a_830_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.7e+12p pd=1.02e+07u as=2.7e+12p ps=1.02e+07u w=4.5e+06u l=150000u
+X2 a_530_30# a_500_0# a_380_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.7e+12p pd=1.02e+07u as=2.7e+12p ps=1.02e+07u w=4.5e+06u l=150000u
+X3 a_1280_30# a_1250_0# a_1130_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.7e+12p pd=1.02e+07u as=2.7e+12p ps=1.02e+07u w=4.5e+06u l=150000u
+X4 a_830_30# a_800_0# a_680_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=2.7e+12p ps=1.02e+07u w=4.5e+06u l=150000u
+X5 a_1580_30# a_1550_0# a_1430_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.7e+12p pd=1.02e+07u as=2.7e+12p ps=1.02e+07u w=4.5e+06u l=150000u
+X6 a_1130_30# a_1100_0# a_980_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X7 a_380_30# a_350_0# a_230_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X8 a_1430_30# a_1400_0# a_1280_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X9 a_680_30# a_650_0# a_530_30# VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+.ends
+
+.subckt nmos_1v8_lvt_4p5_body_10finger$2 a_n40_30# a_80_30# a_230_30# a_200_0#
+X0 a_230_30# a_200_0# a_80_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=1.35e+13p pd=5.1e+07u as=1.62e+13p ps=6.12e+07u w=4.5e+06u l=150000u
+X1 a_80_30# a_200_0# a_230_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X2 a_230_30# a_200_0# a_80_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X3 a_80_30# a_200_0# a_230_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X4 a_230_30# a_200_0# a_80_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X5 a_80_30# a_200_0# a_230_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X6 a_230_30# a_200_0# a_80_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X7 a_80_30# a_200_0# a_230_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X8 a_230_30# a_200_0# a_80_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+X9 a_80_30# a_200_0# a_230_30# a_n40_30# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u
+.ends
+
+.subckt CASCODED_nmos_1v8_lvt_4p5_10finger a_n1824_209# nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#
++ nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0# li_n1754_230# VSUBS
+Xnmos_1v8_lvt_4p5_10finger$1$1_0 li_n1754_230# a_n1824_209# a_n1824_209# li_n1754_230#
++ li_n1900_1170# a_n1824_209# li_n1900_1170# li_n1900_1170# li_n1754_230# li_n1900_1170#
++ a_n1824_209# li_n1754_230# li_n1900_1170# a_n1824_209# a_n1824_209# a_n1824_209#
++ a_n1824_209# li_n1900_1170# li_n1754_230# a_n1824_209# a_n1824_209# VSUBS nmos_1v8_lvt_4p5_10finger$1$1
+Xnmos_1v8_lvt_4p5_body_10finger$2_0 VSUBS li_n1900_1170# nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#
++ nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0# nmos_1v8_lvt_4p5_body_10finger$2
+.ends
+
+.subckt Diff_LNA_magic_edit1 IN1 IN2 Ground VDD OUT1 OUT2
+XResistor_20k_0 VDD li_4044_7865# Ground Resistor_20k
+XResistor_20k_1 VDD li_n2188_8132# Ground Resistor_20k
+Xsimple_current_mirror_0 Ground simple_current_mirror_0/VDD simple_current_mirror_0/Mirror_out
++ simple_current_mirror
+XCASCODED_nmos_1v8_lvt_4p5_10finger_0 IN1 li_4044_7865# VDD li_1338_6493# Ground CASCODED_nmos_1v8_lvt_4p5_10finger
+XCASCODED_nmos_1v8_lvt_4p5_10finger_1 IN2 li_n2188_8132# VDD li_n288_6493# Ground
++ CASCODED_nmos_1v8_lvt_4p5_10finger
+.ends
+

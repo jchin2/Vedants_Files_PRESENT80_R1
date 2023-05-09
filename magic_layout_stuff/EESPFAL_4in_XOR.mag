@@ -1,0 +1,155 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1675786016
+<< locali >>
+rect -1398 1250 -1290 1290
+rect -1398 1150 -1290 1190
+rect -1398 1050 -1290 1090
+rect -1398 950 -1290 990
+rect 960 860 980 880
+rect 960 770 980 790
+rect -1318 180 -1290 260
+rect 961 -350 981 -330
+rect 961 -440 981 -420
+rect -1398 -550 -1290 -510
+rect -1398 -650 -1290 -610
+rect -1398 -750 -1290 -710
+rect -1398 -850 -1290 -810
+rect -1398 -1110 -1290 -1070
+rect -1398 -1210 -1290 -1170
+rect -1398 -1310 -1290 -1270
+rect -1398 -1410 -1290 -1370
+rect 963 -1500 983 -1480
+rect 963 -1590 983 -1570
+rect -1318 -2180 -1290 -2100
+rect 964 -2710 984 -2690
+rect 964 -2800 984 -2780
+rect -1398 -2910 -1290 -2870
+rect -1398 -3010 -1290 -2970
+rect -1398 -3110 -1290 -3070
+rect -1398 -3210 -1290 -3170
+<< metal1 >>
+rect -1372 206 -1344 233
+rect -1398 -2100 -1318 180
+<< metal2 >>
+rect -1204 1386 -1176 1414
+rect -1094 -2230 -1054 1440
+rect 590 20 670 420
+rect 590 -2340 670 -1940
+use EESPFAL_XOR_v3  EESPFAL_XOR_v3_0
+timestamp 1675786016
+transform 1 0 0 0 1 0
+box -1330 144 1030 1500
+use EESPFAL_XOR_v3  EESPFAL_XOR_v3_1
+timestamp 1675786016
+transform 1 0 0 0 -1 440
+box -1330 144 1030 1500
+use EESPFAL_XOR_v3  EESPFAL_XOR_v3_2
+timestamp 1675786016
+transform 1 0 0 0 1 -2360
+box -1330 144 1030 1500
+use EESPFAL_XOR_v3  EESPFAL_XOR_v3_3
+timestamp 1675786016
+transform 1 0 0 0 -1 -1920
+box -1330 144 1030 1500
+use Li_via_M1  Li_via_M1_0
+timestamp 1675786016
+transform 1 0 -1358 0 1 218
+box -40 -38 40 42
+use Li_via_M1  Li_via_M1_1
+timestamp 1675786016
+transform 1 0 -1358 0 1 -2142
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_0
+timestamp 1675786016
+transform 1 0 -1074 0 1 98
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_1
+timestamp 1675786016
+transform 1 0 -1074 0 1 340
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_2
+timestamp 1675786016
+transform 1 0 -1074 0 1 -2014
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_3
+timestamp 1675786016
+transform 1 0 -1074 0 1 -2272
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_0
+timestamp 1675786016
+transform 1 0 -1190 0 1 1398
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_1
+timestamp 1675786016
+transform 1 0 630 0 1 -22
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_2
+timestamp 1675786016
+transform 1 0 630 0 1 458
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_3
+timestamp 1675786016
+transform 1 0 630 0 1 -1902
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_4
+timestamp 1675786016
+transform 1 0 630 0 1 -2382
+box -40 -38 40 42
+<< labels >>
+flabel metal1 s -1372 206 -1344 233 2 FreeSans 2500 0 0 0 GND
+port 1 nsew
+flabel locali s -1393 1260 -1373 1280 2 FreeSans 2500 0 0 0 x0
+port 2 nsew
+flabel locali s -1393 1161 -1373 1181 2 FreeSans 2500 0 0 0 x0_bar
+port 3 nsew
+flabel locali s -1393 1060 -1373 1080 2 FreeSans 2500 0 0 0 k0
+port 4 nsew
+flabel locali s -1393 961 -1373 981 2 FreeSans 2500 0 0 0 k0_bar
+port 5 nsew
+flabel locali s -1393 -838 -1373 -818 2 FreeSans 2500 0 0 0 x1
+port 6 nsew
+flabel locali s -1393 -739 -1373 -719 2 FreeSans 2500 0 0 0 x1_bar
+port 7 nsew
+flabel locali s -1393 -638 -1373 -618 2 FreeSans 2500 0 0 0 k1
+port 8 nsew
+flabel locali s -1393 -539 -1373 -519 2 FreeSans 2500 0 0 0 k1_bar
+port 9 nsew
+flabel locali s -1393 -1099 -1373 -1079 2 FreeSans 2500 0 0 0 x2
+port 10 nsew
+flabel locali s -1393 -1198 -1373 -1178 2 FreeSans 2500 0 0 0 x2_bar
+port 11 nsew
+flabel locali s -1393 -1299 -1373 -1279 2 FreeSans 2500 0 0 0 k2
+port 12 nsew
+flabel locali s -1393 -1398 -1373 -1378 2 FreeSans 2500 0 0 0 k2_bar
+port 13 nsew
+flabel locali s -1392 -3200 -1372 -3180 2 FreeSans 2500 0 0 0 x3
+port 14 nsew
+flabel locali s -1392 -3101 -1372 -3081 2 FreeSans 2500 0 0 0 x3_bar
+port 15 nsew
+flabel locali s -1392 -3000 -1372 -2980 2 FreeSans 2500 0 0 0 k3
+port 16 nsew
+flabel locali s -1392 -2901 -1372 -2881 2 FreeSans 2500 0 0 0 k3_bar
+port 17 nsew
+flabel locali s 960 860 980 880 2 FreeSans 2500 0 0 0 XOR0_bar
+port 18 nsew
+flabel locali s 960 770 980 790 2 FreeSans 2500 0 0 0 XOR0
+port 19 nsew
+flabel locali s 961 -440 981 -420 2 FreeSans 2500 0 0 0 XOR1_bar
+port 20 nsew
+flabel locali s 961 -350 981 -330 2 FreeSans 2500 0 0 0 XOR1
+port 21 nsew
+flabel locali s 963 -1500 983 -1480 2 FreeSans 2500 0 0 0 XOR2_bar
+port 22 nsew
+flabel locali s 963 -1590 983 -1570 2 FreeSans 2500 0 0 0 XOR2
+port 23 nsew
+flabel locali s 964 -2800 984 -2780 2 FreeSans 2500 0 0 0 XOR3_bar
+port 24 nsew
+flabel locali s 964 -2710 984 -2690 2 FreeSans 2500 0 0 0 XOR3
+port 25 nsew
+flabel metal2 s -1204 1386 -1176 1414 2 FreeSans 2500 0 0 0 CLK
+port 26 nsew
+flabel metal2 s -1089 1384 -1059 1416 2 FreeSans 2500 0 0 0 Dis
+port 27 nsew
+<< end >>

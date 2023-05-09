@@ -1,0 +1,13 @@
+* NGSPICE file created from EESPFAL_INV3.ext - technology: sky130A
+
+.subckt EESPFAL_INV3 A A_bar OUT OUT_bar Dis GND CLK
+X0 OUT_bar OUT GND GND sky130_fd_pr__nfet_01v8 ad=1.8e+12p pd=8.4e+06u as=2.7e+12p ps=1.26e+07u w=1.5e+06u l=150000u
+X1 CLK A OUT_bar GND sky130_fd_pr__nfet_01v8 ad=5.25e+12p pd=2.32e+07u as=0p ps=0u w=1.5e+06u l=150000u
+X2 OUT Dis GND GND sky130_fd_pr__nfet_01v8 ad=1.8e+12p pd=8.4e+06u as=0p ps=0u w=1.5e+06u l=150000u
+X3 CLK OUT OUT_bar CLK sky130_fd_pr__pfet_01v8 ad=2.7e+12p pd=1.26e+07u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u M=2
+X4 OUT A_bar CLK GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+X5 CLK OUT_bar OUT CLK sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u M=2
+X6 GND Dis OUT_bar GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+X7 GND OUT_bar OUT GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+.ends
+

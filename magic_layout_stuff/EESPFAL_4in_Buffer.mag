@@ -1,0 +1,133 @@
+magic
+tech sky130A
+timestamp 1667595840
+<< locali >>
+rect -130 485 -110 505
+rect 540 425 560 445
+rect -130 365 -110 385
+rect 540 340 560 360
+rect -250 165 -210 175
+rect -250 145 -240 165
+rect -220 145 -110 165
+rect -250 135 -210 145
+rect -320 105 -130 115
+rect -320 85 -310 105
+rect -290 85 -130 105
+rect -320 75 -130 85
+rect -250 45 -210 55
+rect -250 25 -240 45
+rect -220 25 -110 45
+rect -250 15 -210 25
+rect 540 -170 560 -150
+rect -130 -195 -110 -175
+rect 540 -255 560 -235
+rect -130 -315 -110 -295
+rect -130 -695 -110 -675
+rect 540 -755 560 -735
+rect -130 -815 -110 -795
+rect 540 -840 560 -820
+rect -250 -1015 -210 -1005
+rect -250 -1035 -240 -1015
+rect -220 -1035 -110 -1015
+rect -250 -1045 -210 -1035
+rect -320 -1075 -130 -1065
+rect -320 -1095 -310 -1075
+rect -290 -1095 -130 -1075
+rect -320 -1105 -130 -1095
+rect -250 -1135 -210 -1125
+rect -250 -1155 -240 -1135
+rect -220 -1155 -110 -1135
+rect -250 -1165 -210 -1155
+rect 540 -1350 560 -1330
+rect -130 -1375 -110 -1355
+rect 540 -1435 560 -1415
+rect -130 -1495 -110 -1475
+<< viali >>
+rect -240 145 -220 165
+rect -310 85 -290 105
+rect -240 25 -220 45
+rect -240 -1035 -220 -1015
+rect -310 -1095 -290 -1075
+rect -240 -1155 -220 -1135
+<< metal1 >>
+rect -190 660 -130 710
+rect -250 165 -210 175
+rect -250 145 -240 165
+rect -220 145 -210 165
+rect -320 105 -280 115
+rect -320 85 -310 105
+rect -290 85 -280 105
+rect -320 -1075 -280 85
+rect -320 -1095 -310 -1075
+rect -290 -1095 -280 -1075
+rect -320 -1105 -280 -1095
+rect -250 45 -210 145
+rect -250 25 -240 45
+rect -220 25 -210 45
+rect -250 -1015 -210 25
+rect -250 -1035 -240 -1015
+rect -220 -1035 -210 -1015
+rect -250 -1135 -210 -1035
+rect -250 -1155 -240 -1135
+rect -220 -1155 -210 -1135
+rect -250 -1165 -210 -1155
+rect -190 -470 -150 660
+rect -190 -520 -130 -470
+rect -190 -1650 -150 -520
+rect -190 -1700 -130 -1650
+use EESPFAL_INV4  EESPFAL_INV4_0
+timestamp 1667332421
+transform 1 0 1535 0 1 -240
+box -1695 310 -950 975
+use EESPFAL_INV4  EESPFAL_INV4_1
+timestamp 1667332421
+transform 1 0 1535 0 -1 430
+box -1695 310 -950 975
+use EESPFAL_INV4  EESPFAL_INV4_2
+timestamp 1667332421
+transform 1 0 1535 0 1 -1420
+box -1695 310 -950 975
+use EESPFAL_INV4  EESPFAL_INV4_3
+timestamp 1667332421
+transform 1 0 1535 0 -1 -750
+box -1695 310 -950 975
+<< labels >>
+rlabel locali -125 490 -115 500 7 A
+port 1 w
+rlabel locali -125 370 -115 380 7 A_bar
+port 2 w
+rlabel locali -125 -190 -115 -180 7 B_bar
+port 4 w
+rlabel locali -125 -310 -115 -300 1 B
+port 3 n
+rlabel locali -125 -690 -115 -680 7 C
+port 5 w
+rlabel locali -125 -810 -115 -800 7 C_bar
+port 6 w
+rlabel locali -125 -1370 -115 -1360 7 D_bar
+port 8 w
+rlabel locali -125 -1490 -115 -1480 7 D
+port 7 w
+rlabel locali 545 430 555 440 3 OUT0
+port 9 e
+rlabel locali 545 345 555 355 3 OUT0_bar
+port 10 e
+rlabel locali 545 -165 555 -155 3 OUT1_bar
+port 12 e
+rlabel locali 545 -250 555 -240 3 OUT1
+port 11 e
+rlabel locali 545 -750 555 -740 3 OUT2
+port 13 e
+rlabel locali 545 -835 555 -825 3 OUT2_bar
+port 14 e
+rlabel locali 545 -1345 555 -1335 3 OUT3_bar
+port 16 e
+rlabel locali 545 -1430 555 -1420 3 OUT3
+port 15 e
+rlabel metal1 -180 675 -160 695 7 CLK
+port 19 w
+rlabel metal1 -310 -505 -290 -485 7 GND!
+port 18 w
+rlabel metal1 -240 145 -220 165 7 Dis
+port 17 w
+<< end >>

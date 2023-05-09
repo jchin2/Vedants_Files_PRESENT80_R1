@@ -1,0 +1,37 @@
+magic
+tech sky130A
+timestamp 1670719193
+<< error_p >>
+rect 0 40 10 47
+rect 0 30 17 40
+rect 0 20 10 27
+rect 0 10 17 20
+rect 0 0 10 7
+rect 0 -10 17 0
+rect 0 -20 10 -13
+rect 0 -30 17 -20
+rect 0 -40 10 -33
+rect 0 -50 17 -40
+rect 0 -60 10 -53
+rect 0 -70 17 -60
+<< locali >>
+rect 0 30 10 40
+rect 0 10 10 20
+rect 0 -10 10 0
+rect 0 -30 10 -20
+rect 0 -50 10 -40
+rect 0 -70 10 -60
+<< labels >>
+rlabel locali 0 30 10 40 7 VDD!
+port 6 w
+rlabel locali 0 10 10 20 7 GND!
+port 5 w
+rlabel locali 0 -10 10 0 7 Vin1
+port 1 w
+rlabel locali 0 -30 10 -20 7 Vin2
+port 2 w
+rlabel locali 0 -50 10 -40 7 Vout1
+port 3 w
+rlabel locali 0 -70 10 -60 7 Vout2
+port 4 w
+<< end >>
