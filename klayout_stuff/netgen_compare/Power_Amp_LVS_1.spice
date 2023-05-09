@@ -1,0 +1,9 @@
+* NGSPICE file created from Power_Amp_LVS_1.ext - technology: sky130A
+
+.subckt Power_Amp_LVS_1 Input VDD Ground
+X0 VDD Input Ground Ground sky130_fd_pr__nfet_01v8_lvt ad=3e+13p pd=1.12e+08u as=3.6e+13p ps=1.344e+08u w=5e+06u l=150000u M=20
+X1 VDD Ground sky130_fd_pr__cap_mim_m3_1 l=1.205e+07u w=1.205e+07u
+X2 VDD a_44121_n1906# sky130_fd_pr__cap_mim_m3_1 l=9e+06u w=8.8e+06u
+R0 Ground a_44121_n1906# sky130_fd_pr__res_generic_po w=1.6e+06u l=1.66e+06u
+.ends
+

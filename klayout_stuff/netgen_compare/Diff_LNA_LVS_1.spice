@@ -1,0 +1,22 @@
+* NGSPICE file created from Diff_LNA_LVS_1.ext - technology: sky130A
+
+.subckt Diff_LNA_LVS_1 IN1 IN2 VDD OUT1 OUT2 Ground
+X0 a_n7859_n43692# a_n7541_n43122# Ground sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+X1 OUT1 VDD a_n9528_n44891# Ground sky130_fd_pr__nfet_01v8_lvt ad=1.35e+13p pd=5.1e+07u as=2.97e+13p ps=1.122e+08u w=4.5e+06u l=150000u M=10
+X2 OUT2 VDD a_n5422_n44891# Ground sky130_fd_pr__nfet_01v8_lvt ad=1.35e+13p pd=5.1e+07u as=2.97e+13p ps=1.122e+08u w=4.5e+06u l=150000u M=10
+X3 a_n5422_n44891# IN1 a_n7878_n44891# Ground sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=3.3e+13p ps=1.244e+08u w=4.5e+06u l=150000u M=10
+X4 a_n7878_n44891# a_n6805_n48266# Ground Ground sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=1.5e+13p ps=5.6e+07u w=5e+06u l=150000u M=4
+X5 a_n7223_n43692# VDD Ground sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+X6 a_n9528_n44891# IN2 a_n7878_n44891# Ground sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=150000u M=10
+R0 OUT1 VDD sky130_fd_pr__res_generic_m3 w=300000u l=300000u
+X7 a_n1678_n43693# VDD Ground sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+X8 a_n2314_n43693# OUT2 Ground sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+X9 a_n6805_n48266# a_n6805_n48266# Ground Ground sky130_fd_pr__nfet_01v8_lvt ad=6e+12p pd=2.24e+07u as=0p ps=0u w=5e+06u l=150000u M=4
+X10 a_n1678_n43693# a_n1996_n43123# Ground sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+R1 OUT2 VDD sky130_fd_pr__res_generic_m3 w=300000u l=300000u
+R2 a_n6805_n48266# VDD sky130_fd_pr__res_generic_po w=440000u l=1.69e+06u
+X11 a_n2314_n43693# a_n1996_n43123# Ground sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+X12 a_n7223_n43692# a_n7541_n43122# Ground sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+X13 a_n7859_n43692# OUT1 Ground sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+.ends
+

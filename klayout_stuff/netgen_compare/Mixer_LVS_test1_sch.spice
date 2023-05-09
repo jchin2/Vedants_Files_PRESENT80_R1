@@ -1,0 +1,31 @@
+.subckt Mixer_LVS_test1 v_bias_p RFP RFN LOP LON VoutP VoutN Ground VDD
+*.PININFO v_bias_p:I RFP:I RFN:I LOP:I LON:I VoutP:O VoutN:O Ground:B VDD:I
+XM1 VoutP LOP net1 Ground sky130_fd_pr__nfet_01v8_lvt L=0.5 W=16.8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 net1 v_bias_p VDD VDD sky130_fd_pr__pfet_01v8_lvt L=0.5 W=19 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM6 VoutN LON net1 Ground sky130_fd_pr__nfet_01v8_lvt L=0.5 W=16.8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM7 VoutP LON net2 Ground sky130_fd_pr__nfet_01v8_lvt L=0.5 W=16.8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM8 VoutN LOP net2 Ground sky130_fd_pr__nfet_01v8_lvt L=0.5 W=16.8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM3 net1 RFP Ground Ground sky130_fd_pr__nfet_01v8_lvt L=0.5 W=19 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM4 net2 v_bias_p VDD VDD sky130_fd_pr__pfet_01v8_lvt L=0.5 W=19 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM5 net2 RFN Ground Ground sky130_fd_pr__nfet_01v8_lvt L=0.5 W=19 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XR2 VoutP VDD Ground sky130_fd_pr__res_xhigh_po W=.35 L=.69 mult=1 m=1
+XR1 VoutN VDD Ground sky130_fd_pr__res_xhigh_po W=.35 L=.69 mult=1 m=1
+.ends
+** flattened .save nodes
+.end
