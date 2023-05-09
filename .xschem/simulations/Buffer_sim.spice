@@ -1,0 +1,21 @@
+**.subckt Buffer_sim
+Vdd VDD GND 1.8
+Vin1 A GND pulse(0,1.8,1ns,1ns,1ns,1us,2us)
+x1 VDD A net1 GND INV_VP_VN
+x2 VDD net1 OUT GND INV_VP_VN
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/magic_layout_stuff/Buffer.spice
+.control
+tran 0.1n 10u
+plot v(A)
+plot v(OUT)
+.endc
+.save all
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

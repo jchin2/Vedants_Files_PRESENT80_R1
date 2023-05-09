@@ -1,0 +1,153 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: **.subckt banana a b
+
+binary raw file "/home/jchin2/.xschem/simulations/banana.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v2: no DC value, transient time 0 value used
+Warning: v1: no DC value, transient time 0 value used
+No. of Data Columns : 34  
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   5.6234E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   8.6596E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.6466E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9105E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9775E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9944E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9986E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9996E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Last gmin step failed
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Trying gmin =   1.0000E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   5.6234E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   8.6596E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.6466E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9105E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9775E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9944E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9986E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Further gmin increment
+Trying gmin =   9.9996E-03 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: Last gmin step failed
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Supplies reduced to   0.0000% Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+
+Trying gmin =   1.0000E-02 Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: gmin step failed
+Warning: source stepping failed
+Note: Transient op started
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+Warning: singular matrix:  check nodes vdd#branch and vdd#branch
+
+
+Transient solution failed -
+
+Last Node Voltages
+------------------
+
+Node                                   Last Voltage        Previous Iter
+----                                   ------------        -------------
+nand                                              0                    0
+a                                                 0              -316054 *
+net1                                              0                    0
+b                                                 0              -316054 *
+vdd                                               0                    0
+v2#branch                                         0                    0
+v1#branch                                         0                    0
+vdd1#branch                                       0                  1.8 *
+vdd#branch                                        0                  1.8 *
+
+
+
+No. of Data Rows : 0
+doAnalyses: TRAN:  Timestep too small; initial timepoint: cause unrecorded.
+
+
+run simulation(s) aborted
+
+Total analysis time (seconds) = 0.001
+
+Total elapsed time (seconds) = 19.646 
+
+Total DRAM available = 31888.934 MB.
+DRAM currently available = 15705.793 MB.
+Maximum ngspice program size =  738.969 MB.
+Current ngspice program size =  658.496 MB.
+
+Shared ngspice pages =    4.105 MB.
+Text (code) pages =    7.465 MB.
+Stack = 0 bytes.
+Library pages =  662.418 MB.
+

@@ -1,0 +1,156 @@
+**.subckt CMOS_4in_XOR_sim
+x1 VDD XOR0_S x0_S XOR0_bar_S x0_bar_S k0_S k0_bar_S XOR1_S x1_S XOR1_bar_S x1_bar_S k1_S k1_bar_S
++ XOR2_S x2_S x2_bar_S XOR2_bar_S k2_S k2_bar_S XOR3_S x3_S GND XOR3_bar_S x3_bar_S k3_S k3_bar_S
++ CMOS_4in_XOR
+V1 k0_S GND 1.8
+V2 k1_S GND 1.8
+V3 k2_S GND 1.8
+V4 k3_S GND 1n
+V5 k0_bar_S GND 1n
+V6 k1_bar_S GND 1n
+V7 k2_bar_S GND 1n
+V8 k3_bar_S GND 1.8
+Vin6 x0_bar_S GND pulse(0,1.8,0,50ps,50ps,100ns,200ns)
+Vin7 x0_S GND pulse(1.8,0,0,50ps,50ps,100ns,200ns)
+Vin8 x1_bar_S GND pulse(0,1.8,0,50ps,50ps,200ns,400ns)
+Vin11 x1_S GND pulse(1.8,0,0,50ps,50ps,200ns,400ns)
+Vin13 x2_bar_S GND pulse(0,1.8,0,50ps,50ps,400ns,800ns)
+Vin14 x2_S GND pulse(1.8,0,0,50ps,50ps,400ns,800ns)
+Vin15 x3_bar_S GND pulse(0,1.8,0,50ps,50ps,800ns,1600ns)
+Vin16 x3_S GND pulse(1.8,0,0,50ps,50ps,800ns,1600ns)
+V9 VDD GND 1.8
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+**.include ~/magic_layout_stuff/EESPFAL_4in_XOR.spice
+**.include ~/magic_layout_stuff/EESPFAL_4in_XOR_flat.spice
+.control
+save all
+tran 0.1n 10u
+plot v(CLK0_S) v(Dis0_S)
+plot v(XOR0_S)
+**plot v(XOR0_flat)
+plot v(XOR1_S)
+**plot v(XOR1_flat)
+plot v(XOR2_S)
+**plot v(XOR2_flat)
+plot v(XOR3_S)
+**plot v(XOR3_flat)
+**let Pinst_CLK0 = (v(CLK0)*i(vclk0))
+**let Pinst_CLK0_CLK2 = (v(CLK0)*i(vclk0))+(v(CLK1)*i(vclk1))+(v(CLK2)*i(vclk2))
+**let Pinst_CLK0_CLK2_Dis0_Dis2 =
+*+ (v(CLK0)*i(vclk0))+(v(Dis0)*i(Vdis0))+(v(CLK1)*i(vclk1))+(v(Dis1)*i(Vdis1))+(v(CLK2)*i(vclk2))+(v(Dis2)*i(Vdis2))
+**plot Pinst_CLK0
+**plot Pinst_CLK0_CLK2
+**plot Pinst_CLK0_CLK2_Dis0_Dis2
+**wrdata EESPFAL_s0_sim.raw v(s0_normal) v(s0_bar_normal)
+**wrdata EESPFAL_s0_sim_PEX.raw v(s0_flat) v(s0_bar_flat)
+**wrdata EESPFAL_4in_XOR_normVSPEX.csv v(XOR0_S) v(XOR0_flat) v(XOR1_S) v(XOR1_flat) v(XOR2_S)
+*+ v(XOR2_flat) v(XOR3_S) v(XOR3_flat)
+**wrdata s0_sim_Pinst_CLK0_CLK2.csv Pinst_CLK0_CLK2
+**wrdata s0_sim_Pinst_test.csv Pinst_CLK0_CLK2 Pinst_CLK0_CLK2_Dis0_Dis2
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  CMOS_4in_XOR.sym # of pins=26
+* sym_path: /home/jchin2/skywater_stuff/CMOS_4in_XOR.sym
+* sch_path: /home/jchin2/skywater_stuff/CMOS_4in_XOR.sch
+.subckt CMOS_4in_XOR  VDD XOR0 x0 XOR0_bar x0_bar k0 k0_bar XOR1 x1 XOR1_bar x1_bar k1 k1_bar XOR2
++ x2 x2_bar XOR2_bar k2 k2_bar XOR3 x3 GND XOR3_bar x3_bar k3 k3_bar
+*.ipin x0
+*.ipin x0_bar
+*.ipin x1
+*.ipin x1_bar
+*.ipin x2
+*.ipin x2_bar
+*.ipin x3
+*.ipin x3_bar
+*.ipin VDD
+*.iopin GND
+*.opin XOR0
+*.opin XOR1
+*.opin XOR2
+*.opin XOR3
+*.ipin k0
+*.ipin k0_bar
+*.ipin k1
+*.ipin k1_bar
+*.ipin k2
+*.ipin k2_bar
+*.ipin k3
+*.ipin k3_bar
+*.opin XOR0_bar
+*.opin XOR1_bar
+*.opin XOR2_bar
+*.opin XOR3_bar
+x1 x0 x0_bar k0 k0_bar XOR0 GND VDD CMOS_XOR
+x2 x1 x1_bar k1 k1_bar XOR1 GND VDD CMOS_XOR
+x3 x2 x2_bar k2 k2_bar XOR2 GND VDD CMOS_XOR
+x4 x3 x3_bar k3 k3_bar XOR3 GND VDD CMOS_XOR
+x5 VDD XOR0 XOR0_bar GND CMOS_INV
+x6 VDD XOR1 XOR1_bar GND CMOS_INV
+x7 VDD XOR2 XOR2_bar GND CMOS_INV
+x8 VDD XOR3 XOR3_bar GND CMOS_INV
+.ends
+
+
+* expanding   symbol:  CMOS_XOR.sym # of pins=7
+* sym_path: /home/jchin2/skywater_stuff/CMOS_XOR.sym
+* sch_path: /home/jchin2/skywater_stuff/CMOS_XOR.sch
+.subckt CMOS_XOR  A A_bar B B_bar XOR GND VDD
+*.ipin A
+*.ipin A_bar
+*.ipin B
+*.ipin B_bar
+*.opin XOR
+*.iopin GND
+*.ipin VDD
+XM8 net4 A_bar GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM1 XOR B net3 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM3 XOR A net1 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM4 net2 B VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM9 net1 B_bar VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 XOR B_bar net4 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM5 net3 A GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM10 XOR A_bar net2 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+.ends
+
+
+* expanding   symbol:  CMOS_INV.sym # of pins=4
+* sym_path: /home/jchin2/skywater_stuff/CMOS_INV.sym
+* sch_path: /home/jchin2/skywater_stuff/CMOS_INV.sch
+.subckt CMOS_INV  VDD A OUT GND
+*.iopin GND
+*.ipin A
+*.ipin VDD
+*.opin OUT
+XM1 OUT A VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 OUT A GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+.ends
+
+.GLOBAL GND
+** flattened .save nodes
+.end

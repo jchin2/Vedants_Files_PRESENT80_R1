@@ -1,0 +1,61 @@
+.subckt CMOS_4in_XOR x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar VDD GND XOR0 XOR1 XOR2 XOR3 k0 k0_bar
++ k1 k1_bar k2 k2_bar k3 k3_bar XOR0_bar XOR1_bar XOR2_bar XOR3_bar
+*.PININFO x0:I x0_bar:I x1:I x1_bar:I x2:I x2_bar:I x3:I x3_bar:I VDD:I GND:B XOR0:O XOR1:O XOR2:O
+*+ XOR3:O k0:I k0_bar:I k1:I k1_bar:I k2:I k2_bar:I k3:I k3_bar:I XOR0_bar:O XOR1_bar:O XOR2_bar:O XOR3_bar:O
+x1 x0 x0_bar k0 k0_bar XOR0 GND VDD CMOS_XOR
+x2 x1 x1_bar k1 k1_bar XOR1 GND VDD CMOS_XOR
+x3 x2 x2_bar k2 k2_bar XOR2 GND VDD CMOS_XOR
+x4 x3 x3_bar k3 k3_bar XOR3 GND VDD CMOS_XOR
+x5 VDD XOR0 XOR0_bar GND CMOS_INV
+x6 VDD XOR1 XOR1_bar GND CMOS_INV
+x7 VDD XOR2 XOR2_bar GND CMOS_INV
+x8 VDD XOR3 XOR3_bar GND CMOS_INV
+.ends
+
+* expanding   symbol:  CMOS_XOR.sym # of pins=7
+* sym_path: /home/jchin2/skywater_stuff/CMOS_XOR.sym
+* sch_path: /home/jchin2/skywater_stuff/CMOS_XOR.sch
+.subckt CMOS_XOR  A A_bar B B_bar XOR GND VDD
+*.PININFO A:I A_bar:I B:I B_bar:I XOR:O GND:B VDD:I
+XM8 net4 A_bar GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM1 XOR B net3 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM3 XOR A net1 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM4 net2 B VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM9 net1 B_bar VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 XOR B_bar net4 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM5 net3 A GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM10 XOR A_bar net2 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+.ends
+
+
+* expanding   symbol:  CMOS_INV.sym # of pins=4
+* sym_path: /home/jchin2/skywater_stuff/CMOS_INV.sym
+* sch_path: /home/jchin2/skywater_stuff/CMOS_INV.sch
+.subckt CMOS_INV  VDD A OUT GND
+*.PININFO GND:B A:I VDD:I OUT:O
+XM1 OUT A VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 OUT A GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+.ends
+
+** flattened .save nodes
+.end
