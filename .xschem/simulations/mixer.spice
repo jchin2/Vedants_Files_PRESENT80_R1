@@ -1,0 +1,39 @@
+**.subckt mixer
+XM1 OP LOP net1 GND sky130_fd_pr__nfet_01v8_lvt L=0.5 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 ON LON net1 GND sky130_fd_pr__nfet_01v8_lvt L=0.5 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM3 net1 RF GND GND sky130_fd_pr__nfet_01v8_lvt L=0.5 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+R1 VDD OP 10k m=1
+R2 VDD ON 10k m=1
+V1 VDD GND 1.2
+V2 LON GND pulse(0,1.2,0,1ps,1ps,0.208ns,0.416ns)
+V4 RF GND SIN(0.8,0.1,2400Meg,0,0,0)
+V3 LOP GND pulse(1.2,0,0,1ps,1ps,0.208ns,0.416ns)
+C2 ON GND 1f m=1
+C1 OP GND 1f m=1
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.probe i(V1)
+.control
+op
+tran 1p 10n
+**ac dec 10000 1E9 4E9
+write mixer.raw
+**wrdata mixer.csv db(v(OUT))
+plot (v(OP)-v(ON)) v(LON) v(RF)
+print i(V1)
+.endc
+.save all
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

@@ -1,0 +1,7 @@
+*ngspice plot file
+.control
+set color2=rgb:ff/ff/00
+set color3=rgb:ff/00/00
+plot "OUT_bar" "OUT" 
+remcirc
+.endc

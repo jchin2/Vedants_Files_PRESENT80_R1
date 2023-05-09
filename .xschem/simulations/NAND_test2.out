@@ -1,0 +1,44 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: **.subckt nand_test2 vdd a b
+
+binary raw file "/home/jchin2/.xschem/simulations/NAND_test2.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: v3: no DC value, transient time 0 value used
+Warning: v2: no DC value, transient time 0 value used
+No. of Data Columns : 21  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+nand_test2                                 1.8
+a                                            0
+net1                                 0.0327021
+vdd                                        1.8
+b                                            0
+v3#branch                                    0
+v2#branch                                    0
+v1#branch                         -1.88553e-12
+
+
+No. of Data Rows : 339
+
+Total analysis time (seconds) = 0.006
+
+Total elapsed time (seconds) = 19.573 
+
+Total DRAM available = 31888.934 MB.
+DRAM currently available = 15704.824 MB.
+Maximum ngspice program size =  739.012 MB.
+Current ngspice program size =  658.559 MB.
+
+Shared ngspice pages =    4.117 MB.
+Text (code) pages =    7.465 MB.
+Stack = 0 bytes.
+Library pages =  662.461 MB.
+

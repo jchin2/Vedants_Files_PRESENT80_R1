@@ -1,0 +1,40 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: **.subckt inv_vp_vn_sim
+
+binary raw file "/home/jchin2/.xschem/simulations/INV_VP_VN_sim.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: vin1: no DC value, transient time 0 value used
+No. of Data Columns : 12  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        1.8
+a                                            0
+out                               -1.59978e-14
+vin1#branch                        1.80544e-31
+vdd#branch                                   0
+
+
+No. of Data Rows : 11208
+
+Total analysis time (seconds) = 0.068
+
+Total elapsed time (seconds) = 20.345 
+
+Total DRAM available = 31888.926 MB.
+DRAM currently available = 17840.012 MB.
+Maximum ngspice program size =  738.984 MB.
+Current ngspice program size =  658.523 MB.
+
+Shared ngspice pages =    4.109 MB.
+Text (code) pages =    7.465 MB.
+Stack = 0 bytes.
+Library pages =  662.434 MB.
+

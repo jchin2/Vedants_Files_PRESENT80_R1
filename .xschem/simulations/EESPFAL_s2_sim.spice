@@ -1,0 +1,49 @@
+**.subckt EESPFAL_s2_sim
+Vin9 x0_bar_S GND pulse(0,1.8,0,50ps,50ps,100ns,200ns)
+Vin10 x0_S GND pulse(1.8,0,0,50ps,50ps,100ns,200ns)
+Vin12 x1_bar_S GND pulse(0,1.8,0,50ps,50ps,200ns,400ns)
+Vin1 x1_S GND pulse(1.8,0,0,50ps,50ps,200ns,400ns)
+Vin2 x2_bar_S GND pulse(0,1.8,0,50ps,50ps,400ns,800ns)
+Vin3 x2_S GND pulse(1.8,0,0,50ps,50ps,400ns,800ns)
+Vin4 x3_bar_S GND pulse(0,1.8,0,50ps,50ps,800ns,1600ns)
+Vin5 x3_S GND pulse(1.8,0,0,50ps,50ps,800ns,1600ns)
+Vdis0 Dis0_S GND pulse(0,1.8,2ns,50ps,50ps,20ns,100ns)
+Vclk0 CLK0_S GND pulse(0,1.8,25ns,25ns,25ns,25ns,100ns)
+Vdis1 Dis1_S GND pulse(0,1.8,25ns,50ps,50ps,23ns,100ns)
+Vdis2 Dis2_S GND pulse(0,1.8,50ns,50ps,50ps,23ns,100ns)
+Vdis3 Dis3_S GND pulse(0,1.8,75ns,50ps,50ps,23ns,100ns)
+Vclk1 CLK1_S GND pulse(0,1.8,-50ns,25ns,25ns,25ns,100ns)
+Vclk2 CLK2_S GND pulse(0,1.8,-125ns,25ns,25ns,25ns,100ns)
+Vclk3 CLK3_S GND pulse(0,1.8,-200ns,25ns,25ns,25ns,100ns)
+x1 GND x0_S x0_bar_S x1_S x1_bar_S x2_S x2_bar_S x3_S x3_bar_S CLK0_S Dis0_S Dis2_S Dis1_S CLK2_S
++ CLK1_S s2_bar_norm s2_norm EESPFAL_s2
+x2 GND x0_S x0_bar_S x1_S x1_bar_S x2_S x2_bar_S x3_S x3_bar_S Dis0_S Dis2_S Dis1_S s2_bar_flat
++ s2_flat CLK1_S CLK0_S CLK2_S EESPFAL_s2_flat
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/magic_layout_stuff/EESPFAL_s2.spice
+.include ~/magic_layout_stuff/EESPFAL_s2_flat.spice
+.control
+save all
+tran 0.1n 10u
+plot v(s2_norm)
+plot v(s2_bar_norm)
+plot v(s2_flat)
+plot v(s2_bar_flat)
+**let Pinst_CLK0_CLK2 = (v(CLK0)*i(vclk0))+(v(CLK1)*i(vclk1))+(v(CLK2)*i(vclk2))
+**let Pinst_CLK0_CLK2_Dis0_Dis2 =
+*+ (v(CLK0)*i(vclk0))+(v(Dis0)*i(Vdis0))+(v(CLK1)*i(vclk1))+(v(Dis1)*i(Vdis1))+(v(CLK2)*i(vclk2))+(v(Dis2)*i(Vdis2))
+**plot Pinst_CLK0
+**plot Pinst_CLK0_CLK2
+**plot Pinst_CLK0_CLK2_Dis0_Dis2
+wrdata EESPFAL_s2_normVSPEX.raw v(s2_norm) v(s2_bar_norm) v(s2_flat) v(s2_bar_flat)
+wrdata EESPFAL_s2_normVSPEX.csv v(s2_norm) v(s2_bar_norm) v(s2_flat) v(s2_bar_flat)
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

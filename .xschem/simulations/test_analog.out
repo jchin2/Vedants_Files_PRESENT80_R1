@@ -1,0 +1,10 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: **.subckt test_analog
+
+Error: unknown subckt: x1.xm1 x1.net1 in x1.s 0 x1.sky130_fd_pr__nfet_01v8_lvt x1.l=0.3 x1.w=2 x1.nf=1 x1.ad={int x1.nf+1 x1./2 x1.*w/nf*0.29} x1.as={int x1.nf+2 x1./2 x1.*w/nf*0.29} x1.pd={2*int x1.nf+1 /2)*(w/nf+0.29)} ps={2*int((nf+2)/2)*(w/nf+0.29)} nrd={0.29/w} nrs={0.29/w} sa=0 sb=0 sd=0 mult=1 m=1
+    Simulation interrupted due to error!
+
+Error: there aren't any circuits loaded.

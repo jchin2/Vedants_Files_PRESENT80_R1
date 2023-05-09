@@ -1,0 +1,37 @@
+**.subckt power_amp_test
+XM1 net2 Vg GND GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=60 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+L1 VCC Vds 1u m=1
+L2 net1 Vds 33n m=1
+C1 net1 Vres 180f m=1
+C2 Vds GND 265f m=1
+R1 Vres GND 50 m=1
+V2 Vds net2 0
+V1 Vg GND DC 0 AC 1 PULSE(0 1.2 0 10p 10p .2083333n .4166666n)
+V3 VCC GND 1.2
+C3 net1 GND 100f m=1
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.control
+op
+tran .1p 50n
+write untitled-3.raw
+plot i(V2) v(Vds) v(Vg)
+plot i(V2)*v(Vds)
+plot v(Vres)
+setplot tran1
+linearize
+set specwindow=hanning
+fft v(Vres)
+plot mag(v(Vres)) xlimit 0 10E9
+.endc
+.save all
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

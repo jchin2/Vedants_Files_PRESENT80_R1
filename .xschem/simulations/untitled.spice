@@ -1,0 +1,35 @@
+**.subckt untitled
+VGS net1 GND 0
+VDS Vd GND 0
+XM1 Vd net1 GND GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 Vout net3 net2 GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+R1 net2 GND 1k m=1
+R2 net3 GND 1k m=1
+R3 Vdd net3 1k m=1
+R4 Vdd Vout 1k m=1
+VGS1 Vg GND AC 1 sin(0.9 0.9 1E9 0 0 0)
+R5 net4 Vg 50 m=1
+C1 net4 net3 1u m=1
+C2 net2 GND 10u m=1
+VGS2 Vdd GND 3
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.control
+ac dec 10 1 100E12
+plot v(vout)
+plot db(vout)
+write Sky130A_NMOS_lvt.raw
+.endc
+.save all
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

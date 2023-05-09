@@ -1,0 +1,374 @@
+**.subckt untitled-23 x0 x0_bar k0 k0_bar x1 x1_bar k1 k1_bar x2 x2_bar k2 k2_bar x3 x3_bar k3
+*+ k3_bar x4 x4_bar k4 k4_bar x5 x5_bar k5 k5_bar x6 x6_bar k6 k6_bar x7 x7_bar k7 k7_bar x8 x8_bar k8 k8_bar
+*+ x9 x9_bar k9 k9_bar x10 x10_bar k10 k10_bar x11 x11_bar k11 k11_bar x12 x12_bar k12 k12_bar x13
+*+ x13_bar k13 k13_bar x14 x14_bar k14 k14_bar x15 x15_bar k15 k15_bar x16 x16_bar k16 k16_bar x17 x17_bar k17
+*+ k17_bar x18 x18_bar k18 k18_bar x19 x19_bar k19 k19_bar x20 x20_bar k20 k20_bar x21 x21_bar k21 k21_bar x22
+*+ x22_bar k22 k22_bar x23 x23_bar k23 k23_bar x24 x24_bar k24 k24_bar x25 x25_bar k25 k25_bar x26 x26_bar k26
+*+ k26_bar x27 x27_bar k27 k27_bar x28 x28_bar k28 k28_bar x29 x29_bar k29 k29_bar x30 x30_bar k30 k30_bar x31
+*+ x31_bar k31 k31_bar x32 x32_bar k32 k32_bar x33 x33_bar k33 k33_bar x34 x34_bar k34 k34_bar x35 x35_bar k35
+*+ k35_bar x36 x36_bar k36 k36_bar x37 x37_bar k37 k37_bar x38 x38_bar k38 k38_bar x39 x39_bar k39 k39_bar x40
+*+ x40_bar k40 k40_bar x41 x41_bar k41 k41_bar x42 x42_bar k42 k42_bar x43 x43_bar k43 k43_bar x44 x44_bar k44
+*+ k44_bar x45 x45_bar k45 k45_bar x46 x46_bar k46 k46_bar x47 x47_bar k47 k47_bar x48 x48_bar k48 k48_bar x49
+*+ x49_bar k49 k49_bar x50 x50_bar k50 k50_bar x51 x51_bar k51 k51_bar x52 x52_bar k52 k52_bar x53 x53_bar k53
+*+ k53_bar x54 x54_bar k54 k54_bar x55 x55_bar k55 k55_bar x56 x56_bar k56 k56_bar x57 x57_bar k57 k57_bar x58
+*+ x58_bar k58 k58_bar x59 x59_bar k59 k59_bar x60 x60_bar k60 k60_bar x61 x61_bar k61 k61_bar x62 x62_bar k62
+*+ k62_bar x63 x63_bar k63 k63_bar s0 s1 s2 s3 s4 s5 s6 s7 s8 s9 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s20
+*+ s21 s22 s23 s24 s25 s26 s27 s28 s29 s30 s31 s32 s33 s34 s35 s36 s37 s38 s39 s40 s41 s42 s43 s44 s45 s46
+*+ s47 s48 s49 s50 s51 s52 s53 s54 s55 s56 s57 s58 s59 s60 s61 s62 s63 VDD
+*.ipin x0
+*.ipin x0_bar
+*.ipin k0
+*.ipin k0_bar
+*.ipin x1
+*.ipin x1_bar
+*.ipin k1
+*.ipin k1_bar
+*.ipin x2
+*.ipin x2_bar
+*.ipin k2
+*.ipin k2_bar
+*.ipin x3
+*.ipin x3_bar
+*.ipin k3
+*.ipin k3_bar
+*.ipin x4
+*.ipin x4_bar
+*.ipin k4
+*.ipin k4_bar
+*.ipin x5
+*.ipin x5_bar
+*.ipin k5
+*.ipin k5_bar
+*.ipin x6
+*.ipin x6_bar
+*.ipin k6
+*.ipin k6_bar
+*.ipin x7
+*.ipin x7_bar
+*.ipin k7
+*.ipin k7_bar
+*.ipin x8
+*.ipin x8_bar
+*.ipin k8
+*.ipin k8_bar
+*.ipin x9
+*.ipin x9_bar
+*.ipin k9
+*.ipin k9_bar
+*.ipin x10
+*.ipin x10_bar
+*.ipin k10
+*.ipin k10_bar
+*.ipin x11
+*.ipin x11_bar
+*.ipin k11
+*.ipin k11_bar
+*.ipin x12
+*.ipin x12_bar
+*.ipin k12
+*.ipin k12_bar
+*.ipin x13
+*.ipin x13_bar
+*.ipin k13
+*.ipin k13_bar
+*.ipin x14
+*.ipin x14_bar
+*.ipin k14
+*.ipin k14_bar
+*.ipin x15
+*.ipin x15_bar
+*.ipin k15
+*.ipin k15_bar
+*.ipin x16
+*.ipin x16_bar
+*.ipin k16
+*.ipin k16_bar
+*.ipin x17
+*.ipin x17_bar
+*.ipin k17
+*.ipin k17_bar
+*.ipin x18
+*.ipin x18_bar
+*.ipin k18
+*.ipin k18_bar
+*.ipin x19
+*.ipin x19_bar
+*.ipin k19
+*.ipin k19_bar
+*.ipin x20
+*.ipin x20_bar
+*.ipin k20
+*.ipin k20_bar
+*.ipin x21
+*.ipin x21_bar
+*.ipin k21
+*.ipin k21_bar
+*.ipin x22
+*.ipin x22_bar
+*.ipin k22
+*.ipin k22_bar
+*.ipin x23
+*.ipin x23_bar
+*.ipin k23
+*.ipin k23_bar
+*.ipin x24
+*.ipin x24_bar
+*.ipin k24
+*.ipin k24_bar
+*.ipin x25
+*.ipin x25_bar
+*.ipin k25
+*.ipin k25_bar
+*.ipin x26
+*.ipin x26_bar
+*.ipin k26
+*.ipin k26_bar
+*.ipin x27
+*.ipin x27_bar
+*.ipin k27
+*.ipin k27_bar
+*.ipin x28
+*.ipin x28_bar
+*.ipin k28
+*.ipin k28_bar
+*.ipin x29
+*.ipin x29_bar
+*.ipin k29
+*.ipin k29_bar
+*.ipin x30
+*.ipin x30_bar
+*.ipin k30
+*.ipin k30_bar
+*.ipin x31
+*.ipin x31_bar
+*.ipin k31
+*.ipin k31_bar
+*.ipin x32
+*.ipin x32_bar
+*.ipin k32
+*.ipin k32_bar
+*.ipin x33
+*.ipin x33_bar
+*.ipin k33
+*.ipin k33_bar
+*.ipin x34
+*.ipin x34_bar
+*.ipin k34
+*.ipin k34_bar
+*.ipin x35
+*.ipin x35_bar
+*.ipin k35
+*.ipin k35_bar
+*.ipin x36
+*.ipin x36_bar
+*.ipin k36
+*.ipin k36_bar
+*.ipin x37
+*.ipin x37_bar
+*.ipin k37
+*.ipin k37_bar
+*.ipin x38
+*.ipin x38_bar
+*.ipin k38
+*.ipin k38_bar
+*.ipin x39
+*.ipin x39_bar
+*.ipin k39
+*.ipin k39_bar
+*.ipin x40
+*.ipin x40_bar
+*.ipin k40
+*.ipin k40_bar
+*.ipin x41
+*.ipin x41_bar
+*.ipin k41
+*.ipin k41_bar
+*.ipin x42
+*.ipin x42_bar
+*.ipin k42
+*.ipin k42_bar
+*.ipin x43
+*.ipin x43_bar
+*.ipin k43
+*.ipin k43_bar
+*.ipin x44
+*.ipin x44_bar
+*.ipin k44
+*.ipin k44_bar
+*.ipin x45
+*.ipin x45_bar
+*.ipin k45
+*.ipin k45_bar
+*.ipin x46
+*.ipin x46_bar
+*.ipin k46
+*.ipin k46_bar
+*.ipin x47
+*.ipin x47_bar
+*.ipin k47
+*.ipin k47_bar
+*.ipin x48
+*.ipin x48_bar
+*.ipin k48
+*.ipin k48_bar
+*.ipin x49
+*.ipin x49_bar
+*.ipin k49
+*.ipin k49_bar
+*.ipin x50
+*.ipin x50_bar
+*.ipin k50
+*.ipin k50_bar
+*.ipin x51
+*.ipin x51_bar
+*.ipin k51
+*.ipin k51_bar
+*.ipin x52
+*.ipin x52_bar
+*.ipin k52
+*.ipin k52_bar
+*.ipin x53
+*.ipin x53_bar
+*.ipin k53
+*.ipin k53_bar
+*.ipin x54
+*.ipin x54_bar
+*.ipin k54
+*.ipin k54_bar
+*.ipin x55
+*.ipin x55_bar
+*.ipin k55
+*.ipin k55_bar
+*.ipin x56
+*.ipin x56_bar
+*.ipin k56
+*.ipin k56_bar
+*.ipin x57
+*.ipin x57_bar
+*.ipin k57
+*.ipin k57_bar
+*.ipin x58
+*.ipin x58_bar
+*.ipin k58
+*.ipin k58_bar
+*.ipin x59
+*.ipin x59_bar
+*.ipin k59
+*.ipin k59_bar
+*.ipin x60
+*.ipin x60_bar
+*.ipin k60
+*.ipin k60_bar
+*.ipin x61
+*.ipin x61_bar
+*.ipin k61
+*.ipin k61_bar
+*.ipin x62
+*.ipin x62_bar
+*.ipin k62
+*.ipin k62_bar
+*.ipin x63
+*.ipin x63_bar
+*.ipin k63
+*.ipin k63_bar
+*.opin s0
+*.opin s1
+*.opin s2
+*.opin s3
+*.opin s4
+*.opin s5
+*.opin s6
+*.opin s7
+*.opin s8
+*.opin s9
+*.opin s10
+*.opin s11
+*.opin s12
+*.opin s13
+*.opin s14
+*.opin s15
+*.opin s16
+*.opin s17
+*.opin s18
+*.opin s19
+*.opin s20
+*.opin s21
+*.opin s22
+*.opin s23
+*.opin s24
+*.opin s25
+*.opin s26
+*.opin s27
+*.opin s28
+*.opin s29
+*.opin s30
+*.opin s31
+*.opin s32
+*.opin s33
+*.opin s34
+*.opin s35
+*.opin s36
+*.opin s37
+*.opin s38
+*.opin s39
+*.opin s40
+*.opin s41
+*.opin s42
+*.opin s43
+*.opin s44
+*.opin s45
+*.opin s46
+*.opin s47
+*.opin s48
+*.opin s49
+*.opin s50
+*.opin s51
+*.opin s52
+*.opin s53
+*.opin s54
+*.opin s55
+*.opin s56
+*.opin s57
+*.opin s58
+*.opin s59
+*.opin s60
+*.opin s61
+*.opin s62
+*.opin s63
+*.ipin VDD
+x1 VDD GND k0 k0_bar x0 x0_bar x1_bar x1 k1_bar k1 k2 k2_bar x2 x2_bar x3_bar x3 k3_bar k3 s3 s2 s1
++ s0 CMOS_PRESENT80_R1
+x2 net1 GND k4 k4_bar x4 x4_bar x5_bar x5 k5_bar k5 k6 k6_bar x6 x6_bar x7_bar x7 k7_bar k7 s7 s6 s5
++ s4 CMOS_PRESENT80_R1
+x3 net2 GND k8 k8_bar x8 x8_bar x9_bar x9 k9_bar k9 k10 k10_bar x10 x10_bar x11_bar x11 k11_bar k11
++ net6 net5 net4 net3 CMOS_PRESENT80_R1
+x4 net7 GND k12 k12_bar x12 x12_bar x13_bar x13 k13_bar k13 k14 k14_bar x14 x14_bar x15_bar x15
++ k15_bar k15 net11 net10 net9 net8 CMOS_PRESENT80_R1
+x5 net12 GND k16 k16_bar x16 x16_bar x17_bar x17 k17_bar k17 k18 k18_bar x18 x18_bar x19_bar x19
++ k19_bar k19 net16 net15 net14 net13 CMOS_PRESENT80_R1
+x6 net17 GND k20 k20_bar x20 x20_bar x21_bar x21 k21_bar k21 k22 k22_bar x22 x22_bar x23_bar x23
++ k23_bar k23 net21 net20 net19 net18 CMOS_PRESENT80_R1
+x7 net22 GND k24 k24_bar x24 x24_bar x25_bar x25 k25_bar k25 k26 k26_bar x26 x26_bar x27_bar x27
++ k27_bar k27 net26 net25 net24 net23 CMOS_PRESENT80_R1
+x8 net27 GND k28 k28_bar x28 x28_bar x29_bar x29 k29_bar k29 k30 k30_bar x30 x30_bar x31_bar x31
++ k31_bar k31 net31 net30 net29 net28 CMOS_PRESENT80_R1
+x9 net32 GND k32 k32_bar x32 x32_bar x33_bar x33 k33_bar k33 k34 k34_bar x34 x34_bar x35_bar x35
++ k35_bar k35 net36 net35 net34 net33 CMOS_PRESENT80_R1
+x10 net37 GND k36 k36_bar x36 x36_bar x37_bar x37 k37_bar k37 k38 k38_bar x38 x38_bar x39_bar x39
++ k39_bar k39 net41 net40 net39 net38 CMOS_PRESENT80_R1
+x11 net42 GND k40 k40_bar x40 x40_bar x41_bar x41 k41_bar k41 k42 k42_bar x42 x42_bar x43_bar x43
++ k43_bar k43 net46 net45 net44 net43 CMOS_PRESENT80_R1
+x12 net47 GND k44 k44_bar x44 x44_bar x45_bar x45 k45_bar k45 k46 k46_bar x46 x46_bar x47_bar x47
++ k47_bar k47 net51 net50 net49 net48 CMOS_PRESENT80_R1
+x13 net52 GND k48 k48_bar x48 x48_bar x49_bar x49 k49_bar k49 k50 k50_bar x50 x50_bar x51_bar x51
++ k51_bar k51 net56 net55 net54 net53 CMOS_PRESENT80_R1
+x14 net57 GND k52 k52_bar x52 x52_bar x53_bar x53 k53_bar k53 k54 k54_bar x54 x54_bar x55_bar x55
++ k55_bar k55 net61 net60 net59 net58 CMOS_PRESENT80_R1
+x15 net62 GND k56 k56_bar x56 x56_bar x57_bar x57 k57_bar k57 k58 k58_bar x58 x58_bar x59_bar x59
++ k59_bar k59 net66 net65 net64 net63 CMOS_PRESENT80_R1
+x16 net67 GND k60 k60_bar x60 x60_bar x61_bar x61 k61_bar k61 k62 k62_bar x62 x62_bar x63_bar x63
++ k63_bar k63 net71 net70 net69 net68 CMOS_PRESENT80_R1
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

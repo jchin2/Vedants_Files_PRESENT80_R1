@@ -1,0 +1,16 @@
+**.subckt test1
+C1 net2 A 50nF m=1
+R1 A 0 1k m=1
+L1 net2 net1 10mH m=1
+E1 net1 0 VOL=' ' 3*cos(time*time*time*1e11)' ' 
+**** begin user architecture code
+
+
+.tran 10n 2000u uic
+.save all
+
+
+**** end user architecture code
+**.ends
+** flattened .save nodes
+.end

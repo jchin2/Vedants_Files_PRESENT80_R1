@@ -1,0 +1,156 @@
+**.subckt untitled-20
+V9 VDD GND 1.8
+C1 s0_norm GND 100f m=1
+C2 s1_norm GND 100f m=1
+C3 s2_norm GND 100f m=1
+C4 s3_norm GND 100f m=1
+x1 VDD GND k0_S k0_bar_S x0_S x0_bar_S x1_bar_S x1_S k1_bar_S k1_S k2_S k2_bar_S x2_S x2_bar_S
++ x3_bar_S x3_S k3_bar_S k3_S s3_norm s2_norm s1_norm s0_norm CMOS_PRESENT80_R1
+V1 k0_S GND 1.8
+V2 k1_S GND 1.8
+V3 k2_S GND 1.8
+V4 k3_S GND 0
+V5 k0_bar_S GND 0
+V6 k1_bar_S GND 0
+V7 k2_bar_S GND 0
+V8 k3_bar_S GND 1.8
+Vx1 x0_bar_S GND pulse('v1','v2','delay','rt','ft','pw_x0','period_x0') 
+Vx2 x0_S GND pulse('v2','v1','delay','rt','ft','pw_x0','period_x0') 
+Vx3 x1_bar_S GND pulse('v1','v2','delay','rt','ft','pw_x1','period_x1') 
+Vx4 x1_S GND pulse('v2','v1','delay','rt','ft','pw_x1','period_x1') 
+Vx5 x2_bar_S GND pulse('v1','v2','delay','rt','ft','pw_x2','period_x2') 
+Vx6 x2_S GND pulse('v2','v1','delay','rt','ft','pw_x2','period_x2') 
+Vx7 x3_bar_S GND pulse('v1','v2','delay','rt','ft','pw_x3','period_x3') 
+Vx8 x3_S GND pulse('v2','v1','delay','rt','ft','pw_x3','period_x3') 
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+**.include ~/magic_layout_stuff/CMOS_PRESENT80_R1.spice
+**.include ~/magic_layout_stuff/CMOS_PRESENT80_R1_flat.spice
+*.param v1='0' v2='1.8' delay='-1n' rt='50p' ft='50p' pw_x0='40n' period_x0='80n' pw_x1='80n' period_x1='160n'
+*+ pw_x2='160n' period_x2='320n' pw_x3='320n' period_x3='640n'
+.param v0 ='0' v0_bar ='1.8' v1 ='0' v1_bar ='1.8' v2 ='0' v2_bar ='1.8' v3 ='0' v3_bar ='1.8'
+.option method=gear
+.control
+set tstart=0
+set tstop=80n
+let index=0
+let index2=0
+let start = $tstart
+let stop = $tstop
+let start_r2 = $tstop*200
+let stop_r2 = ($tstop*200)+80n
+*tran 0.1n 10u
+*set v1_n = 0 v2_n = 1.8 delay_n = 0 rt_n = 50p ft_n = 50p
+*set pw_x0n = 40n period_x0n = 80n pw_x1n = 80n period_x1n = 160n
+*set pw_x2n = 160n period_x2n = 320n pw_x3n = 320n period_x3n = 640n
+
+set value = 5
+echo stuff
+
+*alter Vx0 = 1.8
+*plot v(s0_norm)
+*snsave testfile.snap
+let curr_time = index*80n
+*stop when time =$&curr_time
+*tran 1n 2u 0 1n
+*alter Vx0 = 0
+*delete 1
+*let curr_time = 160n
+*stop when time = $&curr_time
+*echo $&curr_time
+*echo start loop
+
+while curr_time < 240n
+	let index=index+1
+	set  value = $&index
+	*let trantime = time[0]
+	*echo $&trantime
+	echo going into altering
+	foreach bit_index 0 1 2 3
+		*echo $bit_index
+		*echo `./test.sh $value $bit_index`
+		set bit = `./test.sh $value $bit_index`
+		alter Vx$bit_index = '$bit ? 1.8 : 0'
+		alter Vx`echo $bit_index`_bar = '$bit ? 0 : 1.8'
+		*alter @Vx4[pulse] = [ $v1 $v2 $delay   ]
+		*alterparam v$bit_index = '$bit ? 1.8 : 0'
+		*alterparam v`echo $bit_index`_bar = '$bit ? 0 : 1.8'
+	end
+	*alter Vx0=1.8
+	echo test stuff
+	let curr_time=index*80n
+	*delete $&index
+	stop when time=$&curr_time
+	echo $&curr_time
+	*break
+	plot v(x0_s)
+	if curr_time = 80ns
+		tran 1n 2u 0 1n
+	else
+		resume
+	end
+
+end
+
+*let Pinst = v(VDD)*v9#branch
+*wrdata K7_32u_50cycle.csv Pinst
+*while index < 401
+*	let Pinst = v(VDD)*v9#branch
+	*plot Pinst
+*	let lin-tstart = start
+*	let lin-tstop = stop
+*	let lin-tstep = 0.01n
+*	linearize Pinst
+	*plot v(pinst)
+	*display
+*	set appendwrite
+	wrdata samp_interval_K0_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K1_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K2_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K3_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K4_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K5_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K6_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K7_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K8_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K9_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K10_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K11_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K12_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K13_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K14_32u_50cycle_minus1ns.csv Pinst
+	*wrdata samp_interval_K15_32u_50cycle_minus1ns.csv Pinst
+*	*wrdata samp_interval_6p4u_10cycle.csv Pinst
+*	let start = stop
+*	let stop = stop+80n
+*	let index = index + 1
+*	*echo $plots
+*	setplot tran1
+*	destroy tran2
+*	*echo $plots
+*end
+
+*while index2 < 201
+*	tran 0.7u 34u 0 1u
+*	let Pinst = v(VDD)*v9#branch
+*	let lin-tstart = start_r2
+*	let lin-tstop = stop_r2
+*	let lin-tstep = 1n
+*	linearize Pinst
+*	*plot Pinst
+*	set appendwrite
+*	wrdata samp_interval_32u_50cycle.csv Pinst
+*	*wrdata samp_interval_6p4u_10cycle.csv Pinst
+*	let start_r2 = stop_r2
+*	let stop_r2 = stop_r2+80n
+*	let index2 = index2 + 1
+*end
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

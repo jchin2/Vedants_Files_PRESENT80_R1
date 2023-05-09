@@ -1,0 +1,114 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: **.subckt eespfal_s1_sim
+
+binary raw file "/home/jchin2/.xschem/simulations/EESPFAL_s1_sim.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Warning: vclk3: no DC value, transient time 0 value used
+Warning: vclk2: no DC value, transient time 0 value used
+Warning: vclk1: no DC value, transient time 0 value used
+Warning: vdis3: no DC value, transient time 0 value used
+Warning: vdis2: no DC value, transient time 0 value used
+Warning: vdis1: no DC value, transient time 0 value used
+Warning: vclk0: no DC value, transient time 0 value used
+Warning: vdis0: no DC value, transient time 0 value used
+Warning: vin5: no DC value, transient time 0 value used
+Warning: vin4: no DC value, transient time 0 value used
+Warning: vin3: no DC value, transient time 0 value used
+Warning: vin2: no DC value, transient time 0 value used
+Warning: vin1: no DC value, transient time 0 value used
+Warning: vin12: no DC value, transient time 0 value used
+Warning: vin10: no DC value, transient time 0 value used
+Warning: vin9: no DC value, transient time 0 value used
+No. of Data Columns : 353  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+xnor1                             -1.62198e-28
+xor1                               3.49909e-13
+clk0                                         0
+x1.net2                            1.12999e-22
+x0                                           0
+x2                                           0
+x1.net1                            3.49909e-13
+x2_bar                                     1.8
+x1.net3                           -8.10988e-29
+x0_bar                                     1.8
+x1.net4                            2.03816e-19
+dis0                                         0
+x3_bar                                     1.8
+x3_bar_buf                        2.31693e-219
+x3_buf                             1.05597e-21
+x3                                           0
+xor2_bar                           1.29885e-28
+xor2                               3.47441e-13
+x3.net2                            1.12202e-22
+x1                                           0
+x3.net1                            3.47447e-13
+x1_bar                                     1.8
+x3.net3                            6.49427e-29
+x3.net4                           -1.63213e-19
+x2_bar_buf                        2.31693e-219
+x2_buf                             5.04397e-22
+dis1                                         0
+dis2                                         0
+dis3                                         0
+clk1                                       1.8
+clk2                                       1.8
+clk3                                         0
+3_nand1                          -6.37646e-201
+3_and1                            -1.13361e-18
+x4.net1                             3.3327e-29
+x4.net2                           -1.13361e-18
+nand1                                 0.867197
+x5.net1                              0.0369931
+and1                                  0.867197
+net2                                  0.867197
+net1                                  0.867197
+nand2                                 0.867197
+x8.net1                              0.0369917
+and2                                  0.867197
+x9.net2                               0.652202
+x9.net1                               0.618507
+s1_bar                                0.867197
+s1                                    0.867197
+vclk3#branch                                 0
+vclk2#branch                      -8.47756e-05
+vclk1#branch                      -0.000254327
+vdis3#branch                                 0
+vdis2#branch                                 0
+vdis1#branch                                 0
+vclk0#branch                      -5.56442e-24
+vdis0#branch                                 0
+vin5#branch                                  0
+vin4#branch                                  0
+vin3#branch                                  0
+vin2#branch                                  0
+vin1#branch                                  0
+vin12#branch                                 0
+vin10#branch                                 0
+vin9#branch                                  0
+
+
+No. of Data Rows : 21547
+
+Total analysis time (seconds) = 4.88
+
+Total elapsed time (seconds) = 26.248 
+
+Total DRAM available = 31888.926 MB.
+DRAM currently available = 9441.285 MB.
+Maximum ngspice program size =  739.031 MB.
+Current ngspice program size =  658.586 MB.
+
+Shared ngspice pages =    4.113 MB.
+Text (code) pages =    7.465 MB.
+Stack = 0 bytes.
+Library pages =  662.480 MB.
+
