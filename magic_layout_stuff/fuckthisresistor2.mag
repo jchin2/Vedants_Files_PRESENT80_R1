@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1670993940
+use sky130_fd_pr__res_high_po_0p35_VZVMZH  sky130_fd_pr__res_high_po_0p35_VZVMZH_0
+timestamp 1670993940
+transform 1 0 -9 0 1 206
+box -37 -932 37 932
+<< end >>

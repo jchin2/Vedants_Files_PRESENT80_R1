@@ -1,0 +1,7 @@
+| units: 500000 tech: sky130A format: MIT
+x A WTF OUT WTF l=30 w=300 x=-2239 y=930 sky130_fd_pr__nfet_01v8
+x A VP OUT VP l=30 w=600 x=-2239 y=1350 sky130_fd_pr__pfet_01v8
+R OUT 1469
+R A 1910
+R VP 3034
+R WTF 809

@@ -1,0 +1,21 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1675287057
+use EESPFAL_s0  EESPFAL_s0_0
+timestamp 1675269792
+transform 1 0 730 0 1 -1399
+box -730 1399 6781 4000
+use EESPFAL_s1  EESPFAL_s1_0
+timestamp 1675269792
+transform 1 0 4870 0 1 -1440
+box -4890 -3020 2539 1200
+use EESPFAL_s2  EESPFAL_s2_0
+timestamp 1675286060
+transform 1 0 973 0 1 -6293
+box -1125 -2873 6523 1350
+use EESPFAL_s3  EESPFAL_s3_0
+timestamp 1675269792
+transform 1 0 4938 0 1 -10718
+box -4890 -3020 2539 1200
+<< end >>

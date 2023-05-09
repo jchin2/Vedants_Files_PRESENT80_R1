@@ -1,0 +1,32 @@
+Equate elements:  no current cell.
+Equate elements:  no current cell.
+
+Subcircuit summary:
+Circuit 1: EESPFAL_NOR1                    |Circuit 2: EESPFAL_NOR                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (8)                |sky130_fd_pr__nfet_01v8 (8)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Resolving automorphisms by property value.
+Resolving automorphisms by pin name.
+Netlists match uniquely.
+Circuits match correctly.
+
+Subcircuit pins:
+Circuit 1: EESPFAL_NOR1                    |Circuit 2: EESPFAL_NOR                     
+-------------------------------------------|-------------------------------------------
+OUT_bar                                    |OUT_bar                                    
+Dis                                        |Dis                                        
+GND                                        |GND                                        
+B_bar                                      |B_bar                                      
+A_bar                                      |A_bar                                      
+A                                          |A                                          
+B                                          |B                                          
+OUT                                        |OUT                                        
+CLK                                        |CLK                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes EESPFAL_NOR1 and EESPFAL_NOR are equivalent.
+Circuits match uniquely.

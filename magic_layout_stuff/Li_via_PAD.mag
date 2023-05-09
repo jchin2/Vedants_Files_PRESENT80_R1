@@ -1,0 +1,59 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1671306811
+<< locali >>
+rect -3018 7829 -2758 8089
+rect -2598 7829 -2338 8089
+rect -3018 7409 -2758 7669
+rect -2598 7409 -2338 7669
+<< via4 >>
+rect -3006 7841 -2770 8077
+rect -2586 7841 -2350 8077
+rect -3006 7421 -2770 7657
+rect -2586 7421 -2350 7657
+<< metal5 >>
+rect -3099 8077 -2258 8169
+rect -3099 7841 -3006 8077
+rect -2770 7841 -2586 8077
+rect -2350 7841 -2258 8077
+rect -3099 7657 -2258 7841
+rect -3099 7421 -3006 7657
+rect -2770 7421 -2586 7657
+rect -2350 7421 -2258 7657
+rect -3099 7329 -2258 7421
+<< glass >>
+rect -3098 7329 -2258 8169
+use M1_vias_M4$1  M1_vias_M4$1_0
+timestamp 1671306811
+transform 1 0 -2118 0 1 7579
+box -480 -170 -220 90
+use M1_vias_M4$1  M1_vias_M4$1_1
+timestamp 1671306811
+transform 1 0 -2538 0 1 7579
+box -480 -170 -220 90
+use M1_vias_M4$1  M1_vias_M4$1_2
+timestamp 1671306811
+transform 1 0 -2118 0 1 7999
+box -480 -170 -220 90
+use M1_vias_M4$1  M1_vias_M4$1_3
+timestamp 1671306811
+transform 1 0 -2538 0 1 7999
+box -480 -170 -220 90
+use M1_vias_M4$1  M1_vias_M4$1_4
+timestamp 1671306811
+transform 1 0 -2118 0 1 7579
+box -480 -170 -220 90
+use M1_vias_M4$1  M1_vias_M4$1_5
+timestamp 1671306811
+transform 1 0 -2538 0 1 7579
+box -480 -170 -220 90
+use M1_vias_M4$1  M1_vias_M4$1_6
+timestamp 1671306811
+transform 1 0 -2118 0 1 7999
+box -480 -170 -220 90
+use M1_vias_M4$1  M1_vias_M4$1_7
+timestamp 1671306811
+transform 1 0 -2538 0 1 7999
+box -480 -170 -220 90
+<< end >>

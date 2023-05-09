@@ -1,0 +1,198 @@
+magic
+tech sky130A
+timestamp 1679790088
+<< locali >>
+rect 0 0 30 30
+rect 0 50 30 80
+rect 0 100 30 130
+rect 0 150 30 180
+rect 0 200 30 230
+rect 0 250 30 280
+rect 0 300 30 330
+rect 0 350 30 380
+rect 0 400 30 430
+rect 0 450 30 480
+rect 0 500 30 530
+rect 0 550 30 580
+rect 0 600 30 630
+rect 0 650 30 680
+rect 0 700 30 730
+rect 0 750 30 780
+rect 0 800 30 830
+rect 0 850 30 880
+rect 0 900 30 930
+rect 0 950 30 980
+rect 0 1000 30 1030
+rect 0 1050 30 1080
+rect 0 1100 30 1130
+rect 0 1150 30 1180
+rect 0 1200 30 1230
+rect 0 1250 30 1280
+rect 0 1300 30 1330
+rect 0 1350 30 1380
+rect 0 1400 30 1430
+rect 0 1450 30 1480
+rect 0 1500 30 1530
+rect 0 1550 30 1580
+rect 0 1600 30 1630
+rect 0 1650 30 1680
+rect 0 1700 30 1730
+rect 0 1750 30 1780
+rect 0 1800 30 1830
+rect 0 1850 30 1880
+rect 0 1900 30 1930
+rect 0 1950 30 1980
+rect 0 2000 30 2030
+rect 0 2050 30 2080
+rect 0 2100 30 2130
+rect 0 2150 30 2180
+rect 0 2200 30 2230
+rect 0 2250 30 2280
+rect 0 2300 30 2330
+rect 0 2350 30 2380
+rect 0 2400 30 2430
+rect 0 2450 30 2480
+rect 0 2500 30 2530
+rect 0 2550 30 2580
+rect 0 2600 30 2630
+rect 0 2650 30 2680
+rect 0 2700 30 2730
+rect 0 2750 30 2780
+rect 0 2800 30 2830
+rect 0 2850 30 2880
+rect 0 2900 30 2930
+rect 0 2950 30 2980
+rect 0 3000 30 3030
+rect 0 3050 30 3080
+rect 0 3100 30 3130
+rect 0 3150 30 3180
+<< labels >>
+rlabel locali 0 0 30 30 1 k0
+port 0 n
+rlabel locali 0 50 30 80 1 k1
+port 1 n
+rlabel locali 0 100 30 130 1 k2
+port 2 n
+rlabel locali 0 150 30 180 1 k3
+port 3 n
+rlabel locali 0 200 30 230 1 k4
+port 4 n
+rlabel locali 0 250 30 280 1 k5
+port 5 n
+rlabel locali 0 300 30 330 1 k6
+port 6 n
+rlabel locali 0 350 30 380 1 k7
+port 7 n
+rlabel locali 0 400 30 430 1 k8
+port 8 n
+rlabel locali 0 450 30 480 1 k9
+port 9 n
+rlabel locali 0 500 30 530 1 k10
+port 10 n
+rlabel locali 0 550 30 580 1 k11
+port 11 n
+rlabel locali 0 600 30 630 1 k12
+port 12 n
+rlabel locali 0 650 30 680 1 k13
+port 13 n
+rlabel locali 0 700 30 730 1 k14
+port 14 n
+rlabel locali 0 750 30 780 1 k15
+port 15 n
+rlabel locali 0 800 30 830 1 k16
+port 16 n
+rlabel locali 0 850 30 880 1 k17
+port 17 n
+rlabel locali 0 900 30 930 1 k18
+port 18 n
+rlabel locali 0 950 30 980 1 k19
+port 19 n
+rlabel locali 0 1000 30 1030 1 k20
+port 20 n
+rlabel locali 0 1050 30 1080 1 k21
+port 21 n
+rlabel locali 0 1100 30 1130 1 k22
+port 22 n
+rlabel locali 0 1150 30 1180 1 k23
+port 23 n
+rlabel locali 0 1200 30 1230 1 k24
+port 24 n
+rlabel locali 0 1250 30 1280 1 k25
+port 25 n
+rlabel locali 0 1300 30 1330 1 k26
+port 26 n
+rlabel locali 0 1350 30 1380 1 k27
+port 27 n
+rlabel locali 0 1400 30 1430 1 k28
+port 28 n
+rlabel locali 0 1450 30 1480 1 k29
+port 29 n
+rlabel locali 0 1500 30 1530 1 k30
+port 30 n
+rlabel locali 0 1550 30 1580 1 k31
+port 31 n
+rlabel locali 0 1600 30 1630 1 k32
+port 32 n
+rlabel locali 0 1650 30 1680 1 k33
+port 33 n
+rlabel locali 0 1700 30 1730 1 k34
+port 34 n
+rlabel locali 0 1750 30 1780 1 k35
+port 35 n
+rlabel locali 0 1800 30 1830 1 k36
+port 36 n
+rlabel locali 0 1850 30 1880 1 k37
+port 37 n
+rlabel locali 0 1900 30 1930 1 k38
+port 38 n
+rlabel locali 0 1950 30 1980 1 k39
+port 39 n
+rlabel locali 0 2000 30 2030 1 k40
+port 40 n
+rlabel locali 0 2050 30 2080 1 k41
+port 41 n
+rlabel locali 0 2100 30 2130 1 k42
+port 42 n
+rlabel locali 0 2150 30 2180 1 k43
+port 43 n
+rlabel locali 0 2200 30 2230 1 k44
+port 44 n
+rlabel locali 0 2250 30 2280 1 k45
+port 45 n
+rlabel locali 0 2300 30 2330 1 k46
+port 46 n
+rlabel locali 0 2350 30 2380 1 k47
+port 47 n
+rlabel locali 0 2400 30 2430 1 k48
+port 48 n
+rlabel locali 0 2450 30 2480 1 k49
+port 49 n
+rlabel locali 0 2500 30 2530 1 k50
+port 50 n
+rlabel locali 0 2550 30 2580 1 k51
+port 51 n
+rlabel locali 0 2600 30 2630 1 k52
+port 52 n
+rlabel locali 0 2650 30 2680 1 k53
+port 53 n
+rlabel locali 0 2700 30 2730 1 k54
+port 54 n
+rlabel locali 0 2750 30 2780 1 k55
+port 55 n
+rlabel locali 0 2800 30 2830 1 k56
+port 56 n
+rlabel locali 0 2850 30 2880 1 k57
+port 57 n
+rlabel locali 0 2900 30 2930 1 k58
+port 58 n
+rlabel locali 0 2950 30 2980 1 k59
+port 59 n
+rlabel locali 0 3000 30 3030 1 k60
+port 60 n
+rlabel locali 0 3050 30 3080 1 k61
+port 61 n
+rlabel locali 0 3100 30 3130 1 k62
+port 62 n
+rlabel locali 0 3150 30 3180 1 k63
+port 63 n
+<< end >>

@@ -1,0 +1,12 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1670993940
+<< error_p >>
+rect -182 685 -98 788
+rect -182 -658 -98 -555
+use sky130_fd_pr__res_generic_nd_5G9T6E  sky130_fd_pr__res_generic_nd_5G9T6E_0
+timestamp 1670993940
+transform 1 0 -140 0 1 65
+box -46 -723 46 723
+<< end >>

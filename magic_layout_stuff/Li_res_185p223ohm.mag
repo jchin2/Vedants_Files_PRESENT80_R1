@@ -1,0 +1,11 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1670967604
+<< error_p >>
+rect -226 297 -202 789
+use sky130_fd_pr__res_generic_l1_PK88MT  sky130_fd_pr__res_generic_l1_PK88MT_0
+timestamp 1670967604
+transform 1 0 -243 0 1 543
+box -17 -303 41 303
+<< end >>
