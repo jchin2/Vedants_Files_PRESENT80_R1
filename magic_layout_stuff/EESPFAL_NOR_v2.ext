@@ -1,0 +1,74 @@
+timestamp 1666736236
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+port "B" 3 -2830 920 -2810 940 li
+port "A" 1 -2830 1020 -2810 1040 li
+port "Dis" 7 -2220 240 -2180 280 li
+port "B_bar" 4 -2830 840 -2810 860 li
+port "A_bar" 2 -2830 740 -2810 760 li
+port "OUT_bar" 6 -1970 1010 -1930 1050 v0
+port "OUT" 5 -2070 890 -2030 930 li
+port "CLK" 9 -2020 1510 -1980 1550 m1
+port "GND!" 8 -2020 120 -1980 160 m1
+node "a_n2690_330#" 300 17.6887 -2690 330 ndif 0 0 0 0 0 0 0 0 36000 840 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "B" 858 1065.59 -2830 920 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17500 1060 0 0 25600 1280 76800 3760 0 0 0 0 0 0 0 0 0 0
+node "A" 1146 419.572 -2830 1020 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20500 1260 0 0 48000 2240 48400 2340 0 0 0 0 0 0 0 0 0 0
+node "Dis" 1763 1067.61 -2220 240 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34400 2080 0 0 49600 2400 0 0 0 0 0 0 0 0 0 0 0 0
+node "B_bar" 865 189.199 -2830 840 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18700 1140 0 0 19200 960 0 0 0 0 0 0 0 0 0 0 0 0
+node "A_bar" 782 183.659 -2830 740 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18700 1140 0 0 9200 460 0 0 0 0 0 0 0 0 0 0 0 0
+node "OUT_bar" 4656 1007.81 -1970 1010 v0 0 0 0 0 0 0 0 0 72000 1680 36000 840 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54100 3500 0 0 130800 5100 25600 1200 0 0 0 0 0 0 0 0 0 0
+node "OUT" 5448 1216.12 -2070 890 li 0 0 0 0 0 0 0 0 108000 2520 36000 840 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54100 3500 0 0 170800 6680 0 0 0 0 0 0 0 0 0 0 0 0
+node "CLK" 12191 3882.88 -2020 1510 m1 0 0 0 0 654200 4680 0 0 240000 5240 108000 2520 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 234400 6820 368000 10500 0 0 0 0 0 0 0 0 0 0
+substrate "GND!" 0 0 -2020 120 m1 0 0 0 0 0 0 0 0 108000 2520 168000 3560 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194400 5500 246000 6200 0 0 0 0 0 0 0 0 0 0
+cap "B_bar" "OUT_bar" 11.5407
+cap "a_n2690_330#" "Dis" 2.57589
+cap "OUT" "CLK" 800.617
+cap "CLK" "a_n2690_330#" 9.91693
+cap "CLK" "Dis" 116.29
+cap "OUT_bar" "A" 187.196
+cap "OUT" "B" 118.133
+cap "B_bar" "OUT" 7.00605
+cap "A_bar" "OUT_bar" 2.31949
+cap "a_n2690_330#" "B" 4.79521
+cap "B" "Dis" 35.9627
+cap "B_bar" "a_n2690_330#" 4.1273
+cap "B_bar" "Dis" 16.8006
+cap "CLK" "B" 269.238
+cap "OUT" "A" 436.035
+cap "B_bar" "CLK" 28.5686
+cap "A_bar" "OUT" 1.27636
+cap "a_n2690_330#" "A" 2.21614
+cap "A" "Dis" 3.60719
+cap "A_bar" "Dis" 6.52328
+cap "B_bar" "B" 208.496
+cap "CLK" "A" 205.364
+cap "A_bar" "CLK" 44.6203
+cap "OUT_bar" "OUT" 595.928
+cap "B" "A" 896.094
+cap "OUT_bar" "a_n2690_330#" 3.07681
+cap "B_bar" "A" 5.69685
+cap "A_bar" "B" 4.92779
+cap "OUT_bar" "Dis" 149.142
+cap "B_bar" "A_bar" 186.908
+cap "OUT_bar" "CLK" 788.89
+cap "OUT" "a_n2690_330#" 1.10312
+cap "A_bar" "A" 2.36312
+cap "OUT_bar" "B" 76.3059
+cap "OUT" "Dis" 87.4277
+device msubckt sky130_fd_pr__nfet_01v8 -1310 330 -1309 331 l=30 w=300 "GND!" "A" 60 0 "CLK" 300 0 "OUT" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -1460 330 -1459 331 l=30 w=300 "GND!" "B" 60 0 "OUT" 300 0 "CLK" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -1790 330 -1789 331 l=30 w=300 "GND!" "Dis" 60 0 "OUT" 300 0 "GND!" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -1940 330 -1939 331 l=30 w=300 "GND!" "OUT_bar" 60 0 "GND!" 300 0 "OUT" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -2090 330 -2089 331 l=30 w=300 "GND!" "OUT" 60 0 "OUT_bar" 300 0 "GND!" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -2240 330 -2239 331 l=30 w=300 "GND!" "Dis" 60 0 "GND!" 300 0 "OUT_bar" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -2570 330 -2569 331 l=30 w=300 "GND!" "B_bar" 60 0 "a_n2690_330#" 300 0 "OUT_bar" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -2720 330 -2719 331 l=30 w=300 "GND!" "A_bar" 60 0 "CLK" 300 0 "a_n2690_330#" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 -1790 1100 -1789 1101 l=30 w=300 "CLK" "OUT_bar" 60 0 "OUT" 300 0 "CLK" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 -1940 1100 -1939 1101 l=30 w=300 "CLK" "OUT_bar" 60 0 "CLK" 300 0 "OUT" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 -2090 1100 -2089 1101 l=30 w=300 "CLK" "OUT" 60 0 "OUT_bar" 300 0 "CLK" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 -2240 1100 -2239 1101 l=30 w=300 "CLK" "OUT" 60 0 "CLK" 300 0 "OUT_bar" 300 0

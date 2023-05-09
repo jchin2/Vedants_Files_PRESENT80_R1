@@ -1,0 +1,371 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1675786016
+<< locali >>
+rect -650 3710 290 3750
+rect -536 3610 290 3650
+rect 34 3510 290 3550
+rect 4742 3526 4930 3530
+rect 4600 3490 4930 3526
+rect 4600 3486 4742 3490
+rect 148 3410 290 3450
+rect 2610 3275 2650 3398
+rect 4590 3340 4816 3380
+rect 4776 3329 4816 3340
+rect 4776 3289 4930 3329
+rect 2570 3220 2604 3260
+rect 6610 3220 6758 3260
+rect 1670 2780 2910 2820
+rect 4757 2780 4930 2820
+rect 182 2640 290 2720
+rect 4757 2580 4797 2780
+rect 398 2540 590 2580
+rect 3990 2540 4797 2580
+rect 5272 2540 5530 2580
+rect 4590 2100 4895 2140
+rect 6381 2100 6421 2230
+rect -422 2030 590 2070
+rect 2540 2030 2910 2070
+rect 2540 2020 2580 2030
+rect 2269 1980 2580 2020
+rect 4590 1980 4741 2020
+rect -80 1930 590 1970
+rect 4855 1900 4895 2100
+rect 6330 2060 6421 2100
+rect 6330 2020 6370 2060
+rect -308 1830 590 1870
+rect 2350 1830 2910 1870
+rect 4855 1860 5200 1900
+rect 6718 1780 6758 3220
+rect -194 1710 590 1750
+rect 2404 1710 2910 1750
+rect 6610 1740 6758 1780
+<< metal1 >>
+rect 2570 3810 2910 3910
+rect -730 1399 -650 3750
+rect -616 1399 -536 3750
+rect -502 1399 -422 3750
+rect -388 1399 -308 3750
+rect -274 1400 -194 3750
+rect -160 1399 -80 3750
+rect -46 1400 34 3750
+rect 68 1399 148 3750
+rect 2338 3722 2890 3762
+rect 2850 3660 2890 3722
+rect 4554 3650 4634 3668
+rect 2618 3582 2802 3622
+rect 4554 3610 4850 3650
+rect 2762 3520 2802 3582
+rect 2762 3480 2830 3520
+rect 2762 3360 2830 3400
+rect 2762 3088 2802 3360
+rect 4539 3300 4579 3471
+rect 4720 3369 4850 3409
+rect 2685 3048 2802 3088
+rect 2850 2928 2890 3220
+rect 2661 2888 2890 2928
+rect 4678 2900 5100 2940
+rect 200 2657 245 2702
+rect 2569 2630 2910 2730
+rect 4590 2630 4930 2730
+rect 4570 2400 4598 2480
+rect 4757 2250 4825 2290
+rect 2290 1910 2330 2080
+rect 4757 2040 4797 2250
+rect 6624 2121 6664 2230
+rect 290 1450 590 1550
+rect 4748 1450 4930 1550
+<< metal2 >>
+rect 290 1540 370 3900
+rect 419 2520 459 3900
+rect 2680 3688 4554 3728
+rect 2680 3458 2720 3688
+rect 2650 3418 2720 3458
+rect 2404 3329 4720 3369
+rect 2344 1770 2384 3310
+rect 2650 3216 2802 3256
+rect 2762 1970 2802 3216
+rect 4618 2480 4658 2880
+rect 2762 1930 2830 1970
+rect 4748 1540 4788 3900
+rect 5032 2840 5072 3900
+rect 5120 3830 5160 3900
+rect 5212 2600 5252 3900
+rect 6636 2310 6676 3320
+rect 4905 2250 6360 2290
+rect 5010 2100 6781 2140
+rect 5010 1980 6781 2020
+<< metal3 >>
+rect -412 3712 2248 3772
+rect -70 3572 2528 3632
+rect -184 3038 2595 3098
+rect -298 2878 2619 2938
+use EESPFAL_NAND_v3  EESPFAL_NAND_v3_0
+timestamp 1675786016
+transform 1 0 5839 0 1 3284
+box -949 -680 811 676
+use EESPFAL_NAND_v3  EESPFAL_NAND_v3_1
+timestamp 1675786016
+transform 1 0 3819 0 -1 2076
+box -949 -680 811 676
+use EESPFAL_NAND_v3  EESPFAL_NAND_v3_2
+timestamp 1675786016
+transform 1 0 1499 0 -1 2076
+box -949 -680 811 676
+use EESPFAL_NOR_v3  EESPFAL_NOR_v3_0
+timestamp 1675786016
+transform -1 0 4640 0 -1 3040
+box -2010 284 -250 1640
+use EESPFAL_NOR_v3  EESPFAL_NOR_v3_1
+timestamp 1675786016
+transform 1 0 4880 0 1 2320
+box -2010 284 -250 1640
+use EESPFAL_XOR_v3  EESPFAL_XOR_v3_0
+timestamp 1675786016
+transform 1 0 1580 0 1 2460
+box -1330 144 1030 1500
+use Li_mcon_M1  Li_mcon_M1_0
+timestamp 1675786016
+transform 1 0 6624 0 1 2061
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_1
+timestamp 1675786016
+transform 1 0 4870 0 1 3610
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_2
+timestamp 1675786016
+transform -1 0 4580 0 1 3466
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_3
+timestamp 1675786016
+transform 1 0 4540 0 1 3240
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_4
+timestamp 1675786016
+transform 1 0 4870 0 1 3389
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_5
+timestamp 1675786016
+transform 1 0 4761 0 1 1980
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_6
+timestamp 1675786016
+transform 1 0 2850 0 1 3600
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_7
+timestamp 1675786016
+transform 1 0 2850 0 1 3480
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_8
+timestamp 1675786016
+transform 1 0 2850 0 1 3240
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_9
+timestamp 1675786016
+transform 1 0 2850 0 1 3360
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_10
+timestamp 1675786016
+transform 1 0 2290 0 1 1850
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_11
+timestamp 1675786016
+transform 1 0 2290 0 1 2100
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_12
+timestamp 1675786016
+transform 1 0 -26 0 1 3490
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_13
+timestamp 1675786016
+transform 1 0 88 0 1 3390
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_14
+timestamp 1675786016
+transform 1 0 -710 0 1 3690
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_15
+timestamp 1675786016
+transform 1 0 -596 0 1 3590
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_16
+timestamp 1675786016
+transform 1 0 202 0 1 2660
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_17
+timestamp 1675786016
+transform 1 0 -482 0 1 2050
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_18
+timestamp 1675786016
+transform 1 0 -140 0 1 1936
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_19
+timestamp 1675786016
+transform 1 0 -368 0 1 1830
+box -20 -20 60 60
+use Li_mcon_M1  Li_mcon_M1_20
+timestamp 1675786016
+transform 1 0 -254 0 1 1710
+box -20 -20 60 60
+use Li_via_M2  Li_via_M2_0
+timestamp 1675786016
+transform 1 0 6650 0 1 3358
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_1
+timestamp 1675786016
+transform 1 0 6400 0 1 2268
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_2
+timestamp 1675786016
+transform 1 0 5052 0 1 2798
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_3
+timestamp 1675786016
+transform 1 0 4970 0 1 1998
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_4
+timestamp 1675786016
+transform 1 0 4970 0 1 2118
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_5
+timestamp 1675786016
+transform 1 0 5232 0 1 2558
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_6
+timestamp 1675786016
+transform 1 0 2364 0 1 3348
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_7
+timestamp 1675786016
+transform 1 0 2610 0 1 3436
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_8
+timestamp 1675786016
+transform 1 0 2610 0 1 3234
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_9
+timestamp 1675786016
+transform 1 0 2870 0 1 1948
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_10
+timestamp 1675786016
+transform 1 0 2364 0 1 1728
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_11
+timestamp 1675786016
+transform 1 0 439 0 1 2798
+box -40 -38 40 42
+use Li_via_M2  Li_via_M2_12
+timestamp 1675786016
+transform 1 0 438 0 1 2558
+box -40 -38 40 42
+use M1_M3  M1_M3_0
+timestamp 1675786016
+transform 1 0 2358 0 1 3782
+box -110 -90 -10 10
+use M1_M3  M1_M3_1
+timestamp 1675786016
+transform 1 0 2638 0 1 3642
+box -110 -90 -10 10
+use M1_M3  M1_M3_2
+timestamp 1675786016
+transform 1 0 2705 0 1 2948
+box -110 -90 -10 10
+use M1_M3  M1_M3_3
+timestamp 1675786016
+transform 1 0 2705 0 1 3108
+box -110 -90 -10 10
+use M1_M3  M1_M3_4
+timestamp 1675786016
+transform 1 0 -60 0 1 3639
+box -110 -90 -10 10
+use M1_M3  M1_M3_5
+timestamp 1675786016
+transform 1 0 -402 0 1 3782
+box -110 -90 -10 10
+use M1_M3  M1_M3_6
+timestamp 1675786016
+transform 1 0 -288 0 1 2948
+box -110 -90 -10 10
+use M1_M3  M1_M3_7
+timestamp 1675786016
+transform 1 0 -174 0 1 3108
+box -110 -90 -10 10
+use M1_via_M2  M1_via_M2_0
+timestamp 1675786016
+transform 1 0 6658 0 1 2268
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_1
+timestamp 1675786016
+transform 1 0 5140 0 1 3858
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_2
+timestamp 1675786016
+transform 1 0 4638 0 1 2918
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_3
+timestamp 1675786016
+transform 1 0 4680 0 1 3367
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_4
+timestamp 1675786016
+transform 1 0 4594 0 1 3706
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_5
+timestamp 1675786016
+transform 1 0 4788 0 1 1498
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_6
+timestamp 1675786016
+transform 1 0 4638 0 1 2438
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_7
+timestamp 1675786016
+transform 1 0 4865 0 1 2268
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_8
+timestamp 1675786016
+transform 1 0 330 0 1 3858
+box -40 -38 40 42
+use M1_via_M2  M1_via_M2_9
+timestamp 1675786016
+transform 1 0 330 0 1 1498
+box -40 -38 40 42
+<< labels >>
+flabel metal1 s 200 2657 245 2702 2 FreeSans 2500 0 0 0 GND
+port 1 nsew
+flabel metal1 s -720 3676 -659 3736 2 FreeSans 3126 0 0 0 x0
+port 2 nsew
+flabel metal1 s -607 3615 -546 3675 2 FreeSans 3126 0 0 0 x0_bar
+port 3 nsew
+flabel metal1 s -492 3676 -431 3736 2 FreeSans 3126 0 0 0 x1
+port 4 nsew
+flabel metal1 s -378 3615 -317 3675 2 FreeSans 3126 0 0 0 x1_bar
+port 5 nsew
+flabel metal1 s -264 3677 -203 3737 2 FreeSans 3126 0 0 0 x2
+port 6 nsew
+flabel metal1 s -151 3616 -90 3676 2 FreeSans 3126 0 0 0 x2_bar
+port 7 nsew
+flabel metal1 s -36 3677 25 3737 2 FreeSans 3126 0 0 0 x3
+port 8 nsew
+flabel metal1 s 78 3616 139 3676 2 FreeSans 3126 0 0 0 x3_bar
+port 9 nsew
+flabel metal2 s 308 3844 348 3884 2 FreeSans 2500 0 0 0 CLK1
+port 10 nsew
+flabel metal2 s 430 3860 450 3880 2 FreeSans 2500 0 0 0 Dis1
+port 11 nsew
+flabel metal2 s 4758 3872 4778 3892 2 FreeSans 2500 0 0 0 CLK3
+port 12 nsew
+flabel metal2 s 5040 3875 5055 3890 2 FreeSans 2500 0 0 0 Dis2
+port 13 nsew
+flabel metal2 s 5130 3875 5145 3890 2 FreeSans 2500 0 0 0 CLK2
+port 14 nsew
+flabel metal2 s 5225 3875 5240 3890 2 FreeSans 2500 0 0 0 Dis3
+port 15 nsew
+flabel metal2 s 6755 2110 6770 2125 2 FreeSans 2500 0 0 0 s0
+port 16 nsew
+flabel metal2 s 6755 1990 6770 2005 2 FreeSans 2500 0 0 0 s0_bar
+port 17 nsew
+<< end >>

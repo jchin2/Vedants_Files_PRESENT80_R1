@@ -1,0 +1,202 @@
+| units: 500000 tech: sky130A format: MIT
+x x3 EESPFAL_INV4_0/A a_n2159_n2753# GND l=30 w=300 x=-2188 y=-2752 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/OUT_bar CLK2 EESPFAL_NAND_v3_1/OUT CLK2 l=30 w=300 x=1400 y=-1172 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_1/B_bar EESPFAL_NAND_v3_1/B CLK1 CLK1 l=30 w=300 x=-329 y=-1172 sky130_fd_pr__pfet_01v8
+x EESPFAL_INV4_0/A_bar GND EESPFAL_INV4_0/A GND l=30 w=300 x=-2668 y=-2752 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/A_bar EESPFAL_NAND_v3_0/A GND GND l=30 w=300 x=-2819 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_INV4_0/A EESPFAL_INV4_0/A_bar GND GND l=30 w=300 x=-2818 y=-2752 sky130_fd_pr__nfet_01v8
+x Dis1 GND EESPFAL_NAND_v3_1/B_bar GND l=30 w=300 x=-779 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/OUT_bar a_1931_n2754# a_2081_n2754# GND l=30 w=300 x=2051 y=-2753 sky130_fd_pr__nfet_01v8
+x Dis2 EESPFAL_NAND_v3_0/OUT GND GND l=30 w=300 x=1550 y=67 sky130_fd_pr__nfet_01v8
+x x0_bar EESPFAL_NAND_v3_0/A_bar a_n2160_67# GND l=30 w=300 x=-2189 y=67 sky130_fd_pr__nfet_01v8
+x Dis2 EESPFAL_NAND_v3_1/OUT GND GND l=30 w=300 x=1550 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/A_bar EESPFAL_NAND_v3_1/A CLK1 CLK1 l=30 w=300 x=-2519 y=-1172 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/OUT_bar a_2081_n2754# CLK3 GND l=30 w=300 x=2201 y=-2753 sky130_fd_pr__nfet_01v8
+x x3 a_n3420_n613# EESPFAL_NAND_v3_1/A_bar GND l=30 w=300 x=-3299 y=-612 sky130_fd_pr__nfet_01v8
+x x2 CLK1 a_n3420_n613# GND l=30 w=300 x=-3449 y=-612 sky130_fd_pr__nfet_01v8
+x x2_bar CLK1 a_n1860_n613# GND l=30 w=300 x=-1889 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/A_bar GND EESPFAL_NAND_v3_1/A GND l=30 w=300 x=-2669 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_INV4_0/A EESPFAL_3in_NOR_v2_0/C CLK2 GND l=30 w=300 x=-138 y=-2752 sky130_fd_pr__nfet_01v8
+x Dis2 EESPFAL_3in_NOR_v2_0/C GND GND l=30 w=300 x=-468 y=-2752 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/A EESPFAL_NAND_v3_1/A_bar GND GND l=30 w=300 x=-2819 y=-612 sky130_fd_pr__nfet_01v8
+x Dis3 s3_bar GND GND l=30 w=300 x=1571 y=-2753 sky130_fd_pr__nfet_01v8
+x s3_bar CLK3 s3 CLK3 l=30 w=300 x=1121 y=-2193 sky130_fd_pr__pfet_01v8
+x EESPFAL_INV4_0/A CLK1 EESPFAL_INV4_0/A_bar CLK1 l=30 w=300 x=-2968 y=-2192 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/B EESPFAL_NAND_v3_0/B_bar GND GND l=30 w=300 x=-629 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_3in_NOR_v2_0/C_bar GND EESPFAL_3in_NOR_v2_0/C GND l=30 w=300 x=-618 y=-2752 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/B_bar EESPFAL_NAND_v3_1/OUT_bar CLK2 GND l=30 w=300 x=620 y=-612 sky130_fd_pr__nfet_01v8
+x Dis2 GND EESPFAL_NAND_v3_0/OUT_bar GND l=30 w=300 x=1100 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/A EESPFAL_NAND_v3_0/A_bar CLK1 CLK1 l=30 w=300 x=-2519 y=627 sky130_fd_pr__pfet_01v8
+x x1_bar CLK1 EESPFAL_NAND_v3_1/B_bar GND l=30 w=300 x=-1109 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/OUT CLK2 EESPFAL_NAND_v3_1/OUT_bar CLK2 l=30 w=300 x=1100 y=-1172 sky130_fd_pr__pfet_01v8
+x x1 EESPFAL_NAND_v3_1/B CLK1 GND l=30 w=300 x=0 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/B_bar CLK1 EESPFAL_NAND_v3_0/B CLK1 l=30 w=300 x=-479 y=627 sky130_fd_pr__pfet_01v8
+x x0 a_n2159_n2753# a_n2009_n2753# GND l=30 w=300 x=-2038 y=-2752 sky130_fd_pr__nfet_01v8
+x x1 CLK1 a_n3420_67# GND l=30 w=300 x=-3449 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_3in_NOR_v2_0/C EESPFAL_3in_NOR_v2_0/C_bar CLK2 CLK2 l=30 w=300 x=-768 y=-2192 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/A_bar EESPFAL_NAND_v3_0/A CLK1 CLK1 l=30 w=300 x=-2819 y=627 sky130_fd_pr__pfet_01v8
+x Dis1 EESPFAL_INV4_0/A GND GND l=30 w=300 x=-2518 y=-2752 sky130_fd_pr__nfet_01v8
+x EESPFAL_3in_NOR_v2_0/C CLK2 EESPFAL_3in_NOR_v2_0/C_bar CLK2 l=30 w=300 x=-918 y=-2192 sky130_fd_pr__pfet_01v8
+x x3_bar CLK1 EESPFAL_INV4_0/A_bar GND l=30 w=300 x=-3598 y=-2752 sky130_fd_pr__nfet_01v8
+x x2_bar a_n2009_n2753# CLK1 GND l=30 w=300 x=-1888 y=-2752 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/B CLK1 EESPFAL_NAND_v3_0/B_bar CLK1 l=30 w=300 x=-779 y=627 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/OUT CLK2 EESPFAL_NAND_v3_0/OUT_bar CLK2 l=30 w=300 x=1100 y=627 sky130_fd_pr__pfet_01v8
+x x2_bar a_n3720_n613# CLK1 GND l=30 w=300 x=-3599 y=-612 sky130_fd_pr__nfet_01v8
+x x3_bar EESPFAL_NAND_v3_1/A_bar a_n3720_n613# GND l=30 w=300 x=-3749 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/B CLK1 EESPFAL_NAND_v3_1/B_bar CLK1 l=30 w=300 x=-779 y=-1172 sky130_fd_pr__pfet_01v8
+x Dis1 GND EESPFAL_NAND_v3_1/A_bar GND l=30 w=300 x=-2969 y=-612 sky130_fd_pr__nfet_01v8
+x s3_bar s3 GND GND l=30 w=300 x=1271 y=-2753 sky130_fd_pr__nfet_01v8
+x EESPFAL_INV4_0/A_bar CLK1 EESPFAL_INV4_0/A CLK1 l=30 w=300 x=-2668 y=-2192 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/OUT_bar GND EESPFAL_NAND_v3_0/OUT GND l=30 w=300 x=1400 y=67 sky130_fd_pr__nfet_01v8
+x x1 a_n2160_67# CLK1 GND l=30 w=300 x=-2039 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/A GND EESPFAL_NAND_v3_0/A_bar GND l=30 w=300 x=-2669 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/B EESPFAL_NAND_v3_1/OUT a_1910_n613# GND l=30 w=300 x=1880 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/A_bar CLK2 EESPFAL_NAND_v3_1/OUT_bar GND l=30 w=300 x=770 y=-612 sky130_fd_pr__nfet_01v8
+x s3 GND s3_bar GND l=30 w=300 x=1421 y=-2753 sky130_fd_pr__nfet_01v8
+x EESPFAL_INV4_0/A EESPFAL_INV4_0/A_bar CLK1 CLK1 l=30 w=300 x=-2818 y=-2192 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/OUT_bar CLK2 EESPFAL_NAND_v3_0/OUT CLK2 l=30 w=300 x=1400 y=627 sky130_fd_pr__pfet_01v8
+x EESPFAL_3in_NOR_v2_0/C_bar s3_bar a_1931_n2754# GND l=30 w=300 x=1901 y=-2753 sky130_fd_pr__nfet_01v8
+x x2 a_n2160_n613# CLK1 GND l=30 w=300 x=-2039 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/A CLK1 EESPFAL_NAND_v3_1/A_bar CLK1 l=30 w=300 x=-2969 y=-1172 sky130_fd_pr__pfet_01v8
+x Dis1 EESPFAL_NAND_v3_1/B GND GND l=30 w=300 x=-329 y=-612 sky130_fd_pr__nfet_01v8
+x x0_bar EESPFAL_NAND_v3_0/A a_n3720_67# GND l=30 w=300 x=-3749 y=67 sky130_fd_pr__nfet_01v8
+x Dis2 GND EESPFAL_NAND_v3_1/OUT_bar GND l=30 w=300 x=1100 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/B_bar GND EESPFAL_NAND_v3_0/B GND l=30 w=300 x=-479 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_3in_NOR_v2_0/C_bar EESPFAL_3in_NOR_v2_0/C CLK2 CLK2 l=30 w=300 x=-468 y=-2192 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/A_bar CLK2 EESPFAL_NAND_v3_0/OUT_bar GND l=30 w=300 x=770 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_3in_NOR_v2_0/C CLK3 s3 GND l=30 w=300 x=791 y=-2753 sky130_fd_pr__nfet_01v8
+x s3 s3_bar CLK3 CLK3 l=30 w=300 x=1571 y=-2193 sky130_fd_pr__pfet_01v8
+x x1_bar CLK1 a_n1860_67# GND l=30 w=300 x=-1889 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_3in_NOR_v2_0/C_bar CLK2 EESPFAL_3in_NOR_v2_0/C CLK2 l=30 w=300 x=-618 y=-2192 sky130_fd_pr__pfet_01v8
+x x2 CLK1 EESPFAL_INV4_0/A_bar GND l=30 w=300 x=-3298 y=-2752 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/A CLK1 EESPFAL_NAND_v3_0/A_bar CLK1 l=30 w=300 x=-2669 y=627 sky130_fd_pr__pfet_01v8
+x x0_bar EESPFAL_INV4_0/A_bar CLK1 GND l=30 w=300 x=-3448 y=-2752 sky130_fd_pr__nfet_01v8
+x Dis1 GND EESPFAL_NAND_v3_0/A GND l=30 w=300 x=-2969 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/OUT_bar EESPFAL_NAND_v3_1/OUT CLK2 CLK2 l=30 w=300 x=1550 y=-1172 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_1/B_bar CLK1 EESPFAL_NAND_v3_1/B CLK1 l=30 w=300 x=-479 y=-1172 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/A a_1910_67# CLK2 GND l=30 w=300 x=2030 y=67 sky130_fd_pr__nfet_01v8
+x x0 a_n3420_67# EESPFAL_NAND_v3_0/A GND l=30 w=300 x=-3299 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/B EESPFAL_NAND_v3_1/B_bar CLK1 CLK1 l=30 w=300 x=-629 y=-1172 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/A_bar CLK1 EESPFAL_NAND_v3_0/A CLK1 l=30 w=300 x=-2969 y=627 sky130_fd_pr__pfet_01v8
+x Dis3 GND s3 GND l=30 w=300 x=1121 y=-2753 sky130_fd_pr__nfet_01v8
+x Dis1 GND EESPFAL_INV4_0/A_bar GND l=30 w=300 x=-2968 y=-2752 sky130_fd_pr__nfet_01v8
+x EESPFAL_INV4_0/A_bar EESPFAL_INV4_0/A CLK1 CLK1 l=30 w=300 x=-2518 y=-2192 sky130_fd_pr__pfet_01v8
+x x3_bar EESPFAL_NAND_v3_1/A a_n2160_n613# GND l=30 w=300 x=-2189 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/A_bar CLK1 EESPFAL_NAND_v3_1/A CLK1 l=30 w=300 x=-2669 y=-1172 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_1/B_bar GND EESPFAL_NAND_v3_1/B GND l=30 w=300 x=-479 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/B EESPFAL_NAND_v3_1/B_bar GND GND l=30 w=300 x=-629 y=-612 sky130_fd_pr__nfet_01v8
+x Dis1 GND EESPFAL_NAND_v3_0/B_bar GND l=30 w=300 x=-779 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/A a_1910_n613# CLK2 GND l=30 w=300 x=2030 y=-612 sky130_fd_pr__nfet_01v8
+x Dis1 EESPFAL_NAND_v3_0/A_bar GND GND l=30 w=300 x=-2519 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/OUT EESPFAL_NAND_v3_0/OUT_bar CLK2 CLK2 l=30 w=300 x=1250 y=627 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_1/OUT EESPFAL_NAND_v3_1/OUT_bar GND GND l=30 w=300 x=1250 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/A EESPFAL_NAND_v3_1/A_bar CLK1 CLK1 l=30 w=300 x=-2819 y=-1172 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_1/OUT_bar GND EESPFAL_NAND_v3_1/OUT GND l=30 w=300 x=1400 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/B EESPFAL_NAND_v3_0/OUT a_1910_67# GND l=30 w=300 x=1880 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/OUT EESPFAL_NAND_v3_0/OUT_bar GND GND l=30 w=300 x=1250 y=67 sky130_fd_pr__nfet_01v8
+x x3_bar EESPFAL_NAND_v3_0/B CLK1 GND l=30 w=300 x=0 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/B_bar EESPFAL_NAND_v3_0/B CLK1 CLK1 l=30 w=300 x=-329 y=627 sky130_fd_pr__pfet_01v8
+x EESPFAL_NAND_v3_0/OUT CLK3 s3 GND l=30 w=300 x=491 y=-2753 sky130_fd_pr__nfet_01v8
+x s3_bar s3 CLK3 CLK3 l=30 w=300 x=1271 y=-2193 sky130_fd_pr__pfet_01v8
+x EESPFAL_3in_NOR_v2_0/C EESPFAL_3in_NOR_v2_0/C_bar GND GND l=30 w=300 x=-768 y=-2752 sky130_fd_pr__nfet_01v8
+x Dis1 EESPFAL_NAND_v3_1/A GND GND l=30 w=300 x=-2519 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_INV4_0/A_bar CLK2 EESPFAL_3in_NOR_v2_0/C_bar GND l=30 w=300 x=-1248 y=-2752 sky130_fd_pr__nfet_01v8
+x x3 a_n1860_n613# EESPFAL_NAND_v3_1/A GND l=30 w=300 x=-1739 y=-612 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/OUT s3 CLK3 GND l=30 w=300 x=641 y=-2753 sky130_fd_pr__nfet_01v8
+x s3 CLK3 s3_bar CLK3 l=30 w=300 x=1421 y=-2193 sky130_fd_pr__pfet_01v8
+x Dis2 GND EESPFAL_3in_NOR_v2_0/C_bar GND l=30 w=300 x=-918 y=-2752 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/OUT_bar EESPFAL_NAND_v3_0/OUT CLK2 CLK2 l=30 w=300 x=1550 y=627 sky130_fd_pr__pfet_01v8
+x Dis1 EESPFAL_NAND_v3_0/B GND GND l=30 w=300 x=-329 y=67 sky130_fd_pr__nfet_01v8
+x x1_bar a_n3720_67# CLK1 GND l=30 w=300 x=-3599 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/B_bar EESPFAL_NAND_v3_0/OUT_bar CLK2 GND l=30 w=300 x=620 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_1/OUT EESPFAL_NAND_v3_1/OUT_bar CLK2 CLK2 l=30 w=300 x=1250 y=-1172 sky130_fd_pr__pfet_01v8
+x x3 CLK1 EESPFAL_NAND_v3_0/B_bar GND l=30 w=300 x=-1109 y=67 sky130_fd_pr__nfet_01v8
+x x0 a_n1860_67# EESPFAL_NAND_v3_0/A_bar GND l=30 w=300 x=-1739 y=67 sky130_fd_pr__nfet_01v8
+x EESPFAL_NAND_v3_0/B EESPFAL_NAND_v3_0/B_bar CLK1 CLK1 l=30 w=300 x=-629 y=627 sky130_fd_pr__pfet_01v8
+C x1_bar x1 6.14
+C CLK1 Dis1 3.35
+C x0 x0_bar 4.52
+C s3 s3_bar 2.14
+C x0_bar x1 3.65
+C x2 x2_bar 5.99
+C x2 x1_bar 3.58
+C EESPFAL_NAND_v3_0/A_bar EESPFAL_NAND_v3_0/A 3.15
+C EESPFAL_NAND_v3_1/A_bar EESPFAL_NAND_v3_1/A 3.09
+C CLK1 x1 2.77
+C x2_bar CLK1 2.21
+C x3_bar x3 5.01
+C EESPFAL_3in_NOR_v2_0/C EESPFAL_3in_NOR_v2_0/C_bar 2.13
+C x2_bar x3 5.57
+R a_2081_n2754# 300
+R a_1931_n2754# 300
+C Dis3 GND 2.28
+R Dis3 2119
+= Dis3 EESPFAL_3in_NOR_v2_0/Dis
+R a_n2009_n2753# 300
+R a_n2159_n2753# 300
+R s3 4989
+= s3 EESPFAL_3in_NOR_v2_0/OUT
+R s3_bar 4352
+= s3_bar EESPFAL_3in_NOR_v2_0/OUT_bar
+R EESPFAL_3in_NOR_v2_0/C_bar 5285
+R EESPFAL_3in_NOR_v2_0/C 5656
+R EESPFAL_INV4_0/A_bar 6024
+R EESPFAL_INV4_0/A 5694
+R a_1910_n613# 300
+R a_n1860_n613# 300
+R a_n2160_n613# 300
+R a_n3420_n613# 300
+R a_n3720_n613# 300
+R EESPFAL_NAND_v3_1/OUT_bar 6613
+R EESPFAL_NAND_v3_1/OUT 5847
+R EESPFAL_NAND_v3_1/B_bar 5271
+R EESPFAL_NAND_v3_1/B 5619
+R EESPFAL_NAND_v3_1/A_bar 6540
+R EESPFAL_NAND_v3_1/A 6869
+R x2 4779
+= x2 EESPFAL_XOR_v3_1/A
+R x2_bar 5112
+= x2_bar EESPFAL_XOR_v3_1/A_bar
+R a_1910_67# 300
+R a_n1860_67# 300
+R a_n2160_67# 300
+R a_n3420_67# 300
+R a_n3720_67# 300
+C Dis2 GND 4.47
+R Dis2 6112
+= Dis2 EESPFAL_NAND_v3_0/Dis
+R x3 5323
+= x3 EESPFAL_INV4_2/A_bar
+C x3_bar GND 4.10
+R x3_bar 4718
+= x3_bar EESPFAL_INV4_2/A
+C Dis1 GND 7.95
+R Dis1 10230
+= Dis1 EESPFAL_INV4_2/Dis
+C EESPFAL_NAND_v3_0/OUT_bar GND 2.22
+R EESPFAL_NAND_v3_0/OUT_bar 6942
+R EESPFAL_NAND_v3_0/OUT 6109
+R EESPFAL_NAND_v3_0/B_bar 5230
+R EESPFAL_NAND_v3_0/B 5742
+C x0 GND 2.09
+R x0 4950
+= x0 EESPFAL_XOR_v3_0/B
+R x0_bar 3952
+= x0_bar EESPFAL_XOR_v3_0/B_bar
+R x1_bar 4210
+= x1_bar EESPFAL_XOR_v3_0/A_bar
+R EESPFAL_NAND_v3_0/A 7060
+R EESPFAL_NAND_v3_0/A_bar 6209
+R x1 4869
+= x1 EESPFAL_XOR_v3_0/A
+C CLK3 GND 3.57
+R CLK3 14768
+= CLK3 EESPFAL_3in_NOR_v2_0/CLK
+C CLK2 GND 9.49
+R CLK2 40548
+= CLK2 EESPFAL_NAND_v3_0/CLK
+C CLK1 GND 17.62
+R CLK1 78351
+= CLK1 EESPFAL_INV4_2/CLK
+R GND 42565
+= GND EESPFAL_NAND_v3_0/GND!

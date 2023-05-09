@@ -1,0 +1,2279 @@
+scale 1000 1 500000
+rnode "x0_bar.t0" 0 433.14 2285 3020 0
+rnode "x0_bar.t1" 0 244.102 575 3020 0
+rnode "x0_bar.n0" 0 2311.68 600 3630 0
+rnode "x0_bar" 0 3801.63 -607 3615 0
+rnode "EESPFAL_XOR_v3_0/A_bar" 0 419.444 300 3620 0
+resist "EESPFAL_XOR_v3_0/A_bar" "x0_bar.n0" 89.6
+resist "EESPFAL_XOR_v3_0/A_bar" "x0_bar" 278.571
+resist "x0_bar.n0" "x0_bar.t1" 1015.9
+resist "x0_bar.n0" "x0_bar.t0" 1069.04
+rnode "x0.t0" 0 187.972 2135 3020 0
+rnode "x0.t1" 0 166.422 725 3020 0
+rnode "x0.n0" 0 1438.15 720 3730 0
+rnode "x0" 0 2367.37 -720 3676 0
+rnode "EESPFAL_XOR_v3_0/A" 0 310.091 300 3720 0
+resist "EESPFAL_XOR_v3_0/A" "x0.n0" 128
+resist "EESPFAL_XOR_v3_0/A" "x0" 315.103
+resist "x0.n0" "x0.t0" 1149.49
+resist "x0.n0" "x0.t1" 1176.57
+rnode "x1_bar.t1" 0 297.416 1985 2340 0
+rnode "x1_bar" 0 492.486 -378 3615 0
+rnode "x1_bar.t0" 0 120.748 3045 3020 0
+rnode "EESPFAL_NOR_v3_1/A_bar" 0 813.023 2920 3270 0
+rnode "x1_bar.n0" 0 4661 -348 2909 0
+rnode "EESPFAL_NAND_v3_2/B" 0 1355.33 600 1840 0
+resist "x1_bar.n0" "x1_bar" 1.103
+resist "x1_bar.n0" "EESPFAL_NOR_v3_1/A_bar" 23.1914
+resist "EESPFAL_NAND_v3_2/B" "x1_bar.n0" 303.264
+resist "EESPFAL_NOR_v3_1/A_bar" "x1_bar.t0" 479.166
+resist "EESPFAL_NAND_v3_2/B" "x1_bar.t1" 881.55
+rnode "x3_bar.t0" 0 337.973 1985 3020 0
+rnode "x3_bar.t1" 0 116.299 425 3020 0
+rnode "x3_bar.n0" 0 1126.34 400 3430 0
+rnode "x3_bar" 0 2122.02 78 3616 0
+rnode "EESPFAL_XOR_v3_0/B_bar" 0 77.3623 300 3420 0
+resist "EESPFAL_XOR_v3_0/B_bar" "x3_bar.n0" 25.6
+resist "EESPFAL_XOR_v3_0/B_bar" "x3_bar" 60.011
+resist "x3_bar.n0" "x3_bar.t1" 694.566
+resist "x3_bar.n0" "x3_bar.t0" 810.772
+rnode "x3.t0" 0 112.143 875 3020 0
+rnode "x3.t1" 0 119.012 2435 3020 0
+rnode "x3.n0" 0 1362.73 850 3530 0
+rnode "x3" 0 2008.8 -36 3677 0
+rnode "EESPFAL_XOR_v3_0/B" 0 177.318 300 3520 0
+resist "EESPFAL_XOR_v3_0/B" "x3" 96.43
+resist "EESPFAL_XOR_v3_0/B" "x3.n0" 169.6
+resist "x3.n0" "x3.t0" 787.997
+resist "x3.n0" "x3.t1" 800.452
+rnode "CLK3.t7" 0 19.0963 5830 1780 0
+rnode "CLK3.t3" 0 19.0963 5710 1780 0
+rnode "CLK3.n0" 0 57.5385 5770 1800 0
+rnode "CLK3.t9" 0 27.6308 6010 1780 0
+rnode "CLK3.t1" 0 42.0884 6490 2340 0
+rnode "CLK3.n1" 0 71.2621 6570 1500 0
+rnode "CLK3.n2" 0 195.922 6550 1550 0
+rnode "CLK3.n3" 0 39.4012 6490 1500 0
+rnode "CLK3.n4" 0 16.9745 6490 1500 0
+rnode "CLK3.n5" 0 13.5796 6490 1500 0
+rnode "CLK3.n6" 0 14.8527 6490 1500 0
+rnode "CLK3.n7" 0 32.8281 6410 1500 0
+rnode "CLK3.n8" 0 16.9745 6410 1500 0
+rnode "CLK3.n9" 0 13.5796 6410 1500 0
+rnode "CLK3.n10" 0 16.9745 6410 1500 0
+rnode "CLK3.n11" 0 32.2516 6330 1500 0
+rnode "CLK3.n12" 0 16.9745 6330 1500 0
+rnode "CLK3.n13" 0 13.5796 6330 1500 0
+rnode "CLK3.n14" 0 16.9745 6330 1500 0
+rnode "CLK3.n15" 0 31.1417 6250 1500 0
+rnode "CLK3.n16" 0 16.9745 6250 1500 0
+rnode "CLK3.n17" 0 13.5796 6250 1500 0
+rnode "CLK3.n18" 0 16.9745 6250 1500 0
+rnode "CLK3.n19" 0 74.7368 6170 1500 0
+rnode "CLK3.n20" 0 16.9745 6170 1500 0
+rnode "CLK3.n21" 0 13.5796 6170 1500 0
+rnode "CLK3.n22" 0 16.9745 6170 1500 0
+rnode "CLK3.n23" 0 98.4522 6090 1500 0
+rnode "CLK3.n24" 0 16.9745 6090 1500 0
+rnode "CLK3.n25" 0 13.5796 6090 1500 0
+rnode "CLK3.n26" 0 10.6091 6090 1500 0
+rnode "CLK3.n27" 0 162.484 6070 1550 0
+rnode "CLK3.t8" 0 49.2261 5995 1780 0
+rnode "CLK3.n28" 0 58.456 6010 1500 0
+rnode "CLK3.n29" 0 16.9745 6010 1500 0
+rnode "CLK3.n30" 0 13.5796 6010 1500 0
+rnode "CLK3.n31" 0 14.8527 6010 1500 0
+rnode "CLK3.n32" 0 89.2223 5930 1500 0
+rnode "CLK3.n33" 0 16.9745 5930 1500 0
+rnode "CLK3.n34" 0 13.5796 5930 1500 0
+rnode "CLK3.n35" 0 16.9745 5930 1500 0
+rnode "CLK3.t6" 0 49.2261 5845 1780 0
+rnode "CLK3.n36" 0 52.3027 5850 1500 0
+rnode "CLK3.n37" 0 16.9745 5850 1500 0
+rnode "CLK3.n38" 0 13.5796 5850 1500 0
+rnode "CLK3.n39" 0 16.9745 5850 1500 0
+rnode "CLK3.n40" 0 92.2989 5770 1500 0
+rnode "CLK3.n41" 0 16.9745 5770 1500 0
+rnode "CLK3.n42" 0 13.5796 5770 1500 0
+rnode "CLK3.n43" 0 96.5052 5770 1500 0
+rnode "CLK3.t5" 0 27.6308 5530 1780 0
+rnode "CLK3.t0" 0 19.0963 5200 2340 0
+rnode "CLK3.t10" 0 19.0963 5080 2340 0
+rnode "CLK3.n44" 0 85.3375 5140 2360 0
+rnode "CLK3.n45" 0 71.2053 4970 1500 0
+rnode "CLK3" 0 135.387 4758 3972 0
+rnode "CLK3.n46" 0 142.571 4970 1500 0
+rnode "CLK3.n47" 0 39.4012 5050 1500 0
+rnode "CLK3.n48" 0 16.9745 5050 1500 0
+rnode "CLK3.n49" 0 13.5796 5050 1500 0
+rnode "CLK3.n50" 0 16.9745 5050 1500 0
+rnode "CLK3.n51" 0 32.8281 5130 1500 0
+rnode "CLK3.n52" 0 16.9745 5130 1500 0
+rnode "CLK3.n53" 0 13.5796 5130 1500 0
+rnode "CLK3.n54" 0 9.54816 5130 1500 0
+rnode "CLK3.n55" 0 103.928 5140 1550 0
+rnode "CLK3.n56" 0 32.2516 5210 1500 0
+rnode "CLK3.n57" 0 16.9745 5210 1500 0
+rnode "CLK3.n58" 0 13.5796 5210 1500 0
+rnode "CLK3.n59" 0 15.9136 5210 1500 0
+rnode "CLK3.n60" 0 31.1417 5290 1500 0
+rnode "CLK3.n61" 0 16.9745 5290 1500 0
+rnode "CLK3.n62" 0 13.5796 5290 1500 0
+rnode "CLK3.n63" 0 16.9745 5290 1500 0
+rnode "CLK3.n64" 0 74.7368 5370 1500 0
+rnode "CLK3.n65" 0 16.9745 5370 1500 0
+rnode "CLK3.n66" 0 13.5796 5370 1500 0
+rnode "CLK3.n67" 0 16.9745 5370 1500 0
+rnode "CLK3.n68" 0 98.4522 5450 1500 0
+rnode "CLK3.n69" 0 16.9745 5450 1500 0
+rnode "CLK3.n70" 0 13.5796 5450 1500 0
+rnode "CLK3.n71" 0 10.6091 5450 1500 0
+rnode "CLK3.n72" 0 162.484 5470 1550 0
+rnode "CLK3.t4" 0 49.2261 5545 1780 0
+rnode "CLK3.n73" 0 58.456 5530 1500 0
+rnode "CLK3.n74" 0 16.9745 5530 1500 0
+rnode "CLK3.n75" 0 13.5796 5530 1500 0
+rnode "CLK3.n76" 0 14.8527 5530 1500 0
+rnode "CLK3.n77" 0 89.2223 5610 1500 0
+rnode "CLK3.n78" 0 16.9745 5610 1500 0
+rnode "CLK3.n79" 0 13.5796 5610 1500 0
+rnode "CLK3.n80" 0 16.9745 5610 1500 0
+rnode "CLK3.t2" 0 49.2261 5695 1780 0
+rnode "CLK3.n81" 0 52.3027 5690 1500 0
+rnode "CLK3.n82" 0 16.9745 5690 1500 0
+rnode "CLK3.n83" 0 13.5796 5690 1500 0
+rnode "CLK3.n84" 0 14.8527 5690 1500 0
+rnode "EESPFAL_NOR_v3_0/CLK" 0 8.48726 5750 1480 0
+resist "CLK3.n55" "CLK3.n54" 0.012
+resist "CLK3.n72" "CLK3.n71" 0.025
+resist "EESPFAL_NOR_v3_0/CLK" "CLK3.n43" 0.025
+resist "CLK3.n27" "CLK3.n26" 0.025
+resist "CLK3.n76" "CLK3.n72" 0.075
+resist "EESPFAL_NOR_v3_0/CLK" "CLK3.n84" 0.075
+resist "CLK3.n31" "CLK3.n27" 0.075
+resist "CLK3.n6" "CLK3.n2" 0.075
+resist "CLK3.n59" "CLK3.n55" 0.087
+resist "CLK3.n50" "CLK3.n46" 0.1
+resist "CLK3.n54" "CLK3.n50" 0.1
+resist "CLK3.n63" "CLK3.n59" 0.1
+resist "CLK3.n67" "CLK3.n63" 0.1
+resist "CLK3.n71" "CLK3.n67" 0.1
+resist "CLK3.n80" "CLK3.n76" 0.1
+resist "CLK3.n84" "CLK3.n80" 0.1
+resist "CLK3.n43" "CLK3.n39" 0.1
+resist "CLK3.n39" "CLK3.n35" 0.1
+resist "CLK3.n35" "CLK3.n31" 0.1
+resist "CLK3.n26" "CLK3.n22" 0.1
+resist "CLK3.n22" "CLK3.n18" 0.1
+resist "CLK3.n18" "CLK3.n14" 0.1
+resist "CLK3.n14" "CLK3.n10" 0.1
+resist "CLK3.n10" "CLK3.n6" 0.1
+resist "CLK3.n48" "CLK3.n47" 1.65526
+resist "CLK3.n4" "CLK3.n3" 1.65526
+resist "CLK3.n50" "CLK3.n49" 4.65
+resist "CLK3.n54" "CLK3.n53" 4.65
+resist "CLK3.n59" "CLK3.n58" 4.65
+resist "CLK3.n63" "CLK3.n62" 4.65
+resist "CLK3.n67" "CLK3.n66" 4.65
+resist "CLK3.n71" "CLK3.n70" 4.65
+resist "CLK3.n76" "CLK3.n75" 4.65
+resist "CLK3.n80" "CLK3.n79" 4.65
+resist "CLK3.n84" "CLK3.n83" 4.65
+resist "CLK3.n43" "CLK3.n42" 4.65
+resist "CLK3.n39" "CLK3.n38" 4.65
+resist "CLK3.n35" "CLK3.n34" 4.65
+resist "CLK3.n31" "CLK3.n30" 4.65
+resist "CLK3.n26" "CLK3.n25" 4.65
+resist "CLK3.n22" "CLK3.n21" 4.65
+resist "CLK3.n18" "CLK3.n17" 4.65
+resist "CLK3.n14" "CLK3.n13" 4.65
+resist "CLK3.n10" "CLK3.n9" 4.65
+resist "CLK3.n6" "CLK3.n5" 4.65
+resist "CLK3.n46" "CLK3.n45" 4.65
+resist "CLK3.n2" "CLK3.n1" 4.675
+resist "CLK3.n43" "CLK3.n0" 4.93766
+resist "CLK3.n55" "CLK3.n44" 6.77579
+resist "CLK3.n81" "CLK3.t2" 8.189
+resist "CLK3.n36" "CLK3.t6" 8.189
+resist "CLK3.n49" "CLK3.n48" 8.85486
+resist "CLK3.n52" "CLK3.n51" 8.85486
+resist "CLK3.n53" "CLK3.n52" 8.85486
+resist "CLK3.n57" "CLK3.n56" 8.85486
+resist "CLK3.n58" "CLK3.n57" 8.85486
+resist "CLK3.n61" "CLK3.n60" 8.85486
+resist "CLK3.n62" "CLK3.n61" 8.85486
+resist "CLK3.n65" "CLK3.n64" 8.85486
+resist "CLK3.n66" "CLK3.n65" 8.85486
+resist "CLK3.n69" "CLK3.n68" 8.85486
+resist "CLK3.n70" "CLK3.n69" 8.85486
+resist "CLK3.n74" "CLK3.n73" 8.85486
+resist "CLK3.n75" "CLK3.n74" 8.85486
+resist "CLK3.n78" "CLK3.n77" 8.85486
+resist "CLK3.n79" "CLK3.n78" 8.85486
+resist "CLK3.n82" "CLK3.n81" 8.85486
+resist "CLK3.n83" "CLK3.n82" 8.85486
+resist "CLK3.n41" "CLK3.n40" 8.85486
+resist "CLK3.n42" "CLK3.n41" 8.85486
+resist "CLK3.n37" "CLK3.n36" 8.85486
+resist "CLK3.n38" "CLK3.n37" 8.85486
+resist "CLK3.n33" "CLK3.n32" 8.85486
+resist "CLK3.n34" "CLK3.n33" 8.85486
+resist "CLK3.n29" "CLK3.n28" 8.85486
+resist "CLK3.n30" "CLK3.n29" 8.85486
+resist "CLK3.n24" "CLK3.n23" 8.85486
+resist "CLK3.n25" "CLK3.n24" 8.85486
+resist "CLK3.n20" "CLK3.n19" 8.85486
+resist "CLK3.n21" "CLK3.n20" 8.85486
+resist "CLK3.n16" "CLK3.n15" 8.85486
+resist "CLK3.n17" "CLK3.n16" 8.85486
+resist "CLK3.n12" "CLK3.n11" 8.85486
+resist "CLK3.n13" "CLK3.n12" 8.85486
+resist "CLK3.n8" "CLK3.n7" 8.85486
+resist "CLK3.n9" "CLK3.n8" 8.85486
+resist "CLK3.n5" "CLK3.n4" 8.85486
+resist "CLK3.n46" "CLK3" 10.139
+resist "CLK3.n44" "CLK3.t10" 24
+resist "CLK3.n44" "CLK3.t0" 24
+resist "CLK3.n73" "CLK3.t4" 24.568
+resist "CLK3.n28" "CLK3.t8" 24.568
+resist "CLK3.n2" "CLK3.t1" 30.7758
+resist "CLK3.n0" "CLK3.t3" 39.4
+resist "CLK3.n0" "CLK3.t7" 39.4
+resist "CLK3.n72" "CLK3.t5" 44.3377
+resist "CLK3.n27" "CLK3.t9" 44.3377
+rnode "s0.t7" 0 0 5845 2340 0
+rnode "s0.t6" 0 0 5995 1780 0
+rnode "s0.t8" 0 0 5845 1780 0
+rnode "s0.n0" 0 0 5820 2125 0
+rnode "s0.t3" 0 0 5680 2340 0
+rnode "s0.t0" 0 0 5560 2340 0
+rnode "s0.n1" 0 0 5620 2280 0
+rnode "s0.t2" 0 0 5680 1780 0
+rnode "s0.t4" 0 0 5560 1780 0
+rnode "s0.n2" 0 0 5620 1880 0
+rnode "s0.t1" 0 0 5230 2340 0
+rnode "s0.t5" 0 0 5050 2340 0
+rnode "s0" 0 0 6755 2110 0
+rnode "s0.n3" 0 0 4990 2160 0
+rnode "s0.n4" 0 0 5310 2140 0
+rnode "s0.n5" 0 0 5620 2140 0
+rnode "EESPFAL_NOR_v3_0/OUT" 0 0 5800 2105 0
+resist "s0.n3" "s0" 12.4905
+resist "s0.n1" "s0.t0" 24
+resist "s0.n1" "s0.t3" 24
+resist "s0.n2" "s0.t4" 39.4
+resist "s0.n2" "s0.t2" 39.4
+resist "EESPFAL_NOR_v3_0/OUT" "s0.n5" 54.4
+resist "s0.n5" "s0.n1" 73.9365
+resist "EESPFAL_NOR_v3_0/OUT" "s0.n0" 79.2
+resist "s0.n3" "s0.t5" 91.5365
+resist "s0.n4" "s0.t1" 97.9365
+resist "s0.n4" "s0.n3" 99.2
+resist "s0.n5" "s0.n4" 99.2
+resist "s0.n5" "s0.n2" 166.734
+resist "s0.n0" "s0.t7" 305.266
+resist "s0.n0" "s0.t8" 514.133
+resist "s0.t8" "s0.t6" 819.4
+rnode "s0_bar.t1" 0 0 5980 2340 0
+rnode "s0_bar.t3" 0 0 5860 2340 0
+rnode "s0_bar.n0" 0 0 5920 2360 0
+rnode "s0_bar.t2" 0 0 6310 2340 0
+rnode "s0_bar.n1" 0 0 5920 2150 0
+rnode "s0_bar.t0" 0 0 5980 1780 0
+rnode "s0_bar.t4" 0 0 5860 1780 0
+rnode "s0_bar.n2" 0 0 5920 1880 0
+rnode "s0_bar.n3" 0 0 5920 2020 0
+rnode "s0_bar.t6" 0 0 5695 2340 0
+rnode "s0_bar.t5" 0 0 5545 1780 0
+rnode "s0_bar.t7" 0 0 5695 1780 0
+rnode "s0_bar.n4" 0 0 5720 2000 0
+rnode "s0_bar.n5" 0 0 5720 2000 0
+rnode "s0_bar" 0 0 6755 1990 0
+rnode "EESPFAL_NOR_v3_0/OUT_bar" 0 0 5700 1980 0
+resist "EESPFAL_NOR_v3_0/OUT_bar" "s0_bar.n5" 4.681
+resist "s0_bar.n5" "s0_bar.n4" 8.76379
+resist "s0_bar.n0" "s0_bar.t3" 24
+resist "s0_bar.n0" "s0_bar.t1" 24
+resist "s0_bar.n2" "s0_bar.t4" 39.4
+resist "s0_bar.n2" "s0_bar.t0" 39.4
+resist "s0_bar.n3" "s0_bar.n1" 41.6
+resist "s0_bar.n5" "s0_bar.n3" 57.6
+resist "s0_bar.n1" "s0_bar.n0" 57.9365
+resist "EESPFAL_NOR_v3_0/OUT_bar" "s0_bar" 114.233
+resist "s0_bar.n3" "s0_bar.n2" 128.334
+resist "s0_bar.n1" "s0_bar.t2" 187.536
+resist "s0_bar.n4" "s0_bar.t7" 313.3
+resist "s0_bar.n4" "s0_bar.t6" 506.1
+resist "s0_bar.t7" "s0_bar.t5" 819.4
+rnode "Dis3.t0" 0 0 5995 2340 0
+rnode "Dis3.t1" 0 0 5545 2340 0
+rnode "Dis3" 0 0 5225 3975 0
+rnode "Dis3.n0" 0 0 5570 2560 0
+rnode "EESPFAL_NOR_v3_0/Dis" 0 -0 5950 2540 0
+resist "Dis3.n0" "Dis3" 103.493
+resist "EESPFAL_NOR_v3_0/Dis" "Dis3.n0" 112
+resist "Dis3.n0" "Dis3.t1" 389.3
+resist "EESPFAL_NOR_v3_0/Dis" "Dis3.t0" 392.5
+rnode "x2.t0" 0 325.878 2135 2340 0
+rnode "x2" 0 410.201 -264 3677 0
+rnode "x2.t1" 0 165.12 3195 3020 0
+rnode "EESPFAL_NOR_v3_1/B_bar" 0 939.752 2920 3370 0
+rnode "x2.n0" 0 5020.03 -234 3069 0
+rnode "EESPFAL_NAND_v3_2/A" 0 1559.02 600 1720 0
+resist "x2.n0" "x2" 0.95
+resist "x2.n0" "EESPFAL_NOR_v3_1/B_bar" 22.9144
+resist "EESPFAL_NAND_v3_2/A" "x2.n0" 267.222
+resist "EESPFAL_NOR_v3_1/B_bar" "x2.t1" 687.833
+resist "EESPFAL_NAND_v3_2/A" "x2.t0" 1074.82
+rnode "Dis1.t2" 0 161.896 1655 2340 0
+rnode "Dis1.t0" 0 104.888 1205 2340 0
+rnode "Dis1.n0" 0 412.128 1230 2560 0
+rnode "Dis1.t1" 0 161.896 3975 3020 0
+rnode "Dis1.t4" 0 104.888 3525 3020 0
+rnode "Dis1.n1" 0 412.128 3550 2800 0
+rnode "EESPFAL_NOR_v3_1/Dis" 0 495.475 3530 2780 0
+rnode "Dis1.t5" 0 104.888 1655 3020 0
+rnode "Dis1.n2" 0 709.684 1630 2800 0
+rnode "Dis1.t3" 0 104.888 1205 3020 0
+rnode "Dis1.n3" 0 219.481 1230 2800 0
+rnode "EESPFAL_XOR_v3_0/Dis" 0 215.182 1210 2780 0
+rnode "Dis1" 0 307.046 430 3960 0
+rnode "Dis1.n4" 0 1128.07 439 2800 0
+rnode "EESPFAL_NAND_v3_2/Dis" 0 217.459 1210 2540 0
+resist "EESPFAL_NAND_v3_2/Dis" "Dis1.n0" 3.2
+resist "EESPFAL_XOR_v3_0/Dis" "Dis1.n3" 3.2
+resist "EESPFAL_NOR_v3_1/Dis" "Dis1.n1" 3.2
+resist "Dis1.n4" "Dis1" 3.56219
+resist "Dis1.n3" "Dis1.n2" 115.2
+resist "Dis1.n4" "EESPFAL_XOR_v3_0/Dis" 240.897
+resist "EESPFAL_NAND_v3_2/Dis" "Dis1.n4" 241.84
+resist "Dis1.n0" "Dis1.t0" 389.3
+resist "Dis1.n1" "Dis1.t4" 389.3
+resist "Dis1.n2" "Dis1.t5" 389.3
+resist "Dis1.n3" "Dis1.t3" 389.3
+resist "Dis1.n0" "Dis1.t2" 504.5
+resist "Dis1.n1" "Dis1.t1" 504.5
+resist "Dis1.n2" "EESPFAL_NOR_v3_1/Dis" 598.4
+rnode "x1.t1" 0 137.409 725 2340 0
+rnode "x1.t0" 0 336.911 4455 3020 0
+rnode "EESPFAL_NOR_v3_1/A" 0 2027.3 2920 3590 0
+rnode "x1" 0 5620.39 -492 3676 0
+rnode "EESPFAL_NAND_v3_2/B_bar" 0 537.994 600 2040 0
+resist "x1" "EESPFAL_NOR_v3_1/A" 23.4774
+resist "EESPFAL_NAND_v3_2/B_bar" "x1" 340.599
+resist "EESPFAL_NAND_v3_2/B_bar" "x1.t1" 527.366
+resist "EESPFAL_NOR_v3_1/A" "x1.t0" 1026.78
+rnode "EESPFAL_NAND_v3_0/A.t7" 0 77.7005 6475 3020 0
+rnode "EESPFAL_NAND_v3_0/A.t6" 0 40.3797 3195 2340 0
+rnode "EESPFAL_NAND_v3_1/A_bar" 0 164.689 2920 1940 0
+rnode "EESPFAL_NAND_v3_0/A.t5" 0 124.852 2450 3020 0
+rnode "EESPFAL_NAND_v3_0/A.t0" 0 124.852 1970 3020 0
+rnode "EESPFAL_NAND_v3_0/A.t4" 0 29.1862 1640 3020 0
+rnode "EESPFAL_NAND_v3_0/A.t3" 0 29.1862 1520 3020 0
+rnode "EESPFAL_NAND_v3_0/A.n0" 0 97.533 1580 3080 0
+rnode "EESPFAL_NAND_v3_0/A.t9" 0 37.942 1205 3580 0
+rnode "EESPFAL_NAND_v3_0/A.t10" 0 42.0425 1355 3580 0
+rnode "EESPFAL_NAND_v3_0/A.t8" 0 21.2688 1355 3020 0
+rnode "EESPFAL_NAND_v3_0/A.n1" 0 42.0832 1380 3235 0
+rnode "EESPFAL_XOR_v3_0/OUT" 0 7.78298 1360 3215 0
+rnode "EESPFAL_NAND_v3_0/A.n2" 0 21.6194 1380 3235 0
+rnode "EESPFAL_NAND_v3_0/A.t1" 0 29.1862 1640 3580 0
+rnode "EESPFAL_NAND_v3_0/A.t2" 0 29.1862 1520 3580 0
+rnode "EESPFAL_NAND_v3_0/A.n3" 0 89.645 1580 3640 0
+rnode "EESPFAL_NAND_v3_0/A.n4" 0 129.114 1580 3260 0
+rnode "EESPFAL_NAND_v3_0/A.n5" 0 128.743 1910 3220 0
+rnode "EESPFAL_NAND_v3_0/A.n6" 0 113.502 2510 3220 0
+rnode "EESPFAL_NAND_v3_0/A.n7" 0 358.918 2610 3236 0
+rnode "EESPFAL_NAND_v3_0/A" 0 670.589 4940 3620 0
+resist "EESPFAL_NAND_v3_0/A.n2" "EESPFAL_XOR_v3_0/OUT" 3.2
+resist "EESPFAL_NAND_v3_0/A.n7" "EESPFAL_NAND_v3_1/A_bar" 21.7293
+resist "EESPFAL_NAND_v3_0/A.n0" "EESPFAL_NAND_v3_0/A.t3" 24
+resist "EESPFAL_NAND_v3_0/A.n0" "EESPFAL_NAND_v3_0/A.t4" 24
+resist "EESPFAL_NAND_v3_0/A.n7" "EESPFAL_NAND_v3_0/A.n6" 25.6
+resist "EESPFAL_NAND_v3_0/A.n3" "EESPFAL_NAND_v3_0/A.t2" 39.4
+resist "EESPFAL_NAND_v3_0/A.n3" "EESPFAL_NAND_v3_0/A.t1" 39.4
+resist "EESPFAL_NAND_v3_0/A.n4" "EESPFAL_NAND_v3_0/A.n2" 57.6
+resist "EESPFAL_NAND_v3_0/A.n4" "EESPFAL_NAND_v3_0/A.n0" 73.9365
+resist "EESPFAL_NAND_v3_0/A.n2" "EESPFAL_NAND_v3_0/A.n1" 76
+resist "EESPFAL_NAND_v3_0/A" "EESPFAL_NAND_v3_0/A.n7" 76.5645
+resist "EESPFAL_NAND_v3_0/A.n6" "EESPFAL_NAND_v3_0/A.t5" 97.9365
+resist "EESPFAL_NAND_v3_0/A.n5" "EESPFAL_NAND_v3_0/A.t0" 97.9365
+resist "EESPFAL_NAND_v3_0/A.n5" "EESPFAL_NAND_v3_0/A.n4" 105.6
+resist "EESPFAL_NAND_v3_0/A.n4" "EESPFAL_NAND_v3_0/A.n3" 166.735
+resist "EESPFAL_NAND_v3_0/A.n6" "EESPFAL_NAND_v3_0/A.n5" 192
+resist "EESPFAL_NAND_v3_0/A.n1" "EESPFAL_NAND_v3_0/A.t8" 305.266
+resist "EESPFAL_NAND_v3_0/A.n1" "EESPFAL_NAND_v3_0/A.t10" 514.133
+resist "EESPFAL_NAND_v3_1/A_bar" "EESPFAL_NAND_v3_0/A.t6" 736.033
+resist "EESPFAL_NAND_v3_0/A.t10" "EESPFAL_NAND_v3_0/A.t9" 819.4
+resist "EESPFAL_NAND_v3_0/A" "EESPFAL_NAND_v3_0/A.t7" 1074.82
+rnode "EESPFAL_XOR_v3_0/OUT_bar" 0 119.917 1460 3340 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t9" 0 38.1904 5215 3020 0
+rnode "EESPFAL_NAND_v3_0/A_bar" 0 152.472 4940 3400 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t8" 0 73.4878 4455 2340 0
+rnode "EESPFAL_NAND_v3_1/A" 0 337.022 2920 1720 0
+rnode "EESPFAL_NAND_v3_0/A_bar.n0" 0 625.974 2364 3371 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t4" 0 27.6038 1340 3580 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t3" 0 27.6038 1220 3580 0
+rnode "EESPFAL_NAND_v3_0/A_bar.n1" 0 70.5079 1280 3560 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t5" 0 106.044 890 3020 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t1" 0 183.057 410 3020 0
+rnode "EESPFAL_NAND_v3_0/A_bar.n2" 0 160.533 950 3170 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t0" 0 27.6038 1340 3020 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t2" 0 27.6038 1220 3020 0
+rnode "EESPFAL_NAND_v3_0/A_bar.n3" 0 83.3308 1280 2920 0
+rnode "EESPFAL_NAND_v3_0/A_bar.n4" 0 68.7966 1280 3170 0
+rnode "EESPFAL_NAND_v3_0/A_bar.n5" 0 77.3256 1280 3340 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t7" 0 35.8849 1655 3580 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t6" 0 34.139 1505 3580 0
+rnode "EESPFAL_NAND_v3_0/A_bar.t10" 0 25.7343 1505 3020 0
+rnode "EESPFAL_NAND_v3_0/A_bar.n6" 0 39.8069 1480 3360 0
+rnode "EESPFAL_NAND_v3_0/A_bar.n7" 0 7.361 1480 3360 0
+resist "EESPFAL_XOR_v3_0/OUT_bar" "EESPFAL_NAND_v3_0/A_bar.n7" 4.65
+resist "EESPFAL_NAND_v3_0/A_bar.n7" "EESPFAL_NAND_v3_0/A_bar.n6" 8.76379
+resist "EESPFAL_NAND_v3_0/A_bar.n3" "EESPFAL_NAND_v3_0/A_bar.t2" 24
+resist "EESPFAL_NAND_v3_0/A_bar.n3" "EESPFAL_NAND_v3_0/A_bar.t0" 24
+resist "EESPFAL_NAND_v3_0/A_bar.n0" "EESPFAL_NAND_v3_0/A_bar" 24.135
+resist "EESPFAL_NAND_v3_0/A_bar.n1" "EESPFAL_NAND_v3_0/A_bar.t3" 39.4
+resist "EESPFAL_NAND_v3_0/A_bar.n1" "EESPFAL_NAND_v3_0/A_bar.t4" 39.4
+resist "EESPFAL_NAND_v3_0/A_bar.n5" "EESPFAL_NAND_v3_0/A_bar.n4" 41.6
+resist "EESPFAL_NAND_v3_0/A_bar.n4" "EESPFAL_NAND_v3_0/A_bar.n3" 57.9386
+resist "EESPFAL_NAND_v3_0/A_bar.n7" "EESPFAL_NAND_v3_0/A_bar.n5" 64
+resist "EESPFAL_NAND_v3_0/A_bar.n2" "EESPFAL_NAND_v3_0/A_bar.t5" 81.9365
+resist "EESPFAL_NAND_v3_0/A_bar.n4" "EESPFAL_NAND_v3_0/A_bar.n2" 105.6
+resist "EESPFAL_NAND_v3_0/A_bar.n5" "EESPFAL_NAND_v3_0/A_bar.n1" 128.334
+resist "EESPFAL_XOR_v3_0/OUT_bar" "EESPFAL_NAND_v3_0/A_bar.n0" 161.141
+resist "EESPFAL_NAND_v3_0/A_bar.n0" "EESPFAL_NAND_v3_1/A" 180.175
+resist "EESPFAL_NAND_v3_0/A_bar.n2" "EESPFAL_NAND_v3_0/A_bar.t1" 273.936
+resist "EESPFAL_NAND_v3_0/A_bar.n6" "EESPFAL_NAND_v3_0/A_bar.t6" 313.3
+resist "EESPFAL_NAND_v3_0/A_bar.n6" "EESPFAL_NAND_v3_0/A_bar.t10" 506.1
+resist "EESPFAL_NAND_v3_0/A_bar" "EESPFAL_NAND_v3_0/A_bar.t9" 736.033
+resist "EESPFAL_NAND_v3_0/A_bar.t6" "EESPFAL_NAND_v3_0/A_bar.t7" 819.4
+resist "EESPFAL_NAND_v3_1/A" "EESPFAL_NAND_v3_0/A_bar.t8" 1074.82
+rnode "x2_bar.t1" 0 139.664 875 2340 0
+rnode "x2_bar" 0 127.419 -151 3616 0
+rnode "x2_bar.t0" 0 267.019 4305 3020 0
+rnode "EESPFAL_NOR_v3_1/B" 0 1456.86 2920 3470 0
+rnode "x2_bar.n0" 0 4174.75 -120 3600 0
+rnode "EESPFAL_NAND_v3_2/A_bar" 0 434.287 600 1940 0
+resist "x2_bar.n0" "x2_bar" 0.025
+resist "x2_bar.n0" "EESPFAL_NOR_v3_1/B" 22.3254
+resist "EESPFAL_NAND_v3_2/A_bar" "x2_bar.n0" 231.218
+resist "EESPFAL_NAND_v3_2/A_bar" "x2_bar.t1" 736.033
+resist "EESPFAL_NOR_v3_1/B" "x2_bar.t0" 833.352
+rnode "CLK1.t13" 0 19.4989 1490 1780 0
+rnode "CLK1.t23" 0 19.4989 1370 1780 0
+rnode "CLK1.n0" 0 58.7515 1430 1800 0
+rnode "CLK1.t11" 0 28.2133 1670 1780 0
+rnode "CLK1.t31" 0 42.9757 2150 2340 0
+rnode "CLK1.n1" 0 72.7645 2230 1500 0
+rnode "CLK1.n2" 0 200.053 2210 1550 0
+rnode "CLK1.n3" 0 40.2318 2230 1500 0
+rnode "CLK1.n4" 0 17.3324 2150 1500 0
+rnode "CLK1.n5" 0 13.8659 2150 1500 0
+rnode "CLK1.n6" 0 15.1658 2150 1500 0
+rnode "CLK1.n7" 0 33.5203 2070 1500 0
+rnode "CLK1.n8" 0 17.3324 2070 1500 0
+rnode "CLK1.n9" 0 13.8659 2070 1500 0
+rnode "CLK1.n10" 0 17.3324 2070 1500 0
+rnode "CLK1.n11" 0 32.9315 1990 1500 0
+rnode "CLK1.n12" 0 17.3324 1990 1500 0
+rnode "CLK1.n13" 0 13.8659 1990 1500 0
+rnode "CLK1.n14" 0 17.3324 1990 1500 0
+rnode "CLK1.n15" 0 31.7983 1910 1500 0
+rnode "CLK1.n16" 0 17.3324 1910 1500 0
+rnode "CLK1.n17" 0 13.8659 1910 1500 0
+rnode "CLK1.n18" 0 17.3324 1910 1500 0
+rnode "CLK1.n19" 0 76.3124 1830 1500 0
+rnode "CLK1.n20" 0 17.3324 1830 1500 0
+rnode "CLK1.n21" 0 13.8659 1830 1500 0
+rnode "CLK1.n22" 0 17.3324 1830 1500 0
+rnode "CLK1.n23" 0 100.528 1750 1500 0
+rnode "CLK1.n24" 0 17.3324 1750 1500 0
+rnode "CLK1.n25" 0 13.8659 1750 1500 0
+rnode "CLK1.n26" 0 10.8327 1750 1500 0
+rnode "CLK1.n27" 0 165.909 1730 1550 0
+rnode "CLK1.t10" 0 50.2639 1655 1780 0
+rnode "CLK1.n28" 0 59.6884 1670 1500 0
+rnode "CLK1.n29" 0 17.3324 1670 1500 0
+rnode "CLK1.n30" 0 13.8659 1670 1500 0
+rnode "CLK1.n31" 0 15.1658 1670 1500 0
+rnode "CLK1.n32" 0 91.1033 1590 1500 0
+rnode "CLK1.n33" 0 17.3324 1590 1500 0
+rnode "CLK1.n34" 0 13.8659 1590 1500 0
+rnode "CLK1.n35" 0 17.3324 1590 1500 0
+rnode "CLK1.t12" 0 50.2639 1505 1780 0
+rnode "CLK1.n36" 0 53.4054 1510 1500 0
+rnode "CLK1.n37" 0 17.3324 1510 1500 0
+rnode "CLK1.n38" 0 13.8659 1510 1500 0
+rnode "CLK1.n39" 0 17.3324 1510 1500 0
+rnode "CLK1.n40" 0 94.2448 1430 1500 0
+rnode "CLK1.n41" 0 17.3324 1430 1500 0
+rnode "CLK1.n42" 0 13.8659 1430 1500 0
+rnode "CLK1.n43" 0 98.5398 1430 1500 0
+rnode "CLK1.t25" 0 28.2133 1190 1780 0
+rnode "CLK1.t2" 0 19.4989 860 2340 0
+rnode "CLK1.t3" 0 19.4989 740 2340 0
+rnode "CLK1.n44" 0 87.1333 800 2360 0
+rnode "CLK1" 0 16.9857 308 3944 0
+rnode "CLK1.t4" 0 19.4989 710 3020 0
+rnode "CLK1.t6" 0 19.4989 590 3020 0
+rnode "CLK1.n45" 0 87.1333 650 3000 0
+rnode "CLK1.t19" 0 28.2123 1190 3580 0
+rnode "EESPFAL_XOR_v3_0/CLK" 0 8.66619 1410 3840 0
+rnode "CLK1.n46" 0 94.2448 1430 3860 0
+rnode "CLK1.n47" 0 17.3324 1430 3860 0
+rnode "CLK1.t1" 0 19.4989 1490 3580 0
+rnode "CLK1.t21" 0 19.4989 1370 3580 0
+rnode "CLK1.n48" 0 58.7515 1430 3560 0
+rnode "CLK1.t9" 0 28.2123 1670 3580 0
+rnode "CLK1.t5" 0 19.4989 2270 3020 0
+rnode "CLK1.t7" 0 19.4989 2150 3020 0
+rnode "CLK1.n49" 0 87.1333 2210 3000 0
+rnode "CLK1.t33" 0 42.9748 3030 3020 0
+rnode "CLK1.t17" 0 28.2123 3510 3580 0
+rnode "EESPFAL_NOR_v3_1/CLK" 0 8.66619 3730 3840 0
+rnode "CLK1.n50" 0 94.2448 3750 3860 0
+rnode "CLK1.n51" 0 17.3324 3750 3860 0
+rnode "CLK1.t29" 0 19.4989 3810 3580 0
+rnode "CLK1.t15" 0 19.4989 3690 3580 0
+rnode "CLK1.n52" 0 58.7515 3750 3560 0
+rnode "CLK1.t27" 0 28.2123 3990 3580 0
+rnode "CLK1.t30" 0 19.4989 4440 3020 0
+rnode "CLK1.t32" 0 19.4989 4320 3020 0
+rnode "CLK1.n53" 0 87.1333 4380 3000 0
+rnode "CLK1.n54" 0 42.5068 4550 3860 0
+rnode "CLK1.n55" 0 17.3324 4470 3860 0
+rnode "CLK1.n56" 0 13.8659 4470 3860 0
+rnode "CLK1.n57" 0 73.9269 4470 3860 0
+rnode "CLK1.n58" 0 33.5203 4390 3860 0
+rnode "CLK1.n59" 0 17.3324 4390 3860 0
+rnode "CLK1.n60" 0 13.8659 4390 3860 0
+rnode "CLK1.n61" 0 40.9188 4390 3860 0
+rnode "CLK1.n62" 0 106.123 4380 3810 0
+rnode "CLK1.n63" 0 32.9315 4310 3860 0
+rnode "CLK1.n64" 0 17.3324 4310 3860 0
+rnode "CLK1.n65" 0 13.8659 4310 3860 0
+rnode "CLK1.n66" 0 16.2491 4310 3860 0
+rnode "CLK1.n67" 0 31.7983 4230 3860 0
+rnode "CLK1.n68" 0 17.3324 4230 3860 0
+rnode "CLK1.n69" 0 13.8659 4230 3860 0
+rnode "CLK1.n70" 0 17.3324 4230 3860 0
+rnode "CLK1.n71" 0 76.3124 4150 3860 0
+rnode "CLK1.n72" 0 17.3324 4150 3860 0
+rnode "CLK1.n73" 0 13.8659 4150 3860 0
+rnode "CLK1.n74" 0 17.3324 4150 3860 0
+rnode "CLK1.n75" 0 100.528 4070 3860 0
+rnode "CLK1.n76" 0 17.3324 4070 3860 0
+rnode "CLK1.n77" 0 13.8659 4070 3860 0
+rnode "CLK1.n78" 0 10.8327 4070 3860 0
+rnode "CLK1.n79" 0 165.91 4050 3810 0
+rnode "CLK1.t26" 0 50.2639 3975 3580 0
+rnode "CLK1.n80" 0 59.6884 3990 3860 0
+rnode "CLK1.n81" 0 17.3324 3990 3860 0
+rnode "CLK1.n82" 0 13.8659 3990 3860 0
+rnode "CLK1.n83" 0 15.1658 3990 3860 0
+rnode "CLK1.n84" 0 91.1033 3910 3860 0
+rnode "CLK1.n85" 0 17.3324 3910 3860 0
+rnode "CLK1.n86" 0 13.8659 3910 3860 0
+rnode "CLK1.n87" 0 17.3324 3910 3860 0
+rnode "CLK1.t28" 0 50.2639 3825 3580 0
+rnode "CLK1.n88" 0 53.4054 3830 3860 0
+rnode "CLK1.n89" 0 17.3324 3830 3860 0
+rnode "CLK1.n90" 0 13.8659 3830 3860 0
+rnode "CLK1.n91" 0 17.3324 3830 3860 0
+rnode "CLK1.n92" 0 98.5398 3750 3860 0
+rnode "CLK1.n93" 0 13.8659 3750 3860 0
+rnode "CLK1.t14" 0 50.2639 3675 3580 0
+rnode "CLK1.n94" 0 53.4054 3670 3860 0
+rnode "CLK1.n95" 0 17.3324 3670 3860 0
+rnode "CLK1.n96" 0 13.8659 3670 3860 0
+rnode "CLK1.n97" 0 15.1658 3670 3860 0
+rnode "CLK1.n98" 0 91.1033 3590 3860 0
+rnode "CLK1.n99" 0 17.3324 3590 3860 0
+rnode "CLK1.n100" 0 13.8659 3590 3860 0
+rnode "CLK1.n101" 0 17.3324 3590 3860 0
+rnode "CLK1.t16" 0 50.2639 3525 3580 0
+rnode "CLK1.n102" 0 59.6884 3510 3860 0
+rnode "CLK1.n103" 0 17.3324 3510 3860 0
+rnode "CLK1.n104" 0 13.8659 3510 3860 0
+rnode "CLK1.n105" 0 15.1658 3510 3860 0
+rnode "CLK1.n106" 0 165.91 3450 3810 0
+rnode "CLK1.n107" 0 100.528 3430 3860 0
+rnode "CLK1.n108" 0 17.3324 3430 3860 0
+rnode "CLK1.n109" 0 13.8659 3430 3860 0
+rnode "CLK1.n110" 0 10.8327 3430 3860 0
+rnode "CLK1.n111" 0 76.3124 3350 3860 0
+rnode "CLK1.n112" 0 17.3324 3350 3860 0
+rnode "CLK1.n113" 0 13.8659 3350 3860 0
+rnode "CLK1.n114" 0 17.3324 3350 3860 0
+rnode "CLK1.n115" 0 31.7983 3270 3860 0
+rnode "CLK1.n116" 0 17.3324 3270 3860 0
+rnode "CLK1.n117" 0 13.8659 3270 3860 0
+rnode "CLK1.n118" 0 17.3324 3270 3860 0
+rnode "CLK1.n119" 0 32.9315 3190 3860 0
+rnode "CLK1.n120" 0 17.3324 3190 3860 0
+rnode "CLK1.n121" 0 13.8659 3190 3860 0
+rnode "CLK1.n122" 0 17.3324 3190 3860 0
+rnode "CLK1.n123" 0 33.5203 3110 3860 0
+rnode "CLK1.n124" 0 17.3324 3110 3860 0
+rnode "CLK1.n125" 0 13.8659 3110 3860 0
+rnode "CLK1.n126" 0 17.3324 3110 3860 0
+rnode "CLK1.n127" 0 40.2318 3030 3860 0
+rnode "CLK1.n128" 0 17.3324 3030 3860 0
+rnode "CLK1.n129" 0 13.8659 3030 3860 0
+rnode "CLK1.n130" 0 15.1658 3030 3860 0
+rnode "CLK1.n131" 0 189.279 2970 3810 0
+rnode "CLK1.n132" 0 72.7065 2950 3860 0
+rnode "CLK1.n133" 0 54.1637 2950 3860 0
+rnode "CLK1.n134" 0 116.409 2470 3860 0
+rnode "CLK1.n135" 0 60.6633 2470 3860 0
+rnode "CLK1.n136" 0 44.617 2470 3860 0
+rnode "CLK1.n137" 0 17.3324 2390 3860 0
+rnode "CLK1.n138" 0 13.8659 2390 3860 0
+rnode "CLK1.n139" 0 17.3324 2390 3860 0
+rnode "CLK1.n140" 0 33.5295 2310 3860 0
+rnode "CLK1.n141" 0 17.3324 2310 3860 0
+rnode "CLK1.n142" 0 13.8659 2310 3860 0
+rnode "CLK1.n143" 0 17.3324 2310 3860 0
+rnode "CLK1.n144" 0 32.9315 2230 3860 0
+rnode "CLK1.n145" 0 17.3324 2230 3860 0
+rnode "CLK1.n146" 0 13.8659 2230 3860 0
+rnode "CLK1.n147" 0 10.8327 2230 3860 0
+rnode "CLK1.n148" 0 106.123 2210 3810 0
+rnode "CLK1.n149" 0 32.9315 2150 3860 0
+rnode "CLK1.n150" 0 17.3324 2150 3860 0
+rnode "CLK1.n151" 0 13.8659 2150 3860 0
+rnode "CLK1.n152" 0 15.1658 2150 3860 0
+rnode "CLK1.n153" 0 32.9315 2070 3860 0
+rnode "CLK1.n154" 0 17.3324 2070 3860 0
+rnode "CLK1.n155" 0 13.8659 2070 3860 0
+rnode "CLK1.n156" 0 17.3324 2070 3860 0
+rnode "CLK1.n157" 0 32.9315 1990 3860 0
+rnode "CLK1.n158" 0 17.3324 1990 3860 0
+rnode "CLK1.n159" 0 13.8659 1990 3860 0
+rnode "CLK1.n160" 0 17.3324 1990 3860 0
+rnode "CLK1.n161" 0 31.7983 1910 3860 0
+rnode "CLK1.n162" 0 17.3324 1910 3860 0
+rnode "CLK1.n163" 0 13.8659 1910 3860 0
+rnode "CLK1.n164" 0 17.3324 1910 3860 0
+rnode "CLK1.n165" 0 76.3124 1830 3860 0
+rnode "CLK1.n166" 0 17.3324 1830 3860 0
+rnode "CLK1.n167" 0 13.8659 1830 3860 0
+rnode "CLK1.n168" 0 17.3324 1830 3860 0
+rnode "CLK1.n169" 0 100.528 1750 3860 0
+rnode "CLK1.n170" 0 17.3324 1750 3860 0
+rnode "CLK1.n171" 0 13.8659 1750 3860 0
+rnode "CLK1.n172" 0 10.8327 1750 3860 0
+rnode "CLK1.n173" 0 165.91 1730 3810 0
+rnode "CLK1.t8" 0 50.2639 1655 3580 0
+rnode "CLK1.n174" 0 59.6884 1670 3860 0
+rnode "CLK1.n175" 0 17.3324 1670 3860 0
+rnode "CLK1.n176" 0 13.8659 1670 3860 0
+rnode "CLK1.n177" 0 15.1658 1670 3860 0
+rnode "CLK1.n178" 0 91.1033 1590 3860 0
+rnode "CLK1.n179" 0 17.3324 1590 3860 0
+rnode "CLK1.n180" 0 13.8659 1590 3860 0
+rnode "CLK1.n181" 0 17.3324 1590 3860 0
+rnode "CLK1.t0" 0 50.2639 1505 3580 0
+rnode "CLK1.n182" 0 53.4054 1510 3860 0
+rnode "CLK1.n183" 0 17.3324 1510 3860 0
+rnode "CLK1.n184" 0 13.8659 1510 3860 0
+rnode "CLK1.n185" 0 17.3324 1510 3860 0
+rnode "CLK1.n186" 0 98.5398 1430 3860 0
+rnode "CLK1.n187" 0 13.8659 1430 3860 0
+rnode "CLK1.t20" 0 50.2639 1355 3580 0
+rnode "CLK1.n188" 0 53.4054 1350 3860 0
+rnode "CLK1.n189" 0 17.3324 1350 3860 0
+rnode "CLK1.n190" 0 13.8659 1350 3860 0
+rnode "CLK1.n191" 0 15.1658 1350 3860 0
+rnode "CLK1.n192" 0 91.1033 1270 3860 0
+rnode "CLK1.n193" 0 17.3324 1270 3860 0
+rnode "CLK1.n194" 0 13.8659 1270 3860 0
+rnode "CLK1.n195" 0 17.3324 1270 3860 0
+rnode "CLK1.t18" 0 50.2639 1205 3580 0
+rnode "CLK1.n196" 0 59.6884 1190 3860 0
+rnode "CLK1.n197" 0 17.3324 1190 3860 0
+rnode "CLK1.n198" 0 13.8659 1190 3860 0
+rnode "CLK1.n199" 0 15.1658 1190 3860 0
+rnode "CLK1.n200" 0 165.91 1130 3810 0
+rnode "CLK1.n201" 0 100.528 1110 3860 0
+rnode "CLK1.n202" 0 17.3324 1110 3860 0
+rnode "CLK1.n203" 0 13.8659 1110 3860 0
+rnode "CLK1.n204" 0 10.8327 1110 3860 0
+rnode "CLK1.n205" 0 76.3124 1030 3860 0
+rnode "CLK1.n206" 0 17.3324 1030 3860 0
+rnode "CLK1.n207" 0 13.8659 1030 3860 0
+rnode "CLK1.n208" 0 17.3324 1030 3860 0
+rnode "CLK1.n209" 0 31.7983 950 3860 0
+rnode "CLK1.n210" 0 17.3324 950 3860 0
+rnode "CLK1.n211" 0 13.8659 950 3860 0
+rnode "CLK1.n212" 0 17.3324 950 3860 0
+rnode "CLK1.n213" 0 32.9315 870 3860 0
+rnode "CLK1.n214" 0 17.3324 870 3860 0
+rnode "CLK1.n215" 0 13.8659 870 3860 0
+rnode "CLK1.n216" 0 17.3324 870 3860 0
+rnode "CLK1.n217" 0 32.9315 790 3860 0
+rnode "CLK1.n218" 0 17.3324 790 3860 0
+rnode "CLK1.n219" 0 13.8659 790 3860 0
+rnode "CLK1.n220" 0 17.3324 790 3860 0
+rnode "CLK1.n221" 0 32.9315 710 3860 0
+rnode "CLK1.n222" 0 17.3324 710 3860 0
+rnode "CLK1.n223" 0 13.8659 710 3860 0
+rnode "CLK1.n224" 0 15.1658 710 3860 0
+rnode "CLK1.n225" 0 106.123 650 3810 0
+rnode "CLK1.n226" 0 32.9315 630 3860 0
+rnode "CLK1.n227" 0 17.3324 630 3860 0
+rnode "CLK1.n228" 0 13.8659 630 3860 0
+rnode "CLK1.n229" 0 10.8327 630 3860 0
+rnode "CLK1.n230" 0 33.5295 550 3860 0
+rnode "CLK1.n231" 0 17.3324 550 3860 0
+rnode "CLK1.n232" 0 13.8659 550 3860 0
+rnode "CLK1.n233" 0 17.3324 550 3860 0
+rnode "CLK1.n234" 0 44.6171 470 3860 0
+rnode "CLK1.n235" 0 17.3324 470 3860 0
+rnode "CLK1.n236" 0 13.8659 470 3860 0
+rnode "CLK1.n237" 0 17.3324 470 3860 0
+rnode "CLK1.n238" 0 116.409 390 3860 0
+rnode "CLK1.n239" 0 29.8424 390 3860 0
+rnode "CLK1.n240" 0 302.675 330 3860 0
+rnode "CLK1.n241" 0 72.7065 630 1500 0
+rnode "CLK1.n242" 0 203.399 630 1500 0
+rnode "CLK1.n243" 0 40.2318 710 1500 0
+rnode "CLK1.n244" 0 17.3324 710 1500 0
+rnode "CLK1.n245" 0 13.8659 710 1500 0
+rnode "CLK1.n246" 0 17.3324 710 1500 0
+rnode "CLK1.n247" 0 33.5203 790 1500 0
+rnode "CLK1.n248" 0 17.3324 790 1500 0
+rnode "CLK1.n249" 0 13.8659 790 1500 0
+rnode "CLK1.n250" 0 9.74946 790 1500 0
+rnode "CLK1.n251" 0 106.123 800 1550 0
+rnode "CLK1.n252" 0 32.9315 870 1500 0
+rnode "CLK1.n253" 0 17.3324 870 1500 0
+rnode "CLK1.n254" 0 13.8659 870 1500 0
+rnode "CLK1.n255" 0 16.2491 870 1500 0
+rnode "CLK1.n256" 0 31.7983 950 1500 0
+rnode "CLK1.n257" 0 17.3324 950 1500 0
+rnode "CLK1.n258" 0 13.8659 950 1500 0
+rnode "CLK1.n259" 0 17.3324 950 1500 0
+rnode "CLK1.n260" 0 76.3124 1030 1500 0
+rnode "CLK1.n261" 0 17.3324 1030 1500 0
+rnode "CLK1.n262" 0 13.8659 1030 1500 0
+rnode "CLK1.n263" 0 17.3324 1030 1500 0
+rnode "CLK1.n264" 0 100.528 1110 1500 0
+rnode "CLK1.n265" 0 17.3324 1110 1500 0
+rnode "CLK1.n266" 0 13.8659 1110 1500 0
+rnode "CLK1.n267" 0 10.8327 1110 1500 0
+rnode "CLK1.n268" 0 165.909 1130 1550 0
+rnode "CLK1.t24" 0 50.2639 1205 1780 0
+rnode "CLK1.n269" 0 59.6884 1190 1500 0
+rnode "CLK1.n270" 0 17.3324 1190 1500 0
+rnode "CLK1.n271" 0 13.8659 1190 1500 0
+rnode "CLK1.n272" 0 15.1658 1190 1500 0
+rnode "CLK1.n273" 0 91.1033 1270 1500 0
+rnode "CLK1.n274" 0 17.3324 1270 1500 0
+rnode "CLK1.n275" 0 13.8659 1270 1500 0
+rnode "CLK1.n276" 0 17.3324 1270 1500 0
+rnode "CLK1.t22" 0 50.2639 1355 1780 0
+rnode "CLK1.n277" 0 53.4054 1350 1500 0
+rnode "CLK1.n278" 0 17.3324 1350 1500 0
+rnode "CLK1.n279" 0 13.8659 1350 1500 0
+rnode "CLK1.n280" 0 15.1658 1350 1500 0
+rnode "EESPFAL_NAND_v3_2/CLK" 0 8.66619 1410 1480 0
+resist "CLK1.n251" "CLK1.n250" 0.012
+resist "CLK1.n62" "CLK1.n61" 0.012
+resist "CLK1.n268" "CLK1.n267" 0.025
+resist "EESPFAL_NAND_v3_2/CLK" "CLK1.n43" 0.025
+resist "CLK1.n27" "CLK1.n26" 0.025
+resist "CLK1.n229" "CLK1.n225" 0.025
+resist "CLK1.n204" "CLK1.n200" 0.025
+resist "CLK1.n186" "EESPFAL_XOR_v3_0/CLK" 0.025
+resist "CLK1.n173" "CLK1.n172" 0.025
+resist "CLK1.n148" "CLK1.n147" 0.025
+resist "CLK1.n133" "CLK1.n131" 0.025
+resist "CLK1.n110" "CLK1.n106" 0.025
+resist "CLK1.n92" "EESPFAL_NOR_v3_1/CLK" 0.025
+resist "CLK1.n79" "CLK1.n78" 0.025
+resist "CLK1.n272" "CLK1.n268" 0.075
+resist "EESPFAL_NAND_v3_2/CLK" "CLK1.n280" 0.075
+resist "CLK1.n31" "CLK1.n27" 0.075
+resist "CLK1.n6" "CLK1.n2" 0.075
+resist "CLK1.n225" "CLK1.n224" 0.075
+resist "CLK1.n200" "CLK1.n199" 0.075
+resist "CLK1.n191" "EESPFAL_XOR_v3_0/CLK" 0.075
+resist "CLK1.n177" "CLK1.n173" 0.075
+resist "CLK1.n152" "CLK1.n148" 0.075
+resist "CLK1.n131" "CLK1.n130" 0.075
+resist "CLK1.n106" "CLK1.n105" 0.075
+resist "CLK1.n97" "EESPFAL_NOR_v3_1/CLK" 0.075
+resist "CLK1.n83" "CLK1.n79" 0.075
+resist "CLK1.n255" "CLK1.n251" 0.087
+resist "CLK1.n66" "CLK1.n62" 0.087
+resist "CLK1.n246" "CLK1.n242" 0.1
+resist "CLK1.n250" "CLK1.n246" 0.1
+resist "CLK1.n259" "CLK1.n255" 0.1
+resist "CLK1.n263" "CLK1.n259" 0.1
+resist "CLK1.n267" "CLK1.n263" 0.1
+resist "CLK1.n276" "CLK1.n272" 0.1
+resist "CLK1.n280" "CLK1.n276" 0.1
+resist "CLK1.n43" "CLK1.n39" 0.1
+resist "CLK1.n39" "CLK1.n35" 0.1
+resist "CLK1.n35" "CLK1.n31" 0.1
+resist "CLK1.n26" "CLK1.n22" 0.1
+resist "CLK1.n22" "CLK1.n18" 0.1
+resist "CLK1.n18" "CLK1.n14" 0.1
+resist "CLK1.n14" "CLK1.n10" 0.1
+resist "CLK1.n10" "CLK1.n6" 0.1
+resist "CLK1.n239" "CLK1.n237" 0.1
+resist "CLK1.n237" "CLK1.n233" 0.1
+resist "CLK1.n233" "CLK1.n229" 0.1
+resist "CLK1.n224" "CLK1.n220" 0.1
+resist "CLK1.n220" "CLK1.n216" 0.1
+resist "CLK1.n216" "CLK1.n212" 0.1
+resist "CLK1.n212" "CLK1.n208" 0.1
+resist "CLK1.n208" "CLK1.n204" 0.1
+resist "CLK1.n199" "CLK1.n195" 0.1
+resist "CLK1.n195" "CLK1.n191" 0.1
+resist "CLK1.n186" "CLK1.n185" 0.1
+resist "CLK1.n185" "CLK1.n181" 0.1
+resist "CLK1.n181" "CLK1.n177" 0.1
+resist "CLK1.n172" "CLK1.n168" 0.1
+resist "CLK1.n168" "CLK1.n164" 0.1
+resist "CLK1.n164" "CLK1.n160" 0.1
+resist "CLK1.n160" "CLK1.n156" 0.1
+resist "CLK1.n156" "CLK1.n152" 0.1
+resist "CLK1.n147" "CLK1.n143" 0.1
+resist "CLK1.n143" "CLK1.n139" 0.1
+resist "CLK1.n139" "CLK1.n135" 0.1
+resist "CLK1.n130" "CLK1.n126" 0.1
+resist "CLK1.n126" "CLK1.n122" 0.1
+resist "CLK1.n122" "CLK1.n118" 0.1
+resist "CLK1.n118" "CLK1.n114" 0.1
+resist "CLK1.n114" "CLK1.n110" 0.1
+resist "CLK1.n105" "CLK1.n101" 0.1
+resist "CLK1.n101" "CLK1.n97" 0.1
+resist "CLK1.n92" "CLK1.n91" 0.1
+resist "CLK1.n91" "CLK1.n87" 0.1
+resist "CLK1.n87" "CLK1.n83" 0.1
+resist "CLK1.n78" "CLK1.n74" 0.1
+resist "CLK1.n74" "CLK1.n70" 0.1
+resist "CLK1.n70" "CLK1.n66" 0.1
+resist "CLK1.n240" "CLK1" 0.131
+resist "CLK1.n135" "CLK1.n133" 0.6
+resist "CLK1.n61" "CLK1.n57" 1.09567
+resist "CLK1.n244" "CLK1.n243" 1.65526
+resist "CLK1.n235" "CLK1.n234" 1.65526
+resist "CLK1.n128" "CLK1.n127" 1.65526
+resist "CLK1.n4" "CLK1.n3" 1.65528
+resist "CLK1.n137" "CLK1.n136" 1.65528
+resist "CLK1.n55" "CLK1.n54" 1.65528
+resist "CLK1.n240" "CLK1.n239" 2.325
+resist "CLK1.n57" "CLK1.n56" 2.68171
+resist "CLK1.n242" "CLK1.n241" 4.65
+resist "CLK1.n246" "CLK1.n245" 4.65
+resist "CLK1.n250" "CLK1.n249" 4.65
+resist "CLK1.n255" "CLK1.n254" 4.65
+resist "CLK1.n259" "CLK1.n258" 4.65
+resist "CLK1.n263" "CLK1.n262" 4.65
+resist "CLK1.n267" "CLK1.n266" 4.65
+resist "CLK1.n272" "CLK1.n271" 4.65
+resist "CLK1.n276" "CLK1.n275" 4.65
+resist "CLK1.n280" "CLK1.n279" 4.65
+resist "CLK1.n43" "CLK1.n42" 4.65
+resist "CLK1.n39" "CLK1.n38" 4.65
+resist "CLK1.n35" "CLK1.n34" 4.65
+resist "CLK1.n31" "CLK1.n30" 4.65
+resist "CLK1.n26" "CLK1.n25" 4.65
+resist "CLK1.n22" "CLK1.n21" 4.65
+resist "CLK1.n18" "CLK1.n17" 4.65
+resist "CLK1.n14" "CLK1.n13" 4.65
+resist "CLK1.n10" "CLK1.n9" 4.65
+resist "CLK1.n6" "CLK1.n5" 4.65
+resist "CLK1.n239" "CLK1.n238" 4.65
+resist "CLK1.n237" "CLK1.n236" 4.65
+resist "CLK1.n233" "CLK1.n232" 4.65
+resist "CLK1.n229" "CLK1.n228" 4.65
+resist "CLK1.n224" "CLK1.n223" 4.65
+resist "CLK1.n220" "CLK1.n219" 4.65
+resist "CLK1.n216" "CLK1.n215" 4.65
+resist "CLK1.n212" "CLK1.n211" 4.65
+resist "CLK1.n208" "CLK1.n207" 4.65
+resist "CLK1.n204" "CLK1.n203" 4.65
+resist "CLK1.n199" "CLK1.n198" 4.65
+resist "CLK1.n195" "CLK1.n194" 4.65
+resist "CLK1.n191" "CLK1.n190" 4.65
+resist "CLK1.n187" "CLK1.n186" 4.65
+resist "CLK1.n185" "CLK1.n184" 4.65
+resist "CLK1.n181" "CLK1.n180" 4.65
+resist "CLK1.n177" "CLK1.n176" 4.65
+resist "CLK1.n172" "CLK1.n171" 4.65
+resist "CLK1.n168" "CLK1.n167" 4.65
+resist "CLK1.n164" "CLK1.n163" 4.65
+resist "CLK1.n160" "CLK1.n159" 4.65
+resist "CLK1.n156" "CLK1.n155" 4.65
+resist "CLK1.n152" "CLK1.n151" 4.65
+resist "CLK1.n147" "CLK1.n146" 4.65
+resist "CLK1.n143" "CLK1.n142" 4.65
+resist "CLK1.n139" "CLK1.n138" 4.65
+resist "CLK1.n135" "CLK1.n134" 4.65
+resist "CLK1.n133" "CLK1.n132" 4.65
+resist "CLK1.n130" "CLK1.n129" 4.65
+resist "CLK1.n126" "CLK1.n125" 4.65
+resist "CLK1.n122" "CLK1.n121" 4.65
+resist "CLK1.n118" "CLK1.n117" 4.65
+resist "CLK1.n114" "CLK1.n113" 4.65
+resist "CLK1.n110" "CLK1.n109" 4.65
+resist "CLK1.n105" "CLK1.n104" 4.65
+resist "CLK1.n101" "CLK1.n100" 4.65
+resist "CLK1.n97" "CLK1.n96" 4.65
+resist "CLK1.n93" "CLK1.n92" 4.65
+resist "CLK1.n91" "CLK1.n90" 4.65
+resist "CLK1.n87" "CLK1.n86" 4.65
+resist "CLK1.n83" "CLK1.n82" 4.65
+resist "CLK1.n78" "CLK1.n77" 4.65
+resist "CLK1.n74" "CLK1.n73" 4.65
+resist "CLK1.n70" "CLK1.n69" 4.65
+resist "CLK1.n66" "CLK1.n65" 4.65
+resist "CLK1.n61" "CLK1.n60" 4.65
+resist "CLK1.n2" "CLK1.n1" 4.675
+resist "CLK1.n43" "CLK1.n0" 4.93766
+resist "CLK1.n92" "CLK1.n52" 4.93766
+resist "CLK1.n186" "CLK1.n48" 4.93766
+resist "CLK1.n242" "CLK1.n240" 6.312
+resist "CLK1.n251" "CLK1.n44" 6.77579
+resist "CLK1.n62" "CLK1.n53" 6.77579
+resist "CLK1.n148" "CLK1.n49" 6.77579
+resist "CLK1.n225" "CLK1.n45" 6.77579
+resist "CLK1.n277" "CLK1.t22" 8.189
+resist "CLK1.n36" "CLK1.t12" 8.189
+resist "CLK1.n94" "CLK1.t14" 8.189
+resist "CLK1.n88" "CLK1.t28" 8.189
+resist "CLK1.n188" "CLK1.t20" 8.189
+resist "CLK1.n182" "CLK1.t0" 8.189
+resist "CLK1.n245" "CLK1.n244" 8.85486
+resist "CLK1.n248" "CLK1.n247" 8.85486
+resist "CLK1.n249" "CLK1.n248" 8.85486
+resist "CLK1.n253" "CLK1.n252" 8.85486
+resist "CLK1.n254" "CLK1.n253" 8.85486
+resist "CLK1.n257" "CLK1.n256" 8.85486
+resist "CLK1.n258" "CLK1.n257" 8.85486
+resist "CLK1.n261" "CLK1.n260" 8.85486
+resist "CLK1.n262" "CLK1.n261" 8.85486
+resist "CLK1.n265" "CLK1.n264" 8.85486
+resist "CLK1.n266" "CLK1.n265" 8.85486
+resist "CLK1.n270" "CLK1.n269" 8.85486
+resist "CLK1.n271" "CLK1.n270" 8.85486
+resist "CLK1.n274" "CLK1.n273" 8.85486
+resist "CLK1.n275" "CLK1.n274" 8.85486
+resist "CLK1.n278" "CLK1.n277" 8.85486
+resist "CLK1.n279" "CLK1.n278" 8.85486
+resist "CLK1.n41" "CLK1.n40" 8.85486
+resist "CLK1.n42" "CLK1.n41" 8.85486
+resist "CLK1.n37" "CLK1.n36" 8.85486
+resist "CLK1.n38" "CLK1.n37" 8.85486
+resist "CLK1.n33" "CLK1.n32" 8.85486
+resist "CLK1.n34" "CLK1.n33" 8.85486
+resist "CLK1.n29" "CLK1.n28" 8.85486
+resist "CLK1.n30" "CLK1.n29" 8.85486
+resist "CLK1.n24" "CLK1.n23" 8.85486
+resist "CLK1.n25" "CLK1.n24" 8.85486
+resist "CLK1.n20" "CLK1.n19" 8.85486
+resist "CLK1.n21" "CLK1.n20" 8.85486
+resist "CLK1.n16" "CLK1.n15" 8.85486
+resist "CLK1.n17" "CLK1.n16" 8.85486
+resist "CLK1.n12" "CLK1.n11" 8.85486
+resist "CLK1.n13" "CLK1.n12" 8.85486
+resist "CLK1.n8" "CLK1.n7" 8.85486
+resist "CLK1.n9" "CLK1.n8" 8.85486
+resist "CLK1.n5" "CLK1.n4" 8.85486
+resist "CLK1.n236" "CLK1.n235" 8.85486
+resist "CLK1.n231" "CLK1.n230" 8.85486
+resist "CLK1.n232" "CLK1.n231" 8.85486
+resist "CLK1.n227" "CLK1.n226" 8.85486
+resist "CLK1.n228" "CLK1.n227" 8.85486
+resist "CLK1.n222" "CLK1.n221" 8.85486
+resist "CLK1.n223" "CLK1.n222" 8.85486
+resist "CLK1.n218" "CLK1.n217" 8.85486
+resist "CLK1.n219" "CLK1.n218" 8.85486
+resist "CLK1.n214" "CLK1.n213" 8.85486
+resist "CLK1.n215" "CLK1.n214" 8.85486
+resist "CLK1.n210" "CLK1.n209" 8.85486
+resist "CLK1.n211" "CLK1.n210" 8.85486
+resist "CLK1.n206" "CLK1.n205" 8.85486
+resist "CLK1.n207" "CLK1.n206" 8.85486
+resist "CLK1.n202" "CLK1.n201" 8.85486
+resist "CLK1.n203" "CLK1.n202" 8.85486
+resist "CLK1.n197" "CLK1.n196" 8.85486
+resist "CLK1.n198" "CLK1.n197" 8.85486
+resist "CLK1.n193" "CLK1.n192" 8.85486
+resist "CLK1.n194" "CLK1.n193" 8.85486
+resist "CLK1.n189" "CLK1.n188" 8.85486
+resist "CLK1.n190" "CLK1.n189" 8.85486
+resist "CLK1.n47" "CLK1.n46" 8.85486
+resist "CLK1.n187" "CLK1.n47" 8.85486
+resist "CLK1.n183" "CLK1.n182" 8.85486
+resist "CLK1.n184" "CLK1.n183" 8.85486
+resist "CLK1.n179" "CLK1.n178" 8.85486
+resist "CLK1.n180" "CLK1.n179" 8.85486
+resist "CLK1.n175" "CLK1.n174" 8.85486
+resist "CLK1.n176" "CLK1.n175" 8.85486
+resist "CLK1.n170" "CLK1.n169" 8.85486
+resist "CLK1.n171" "CLK1.n170" 8.85486
+resist "CLK1.n166" "CLK1.n165" 8.85486
+resist "CLK1.n167" "CLK1.n166" 8.85486
+resist "CLK1.n162" "CLK1.n161" 8.85486
+resist "CLK1.n163" "CLK1.n162" 8.85486
+resist "CLK1.n158" "CLK1.n157" 8.85486
+resist "CLK1.n159" "CLK1.n158" 8.85486
+resist "CLK1.n154" "CLK1.n153" 8.85486
+resist "CLK1.n155" "CLK1.n154" 8.85486
+resist "CLK1.n150" "CLK1.n149" 8.85486
+resist "CLK1.n151" "CLK1.n150" 8.85486
+resist "CLK1.n145" "CLK1.n144" 8.85486
+resist "CLK1.n146" "CLK1.n145" 8.85486
+resist "CLK1.n141" "CLK1.n140" 8.85486
+resist "CLK1.n142" "CLK1.n141" 8.85486
+resist "CLK1.n138" "CLK1.n137" 8.85486
+resist "CLK1.n129" "CLK1.n128" 8.85486
+resist "CLK1.n124" "CLK1.n123" 8.85486
+resist "CLK1.n125" "CLK1.n124" 8.85486
+resist "CLK1.n120" "CLK1.n119" 8.85486
+resist "CLK1.n121" "CLK1.n120" 8.85486
+resist "CLK1.n116" "CLK1.n115" 8.85486
+resist "CLK1.n117" "CLK1.n116" 8.85486
+resist "CLK1.n112" "CLK1.n111" 8.85486
+resist "CLK1.n113" "CLK1.n112" 8.85486
+resist "CLK1.n108" "CLK1.n107" 8.85486
+resist "CLK1.n109" "CLK1.n108" 8.85486
+resist "CLK1.n103" "CLK1.n102" 8.85486
+resist "CLK1.n104" "CLK1.n103" 8.85486
+resist "CLK1.n99" "CLK1.n98" 8.85486
+resist "CLK1.n100" "CLK1.n99" 8.85486
+resist "CLK1.n95" "CLK1.n94" 8.85486
+resist "CLK1.n96" "CLK1.n95" 8.85486
+resist "CLK1.n51" "CLK1.n50" 8.85486
+resist "CLK1.n93" "CLK1.n51" 8.85486
+resist "CLK1.n89" "CLK1.n88" 8.85486
+resist "CLK1.n90" "CLK1.n89" 8.85486
+resist "CLK1.n85" "CLK1.n84" 8.85486
+resist "CLK1.n86" "CLK1.n85" 8.85486
+resist "CLK1.n81" "CLK1.n80" 8.85486
+resist "CLK1.n82" "CLK1.n81" 8.85486
+resist "CLK1.n76" "CLK1.n75" 8.85486
+resist "CLK1.n77" "CLK1.n76" 8.85486
+resist "CLK1.n72" "CLK1.n71" 8.85486
+resist "CLK1.n73" "CLK1.n72" 8.85486
+resist "CLK1.n68" "CLK1.n67" 8.85486
+resist "CLK1.n69" "CLK1.n68" 8.85486
+resist "CLK1.n64" "CLK1.n63" 8.85486
+resist "CLK1.n65" "CLK1.n64" 8.85486
+resist "CLK1.n59" "CLK1.n58" 8.85486
+resist "CLK1.n60" "CLK1.n59" 8.85486
+resist "CLK1.n56" "CLK1.n55" 8.85486
+resist "CLK1.n96" "CLK1.n93" 12.8
+resist "CLK1.n190" "CLK1.n187" 12.8
+resist "CLK1.n44" "CLK1.t3" 24
+resist "CLK1.n44" "CLK1.t2" 24
+resist "CLK1.n53" "CLK1.t32" 24
+resist "CLK1.n53" "CLK1.t30" 24
+resist "CLK1.n49" "CLK1.t7" 24
+resist "CLK1.n49" "CLK1.t5" 24
+resist "CLK1.n45" "CLK1.t6" 24
+resist "CLK1.n45" "CLK1.t4" 24
+resist "CLK1.n269" "CLK1.t24" 24.568
+resist "CLK1.n28" "CLK1.t10" 24.568
+resist "CLK1.n102" "CLK1.t16" 24.568
+resist "CLK1.n80" "CLK1.t26" 24.568
+resist "CLK1.n196" "CLK1.t18" 24.568
+resist "CLK1.n174" "CLK1.t8" 24.568
+resist "CLK1.n131" "CLK1.t33" 30.7747
+resist "CLK1.n2" "CLK1.t31" 30.7758
+resist "CLK1.n0" "CLK1.t23" 39.4
+resist "CLK1.n0" "CLK1.t13" 39.4
+resist "CLK1.n52" "CLK1.t15" 39.4
+resist "CLK1.n52" "CLK1.t29" 39.4
+resist "CLK1.n48" "CLK1.t21" 39.4
+resist "CLK1.n48" "CLK1.t1" 39.4
+resist "CLK1.n79" "CLK1.t27" 44.3366
+resist "CLK1.n106" "CLK1.t17" 44.3366
+resist "CLK1.n173" "CLK1.t9" 44.3366
+resist "CLK1.n200" "CLK1.t19" 44.3366
+resist "CLK1.n268" "CLK1.t25" 44.3377
+resist "CLK1.n27" "CLK1.t11" 44.3377
+rnode "CLK2.t15" 0 20.1526 5830 3580 0
+rnode "CLK2.t19" 0 20.1526 5710 3580 0
+rnode "CLK2.n0" 0 60.7212 5770 3560 0
+rnode "CLK2.t13" 0 29.1581 6010 3580 0
+rnode "CLK2.t17" 0 44.4155 6490 3020 0
+rnode "CLK2.n1" 0 75.204 6570 3860 0
+rnode "CLK2.n2" 0 206.761 6550 3810 0
+rnode "CLK2.n3" 0 41.5806 6570 3860 0
+rnode "CLK2.n4" 0 17.9135 6490 3860 0
+rnode "CLK2.n5" 0 14.3308 6490 3860 0
+rnode "CLK2.n6" 0 15.6743 6490 3860 0
+rnode "CLK2.n7" 0 34.644 6410 3860 0
+rnode "CLK2.n8" 0 17.9135 6410 3860 0
+rnode "CLK2.n9" 0 14.3308 6410 3860 0
+rnode "CLK2.n10" 0 17.9135 6410 3860 0
+rnode "CLK2.n11" 0 34.0356 6330 3860 0
+rnode "CLK2.n12" 0 17.9135 6330 3860 0
+rnode "CLK2.n13" 0 14.3308 6330 3860 0
+rnode "CLK2.n14" 0 17.9135 6330 3860 0
+rnode "CLK2.n15" 0 32.8643 6250 3860 0
+rnode "CLK2.n16" 0 17.9135 6250 3860 0
+rnode "CLK2.n17" 0 14.3308 6250 3860 0
+rnode "CLK2.n18" 0 17.9135 6250 3860 0
+rnode "CLK2.n19" 0 78.8709 6170 3860 0
+rnode "CLK2.n20" 0 17.9135 6170 3860 0
+rnode "CLK2.n21" 0 14.3308 6170 3860 0
+rnode "CLK2.n22" 0 17.9135 6170 3860 0
+rnode "CLK2.n23" 0 103.898 6090 3860 0
+rnode "CLK2.n24" 0 17.9135 6090 3860 0
+rnode "CLK2.n25" 0 14.3308 6090 3860 0
+rnode "CLK2.n26" 0 11.1959 6090 3860 0
+rnode "CLK2.n27" 0 171.473 6070 3810 0
+rnode "CLK2.t12" 0 51.949 5995 3580 0
+rnode "CLK2.n28" 0 61.6895 6010 3860 0
+rnode "CLK2.n29" 0 17.9135 6010 3860 0
+rnode "CLK2.n30" 0 14.3308 6010 3860 0
+rnode "CLK2.n31" 0 15.6743 6010 3860 0
+rnode "CLK2.n32" 0 94.1576 5930 3860 0
+rnode "CLK2.n33" 0 17.9135 5930 3860 0
+rnode "CLK2.n34" 0 14.3308 5930 3860 0
+rnode "CLK2.n35" 0 17.9135 5930 3860 0
+rnode "CLK2.t14" 0 51.949 5845 3580 0
+rnode "CLK2.n36" 0 55.1959 5850 3860 0
+rnode "CLK2.n37" 0 17.9135 5850 3860 0
+rnode "CLK2.n38" 0 14.3308 5850 3860 0
+rnode "CLK2.n39" 0 17.9135 5850 3860 0
+rnode "CLK2.n40" 0 97.4044 5770 3860 0
+rnode "CLK2.n41" 0 17.9135 5770 3860 0
+rnode "CLK2.n42" 0 14.3308 5770 3860 0
+rnode "CLK2.n43" 0 101.843 5770 3860 0
+rnode "CLK2.t21" 0 29.1581 5530 3580 0
+rnode "CLK2.n44" 0 9.00734 5130 3860 0
+rnode "CLK2.n45" 0 16.1221 5140 3080 0
+rnode "CLK2.n46" 0 75.2039 4550 1500 0
+rnode "CLK2.t4" 0 29.1592 3990 1780 0
+rnode "CLK2.t2" 0 20.1526 3810 1780 0
+rnode "CLK2.t8" 0 20.1526 3690 1780 0
+rnode "CLK2.n47" 0 60.7212 3750 1800 0
+rnode "EESPFAL_NAND_v3_1/CLK" 0 8.95673 3730 1480 0
+rnode "CLK2.t10" 0 29.1592 3510 1780 0
+rnode "CLK2.t11" 0 20.1526 3180 2340 0
+rnode "CLK2.t6" 0 20.1526 3060 2340 0
+rnode "CLK2.n48" 0 90.0545 3120 2360 0
+rnode "CLK2.n49" 0 43.9314 3030 1500 0
+rnode "CLK2.n50" 0 17.9135 3030 1500 0
+rnode "CLK2.n51" 0 14.3308 3030 1500 0
+rnode "CLK2.n52" 0 76.4065 3030 1500 0
+rnode "CLK2.n53" 0 34.644 3110 1500 0
+rnode "CLK2.n54" 0 17.9135 3110 1500 0
+rnode "CLK2.n55" 0 14.3308 3110 1500 0
+rnode "CLK2.n56" 0 42.29 3110 1500 0
+rnode "CLK2.n57" 0 109.681 3120 1550 0
+rnode "CLK2.n58" 0 34.0356 3190 1500 0
+rnode "CLK2.n59" 0 17.9135 3190 1500 0
+rnode "CLK2.n60" 0 14.3308 3190 1500 0
+rnode "CLK2.n61" 0 16.7939 3190 1500 0
+rnode "CLK2.n62" 0 32.8643 3270 1500 0
+rnode "CLK2.n63" 0 17.9135 3270 1500 0
+rnode "CLK2.n64" 0 14.3308 3270 1500 0
+rnode "CLK2.n65" 0 17.9135 3270 1500 0
+rnode "CLK2.n66" 0 78.8709 3350 1500 0
+rnode "CLK2.n67" 0 17.9135 3350 1500 0
+rnode "CLK2.n68" 0 14.3308 3350 1500 0
+rnode "CLK2.n69" 0 17.9135 3350 1500 0
+rnode "CLK2.n70" 0 103.898 3430 1500 0
+rnode "CLK2.n71" 0 17.9135 3430 1500 0
+rnode "CLK2.n72" 0 14.3308 3430 1500 0
+rnode "CLK2.n73" 0 11.1959 3430 1500 0
+rnode "CLK2.n74" 0 171.472 3450 1550 0
+rnode "CLK2.t9" 0 51.949 3525 1780 0
+rnode "CLK2.n75" 0 61.6895 3510 1500 0
+rnode "CLK2.n76" 0 17.9135 3510 1500 0
+rnode "CLK2.n77" 0 14.3308 3510 1500 0
+rnode "CLK2.n78" 0 15.6743 3510 1500 0
+rnode "CLK2.n79" 0 94.1576 3590 1500 0
+rnode "CLK2.n80" 0 17.9135 3590 1500 0
+rnode "CLK2.n81" 0 14.3308 3590 1500 0
+rnode "CLK2.n82" 0 17.9135 3590 1500 0
+rnode "CLK2.n83" 0 15.6743 3670 1500 0
+rnode "CLK2.t7" 0 51.949 3675 1780 0
+rnode "CLK2.n84" 0 55.1959 3670 1500 0
+rnode "CLK2.n85" 0 17.9135 3670 1500 0
+rnode "CLK2.n86" 0 14.3308 3670 1500 0
+rnode "CLK2.n87" 0 97.4044 3750 1500 0
+rnode "CLK2.n88" 0 17.9135 3750 1500 0
+rnode "CLK2.n89" 0 14.3308 3750 1500 0
+rnode "CLK2.n90" 0 101.843 3750 1500 0
+rnode "CLK2.t1" 0 51.949 3825 1780 0
+rnode "CLK2.n91" 0 55.1959 3830 1500 0
+rnode "CLK2.n92" 0 17.9135 3830 1500 0
+rnode "CLK2.n93" 0 14.3308 3830 1500 0
+rnode "CLK2.n94" 0 17.9135 3830 1500 0
+rnode "CLK2.n95" 0 94.1576 3910 1500 0
+rnode "CLK2.n96" 0 17.9135 3910 1500 0
+rnode "CLK2.n97" 0 14.3308 3910 1500 0
+rnode "CLK2.n98" 0 17.9135 3910 1500 0
+rnode "CLK2.t3" 0 51.949 3975 1780 0
+rnode "CLK2.n99" 0 61.6895 3990 1500 0
+rnode "CLK2.n100" 0 17.9135 3990 1500 0
+rnode "CLK2.n101" 0 14.3308 3990 1500 0
+rnode "CLK2.n102" 0 15.6743 3990 1500 0
+rnode "CLK2.n103" 0 171.472 4050 1550 0
+rnode "CLK2.n104" 0 103.898 4070 1500 0
+rnode "CLK2.n105" 0 17.9135 4070 1500 0
+rnode "CLK2.n106" 0 14.3308 4070 1500 0
+rnode "CLK2.n107" 0 11.1959 4070 1500 0
+rnode "CLK2.n108" 0 78.8709 4150 1500 0
+rnode "CLK2.n109" 0 17.9135 4150 1500 0
+rnode "CLK2.n110" 0 14.3308 4150 1500 0
+rnode "CLK2.n111" 0 17.9135 4150 1500 0
+rnode "CLK2.n112" 0 32.8643 4230 1500 0
+rnode "CLK2.n113" 0 17.9135 4230 1500 0
+rnode "CLK2.n114" 0 14.3308 4230 1500 0
+rnode "CLK2.n115" 0 17.9135 4230 1500 0
+rnode "CLK2.n116" 0 34.0356 4310 1500 0
+rnode "CLK2.n117" 0 17.9135 4310 1500 0
+rnode "CLK2.n118" 0 14.3308 4310 1500 0
+rnode "CLK2.n119" 0 17.9135 4310 1500 0
+rnode "CLK2.n120" 0 34.644 4390 1500 0
+rnode "CLK2.n121" 0 17.9135 4390 1500 0
+rnode "CLK2.n122" 0 14.3308 4390 1500 0
+rnode "CLK2.n123" 0 17.9135 4390 1500 0
+rnode "CLK2.n124" 0 41.5806 4470 1500 0
+rnode "CLK2.n125" 0 17.9135 4470 1500 0
+rnode "CLK2.n126" 0 14.3308 4470 1500 0
+rnode "CLK2.n127" 0 15.6743 4470 1500 0
+rnode "CLK2.n128" 0 51.7824 4530 1550 0
+rnode "CLK2.n129" 0 16.1221 4530 2280 0
+rnode "CLK2.n130" 0 45.3382 4530 2280 0
+rnode "CLK2.n131" 0 14.3308 4530 2360 0
+rnode "CLK2.n132" 0 10.7481 4530 2360 0
+rnode "CLK2.t0" 0 20.1526 4470 2340 0
+rnode "CLK2.n133" 0 60.4579 4530 2360 0
+rnode "CLK2.n134" 0 7.96586 4530 2360 0
+rnode "CLK2.n135" 0 86.7441 4530 2440 0
+rnode "CLK2.n136" 0 94.1931 5140 2920 0
+rnode "CLK2.t5" 0 20.1526 5200 3020 0
+rnode "CLK2.t16" 0 20.1526 5080 3020 0
+rnode "CLK2.n137" 0 40.3053 5140 3000 0
+rnode "CLK2.n138" 0 7.96586 5140 3000 0
+rnode "CLK2.n139" 0 14.3308 5140 3000 0
+rnode "CLK2.n140" 0 14.3308 5140 3000 0
+rnode "CLK2.n141" 0 45.3382 5140 3080 0
+rnode "CLK2" 0 6.6301 5130 3975 0
+rnode "CLK2.n142" 0 7.61111 5130 3860 0
+rnode "CLK2.n143" 0 43.9314 5050 3860 0
+rnode "CLK2.n144" 0 17.9135 5050 3860 0
+rnode "CLK2.n145" 0 12.8081 5050 3860 0
+rnode "CLK2.n146" 0 75.608 5050 3860 0
+rnode "CLK2.n147" 0 40.0656 5113 3860 0
+rnode "CLK2.n148" 0 34.644 5130 3860 0
+rnode "CLK2.n149" 0 17.9135 5130 3860 0
+rnode "CLK2.n150" 0 7.16539 5113 3860 0
+rnode "CLK2.n151" 0 8.68803 5130 3860 0
+rnode "CLK2.n152" 0 3.0229 5130 3860 0
+rnode "CLK2.n153" 0 34.6396 5140 3881 0
+rnode "CLK2.n154" 0 6.77727 5140 3881 0
+rnode "CLK2.n155" 0 34.0356 5210 3860 0
+rnode "CLK2.n156" 0 17.9135 5210 3860 0
+rnode "CLK2.n157" 0 14.3308 5210 3860 0
+rnode "CLK2.n158" 0 16.0624 5210 3860 0
+rnode "CLK2.n159" 0 32.8643 5290 3860 0
+rnode "CLK2.n160" 0 17.9135 5290 3860 0
+rnode "CLK2.n161" 0 14.3308 5290 3860 0
+rnode "CLK2.n162" 0 17.9135 5290 3860 0
+rnode "CLK2.n163" 0 78.8709 5370 3860 0
+rnode "CLK2.n164" 0 17.9135 5370 3860 0
+rnode "CLK2.n165" 0 14.3308 5370 3860 0
+rnode "CLK2.n166" 0 17.9135 5370 3860 0
+rnode "CLK2.n167" 0 103.898 5450 3860 0
+rnode "CLK2.n168" 0 17.9135 5450 3860 0
+rnode "CLK2.n169" 0 14.3308 5450 3860 0
+rnode "CLK2.n170" 0 11.1959 5450 3860 0
+rnode "CLK2.n171" 0 171.473 5470 3810 0
+rnode "CLK2.t20" 0 51.949 5545 3580 0
+rnode "CLK2.n172" 0 61.6895 5530 3860 0
+rnode "CLK2.n173" 0 17.9135 5530 3860 0
+rnode "CLK2.n174" 0 14.3308 5530 3860 0
+rnode "CLK2.n175" 0 15.6743 5530 3860 0
+rnode "CLK2.n176" 0 94.1576 5610 3860 0
+rnode "CLK2.n177" 0 17.9135 5610 3860 0
+rnode "CLK2.n178" 0 14.3308 5610 3860 0
+rnode "CLK2.n179" 0 17.9135 5610 3860 0
+rnode "CLK2.t18" 0 51.949 5695 3580 0
+rnode "CLK2.n180" 0 55.1959 5690 3860 0
+rnode "CLK2.n181" 0 17.9135 5690 3860 0
+rnode "CLK2.n182" 0 14.3308 5690 3860 0
+rnode "CLK2.n183" 0 15.6743 5690 3860 0
+rnode "EESPFAL_NAND_v3_0/CLK" 0 8.95673 5750 3840 0
+resist "CLK2.n154" "CLK2.n153" 0.0104778
+resist "CLK2.n153" "CLK2.n152" 0.012
+resist "CLK2.n57" "CLK2.n56" 0.012
+resist "CLK2.n152" "CLK2.n147" 0.021
+resist "CLK2.n171" "CLK2.n170" 0.025
+resist "EESPFAL_NAND_v3_0/CLK" "CLK2.n43" 0.025
+resist "CLK2.n27" "CLK2.n26" 0.025
+resist "CLK2.n74" "CLK2.n73" 0.025
+resist "CLK2.n90" "EESPFAL_NAND_v3_1/CLK" 0.025
+resist "CLK2.n107" "CLK2.n103" 0.025
+resist "CLK2.n135" "CLK2.n132" 0.062
+resist "CLK2.n175" "CLK2.n171" 0.075
+resist "EESPFAL_NAND_v3_0/CLK" "CLK2.n183" 0.075
+resist "CLK2.n31" "CLK2.n27" 0.075
+resist "CLK2.n6" "CLK2.n2" 0.075
+resist "CLK2.n78" "CLK2.n74" 0.075
+resist "CLK2.n83" "EESPFAL_NAND_v3_1/CLK" 0.075
+resist "CLK2.n103" "CLK2.n102" 0.075
+resist "CLK2.n128" "CLK2.n127" 0.075
+resist "CLK2.n158" "CLK2.n154" 0.0774778
+resist "CLK2.n61" "CLK2.n57" 0.087
+resist "CLK2.n162" "CLK2.n158" 0.1
+resist "CLK2.n166" "CLK2.n162" 0.1
+resist "CLK2.n170" "CLK2.n166" 0.1
+resist "CLK2.n179" "CLK2.n175" 0.1
+resist "CLK2.n183" "CLK2.n179" 0.1
+resist "CLK2.n43" "CLK2.n39" 0.1
+resist "CLK2.n39" "CLK2.n35" 0.1
+resist "CLK2.n35" "CLK2.n31" 0.1
+resist "CLK2.n26" "CLK2.n22" 0.1
+resist "CLK2.n22" "CLK2.n18" 0.1
+resist "CLK2.n18" "CLK2.n14" 0.1
+resist "CLK2.n14" "CLK2.n10" 0.1
+resist "CLK2.n10" "CLK2.n6" 0.1
+resist "CLK2.n65" "CLK2.n61" 0.1
+resist "CLK2.n69" "CLK2.n65" 0.1
+resist "CLK2.n73" "CLK2.n69" 0.1
+resist "CLK2.n82" "CLK2.n78" 0.1
+resist "CLK2.n83" "CLK2.n82" 0.1
+resist "CLK2.n94" "CLK2.n90" 0.1
+resist "CLK2.n98" "CLK2.n94" 0.1
+resist "CLK2.n102" "CLK2.n98" 0.1
+resist "CLK2.n111" "CLK2.n107" 0.1
+resist "CLK2.n115" "CLK2.n111" 0.1
+resist "CLK2.n119" "CLK2.n115" 0.1
+resist "CLK2.n123" "CLK2.n119" 0.1
+resist "CLK2.n127" "CLK2.n123" 0.1
+resist "CLK2.n140" "CLK2.n136" 0.125
+resist "CLK2.n141" "CLK2.n140" 0.125
+resist "CLK2.n132" "CLK2.n130" 0.125
+resist "CLK2.n142" "CLK2" 0.279384
+resist "CLK2.n147" "CLK2.n146" 1.07343
+resist "CLK2.n56" "CLK2.n52" 1.09543
+resist "CLK2.n144" "CLK2.n143" 1.65526
+resist "CLK2.n50" "CLK2.n49" 1.65526
+resist "CLK2.n125" "CLK2.n124" 1.65526
+resist "CLK2.n4" "CLK2.n3" 1.65528
+resist "CLK2.n153" "CLK2.n141" 2.203
+resist "CLK2.n130" "CLK2.n128" 2.203
+resist "CLK2.n154" "CLK2.n44" 2.24551
+resist "CLK2.n153" "CLK2.n142" 2.251
+resist "CLK2.n138" "CLK2.n137" 2.57045
+resist "CLK2.n134" "CLK2.n133" 2.57045
+resist "CLK2.n146" "CLK2.n145" 2.68158
+resist "CLK2.n52" "CLK2.n51" 2.68158
+resist "CLK2.n151" "CLK2.n150" 2.72
+resist "CLK2.n152" "CLK2.n151" 3.03261
+resist "CLK2.n139" "CLK2.n138" 3.71545
+resist "CLK2.n158" "CLK2.n157" 4.65
+resist "CLK2.n162" "CLK2.n161" 4.65
+resist "CLK2.n166" "CLK2.n165" 4.65
+resist "CLK2.n170" "CLK2.n169" 4.65
+resist "CLK2.n175" "CLK2.n174" 4.65
+resist "CLK2.n179" "CLK2.n178" 4.65
+resist "CLK2.n183" "CLK2.n182" 4.65
+resist "CLK2.n43" "CLK2.n42" 4.65
+resist "CLK2.n39" "CLK2.n38" 4.65
+resist "CLK2.n35" "CLK2.n34" 4.65
+resist "CLK2.n31" "CLK2.n30" 4.65
+resist "CLK2.n26" "CLK2.n25" 4.65
+resist "CLK2.n22" "CLK2.n21" 4.65
+resist "CLK2.n18" "CLK2.n17" 4.65
+resist "CLK2.n14" "CLK2.n13" 4.65
+resist "CLK2.n10" "CLK2.n9" 4.65
+resist "CLK2.n6" "CLK2.n5" 4.65
+resist "CLK2.n140" "CLK2.n139" 4.65
+resist "CLK2.n141" "CLK2.n45" 4.65
+resist "CLK2.n130" "CLK2.n129" 4.65
+resist "CLK2.n132" "CLK2.n131" 4.65
+resist "CLK2.n56" "CLK2.n55" 4.65
+resist "CLK2.n61" "CLK2.n60" 4.65
+resist "CLK2.n65" "CLK2.n64" 4.65
+resist "CLK2.n69" "CLK2.n68" 4.65
+resist "CLK2.n73" "CLK2.n72" 4.65
+resist "CLK2.n78" "CLK2.n77" 4.65
+resist "CLK2.n82" "CLK2.n81" 4.65
+resist "CLK2.n86" "CLK2.n83" 4.65
+resist "CLK2.n90" "CLK2.n89" 4.65
+resist "CLK2.n94" "CLK2.n93" 4.65
+resist "CLK2.n98" "CLK2.n97" 4.65
+resist "CLK2.n102" "CLK2.n101" 4.65
+resist "CLK2.n107" "CLK2.n106" 4.65
+resist "CLK2.n111" "CLK2.n110" 4.65
+resist "CLK2.n115" "CLK2.n114" 4.65
+resist "CLK2.n119" "CLK2.n118" 4.65
+resist "CLK2.n123" "CLK2.n122" 4.65
+resist "CLK2.n127" "CLK2.n126" 4.65
+resist "CLK2.n2" "CLK2.n1" 4.675
+resist "CLK2.n128" "CLK2.n46" 4.675
+resist "CLK2.n43" "CLK2.n0" 4.93766
+resist "CLK2.n90" "CLK2.n47" 4.93766
+resist "CLK2.n57" "CLK2.n48" 6.77579
+resist "CLK2.n136" "CLK2.n135" 7.422
+resist "CLK2.n180" "CLK2.t18" 8.189
+resist "CLK2.n36" "CLK2.t14" 8.189
+resist "CLK2.n84" "CLK2.t7" 8.189
+resist "CLK2.n91" "CLK2.t1" 8.189
+resist "CLK2.n135" "CLK2.n134" 8.36545
+resist "CLK2.n145" "CLK2.n144" 8.85486
+resist "CLK2.n149" "CLK2.n148" 8.85486
+resist "CLK2.n151" "CLK2.n149" 8.85486
+resist "CLK2.n156" "CLK2.n155" 8.85486
+resist "CLK2.n157" "CLK2.n156" 8.85486
+resist "CLK2.n160" "CLK2.n159" 8.85486
+resist "CLK2.n161" "CLK2.n160" 8.85486
+resist "CLK2.n164" "CLK2.n163" 8.85486
+resist "CLK2.n165" "CLK2.n164" 8.85486
+resist "CLK2.n168" "CLK2.n167" 8.85486
+resist "CLK2.n169" "CLK2.n168" 8.85486
+resist "CLK2.n173" "CLK2.n172" 8.85486
+resist "CLK2.n174" "CLK2.n173" 8.85486
+resist "CLK2.n177" "CLK2.n176" 8.85486
+resist "CLK2.n178" "CLK2.n177" 8.85486
+resist "CLK2.n181" "CLK2.n180" 8.85486
+resist "CLK2.n182" "CLK2.n181" 8.85486
+resist "CLK2.n41" "CLK2.n40" 8.85486
+resist "CLK2.n42" "CLK2.n41" 8.85486
+resist "CLK2.n37" "CLK2.n36" 8.85486
+resist "CLK2.n38" "CLK2.n37" 8.85486
+resist "CLK2.n33" "CLK2.n32" 8.85486
+resist "CLK2.n34" "CLK2.n33" 8.85486
+resist "CLK2.n29" "CLK2.n28" 8.85486
+resist "CLK2.n30" "CLK2.n29" 8.85486
+resist "CLK2.n24" "CLK2.n23" 8.85486
+resist "CLK2.n25" "CLK2.n24" 8.85486
+resist "CLK2.n20" "CLK2.n19" 8.85486
+resist "CLK2.n21" "CLK2.n20" 8.85486
+resist "CLK2.n16" "CLK2.n15" 8.85486
+resist "CLK2.n17" "CLK2.n16" 8.85486
+resist "CLK2.n12" "CLK2.n11" 8.85486
+resist "CLK2.n13" "CLK2.n12" 8.85486
+resist "CLK2.n8" "CLK2.n7" 8.85486
+resist "CLK2.n9" "CLK2.n8" 8.85486
+resist "CLK2.n5" "CLK2.n4" 8.85486
+resist "CLK2.n51" "CLK2.n50" 8.85486
+resist "CLK2.n54" "CLK2.n53" 8.85486
+resist "CLK2.n55" "CLK2.n54" 8.85486
+resist "CLK2.n59" "CLK2.n58" 8.85486
+resist "CLK2.n60" "CLK2.n59" 8.85486
+resist "CLK2.n63" "CLK2.n62" 8.85486
+resist "CLK2.n64" "CLK2.n63" 8.85486
+resist "CLK2.n67" "CLK2.n66" 8.85486
+resist "CLK2.n68" "CLK2.n67" 8.85486
+resist "CLK2.n71" "CLK2.n70" 8.85486
+resist "CLK2.n72" "CLK2.n71" 8.85486
+resist "CLK2.n76" "CLK2.n75" 8.85486
+resist "CLK2.n77" "CLK2.n76" 8.85486
+resist "CLK2.n80" "CLK2.n79" 8.85486
+resist "CLK2.n81" "CLK2.n80" 8.85486
+resist "CLK2.n85" "CLK2.n84" 8.85486
+resist "CLK2.n86" "CLK2.n85" 8.85486
+resist "CLK2.n88" "CLK2.n87" 8.85486
+resist "CLK2.n89" "CLK2.n88" 8.85486
+resist "CLK2.n92" "CLK2.n91" 8.85486
+resist "CLK2.n93" "CLK2.n92" 8.85486
+resist "CLK2.n96" "CLK2.n95" 8.85486
+resist "CLK2.n97" "CLK2.n96" 8.85486
+resist "CLK2.n100" "CLK2.n99" 8.85486
+resist "CLK2.n101" "CLK2.n100" 8.85486
+resist "CLK2.n105" "CLK2.n104" 8.85486
+resist "CLK2.n106" "CLK2.n105" 8.85486
+resist "CLK2.n109" "CLK2.n108" 8.85486
+resist "CLK2.n110" "CLK2.n109" 8.85486
+resist "CLK2.n113" "CLK2.n112" 8.85486
+resist "CLK2.n114" "CLK2.n113" 8.85486
+resist "CLK2.n117" "CLK2.n116" 8.85486
+resist "CLK2.n118" "CLK2.n117" 8.85486
+resist "CLK2.n121" "CLK2.n120" 8.85486
+resist "CLK2.n122" "CLK2.n121" 8.85486
+resist "CLK2.n126" "CLK2.n125" 8.85486
+resist "CLK2.n89" "CLK2.n86" 12.8
+resist "CLK2.n137" "CLK2.t16" 24
+resist "CLK2.n137" "CLK2.t5" 24
+resist "CLK2.n48" "CLK2.t6" 24
+resist "CLK2.n48" "CLK2.t11" 24
+resist "CLK2.n133" "CLK2.t0" 24
+resist "CLK2.n172" "CLK2.t20" 24.568
+resist "CLK2.n28" "CLK2.t12" 24.568
+resist "CLK2.n75" "CLK2.t9" 24.568
+resist "CLK2.n99" "CLK2.t3" 24.568
+resist "CLK2.n2" "CLK2.t17" 30.7747
+resist "CLK2.n0" "CLK2.t19" 39.4
+resist "CLK2.n0" "CLK2.t15" 39.4
+resist "CLK2.n47" "CLK2.t8" 39.4
+resist "CLK2.n47" "CLK2.t2" 39.4
+resist "CLK2.n27" "CLK2.t13" 44.3366
+resist "CLK2.n171" "CLK2.t21" 44.3366
+resist "CLK2.n74" "CLK2.t10" 44.3377
+resist "CLK2.n103" "CLK2.t4" 44.3377
+rnode "GND.t44" 0 0 1490 3020 0
+rnode "GND.t4" 0 0 1370 3020 0
+rnode "GND.n0" 0 0 1430 3000 0
+rnode "GND.t21" 0 0 1490 2340 0
+rnode "GND.t39" 0 0 1370 2340 0
+rnode "GND.n1" 0 0 1430 2360 0
+rnode "GND.t37" 0 0 1670 3020 0
+rnode "GND.t45" 0 0 1670 2340 0
+rnode "GND.t6" 0 0 3510 3020 0
+rnode "GND.t29" 0 0 3510 2340 0
+rnode "EESPFAL_NAND_v3_1/GND!" 0 0 3730 2660 0
+rnode "GND.t41" 0 0 3810 3020 0
+rnode "GND.t24" 0 0 3690 3020 0
+rnode "GND.n2" 0 0 3750 3000 0
+rnode "GND.t13" 0 0 3810 2340 0
+rnode "GND.t23" 0 0 3690 2340 0
+rnode "GND.n3" 0 0 3750 2360 0
+rnode "GND.t42" 0 0 3990 3020 0
+rnode "GND.t26" 0 0 3990 2340 0
+rnode "GND.t31" 0 0 5530 3020 0
+rnode "GND.t51" 0 0 5530 2340 0
+rnode "EESPFAL_NAND_v3_0/GND!" 0 0 5750 2660 0
+rnode "GND.t35" 0 0 5830 3020 0
+rnode "GND.t50" 0 0 5710 3020 0
+rnode "GND.n4" 0 0 5770 3000 0
+rnode "GND.t43" 0 0 5830 2340 0
+rnode "GND.t48" 0 0 5710 2340 0
+rnode "GND.n5" 0 0 5770 2360 0
+rnode "GND.t28" 0 0 6010 3020 0
+rnode "GND.t49" 0 0 6010 2340 0
+rnode "GND.t33" 0 0 6475 3020 0
+rnode "GND.n6" 0 0 6490 2680 0
+rnode "GND.n7" 0 0 6490 2680 0
+rnode "GND.n8" 0 0 6490 2680 0
+rnode "GND.n9" 0 0 6490 2680 0
+rnode "GND.n10" 0 0 6410 2680 0
+rnode "GND.n11" 0 0 6410 2680 0
+rnode "GND.n12" 0 0 6410 2680 0
+rnode "GND.n13" 0 0 6410 2680 0
+rnode "GND.t14" 0 0 6325 3020 0
+rnode "GND.n14" 0 0 6330 2680 0
+rnode "GND.n15" 0 0 6330 2680 0
+rnode "GND.n16" 0 0 6330 2680 0
+rnode "GND.n17" 0 0 6330 2680 0
+rnode "GND.n18" 0 0 6250 2680 0
+rnode "GND.n19" 0 0 6250 2680 0
+rnode "GND.n20" 0 0 6250 2680 0
+rnode "GND.n21" 0 0 6250 2680 0
+rnode "GND.n22" 0 0 6170 2680 0
+rnode "GND.n23" 0 0 6170 2680 0
+rnode "GND.n24" 0 0 6170 2680 0
+rnode "GND.n25" 0 0 6170 2680 0
+rnode "GND.n26" 0 0 6090 2680 0
+rnode "GND.n27" 0 0 6090 2680 0
+rnode "GND.n28" 0 0 6090 2680 0
+rnode "GND.n29" 0 0 6090 2680 0
+rnode "GND.n30" 0 0 6070 2730 0
+rnode "GND.t27" 0 0 5995 3020 0
+rnode "GND.n31" 0 0 6010 2680 0
+rnode "GND.n32" 0 0 6010 2680 0
+rnode "GND.n33" 0 0 6010 2680 0
+rnode "GND.n34" 0 0 6010 2680 0
+rnode "GND.n35" 0 0 5930 2680 0
+rnode "GND.n36" 0 0 5930 2680 0
+rnode "GND.n37" 0 0 5930 2680 0
+rnode "GND.n38" 0 0 5930 2680 0
+rnode "GND.t34" 0 0 5845 3020 0
+rnode "GND.n39" 0 0 5850 2680 0
+rnode "GND.n40" 0 0 5850 2680 0
+rnode "GND.n41" 0 0 5850 2680 0
+rnode "GND.n42" 0 0 5850 2680 0
+rnode "GND.n43" 0 0 5770 2680 0
+rnode "GND.n44" 0 0 5770 2680 0
+rnode "GND.n45" 0 0 5770 2680 0
+rnode "GND.n46" 0 0 5770 2680 0
+rnode "GND.t47" 0 0 5695 3020 0
+rnode "GND.n47" 0 0 5690 2680 0
+rnode "GND.n48" 0 0 5690 2680 0
+rnode "GND.n49" 0 0 5690 2680 0
+rnode "GND.n50" 0 0 5690 2680 0
+rnode "GND.n51" 0 0 5610 2680 0
+rnode "GND.n52" 0 0 5610 2680 0
+rnode "GND.n53" 0 0 5610 2680 0
+rnode "GND.n54" 0 0 5610 2680 0
+rnode "GND.t30" 0 0 5545 3020 0
+rnode "GND.n55" 0 0 5530 2680 0
+rnode "GND.n56" 0 0 5530 2680 0
+rnode "GND.n57" 0 0 5530 2680 0
+rnode "GND.n58" 0 0 5530 2680 0
+rnode "GND.n59" 0 0 5470 2730 0
+rnode "GND.n60" 0 0 5450 2680 0
+rnode "GND.n61" 0 0 5450 2680 0
+rnode "GND.n62" 0 0 5450 2680 0
+rnode "GND.n63" 0 0 5450 2680 0
+rnode "GND.n64" 0 0 5370 2680 0
+rnode "GND.n65" 0 0 5370 2680 0
+rnode "GND.n66" 0 0 5370 2680 0
+rnode "GND.n67" 0 0 5370 2680 0
+rnode "GND.n68" 0 0 5290 2680 0
+rnode "GND.n69" 0 0 5290 2680 0
+rnode "GND.n70" 0 0 5290 2680 0
+rnode "GND.n71" 0 0 5290 2680 0
+rnode "GND.t18" 0 0 5215 3020 0
+rnode "GND.n72" 0 0 5210 2680 0
+rnode "GND.n73" 0 0 5210 2680 0
+rnode "GND.n74" 0 0 5210 2680 0
+rnode "GND.n75" 0 0 5210 2680 0
+rnode "GND.n76" 0 0 5130 2680 0
+rnode "GND.n77" 0 0 5130 2680 0
+rnode "GND.n78" 0 0 5130 2680 0
+rnode "GND.n79" 0 0 5130 2680 0
+rnode "GND.t40" 0 0 5065 3020 0
+rnode "GND.n80" 0 0 5050 2680 0
+rnode "GND.n81" 0 0 5050 2680 0
+rnode "GND.n82" 0 0 5050 2680 0
+rnode "GND.n83" 0 0 5050 2680 0
+rnode "GND.n84" 0 0 4970 2680 0
+rnode "GND.n85" 0 0 4970 2680 0
+rnode "GND.n86" 0 0 4550 2680 0
+rnode "GND.n87" 0 0 4550 2680 0
+rnode "GND.t2" 0 0 4455 3020 0
+rnode "GND.n88" 0 0 4470 2680 0
+rnode "GND.n89" 0 0 4470 2680 0
+rnode "GND.n90" 0 0 4470 2680 0
+rnode "GND.n91" 0 0 4470 2680 0
+rnode "GND.n92" 0 0 4390 2680 0
+rnode "GND.n93" 0 0 4390 2680 0
+rnode "GND.n94" 0 0 4390 2680 0
+rnode "GND.n95" 0 0 4390 2680 0
+rnode "GND.t38" 0 0 4305 3020 0
+rnode "GND.n96" 0 0 4310 2680 0
+rnode "GND.n97" 0 0 4310 2680 0
+rnode "GND.n98" 0 0 4310 2680 0
+rnode "GND.n99" 0 0 4310 2680 0
+rnode "GND.n100" 0 0 4230 2680 0
+rnode "GND.n101" 0 0 4230 2680 0
+rnode "GND.n102" 0 0 4230 2680 0
+rnode "GND.n103" 0 0 4230 2680 0
+rnode "GND.n104" 0 0 4150 2680 0
+rnode "GND.n105" 0 0 4150 2680 0
+rnode "GND.n106" 0 0 4150 2680 0
+rnode "GND.n107" 0 0 4150 2680 0
+rnode "GND.n108" 0 0 4070 2680 0
+rnode "GND.n109" 0 0 4070 2680 0
+rnode "GND.n110" 0 0 4070 2680 0
+rnode "GND.n111" 0 0 4070 2680 0
+rnode "GND.n112" 0 0 4050 2730 0
+rnode "GND.t25" 0 0 3975 3020 0
+rnode "GND.n113" 0 0 3990 2680 0
+rnode "GND.n114" 0 0 3990 2680 0
+rnode "GND.n115" 0 0 3990 2680 0
+rnode "GND.n116" 0 0 3990 2680 0
+rnode "GND.n117" 0 0 3910 2680 0
+rnode "GND.n118" 0 0 3910 2680 0
+rnode "GND.n119" 0 0 3910 2680 0
+rnode "GND.n120" 0 0 3910 2680 0
+rnode "GND.t12" 0 0 3825 3020 0
+rnode "GND.n121" 0 0 3830 2680 0
+rnode "GND.n122" 0 0 3830 2680 0
+rnode "GND.n123" 0 0 3830 2680 0
+rnode "GND.n124" 0 0 3830 2680 0
+rnode "GND.n125" 0 0 3750 2680 0
+rnode "GND.n126" 0 0 3750 2680 0
+rnode "GND.n127" 0 0 3750 2680 0
+rnode "GND.n128" 0 0 3750 2680 0
+rnode "GND.t22" 0 0 3675 3020 0
+rnode "GND.n129" 0 0 3670 2680 0
+rnode "GND.n130" 0 0 3670 2680 0
+rnode "GND.n131" 0 0 3670 2680 0
+rnode "GND.n132" 0 0 3670 2680 0
+rnode "GND.n133" 0 0 3590 2680 0
+rnode "GND.n134" 0 0 3590 2680 0
+rnode "GND.n135" 0 0 3590 2680 0
+rnode "GND.n136" 0 0 3590 2680 0
+rnode "GND.t5" 0 0 3525 3020 0
+rnode "GND.n137" 0 0 3510 2680 0
+rnode "GND.n138" 0 0 3510 2680 0
+rnode "GND.n139" 0 0 3510 2680 0
+rnode "GND.n140" 0 0 3510 2680 0
+rnode "GND.n141" 0 0 3450 2730 0
+rnode "GND.n142" 0 0 3430 2680 0
+rnode "GND.n143" 0 0 3430 2680 0
+rnode "GND.n144" 0 0 3430 2680 0
+rnode "GND.n145" 0 0 3430 2680 0
+rnode "GND.n146" 0 0 3350 2680 0
+rnode "GND.n147" 0 0 3350 2680 0
+rnode "GND.n148" 0 0 3350 2680 0
+rnode "GND.n149" 0 0 3350 2680 0
+rnode "GND.n150" 0 0 3270 2680 0
+rnode "GND.n151" 0 0 3270 2680 0
+rnode "GND.n152" 0 0 3270 2680 0
+rnode "GND.n153" 0 0 3270 2680 0
+rnode "GND.t32" 0 0 3195 3020 0
+rnode "GND.n154" 0 0 3190 2680 0
+rnode "GND.n155" 0 0 3190 2680 0
+rnode "GND.n156" 0 0 3190 2680 0
+rnode "GND.n157" 0 0 3190 2680 0
+rnode "GND.n158" 0 0 3110 2680 0
+rnode "GND.n159" 0 0 3110 2680 0
+rnode "GND.n160" 0 0 3110 2680 0
+rnode "GND.n161" 0 0 3110 2680 0
+rnode "GND.t19" 0 0 3045 3020 0
+rnode "GND.n162" 0 0 3030 2680 0
+rnode "GND.n163" 0 0 3030 2680 0
+rnode "GND.n164" 0 0 3030 2680 0
+rnode "GND.n165" 0 0 3030 2680 0
+rnode "GND.n166" 0 0 2950 2680 0
+rnode "GND.n167" 0 0 2950 2680 0
+rnode "GND.t46" 0 0 2435 3020 0
+rnode "GND.n168" 0 0 2470 2680 0
+rnode "GND.n169" 0 0 2470 2680 0
+rnode "GND.n170" 0 0 2470 2680 0
+rnode "GND.n171" 0 0 2390 2680 0
+rnode "GND.n172" 0 0 2390 2680 0
+rnode "GND.n173" 0 0 2390 2680 0
+rnode "GND.n174" 0 0 2390 2680 0
+rnode "GND.t11" 0 0 2285 3020 0
+rnode "GND.n175" 0 0 2310 2680 0
+rnode "GND.n176" 0 0 2310 2680 0
+rnode "GND.n177" 0 0 2310 2680 0
+rnode "GND.n178" 0 0 2310 2680 0
+rnode "GND.n179" 0 0 2230 2680 0
+rnode "GND.n180" 0 0 2230 2680 0
+rnode "GND.n181" 0 0 2230 2680 0
+rnode "GND.n182" 0 0 2230 2680 0
+rnode "GND.t16" 0 0 2135 3020 0
+rnode "GND.n183" 0 0 2150 2680 0
+rnode "GND.n184" 0 0 2150 2680 0
+rnode "GND.n185" 0 0 2150 2680 0
+rnode "GND.n186" 0 0 2150 2680 0
+rnode "GND.n187" 0 0 2070 2680 0
+rnode "GND.n188" 0 0 2070 2680 0
+rnode "GND.n189" 0 0 2070 2680 0
+rnode "GND.n190" 0 0 2070 2680 0
+rnode "GND.t8" 0 0 1985 3020 0
+rnode "GND.n191" 0 0 1990 2680 0
+rnode "GND.n192" 0 0 1990 2680 0
+rnode "GND.n193" 0 0 1990 2680 0
+rnode "GND.n194" 0 0 1990 2680 0
+rnode "GND.n195" 0 0 1910 2680 0
+rnode "GND.n196" 0 0 1910 2680 0
+rnode "GND.n197" 0 0 1910 2680 0
+rnode "GND.n198" 0 0 1910 2680 0
+rnode "GND.n199" 0 0 1830 2680 0
+rnode "GND.n200" 0 0 1830 2680 0
+rnode "GND.n201" 0 0 1830 2680 0
+rnode "GND.n202" 0 0 1830 2680 0
+rnode "GND.n203" 0 0 1750 2680 0
+rnode "GND.n204" 0 0 1750 2680 0
+rnode "GND.n205" 0 0 1750 2680 0
+rnode "GND.n206" 0 0 1750 2680 0
+rnode "GND.n207" 0 0 1730 2730 0
+rnode "GND.t36" 0 0 1655 3020 0
+rnode "GND.n208" 0 0 1670 2680 0
+rnode "GND.n209" 0 0 1670 2680 0
+rnode "GND.n210" 0 0 1670 2680 0
+rnode "GND.n211" 0 0 1670 2680 0
+rnode "GND.n212" 0 0 1590 2680 0
+rnode "GND.n213" 0 0 1590 2680 0
+rnode "GND.n214" 0 0 1590 2680 0
+rnode "GND.n215" 0 0 1590 2680 0
+rnode "GND.t20" 0 0 1505 3020 0
+rnode "GND.n216" 0 0 1510 2680 0
+rnode "GND.n217" 0 0 1510 2680 0
+rnode "GND.n218" 0 0 1510 2680 0
+rnode "GND.n219" 0 0 1510 2680 0
+rnode "GND.n220" 0 0 1430 2680 0
+rnode "GND.n221" 0 0 1430 2680 0
+rnode "GND.n222" 0 0 1430 2680 0
+rnode "GND.n223" 0 0 1430 2680 0
+rnode "GND.t17" 0 0 1190 3020 0
+rnode "GND.t1" 0 0 1190 2340 0
+rnode "GND" 0 0 200 2657 0
+rnode "GND.t10" 0 0 425 3020 0
+rnode "GND.n224" 0 0 390 2680 0
+rnode "GND.n225" 0 0 390 2680 0
+rnode "GND.n226" 0 0 470 2680 0
+rnode "GND.n227" 0 0 470 2680 0
+rnode "GND.n228" 0 0 470 2680 0
+rnode "GND.n229" 0 0 470 2680 0
+rnode "GND.t15" 0 0 575 3020 0
+rnode "GND.n230" 0 0 550 2680 0
+rnode "GND.n231" 0 0 550 2680 0
+rnode "GND.n232" 0 0 550 2680 0
+rnode "GND.n233" 0 0 550 2680 0
+rnode "GND.n234" 0 0 630 2680 0
+rnode "GND.n235" 0 0 630 2680 0
+rnode "GND.n236" 0 0 630 2680 0
+rnode "GND.n237" 0 0 630 2680 0
+rnode "GND.t9" 0 0 725 3020 0
+rnode "GND.n238" 0 0 710 2680 0
+rnode "GND.n239" 0 0 710 2680 0
+rnode "GND.n240" 0 0 710 2680 0
+rnode "GND.n241" 0 0 710 2680 0
+rnode "GND.n242" 0 0 790 2680 0
+rnode "GND.n243" 0 0 790 2680 0
+rnode "GND.n244" 0 0 790 2680 0
+rnode "GND.n245" 0 0 790 2680 0
+rnode "GND.t7" 0 0 875 3020 0
+rnode "GND.n246" 0 0 870 2680 0
+rnode "GND.n247" 0 0 870 2680 0
+rnode "GND.n248" 0 0 870 2680 0
+rnode "GND.n249" 0 0 870 2680 0
+rnode "GND.n250" 0 0 950 2680 0
+rnode "GND.n251" 0 0 950 2680 0
+rnode "GND.n252" 0 0 950 2680 0
+rnode "GND.n253" 0 0 950 2680 0
+rnode "GND.n254" 0 0 1030 2680 0
+rnode "GND.n255" 0 0 1030 2680 0
+rnode "GND.n256" 0 0 1030 2680 0
+rnode "GND.n257" 0 0 1030 2680 0
+rnode "GND.n258" 0 0 1110 2680 0
+rnode "GND.n259" 0 0 1110 2680 0
+rnode "GND.n260" 0 0 1110 2680 0
+rnode "GND.n261" 0 0 1110 2680 0
+rnode "GND.n262" 0 0 1130 2730 0
+rnode "GND.t0" 0 0 1205 3020 0
+rnode "GND.n263" 0 0 1190 2680 0
+rnode "GND.n264" 0 0 1190 2680 0
+rnode "GND.n265" 0 0 1190 2680 0
+rnode "GND.n266" 0 0 1190 2680 0
+rnode "GND.n267" 0 0 1270 2680 0
+rnode "GND.n268" 0 0 1270 2680 0
+rnode "GND.n269" 0 0 1270 2680 0
+rnode "GND.n270" 0 0 1270 2680 0
+rnode "GND.t3" 0 0 1355 3020 0
+rnode "GND.n271" 0 0 1350 2680 0
+rnode "GND.n272" 0 0 1350 2680 0
+rnode "GND.n273" 0 0 1350 2680 0
+rnode "GND.n274" 0 0 1350 2680 0
+rnode "EESPFAL_NAND_v3_2/GND!" 0 0 1410 2660 0
+resist "GND.n262" "GND.n261" 0.025
+resist "EESPFAL_NAND_v3_2/GND!" "GND.n223" 0.025
+resist "GND.n207" "GND.n206" 0.025
+resist "GND.n145" "GND.n141" 0.025
+resist "GND.n125" "EESPFAL_NAND_v3_1/GND!" 0.025
+resist "GND.n112" "GND.n111" 0.025
+resist "GND.n63" "GND.n59" 0.025
+resist "GND.n43" "EESPFAL_NAND_v3_0/GND!" 0.025
+resist "GND.n30" "GND.n29" 0.025
+resist "GND.n266" "GND.n262" 0.075
+resist "EESPFAL_NAND_v3_2/GND!" "GND.n274" 0.075
+resist "GND.n211" "GND.n207" 0.075
+resist "GND.n141" "GND.n140" 0.075
+resist "GND.n132" "EESPFAL_NAND_v3_1/GND!" 0.075
+resist "GND.n116" "GND.n112" 0.075
+resist "GND.n59" "GND.n58" 0.075
+resist "GND.n50" "EESPFAL_NAND_v3_0/GND!" 0.075
+resist "GND.n34" "GND.n30" 0.075
+resist "GND.n237" "GND.n233" 0.1
+resist "GND.n241" "GND.n237" 0.1
+resist "GND.n245" "GND.n241" 0.1
+resist "GND.n249" "GND.n245" 0.1
+resist "GND.n253" "GND.n249" 0.1
+resist "GND.n257" "GND.n253" 0.1
+resist "GND.n261" "GND.n257" 0.1
+resist "GND.n270" "GND.n266" 0.1
+resist "GND.n274" "GND.n270" 0.1
+resist "GND.n223" "GND.n219" 0.1
+resist "GND.n219" "GND.n215" 0.1
+resist "GND.n215" "GND.n211" 0.1
+resist "GND.n206" "GND.n202" 0.1
+resist "GND.n202" "GND.n198" 0.1
+resist "GND.n198" "GND.n194" 0.1
+resist "GND.n194" "GND.n190" 0.1
+resist "GND.n190" "GND.n186" 0.1
+resist "GND.n186" "GND.n182" 0.1
+resist "GND.n182" "GND.n178" 0.1
+resist "GND.n178" "GND.n174" 0.1
+resist "GND.n174" "GND.n170" 0.1
+resist "GND.n167" "GND.n165" 0.1
+resist "GND.n165" "GND.n161" 0.1
+resist "GND.n161" "GND.n157" 0.1
+resist "GND.n157" "GND.n153" 0.1
+resist "GND.n153" "GND.n149" 0.1
+resist "GND.n149" "GND.n145" 0.1
+resist "GND.n140" "GND.n136" 0.1
+resist "GND.n136" "GND.n132" 0.1
+resist "GND.n125" "GND.n124" 0.1
+resist "GND.n124" "GND.n120" 0.1
+resist "GND.n120" "GND.n116" 0.1
+resist "GND.n111" "GND.n107" 0.1
+resist "GND.n107" "GND.n103" 0.1
+resist "GND.n103" "GND.n99" 0.1
+resist "GND.n99" "GND.n95" 0.1
+resist "GND.n95" "GND.n91" 0.1
+resist "GND.n91" "GND.n87" 0.1
+resist "GND.n85" "GND.n83" 0.1
+resist "GND.n83" "GND.n79" 0.1
+resist "GND.n79" "GND.n75" 0.1
+resist "GND.n75" "GND.n71" 0.1
+resist "GND.n71" "GND.n67" 0.1
+resist "GND.n67" "GND.n63" 0.1
+resist "GND.n58" "GND.n54" 0.1
+resist "GND.n54" "GND.n50" 0.1
+resist "GND.n43" "GND.n42" 0.1
+resist "GND.n42" "GND.n38" 0.1
+resist "GND.n38" "GND.n34" 0.1
+resist "GND.n29" "GND.n25" 0.1
+resist "GND.n25" "GND.n21" 0.1
+resist "GND.n21" "GND.n17" 0.1
+resist "GND.n17" "GND.n13" 0.1
+resist "GND.n87" "GND.n85" 0.525
+resist "GND.n170" "GND.n167" 0.6
+resist "GND.n233" "GND.n229" 1.09543
+resist "GND.n13" "GND.n9" 1.09543
+resist "GND.n229" "GND.n228" 2.68158
+resist "GND.n9" "GND.n8" 2.68158
+resist "GND.n229" "GND.n225" 2.73924
+resist "GND.n81" "GND.n80" 2.79114
+resist "GND.n163" "GND.n162" 2.79114
+resist "GND.n89" "GND.n88" 2.79114
+resist "GND.n7" "GND.n6" 2.79114
+resist "GND.n170" "GND.n169" 4.65
+resist "GND.n233" "GND.n232" 4.65
+resist "GND.n237" "GND.n236" 4.65
+resist "GND.n241" "GND.n240" 4.65
+resist "GND.n245" "GND.n244" 4.65
+resist "GND.n249" "GND.n248" 4.65
+resist "GND.n253" "GND.n252" 4.65
+resist "GND.n257" "GND.n256" 4.65
+resist "GND.n261" "GND.n260" 4.65
+resist "GND.n266" "GND.n265" 4.65
+resist "GND.n270" "GND.n269" 4.65
+resist "GND.n274" "GND.n273" 4.65
+resist "GND.n223" "GND.n222" 4.65
+resist "GND.n219" "GND.n218" 4.65
+resist "GND.n215" "GND.n214" 4.65
+resist "GND.n211" "GND.n210" 4.65
+resist "GND.n206" "GND.n205" 4.65
+resist "GND.n202" "GND.n201" 4.65
+resist "GND.n198" "GND.n197" 4.65
+resist "GND.n194" "GND.n193" 4.65
+resist "GND.n190" "GND.n189" 4.65
+resist "GND.n186" "GND.n185" 4.65
+resist "GND.n182" "GND.n181" 4.65
+resist "GND.n178" "GND.n177" 4.65
+resist "GND.n174" "GND.n173" 4.65
+resist "GND.n83" "GND.n82" 4.65
+resist "GND.n79" "GND.n78" 4.65
+resist "GND.n75" "GND.n74" 4.65
+resist "GND.n71" "GND.n70" 4.65
+resist "GND.n67" "GND.n66" 4.65
+resist "GND.n63" "GND.n62" 4.65
+resist "GND.n58" "GND.n57" 4.65
+resist "GND.n54" "GND.n53" 4.65
+resist "GND.n50" "GND.n49" 4.65
+resist "GND.n46" "GND.n43" 4.65
+resist "GND.n42" "GND.n41" 4.65
+resist "GND.n38" "GND.n37" 4.65
+resist "GND.n34" "GND.n33" 4.65
+resist "GND.n29" "GND.n28" 4.65
+resist "GND.n25" "GND.n24" 4.65
+resist "GND.n21" "GND.n20" 4.65
+resist "GND.n17" "GND.n16" 4.65
+resist "GND.n13" "GND.n12" 4.65
+resist "GND.n85" "GND.n84" 4.65
+resist "GND.n87" "GND.n86" 4.65
+resist "GND.n165" "GND.n164" 4.65
+resist "GND.n161" "GND.n160" 4.65
+resist "GND.n157" "GND.n156" 4.65
+resist "GND.n153" "GND.n152" 4.65
+resist "GND.n149" "GND.n148" 4.65
+resist "GND.n145" "GND.n144" 4.65
+resist "GND.n140" "GND.n139" 4.65
+resist "GND.n136" "GND.n135" 4.65
+resist "GND.n132" "GND.n131" 4.65
+resist "GND.n128" "GND.n125" 4.65
+resist "GND.n124" "GND.n123" 4.65
+resist "GND.n120" "GND.n119" 4.65
+resist "GND.n116" "GND.n115" 4.65
+resist "GND.n111" "GND.n110" 4.65
+resist "GND.n107" "GND.n106" 4.65
+resist "GND.n103" "GND.n102" 4.65
+resist "GND.n99" "GND.n98" 4.65
+resist "GND.n95" "GND.n94" 4.65
+resist "GND.n91" "GND.n90" 4.65
+resist "GND.n167" "GND.n166" 4.65
+resist "GND.n125" "GND.n2" 5.10279
+resist "GND.n125" "GND.n3" 5.10279
+resist "GND.n43" "GND.n4" 5.10279
+resist "GND.n43" "GND.n5" 5.10279
+resist "GND.n223" "GND.n0" 5.10279
+resist "GND.n223" "GND.n1" 5.10279
+resist "GND.n169" "GND.n168" 9.15447
+resist "GND.n225" "GND.n224" 9.15447
+resist "GND.n227" "GND.n226" 9.15447
+resist "GND.n228" "GND.n227" 9.15447
+resist "GND.n231" "GND.n230" 9.15447
+resist "GND.n232" "GND.n231" 9.15447
+resist "GND.n235" "GND.n234" 9.15447
+resist "GND.n236" "GND.n235" 9.15447
+resist "GND.n239" "GND.n238" 9.15447
+resist "GND.n240" "GND.n239" 9.15447
+resist "GND.n243" "GND.n242" 9.15447
+resist "GND.n244" "GND.n243" 9.15447
+resist "GND.n247" "GND.n246" 9.15447
+resist "GND.n248" "GND.n247" 9.15447
+resist "GND.n251" "GND.n250" 9.15447
+resist "GND.n252" "GND.n251" 9.15447
+resist "GND.n255" "GND.n254" 9.15447
+resist "GND.n256" "GND.n255" 9.15447
+resist "GND.n259" "GND.n258" 9.15447
+resist "GND.n260" "GND.n259" 9.15447
+resist "GND.n264" "GND.n263" 9.15447
+resist "GND.n265" "GND.n264" 9.15447
+resist "GND.n268" "GND.n267" 9.15447
+resist "GND.n269" "GND.n268" 9.15447
+resist "GND.n272" "GND.n271" 9.15447
+resist "GND.n273" "GND.n272" 9.15447
+resist "GND.n221" "GND.n220" 9.15447
+resist "GND.n222" "GND.n221" 9.15447
+resist "GND.n217" "GND.n216" 9.15447
+resist "GND.n218" "GND.n217" 9.15447
+resist "GND.n213" "GND.n212" 9.15447
+resist "GND.n214" "GND.n213" 9.15447
+resist "GND.n209" "GND.n208" 9.15447
+resist "GND.n210" "GND.n209" 9.15447
+resist "GND.n204" "GND.n203" 9.15447
+resist "GND.n205" "GND.n204" 9.15447
+resist "GND.n200" "GND.n199" 9.15447
+resist "GND.n201" "GND.n200" 9.15447
+resist "GND.n196" "GND.n195" 9.15447
+resist "GND.n197" "GND.n196" 9.15447
+resist "GND.n192" "GND.n191" 9.15447
+resist "GND.n193" "GND.n192" 9.15447
+resist "GND.n188" "GND.n187" 9.15447
+resist "GND.n189" "GND.n188" 9.15447
+resist "GND.n184" "GND.n183" 9.15447
+resist "GND.n185" "GND.n184" 9.15447
+resist "GND.n180" "GND.n179" 9.15447
+resist "GND.n181" "GND.n180" 9.15447
+resist "GND.n176" "GND.n175" 9.15447
+resist "GND.n177" "GND.n176" 9.15447
+resist "GND.n172" "GND.n171" 9.15447
+resist "GND.n173" "GND.n172" 9.15447
+resist "GND.n82" "GND.n81" 9.15447
+resist "GND.n77" "GND.n76" 9.15447
+resist "GND.n78" "GND.n77" 9.15447
+resist "GND.n73" "GND.n72" 9.15447
+resist "GND.n74" "GND.n73" 9.15447
+resist "GND.n69" "GND.n68" 9.15447
+resist "GND.n70" "GND.n69" 9.15447
+resist "GND.n65" "GND.n64" 9.15447
+resist "GND.n66" "GND.n65" 9.15447
+resist "GND.n61" "GND.n60" 9.15447
+resist "GND.n62" "GND.n61" 9.15447
+resist "GND.n56" "GND.n55" 9.15447
+resist "GND.n57" "GND.n56" 9.15447
+resist "GND.n52" "GND.n51" 9.15447
+resist "GND.n53" "GND.n52" 9.15447
+resist "GND.n48" "GND.n47" 9.15447
+resist "GND.n49" "GND.n48" 9.15447
+resist "GND.n45" "GND.n44" 9.15447
+resist "GND.n46" "GND.n45" 9.15447
+resist "GND.n40" "GND.n39" 9.15447
+resist "GND.n41" "GND.n40" 9.15447
+resist "GND.n36" "GND.n35" 9.15447
+resist "GND.n37" "GND.n36" 9.15447
+resist "GND.n32" "GND.n31" 9.15447
+resist "GND.n33" "GND.n32" 9.15447
+resist "GND.n27" "GND.n26" 9.15447
+resist "GND.n28" "GND.n27" 9.15447
+resist "GND.n23" "GND.n22" 9.15447
+resist "GND.n24" "GND.n23" 9.15447
+resist "GND.n19" "GND.n18" 9.15447
+resist "GND.n20" "GND.n19" 9.15447
+resist "GND.n15" "GND.n14" 9.15447
+resist "GND.n16" "GND.n15" 9.15447
+resist "GND.n11" "GND.n10" 9.15447
+resist "GND.n12" "GND.n11" 9.15447
+resist "GND.n164" "GND.n163" 9.15447
+resist "GND.n159" "GND.n158" 9.15447
+resist "GND.n160" "GND.n159" 9.15447
+resist "GND.n155" "GND.n154" 9.15447
+resist "GND.n156" "GND.n155" 9.15447
+resist "GND.n151" "GND.n150" 9.15447
+resist "GND.n152" "GND.n151" 9.15447
+resist "GND.n147" "GND.n146" 9.15447
+resist "GND.n148" "GND.n147" 9.15447
+resist "GND.n143" "GND.n142" 9.15447
+resist "GND.n144" "GND.n143" 9.15447
+resist "GND.n138" "GND.n137" 9.15447
+resist "GND.n139" "GND.n138" 9.15447
+resist "GND.n134" "GND.n133" 9.15447
+resist "GND.n135" "GND.n134" 9.15447
+resist "GND.n130" "GND.n129" 9.15447
+resist "GND.n131" "GND.n130" 9.15447
+resist "GND.n127" "GND.n126" 9.15447
+resist "GND.n128" "GND.n127" 9.15447
+resist "GND.n122" "GND.n121" 9.15447
+resist "GND.n123" "GND.n122" 9.15447
+resist "GND.n118" "GND.n117" 9.15447
+resist "GND.n119" "GND.n118" 9.15447
+resist "GND.n114" "GND.n113" 9.15447
+resist "GND.n115" "GND.n114" 9.15447
+resist "GND.n109" "GND.n108" 9.15447
+resist "GND.n110" "GND.n109" 9.15447
+resist "GND.n105" "GND.n104" 9.15447
+resist "GND.n106" "GND.n105" 9.15447
+resist "GND.n101" "GND.n100" 9.15447
+resist "GND.n102" "GND.n101" 9.15447
+resist "GND.n97" "GND.n96" 9.15447
+resist "GND.n98" "GND.n97" 9.15447
+resist "GND.n93" "GND.n92" 9.15447
+resist "GND.n94" "GND.n93" 9.15447
+resist "GND.n90" "GND.n89" 9.15447
+resist "GND.n8" "GND.n7" 9.15447
+resist "GND.n131" "GND.n128" 12.8
+resist "GND.n49" "GND.n46" 12.8
+resist "GND.n154" "GND.t32" 21.317
+resist "GND.n129" "GND.t22" 21.317
+resist "GND.n121" "GND.t12" 21.317
+resist "GND.n96" "GND.t38" 21.317
+resist "GND.n72" "GND.t18" 21.317
+resist "GND.n47" "GND.t47" 21.317
+resist "GND.n39" "GND.t34" 21.317
+resist "GND.n14" "GND.t14" 21.317
+resist "GND.n246" "GND.t7" 21.317
+resist "GND.n271" "GND.t3" 21.317
+resist "GND.n216" "GND.t20" 21.317
+resist "GND.n191" "GND.t8" 21.317
+resist "GND.n2" "GND.t24" 24
+resist "GND.n2" "GND.t41" 24
+resist "GND.n3" "GND.t23" 24
+resist "GND.n3" "GND.t13" 24
+resist "GND.n4" "GND.t50" 24
+resist "GND.n4" "GND.t35" 24
+resist "GND.n5" "GND.t48" 24
+resist "GND.n5" "GND.t43" 24
+resist "GND.n0" "GND.t4" 24
+resist "GND.n0" "GND.t44" 24
+resist "GND.n1" "GND.t39" 24
+resist "GND.n1" "GND.t21" 24
+resist "GND.n262" "GND.t1" 29.1017
+resist "GND.n207" "GND.t45" 29.1017
+resist "GND.n141" "GND.t29" 29.1017
+resist "GND.n112" "GND.t26" 29.1017
+resist "GND.n59" "GND.t51" 29.1017
+resist "GND.n30" "GND.t49" 29.1017
+resist "GND.n262" "GND.t17" 29.1028
+resist "GND.n207" "GND.t37" 29.1028
+resist "GND.n141" "GND.t6" 29.1028
+resist "GND.n112" "GND.t42" 29.1028
+resist "GND.n59" "GND.t31" 29.1028
+resist "GND.n30" "GND.t28" 29.1028
+resist "GND.n225" "GND" 31.565
+resist "GND.n137" "GND.t5" 63.953
+resist "GND.n113" "GND.t25" 63.953
+resist "GND.n55" "GND.t30" 63.953
+resist "GND.n31" "GND.t27" 63.953
+resist "GND.n238" "GND.t9" 63.953
+resist "GND.n263" "GND.t0" 63.953
+resist "GND.n208" "GND.t36" 63.953
+resist "GND.n183" "GND.t16" 63.953
+resist "GND.n162" "GND.t19" 70.1552
+resist "GND.n88" "GND.t2" 70.1552
+resist "GND.n80" "GND.t40" 70.1552
+resist "GND.n6" "GND.t33" 70.1552
+resist "GND.n175" "GND.t11" 133.857
+resist "GND.n230" "GND.t15" 133.857
+resist "GND.n168" "GND.t46" 269.289
+resist "GND.n224" "GND.t10" 269.289
+rnode "Dis2.t2" 0 176.596 5995 3020 0
+rnode "Dis2.t0" 0 114.412 5545 3020 0
+rnode "Dis2.n0" 0 449.549 5570 2800 0
+rnode "Dis2.t3" 0 114.412 3975 2340 0
+rnode "Dis2.t1" 0 114.412 3525 2340 0
+rnode "EESPFAL_NAND_v3_1/Dis" 0 -296.223 3530 2540 0
+rnode "Dis2.n1" 0 239.41 3550 2560 0
+rnode "Dis2.n2" 0 613.667 3950 2560 0
+rnode "Dis2" 0 568.004 5040 3975 0
+rnode "Dis2.n3" 0 799.442 5052 2800 0
+rnode "EESPFAL_NAND_v3_0/Dis" 0 156.319 5550 2780 0
+resist "EESPFAL_NAND_v3_0/Dis" "Dis2.n0" 3.2
+resist "Dis2.n1" "EESPFAL_NAND_v3_1/Dis" 3.2
+resist "Dis2.n3" "Dis2" 7.38312
+resist "Dis2.n2" "Dis2.n1" 115.2
+resist "EESPFAL_NAND_v3_0/Dis" "Dis2.n3" 149.76
+resist "Dis2.n0" "Dis2.t0" 389.3
+resist "Dis2.n1" "Dis2.t1" 389.3
+resist "Dis2.n2" "Dis2.t3" 389.3
+resist "Dis2.n3" "Dis2.n2" 403.84
+resist "Dis2.n0" "Dis2.t2" 504.5
+device msubckt sky130_fd_pr__pfet_01v8 5830 1630 5831 1631  "CLK3.t6" "s0.t8" 60 0 "CLK3.t7" 300 0 "s0_bar.t4" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 5680 1630 5681 1631  "CLK3.t2" "s0_bar.t7" 60 0 "s0.t2" 300 0 "CLK3.t3" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3030 2190 3031 2191  "GND.t19" "EESPFAL_NAND_v3_1/B_bar" 60 0 "EESPFAL_NOR_v3_0/B_bar" 300 0 "CLK2.t6" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 710 2870 711 2871  "GND.t9" "x0.t1" 60 0 "CLK1.t4" 300 0 "a_740_2870#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 560 2870 561 2871  "GND.t15" "x0_bar.t1" 60 0 "a_440_2870#" 300 0 "CLK1.t6" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3960 2190 3961 2191  "GND.t25" "Dis2.t3" 60 0 "EESPFAL_NOR_v3_0/B" 300 0 "GND.t26" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5830 2190 5831 2191  "GND.t34" "s0.t7" 60 0 "GND.t43" 300 0 "s0_bar.t3" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 2420 2870 2421 2871  "GND.t46" "x3.t1" 60 0 "a_2300_2870#" 300 0 "EESPFAL_NAND_v3_0/A.t5" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1640 2870 1641 2871  "GND.t36" "Dis1.t5" 60 0 "EESPFAL_NAND_v3_0/A.t4" 300 0 "GND.t37" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 6460 2190 6461 2191  "GND.t33" "EESPFAL_NAND_v3_0/OUT_bar" 60 0 "a_6340_2190#" 300 0 "CLK3.t1" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5680 2190 5681 2191  "GND.t47" "s0_bar.t6" 60 0 "s0.t3" 300 0 "GND.t48" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 2270 2870 2271 2871  "GND.t11" "x0_bar.t0" 60 0 "CLK1.t5" 300 0 "a_2300_2870#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1490 2870 1491 2871  "GND.t20" "EESPFAL_NAND_v3_0/A_bar.t10" 60 0 "GND.t44" 300 0 "EESPFAL_NAND_v3_0/A.t3" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3510 2870 3511 2871  "GND.t5" "Dis1.t4" 60 0 "GND.t6" 300 0 "EESPFAL_NAND_v3_0/B_bar" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 5980 3430 5981 3431  "CLK2.t12" "EESPFAL_NAND_v3_0/OUT_bar" 60 0 "EESPFAL_NAND_v3_0/OUT" 300 0 "CLK2.t13" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1340 3430 1341 3431  "CLK1.t20" "EESPFAL_NAND_v3_0/A.t10" 60 0 "EESPFAL_NAND_v3_0/A_bar.t4" 300 0 "CLK1.t21" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1190 3430 1191 3431  "CLK1.t18" "EESPFAL_NAND_v3_0/A.t9" 60 0 "CLK1.t19" 300 0 "EESPFAL_NAND_v3_0/A_bar.t3" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 3810 1630 3811 1631  "CLK2.t1" "EESPFAL_NOR_v3_0/B_bar" 60 0 "CLK2.t2" 300 0 "EESPFAL_NOR_v3_0/B" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 3660 1630 3661 1631  "CLK2.t7" "EESPFAL_NOR_v3_0/B" 60 0 "EESPFAL_NOR_v3_0/B_bar" 300 0 "CLK2.t8" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1970 2190 1971 2191  "GND.t8" "x1_bar.t1" 60 0 "EESPFAL_NAND_v3_1/B" 300 0 "a_2000_2190#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 860 2190 861 2191  "GND.t7" "x2_bar.t1" 60 0 "CLK1.t2" 300 0 "EESPFAL_NAND_v3_1/B_bar" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 5530 1630 5531 1631  "CLK3.t4" "s0_bar.t5" 60 0 "CLK3.t5" 300 0 "s0.t4" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 410 2870 411 2871  "GND.t10" "x3_bar.t1" 60 0 "EESPFAL_NAND_v3_0/A_bar.t1" 300 0 "a_440_2870#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3180 2870 3181 2871  "GND.t32" "x2.t1" 60 0 "a_3060_2870#" 300 0 "EESPFAL_NAND_v3_0/B_bar" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3810 2190 3811 2191  "GND.t12" "EESPFAL_NOR_v3_0/B_bar" 60 0 "GND.t13" 300 0 "EESPFAL_NOR_v3_0/B" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5200 2870 5201 2871  "GND.t18" "EESPFAL_NAND_v3_0/A_bar.t9" 60 0 "CLK2.t5" 300 0 "EESPFAL_NAND_v3_0/OUT_bar" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5050 2870 5051 2871  "GND.t40" "EESPFAL_NAND_v3_0/B_bar" 60 0 "EESPFAL_NAND_v3_0/OUT_bar" 300 0 "CLK2.t16" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 4440 2190 4441 2191  "GND.t2" "EESPFAL_NAND_v3_0/A_bar.t8" 60 0 "a_4320_2190#" 300 0 "CLK2.t0" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 4290 2190 4291 2191  "GND.t38" "EESPFAL_NAND_v3_1/B" 60 0 "EESPFAL_NOR_v3_0/B" 300 0 "a_4320_2190#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3660 2190 3661 2191  "GND.t22" "EESPFAL_NOR_v3_0/B" 60 0 "EESPFAL_NOR_v3_0/B_bar" 300 0 "GND.t23" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 6310 2190 6311 2191  "GND.t14" "EESPFAL_NOR_v3_0/B_bar" 60 0 "s0_bar.t2" 300 0 "a_6340_2190#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5530 2190 5531 2191  "GND.t30" "Dis3.t1" 60 0 "GND.t51" 300 0 "s0.t0" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 2120 2870 2121 2871  "GND.t16" "x0.t0" 60 0 "a_2000_2870#" 300 0 "CLK1.t7" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1340 2870 1341 2871  "GND.t3" "EESPFAL_NAND_v3_0/A.t8" 60 0 "EESPFAL_NAND_v3_0/A_bar.t0" 300 0 "GND.t4" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1190 2870 1191 2871  "GND.t0" "Dis1.t3" 60 0 "GND.t17" 300 0 "EESPFAL_NAND_v3_0/A_bar.t2" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 3960 3430 3961 3431  "CLK1.t26" "EESPFAL_NAND_v3_0/B_bar" 60 0 "EESPFAL_NAND_v3_0/B" 300 0 "CLK1.t27" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1640 1630 1641 1631  "CLK1.t10" "EESPFAL_NAND_v3_1/B_bar" 60 0 "EESPFAL_NAND_v3_1/B" 300 0 "CLK1.t11" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5980 2870 5981 2871  "GND.t27" "Dis2.t2" 60 0 "EESPFAL_NAND_v3_0/OUT" 300 0 "GND.t28" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 5830 3430 5831 3431  "CLK2.t14" "EESPFAL_NAND_v3_0/OUT_bar" 60 0 "CLK2.t15" 300 0 "EESPFAL_NAND_v3_0/OUT" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1490 1630 1491 1631  "CLK1.t12" "EESPFAL_NAND_v3_1/B_bar" 60 0 "CLK1.t13" 300 0 "EESPFAL_NAND_v3_1/B" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 710 2190 711 2191  "GND.t9" "x1.t1" 60 0 "EESPFAL_NAND_v3_1/B_bar" 300 0 "CLK1.t3" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 5680 3430 5681 3431  "CLK2.t18" "EESPFAL_NAND_v3_0/OUT" 60 0 "EESPFAL_NAND_v3_0/OUT_bar" 300 0 "CLK2.t19" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 3510 1630 3511 1631  "CLK2.t9" "EESPFAL_NOR_v3_0/B" 60 0 "CLK2.t10" 300 0 "EESPFAL_NOR_v3_0/B_bar" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3030 2870 3031 2871  "GND.t19" "x1_bar.t0" 60 0 "CLK1.t33" 300 0 "a_3060_2870#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1640 2190 1641 2191  "GND.t36" "Dis1.t2" 60 0 "EESPFAL_NAND_v3_1/B" 300 0 "GND.t45" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1490 2190 1491 2191  "GND.t20" "EESPFAL_NAND_v3_1/B_bar" 60 0 "GND.t21" 300 0 "EESPFAL_NAND_v3_1/B" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3510 2190 3511 2191  "GND.t5" "Dis2.t1" 60 0 "GND.t29" 300 0 "EESPFAL_NOR_v3_0/B_bar" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3960 2870 3961 2871  "GND.t25" "Dis1.t1" 60 0 "EESPFAL_NAND_v3_0/B" 300 0 "GND.t42" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 6460 2870 6461 2871  "GND.t33" "EESPFAL_NAND_v3_0/A.t7" 60 0 "a_6340_2870#" 300 0 "CLK2.t17" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5830 2870 5831 2871  "GND.t34" "EESPFAL_NAND_v3_0/OUT_bar" 60 0 "GND.t35" 300 0 "EESPFAL_NAND_v3_0/OUT" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5680 2870 5681 2871  "GND.t47" "EESPFAL_NAND_v3_0/OUT" 60 0 "EESPFAL_NAND_v3_0/OUT_bar" 300 0 "GND.t50" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 3810 3430 3811 3431  "CLK1.t28" "EESPFAL_NAND_v3_0/B_bar" 60 0 "CLK1.t29" 300 0 "EESPFAL_NAND_v3_0/B" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 3660 3430 3661 3431  "CLK1.t14" "EESPFAL_NAND_v3_0/B" 60 0 "EESPFAL_NAND_v3_0/B_bar" 300 0 "CLK1.t15" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1340 1630 1341 1631  "CLK1.t22" "EESPFAL_NAND_v3_1/B" 60 0 "EESPFAL_NAND_v3_1/B_bar" 300 0 "CLK1.t23" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1190 1630 1191 1631  "CLK1.t24" "EESPFAL_NAND_v3_1/B" 60 0 "CLK1.t25" 300 0 "EESPFAL_NAND_v3_1/B_bar" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 5530 3430 5531 3431  "CLK2.t20" "EESPFAL_NAND_v3_0/OUT" 60 0 "CLK2.t21" 300 0 "EESPFAL_NAND_v3_0/OUT_bar" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 5980 1630 5981 1631  "CLK3.t8" "s0.t6" 60 0 "s0_bar.t0" 300 0 "CLK3.t9" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3180 2190 3181 2191  "GND.t32" "EESPFAL_NAND_v3_0/A.t6" 60 0 "CLK2.t11" 300 0 "EESPFAL_NOR_v3_0/B_bar" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1970 2870 1971 2871  "GND.t8" "x3_bar.t0" 60 0 "EESPFAL_NAND_v3_0/A.t0" 300 0 "a_2000_2870#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 860 2870 861 2871  "GND.t7" "x3.t0" 60 0 "a_740_2870#" 300 0 "EESPFAL_NAND_v3_0/A_bar.t5" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5200 2190 5201 2191  "GND.t18" "EESPFAL_NOR_v3_0/B" 60 0 "CLK3.t0" 300 0 "s0.t1" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5050 2190 5051 2191  "GND.t40" "EESPFAL_NAND_v3_0/OUT" 60 0 "s0.t5" 300 0 "CLK3.t10" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1340 2190 1341 2191  "GND.t3" "EESPFAL_NAND_v3_1/B" 60 0 "EESPFAL_NAND_v3_1/B_bar" 300 0 "GND.t39" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5980 2190 5981 2191  "GND.t27" "Dis3.t0" 60 0 "s0_bar.t1" 300 0 "GND.t49" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 2120 2190 2121 2191  "GND.t16" "x2.t0" 60 0 "a_2000_2190#" 300 0 "CLK1.t31" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1190 2190 1191 2191  "GND.t0" "Dis1.t0" 60 0 "GND.t1" 300 0 "EESPFAL_NAND_v3_1/B_bar" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 4440 2870 4441 2871  "GND.t2" "x1.t0" 60 0 "CLK1.t30" 300 0 "EESPFAL_NAND_v3_0/B" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3810 2870 3811 2871  "GND.t12" "EESPFAL_NAND_v3_0/B_bar" 60 0 "GND.t41" 300 0 "EESPFAL_NAND_v3_0/B" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 3660 2870 3661 2871  "GND.t22" "EESPFAL_NAND_v3_0/B" 60 0 "EESPFAL_NAND_v3_0/B_bar" 300 0 "GND.t24" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1640 3430 1641 3431  "CLK1.t8" "EESPFAL_NAND_v3_0/A_bar.t7" 60 0 "EESPFAL_NAND_v3_0/A.t1" 300 0 "CLK1.t9" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1490 3430 1491 3431  "CLK1.t0" "EESPFAL_NAND_v3_0/A_bar.t6" 60 0 "CLK1.t1" 300 0 "EESPFAL_NAND_v3_0/A.t2" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 4290 2870 4291 2871  "GND.t38" "x2_bar.t0" 60 0 "EESPFAL_NAND_v3_0/B" 300 0 "CLK1.t32" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 3510 3430 3511 3431  "CLK1.t16" "EESPFAL_NAND_v3_0/B" 60 0 "CLK1.t17" 300 0 "EESPFAL_NAND_v3_0/B_bar" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 3960 1630 3961 1631  "CLK2.t3" "EESPFAL_NOR_v3_0/B_bar" 60 0 "EESPFAL_NOR_v3_0/B" 300 0 "CLK2.t4" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 6310 2870 6311 2871  "GND.t14" "EESPFAL_NAND_v3_0/B" 60 0 "EESPFAL_NAND_v3_0/OUT" 300 0 "a_6340_2870#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 5530 2870 5531 2871  "GND.t30" "Dis2.t0" 60 0 "GND.t31" 300 0 "EESPFAL_NAND_v3_0/OUT_bar" 300 0
