@@ -1,0 +1,40 @@
+magic
+tech sky130a
+timestamp 1670961910
+<< checkpaint >>
+rect -1795 105 -150 635
+<< l67d20 >>
+rect -950 585 -933 602
+rect -800 585 -783 602
+rect -650 585 -633 602
+rect -500 585 -483 602
+rect -350 585 -333 602
+rect -200 585 -183 602
+rect -950 602 -183 619
+rect -877 115 -257 135
+rect -877 135 -857 155
+rect -728 135 -708 155
+rect -578 135 -558 155
+rect -428 135 -408 155
+rect -277 135 -257 155
+<< l66d20 >>
+rect -912 105 -222 120
+rect -912 120 -897 130
+rect -837 120 -822 130
+rect -762 120 -747 130
+rect -687 120 -672 130
+rect -612 120 -597 130
+rect -537 120 -522 130
+rect -462 120 -447 130
+rect -387 120 -372 130
+rect -312 120 -297 130
+rect -237 120 -222 130
+use nmos_1v8_lvt_4p5_body_10fingerx242 nmos_1v8_lvt_4p5_body_10fingerx242_1
+timestamp 1670961910
+transform 1 0 -1762 0 1 130
+box -33 -15 863 505
+use nmos_1v8_lvt_4p5_10fingerx241x241 nmos_1v8_lvt_4p5_10fingerx241x241_1
+timestamp 1670961910
+transform 1 0 -1012 0 1 130
+box 28 -3 863 490
+<< end >>

@@ -1,0 +1,14 @@
+magic
+tech sky130a
+timestamp 1670961910
+<< checkpaint >>
+rect 515 325 1119 866
+<< l68d20 >>
+rect 591 348 725 488
+rect 750 703 884 843
+rect 909 348 1043 488
+use sky130_fd_pr__res_xhigh_po_0p35_2RLX6B sky130_fd_pr__res_xhigh_po_0p35_2RLX6B_1
+timestamp 1670961910
+transform 1 0 817 0 1 596
+box -302 -271 302 271
+<< end >>

@@ -1,0 +1,10 @@
+magic
+tech sky130a
+timestamp 1670961910
+<< checkpaint >>
+rect -130 120 -113 423
+use sky130_fd_pr__res_generic_l1_PK88MT sky130_fd_pr__res_generic_l1_PK88MT_1
+timestamp 1670961910
+transform 1 0 -122 0 1 272
+box -9 -152 9 152
+<< end >>
