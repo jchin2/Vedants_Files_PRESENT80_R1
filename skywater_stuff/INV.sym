@@ -1,0 +1,21 @@
+v {xschem version=3.0.0 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -61 0 -41 0 {}
+L 4 72.25 0 92.25 0 {}
+L 4 -40 -60 62 0 {}
+L 4 -40 60 62 -0 {}
+L 4 -40 -60 -40 60 {}
+B 5 -63.5 -2.5 -58.5 2.5 {name=A dir=in }
+B 5 89.75 -2.5 94.75 2.5 {name=INV dir=out }
+A 4 67.25 0 5.153882032022076 284.0362434679265 360 {}
+T {CMOS_INV} -31.5 -9 0 0 0.3 0.3 {}
+T {@name} -40 -74.5 0 0 0.2 0.2 {}
+T {A} -38.5 -6.5 0 0 0.2 0.2 {}
+T {INV} 72 -6 0 1 0.2 0.2 {}
