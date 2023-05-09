@@ -1,0 +1,71 @@
+**.subckt Diff_LNA
+XM1 net1 Vin2 net3 GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=45 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+L1 VDD net4 30n m=1
+Vdd VDD GND 1.2
+XM2 Vout2 VDD net1 GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=45 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+VGS1 net5 GND DC 0.8 AC 1 sin(0.8 0.005 2400MEG 0 0 0)
+C1 VDD Vout2 65f m=1
+L2 net3 net2 1n m=1
+R1 VDD Vout2 6.9k m=1
+R2 net4 Vout2 17 m=1
+R3 net5 net6 50 m=1
+C2 Vin1 GND 2p m=1
+L3 net6 Vin1 1n m=1
+C4 Vout2 GND 50f m=1
+R4 VDD Vout2 20k m=1
+XM4 net7 Vin1 net9 GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=45 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+L4 VDD net8 30n m=1
+XM5 Vout1 VDD net7 GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=45 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+C6 VDD Vout1 65f m=1
+R6 VDD Vout1 6.9k m=1
+R7 net8 Vout1 17 m=1
+C7 Vout1 GND 50f m=1
+R8 VDD Vout1 20k m=1
+L5 net9 net2 1n m=1
+VGS2 net10 GND DC 0.8 AC 1 180 sin(0.8 0.005 2400MEG 0 0 180)
+R9 net10 net11 50 m=1
+C8 Vin2 GND 2p m=1
+L6 net11 Vin2 1n m=1
+XM3 net13 net12 GND GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=20 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM6 net12 net12 GND GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=20 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+R5 VDD net12 185 m=1
+Vmeas net2 net13 0
+C3 net9 GND 2p m=1
+C5 net3 GND 2p m=1
+C9 net2 GND 4p m=1
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.control
+**op
+**Remember to run the tran with a sin wave DC offset of 0.8v
+**tran 1ps 100n
+ac lin 1k 1E9 5E9
+plot db(v(Vout1))
+plot db(v(Vout2))
+**plot v(Vout1)
+**plot v(Vout2)
+write untitled-5.raw
+**.save all
+.endc
+.save all
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.save I(Vmeas)
+.end

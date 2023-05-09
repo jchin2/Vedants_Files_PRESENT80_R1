@@ -1,0 +1,36 @@
+**.subckt EESPFAL_4in_Buffer_sim
+Vdis0 Dis0 GND pulse(0,1.8,1ps,1ps,1ps,23ns,100ns)
+Vclk0 CLK0 GND pulse(0,1.8,25ns,25ns,25ns,25ns,100ns)
+x1 x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar OUT0_bar OUT0 OUT1_bar OUT1 OUT2_bar OUT2 OUT3_bar OUT3
++ Dis0 GND CLK0 EESPFAL_4in_Buffer
+Vin9 x0 GND pulse(0,1.8,0,1ps,1ps,100ns,200ns)
+Vin10 x0_bar GND pulse(1.8,0,0,1ps,1ps,100ns,200ns)
+Vin12 x1 GND pulse(0,1.8,0,1ps,1ps,200ns,400ns)
+Vin1 x1_bar GND pulse(1.8,0,0,1ps,1ps,200ns,400ns)
+Vin2 x2 GND pulse(0,1.8,0,1ps,1ps,400ns,800ns)
+Vin3 x2_bar GND pulse(1.8,0,0,1ps,1ps,400ns,800ns)
+Vin4 x3 GND pulse(0,1.8,0,1ps,1ps,800ns,1600ns)
+Vin5 x3_bar GND pulse(1.8,0,0,1ps,1ps,800ns,1600ns)
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/magic_layout_stuff/EESPFAL_4in_Buffer.spice
+.control
+tran 0.1n 2u
+plot v(CLK0) v(Dis0)
+plot v(x0) v(OUT0_bar)
+plot v(x0_bar) v(OUT0)
+plot v(x1) v(OUT1_bar)
+plot v(x1_bar) v(OUT1)
+plot v(x2) v(OUT2_bar)
+plot v(x2_bar) v(OUT2)
+plot v(x3) v(OUT3_bar)
+plot v(x3_bar) v(OUT3)
+.endc
+.save all
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

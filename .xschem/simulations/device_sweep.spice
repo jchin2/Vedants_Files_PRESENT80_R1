@@ -1,0 +1,20 @@
+**.subckt device_sweep
+XM1 net2 net1 GND GND sky130_fd_pr__nfet_01v8_lvt L=0.15 W=45 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+V1 net1 GND 0
+V2 net2 GND 1.2
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.control
+dc V1 0 1.2 1m
+save all
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

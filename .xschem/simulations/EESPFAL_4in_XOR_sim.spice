@@ -1,0 +1,70 @@
+**.subckt EESPFAL_4in_XOR_sim
+Vin6 x0_bar_S GND pulse(0,1.8,0,50ps,50ps,100ns,200ns)
+Vin7 x0_S GND pulse(1.8,0,0,50ps,50ps,100ns,200ns)
+Vin8 x1_bar_S GND pulse(0,1.8,0,50ps,50ps,200ns,400ns)
+Vin11 x1_S GND pulse(1.8,0,0,50ps,50ps,200ns,400ns)
+Vin13 x2_bar_S GND pulse(0,1.8,0,50ps,50ps,400ns,800ns)
+Vin14 x2_S GND pulse(1.8,0,0,50ps,50ps,400ns,800ns)
+Vin15 x3_bar_S GND pulse(0,1.8,0,50ps,50ps,800ns,1600ns)
+Vin16 x3_S GND pulse(1.8,0,0,50ps,50ps,800ns,1600ns)
+Vdis17 Dis0_S GND pulse(0,1.8,2ns,50ps,50ps,20ns,100ns)
+Vclk18 CLK0_S GND pulse(0,1.8,25ns,25ns,25ns,25ns,100ns)
+Vdis19 Dis1_S GND pulse(0,1.8,25ns,50ps,50ps,23ns,100ns)
+Vdis20 Dis2_S GND pulse(0,1.8,50ns,50ps,50ps,23ns,100ns)
+Vdis21 Dis3_S GND pulse(0,1.8,75ns,50ps,50ps,23ns,100ns)
+Vclk22 CLK1_S GND pulse(0,1.8,-50ns,25ns,25ns,25ns,100ns)
+Vclk23 CLK2_S GND pulse(0,1.8,-125ns,25ns,25ns,25ns,100ns)
+Vclk24 CLK3_S GND pulse(0,1.8,-200ns,25ns,25ns,25ns,100ns)
+V1 k0_S GND 1.8
+V2 k1_S GND 1.8
+V3 k2_S GND 1.8
+V4 k3_S GND 1n
+V5 k0_bar_S GND 1n
+V6 k1_bar_S GND 1n
+V7 k2_bar_S GND 1n
+V8 k3_bar_S GND 1.8
+x21 x0_S x0_bar_S k0_S k0_bar_S x1_S x1_bar_S k1_S k1_bar_S x2_S x2_bar_S k2_S k2_bar_S x3_S
++ x3_bar_S k3_S k3_bar_S XOR0_bar_S XOR0_S XOR1_bar_S XOR1_S XOR2_bar_S XOR2_S XOR3_bar_S XOR3_S GND CLK0_S
++ Dis0_S EESPFAL_4in_XOR
+x1 x0_S x0_bar_S k0_S k0_bar_S x1_S x1_bar_S k1_S k1_bar_S x2_S x2_bar_S k2_S k2_bar_S x3_S x3_bar_S
++ k3_S k3_bar_S XOR0_bar_flat XOR0_flat XOR1_bar_flat XOR1_flat XOR2_bar_flat XOR2_flat XOR3_bar_flat
++ XOR3_flat GND Dis0_S CLK0_S EESPFAL_4in_XOR_flat
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/magic_layout_stuff/EESPFAL_4in_XOR.spice
+.include ~/magic_layout_stuff/EESPFAL_4in_XOR_flat.spice
+.control
+save all
+tran 0.1n 10u
+plot v(CLK0_S) v(Dis0_S)
+plot v(Dis1_S)
+plot v(XOR0_S)
+plot v(XOR0_flat)
+plot v(XOR1_S)
+plot v(XOR1_flat)
+plot v(XOR2_S)
+plot v(XOR2_flat)
+plot v(XOR3_S)
+plot v(XOR3_flat)
+**let Pinst_CLK0 = (v(CLK0)*i(vclk0))
+**let Pinst_CLK0_CLK2 = (v(CLK0)*i(vclk0))+(v(CLK1)*i(vclk1))+(v(CLK2)*i(vclk2))
+**let Pinst_CLK0_CLK2_Dis0_Dis2 =
+*+ (v(CLK0)*i(vclk0))+(v(Dis0)*i(Vdis0))+(v(CLK1)*i(vclk1))+(v(Dis1)*i(Vdis1))+(v(CLK2)*i(vclk2))+(v(Dis2)*i(Vdis2))
+**plot Pinst_CLK0
+**plot Pinst_CLK0_CLK2
+**plot Pinst_CLK0_CLK2_Dis0_Dis2
+**wrdata EESPFAL_s0_sim.raw v(s0_normal) v(s0_bar_normal)
+**wrdata EESPFAL_s0_sim_PEX.raw v(s0_flat) v(s0_bar_flat)
+wrdata EESPFAL_4in_XOR_normVSPEX.csv v(XOR0_S) v(XOR0_flat) v(XOR1_S) v(XOR1_flat) v(XOR2_S)
++ v(XOR2_flat) v(XOR3_S) v(XOR3_flat)
+**wrdata s0_sim_Pinst_CLK0_CLK2.csv Pinst_CLK0_CLK2
+**wrdata s0_sim_Pinst_test.csv Pinst_CLK0_CLK2 Pinst_CLK0_CLK2_Dis0_Dis2
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

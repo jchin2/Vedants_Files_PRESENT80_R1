@@ -1,0 +1,513 @@
+.subckt EESPFAL_64bitwidth_PRESENT80_R1 x4 x4_bar k4 k4_bar x5 x5_bar k5 k5_bar x6 x6_bar k6 k6_bar
++ x7 x7_bar k7 k7_bar x8 x8_bar k8 k8_bar x9 x9_bar k9 k9_bar x10 x10_bar k10 k10_bar x11 x11_bar k11
++ k11_bar x12 x12_bar k12 k12_bar x13 x13_bar k13 k13_bar x14 x14_bar k14 k14_bar x15 x15_bar k15 k15_bar x16
++ x16_bar k16 k16_bar x17 x17_bar k17 k17_bar x18 x18_bar k18 k18_bar x19 x19_bar k19 k19_bar x20 x20_bar k20
++ k20_bar x21 x21_bar k21 k21_bar x22 x22_bar k22 k22_bar x23 x23_bar k23 k23_bar x24 x24_bar k24 k24_bar x25
++ x25_bar k25 k25_bar x26 x26_bar k26 k26_bar x27 x27_bar k27 k27_bar x28 x28_bar k28 k28_bar x29 x29_bar k29
++ k29_bar x30 x30_bar k30 k30_bar x31 x31_bar k31 k31_bar x32 x32_bar k32 k32_bar x33 x33_bar k33 k33_bar x34
++ x34_bar k34 k34_bar x35 x35_bar k35 k35_bar x36 x36_bar k36 k36_bar x37 x37_bar k37 k37_bar x38 x38_bar k38
++ k38_bar x39 x39_bar k39 k39_bar x40 x40_bar k40 k40_bar x41 x41_bar k41 k41_bar x42 x42_bar k42 k42_bar x43
++ x43_bar k43 k43_bar x44 x44_bar k44 k44_bar x45 x45_bar k45 k45_bar x46 x46_bar k46 k46_bar x47 x47_bar k47
++ k47_bar x48 x48_bar k48 k48_bar x49 x49_bar k49 k49_bar x50 x50_bar k50 k50_bar x51 x51_bar k51 k51_bar x52
++ x52_bar k52 k52_bar x53 x53_bar k53 k53_bar x54 x54_bar k54 k54_bar x55 x55_bar k55 k55_bar x56 x56_bar k56
++ k56_bar x57 x57_bar k57 k57_bar x58 x58_bar k58 k58_bar x59 x59_bar k59 k59_bar x60 x60_bar k60 k60_bar x61
++ x61_bar k61 k61_bar x62 x62_bar k62 k62_bar x63 x63_bar k63 k63_bar x0 x0_bar k0 k0_bar x1 x1_bar k1 k1_bar
++ x2 x2_bar k2 k2_bar x3 x3_bar k3 k3_bar Dis0 Dis1 CLK0 Dis2 Dis3 CLK1 CLK2 CLK3 s0 s0_bar s1 s1_bar s2
++ s2_bar s3 s3_bar s4 s4_bar s5 s5_bar s6 s6_bar s7 s7_bar s8 s8_bar s9 s9_bar s10 s10_bar s11 s11_bar s12
++ s12_bar s13 s13_bar s14 s14_bar s15 s15_bar s16 s16_bar s17 s17_bar s18 s18_bar s19 s19_bar s20 s20_bar s21
++ s21_bar s22 s22_bar s23 s23_bar s24 s24_bar s25 s25_bar s26 s26_bar s27 s27_bar s28 s28_bar s29 s29_bar s30
++ s30_bar s31 s31_bar s32 s32_bar s33 s33_bar s34 s34_bar s35 s35_bar s36 s36_bar s37 s37_bar s38 s38_bar s39
++ s39_bar s40 s40_bar s41 s41_bar s42 s42_bar s43 s43_bar s44 s44_bar s45 s45_bar s46 s46_bar s47 s47_bar s48
++ s48_bar s49 s49_bar s50 s50_bar s51 s51_bar s52 s52_bar s53 s53_bar s54 s54_bar s55 s55_bar s56 s56_bar s57
++ s57_bar s58 s58_bar s59 s59_bar s60 s60_bar s61 s61_bar s62 s62_bar s63 s63_bar GND
+*.PININFO x4:I x4_bar:I k4:I k4_bar:I x5:I x5_bar:I k5:I k5_bar:I x6:I x6_bar:I k6:I k6_bar:I x7:I
+*+ x7_bar:I k7:I k7_bar:I x8:I x8_bar:I k8:I k8_bar:I x9:I x9_bar:I k9:I k9_bar:I x10:I x10_bar:I k10:I
+*+ k10_bar:I x11:I x11_bar:I k11:I k11_bar:I x12:I x12_bar:I k12:I k12_bar:I x13:I x13_bar:I k13:I k13_bar:I
+*+ x14:I x14_bar:I k14:I k14_bar:I x15:I x15_bar:I k15:I k15_bar:I x16:I x16_bar:I k16:I k16_bar:I x17:I
+*+ x17_bar:I k17:I k17_bar:I x18:I x18_bar:I k18:I k18_bar:I x19:I x19_bar:I k19:I k19_bar:I x20:I x20_bar:I
+*+ k20:I k20_bar:I x21:I x21_bar:I k21:I k21_bar:I x22:I x22_bar:I k22:I k22_bar:I x23:I x23_bar:I k23:I
+*+ k23_bar:I x24:I x24_bar:I k24:I k24_bar:I x25:I x25_bar:I k25:I k25_bar:I x26:I x26_bar:I k26:I k26_bar:I
+*+ x27:I x27_bar:I k27:I k27_bar:I x28:I x28_bar:I k28:I k28_bar:I x29:I x29_bar:I k29:I k29_bar:I x30:I
+*+ x30_bar:I k30:I k30_bar:I x31:I x31_bar:I k31:I k31_bar:I x32:I x32_bar:I k32:I k32_bar:I x33:I x33_bar:I
+*+ k33:I k33_bar:I x34:I x34_bar:I k34:I k34_bar:I x35:I x35_bar:I k35:I k35_bar:I x36:I x36_bar:I k36:I
+*+ k36_bar:I x37:I x37_bar:I k37:I k37_bar:I x38:I x38_bar:I k38:I k38_bar:I x39:I x39_bar:I k39:I k39_bar:I
+*+ x40:I x40_bar:I k40:I k40_bar:I x41:I x41_bar:I k41:I k41_bar:I x42:I x42_bar:I k42:I k42_bar:I x43:I
+*+ x43_bar:I k43:I k43_bar:I x44:I x44_bar:I k44:I k44_bar:I x45:I x45_bar:I k45:I k45_bar:I x46:I x46_bar:I
+*+ k46:I k46_bar:I x47:I x47_bar:I k47:I k47_bar:I x48:I x48_bar:I k48:I k48_bar:I x49:I x49_bar:I k49:I
+*+ k49_bar:I x50:I x50_bar:I k50:I k50_bar:I x51:I x51_bar:I k51:I k51_bar:I x52:I x52_bar:I k52:I k52_bar:I
+*+ x53:I x53_bar:I k53:I k53_bar:I x54:I x54_bar:I k54:I k54_bar:I x55:I x55_bar:I k55:I k55_bar:I x56:I
+*+ x56_bar:I k56:I k56_bar:I x57:I x57_bar:I k57:I k57_bar:I x58:I x58_bar:I k58:I k58_bar:I x59:I x59_bar:I
+*+ k59:I k59_bar:I x60:I x60_bar:I k60:I k60_bar:I x61:I x61_bar:I k61:I k61_bar:I x62:I x62_bar:I k62:I
+*+ k62_bar:I x63:I x63_bar:I k63:I k63_bar:I x0:I x0_bar:I k0:I k0_bar:I x1:I x1_bar:I k1:I k1_bar:I x2:I
+*+ x2_bar:I k2:I k2_bar:I x3:I x3_bar:I k3:I k3_bar:I Dis0:I Dis1:I CLK0:I Dis2:I Dis3:I CLK1:I CLK2:I CLK3:I
+*+ s0:O s0_bar:O s1:O s1_bar:O s2:O s2_bar:O s3:O s3_bar:O s4:O s4_bar:O s5:O s5_bar:O s6:O s6_bar:O s7:O
+*+ s7_bar:O s8:O s8_bar:O s9:O s9_bar:O s10:O s10_bar:O s11:O s11_bar:O s12:O s12_bar:O s13:O s13_bar:O s14:O
+*+ s14_bar:O s15:O s15_bar:O s16:O s16_bar:O s17:O s17_bar:O s18:O s18_bar:O s19:O s19_bar:O s20:O s20_bar:O
+*+ s21:O s21_bar:O s22:O s22_bar:O s23:O s23_bar:O s24:O s24_bar:O s25:O s25_bar:O s26:O s26_bar:O s27:O
+*+ s27_bar:O s28:O s28_bar:O s29:O s29_bar:O s30:O s30_bar:O s31:O s31_bar:O s32:O s32_bar:O s33:O s33_bar:O
+*+ s34:O s34_bar:O s35:O s35_bar:O s36:O s36_bar:O s37:O s37_bar:O s38:O s38_bar:O s39:O s39_bar:O s40:O
+*+ s40_bar:O s41:O s41_bar:O s42:O s42_bar:O s43:O s43_bar:O s44:O s44_bar:O s45:O s45_bar:O s46:O s46_bar:O
+*+ s47:O s47_bar:O s48:O s48_bar:O s49:O s49_bar:O s50:O s50_bar:O s51:O s51_bar:O s52:O s52_bar:O s53:O
+*+ s53_bar:O s54:O s54_bar:O s55:O s55_bar:O s56:O s56_bar:O s57:O s57_bar:O s58:O s58_bar:O s59:O s59_bar:O
+*+ s60:O s60_bar:O s61:O s61_bar:O s62:O s62_bar:O s63:O s63_bar:O GND:B
+x1 GND x0 x0_bar k0 k0_bar x1 x1_bar k1 k1_bar x2 x2_bar k2 k2_bar x3 x3_bar k3 k3_bar s0 s0_bar
++ CLK0 Dis0 CLK1 Dis1 s2 s2_bar s3_bar s3 s1_bar s1 CLK3 Dis2 CLK2 Dis3 EESPFAL_PRESENT80_R1
+x2 GND x4 x4_bar k4 k4_bar x5 x5_bar k5 k5_bar x6 x6_bar k6 k6_bar x7 x7_bar k7 k7_bar s4 s4_bar
++ CLK0 Dis0 CLK1 Dis1 s6 s6_bar s7_bar s7 s5_bar s5 CLK3 Dis2 CLK2 Dis3 EESPFAL_PRESENT80_R1
+x3 GND x8 x8_bar k8 k8_bar x9 x9_bar k9 k9_bar x10 x10_bar k10 k10_bar x11 x11_bar k11 k11_bar s8
++ s8_bar CLK0 Dis0 CLK1 Dis1 s10 s10_bar s11_bar s11 s9_bar s9 CLK3 Dis2 CLK2 Dis3 EESPFAL_PRESENT80_R1
+x4 GND x12 x12_bar k12 k12_bar x13 x13_bar k13 k13_bar x14 x14_bar k14 k14_bar x15 x15_bar k15
++ k15_bar s12 s12_bar CLK0 Dis0 CLK1 Dis1 s14 s14_bar s15_bar s15 s13_bar s13 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x5 GND x16 x16_bar k16 k16_bar x17 x17_bar k17 k17_bar x18 x18_bar k18 k18_bar x19 x19_bar k19
++ k19_bar s16 s16_bar CLK0 Dis0 CLK1 Dis1 s18 s18_bar s19_bar s19 s17_bar s17 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x6 GND x20 x20_bar k20 k20_bar x21 x21_bar k21 k21_bar x22 x22_bar k22 k22_bar x23 x23_bar k23
++ k23_bar s20 s20_bar CLK0 Dis0 CLK1 Dis1 s22 s22_bar s23_bar s23 s21_bar s21 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x7 GND x24 x24_bar k24 k24_bar x25 x25_bar k25 k25_bar x26 x26_bar k26 k26_bar x27 x27_bar k27
++ k27_bar s24 s24_bar CLK0 Dis0 CLK1 Dis1 s26 s26_bar s27_bar s27 s25_bar s25 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x8 GND x28 x28_bar k28 k28_bar x29 x29_bar k29 k29_bar x30 x30_bar k30 k30_bar x31 x31_bar k31
++ k31_bar s28 s28_bar CLK0 Dis0 CLK1 Dis1 s30 s30_bar s31_bar s31 s29_bar s29 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x9 GND x32 x32_bar k32 k32_bar x33 x33_bar k33 k33_bar x34 x34_bar k34 k34_bar x35 x35_bar k35
++ k35_bar s32 s32_bar CLK0 Dis0 CLK1 Dis1 s34 s34_bar s35_bar s35 s33_bar s33 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x10 GND x36 x36_bar k36 k36_bar x37 x37_bar k37 k37_bar x38 x38_bar k38 k38_bar x39 x39_bar k39
++ k39_bar s36 s36_bar CLK0 Dis0 CLK1 Dis1 s38 s38_bar s39_bar s39 s37_bar s37 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x11 GND x40 x40_bar k40 k40_bar x41 x41_bar k41 k41_bar x42 x42_bar k42 k42_bar x43 x43_bar k43
++ k43_bar s40 s40_bar CLK0 Dis0 CLK1 Dis1 s42 s42_bar s43_bar s43 s41_bar s41 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x12 GND x44 x44_bar k44 k44_bar x45 x45_bar k45 k45_bar x46 x46_bar k46 k46_bar x47 x47_bar k47
++ k47_bar s44 s44_bar CLK0 Dis0 CLK1 Dis1 s46 s46_bar s47_bar s47 s45_bar s45 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x13 GND x48 x48_bar k48 k48_bar x49 x49_bar k49 k49_bar x50 x50_bar k50 k50_bar x51 x51_bar k51
++ k51_bar s48 s48_bar CLK0 Dis0 CLK1 Dis1 s50 s50_bar s51_bar s51 s49_bar s49 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x14 GND x52 x52_bar k52 k52_bar x53 x53_bar k53 k53_bar x54 x54_bar k54 k54_bar x55 x55_bar k55
++ k55_bar s52 s52_bar CLK0 Dis0 CLK1 Dis1 s54 s54_bar s55_bar s55 s53_bar s53 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x15 GND x56 x56_bar k56 k56_bar x57 x57_bar k57 k57_bar x58 x58_bar k58 k58_bar x59 x59_bar k59
++ k59_bar s56 s56_bar CLK0 Dis0 CLK1 Dis1 s58 s58_bar s59_bar s59 s57_bar s57 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+x16 GND x60 x60_bar k60 k60_bar x61 x61_bar k61 k61_bar x62 x62_bar k62 k62_bar x63 x63_bar k63
++ k63_bar s60 s60_bar CLK0 Dis0 CLK1 Dis1 s62 s62_bar s63_bar s63 s61_bar s61 CLK3 Dis2 CLK2 Dis3
++ EESPFAL_PRESENT80_R1
+.ends
+
+* expanding   symbol:  EESPFAL_PRESENT80_R1.sym # of pins=33
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_PRESENT80_R1.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_PRESENT80_R1.sch
+.subckt EESPFAL_PRESENT80_R1  GND x0 x0_bar k0 k0_bar x1 x1_bar k1 k1_bar x2 x2_bar k2 k2_bar x3
++ x3_bar k3 k3_bar s0 s0_bar CLK0 Dis0 CLK1 Dis1 s2 s2_bar s3_bar s3 s1_bar s1 CLK3 Dis2 CLK2 Dis3
+*.PININFO GND:B x0:I x0_bar:I k0:I k0_bar:I x1:I x1_bar:I k1:I k1_bar:I x2:I x2_bar:I k2:I k2_bar:I
+*+ x3:I x3_bar:I k3:I k3_bar:I s0:O s0_bar:O CLK0:I Dis0:I CLK1:I Dis1:I s2:O s2_bar:O s3_bar:O s3:O
+*+ s1_bar:O s1:O CLK3:I Dis2:I CLK2:I Dis3:I
+x1 x0 x0_bar k0 k0_bar x1 x1_bar k1 k1_bar x2 x2_bar k2 k2_bar x3 x3_bar k3 k3_bar net2 net1 net4
++ net3 net6 net5 net8 net7 GND CLK0 Dis0 EESPFAL_4in_XOR
+x2 GND net1 net2 net3 net4 net5 net6 net7 net8 Dis1 CLK1 CLK2 Dis2 CLK3 Dis3 s0 s0_bar s1_bar s1 s2
++ s2_bar s3_bar s3 EESPFAL_Sbox
+.ends
+
+
+* expanding   symbol:  EESPFAL_4in_XOR.sym # of pins=27
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_4in_XOR.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_4in_XOR.sch
+.subckt EESPFAL_4in_XOR  x0 x0_bar k0 k0_bar x1 x1_bar k1 k1_bar x2 x2_bar k2 k2_bar x3 x3_bar k3
++ k3_bar XOR0_bar XOR0 XOR1_bar XOR1 XOR2_bar XOR2 XOR3_bar XOR3 GND CLK Dis
+*.PININFO x0:I x0_bar:I k0:I k0_bar:I x1:I x1_bar:I k1:I k1_bar:I x2:I x2_bar:I k2:I k2_bar:I x3:I
+*+ x3_bar:I k3:I k3_bar:I XOR0_bar:O XOR0:O XOR1_bar:O XOR1:O XOR2_bar:O XOR2:O XOR3_bar:O XOR3:O GND:B CLK:I
+*+ Dis:I
+x2 x1 x1_bar k1 k1_bar XOR1 XOR1_bar Dis GND CLK EESPFAL_XOR_v3
+x4 x3 x3_bar k3 k3_bar XOR3 XOR3_bar Dis GND CLK EESPFAL_XOR_v3
+x3 x2 x2_bar k2 k2_bar XOR2 XOR2_bar Dis GND CLK EESPFAL_XOR_v3
+x1 x0 x0_bar k0 k0_bar XOR0 XOR0_bar Dis GND CLK EESPFAL_XOR_v3
+.ends
+
+
+* expanding   symbol:  EESPFAL_Sbox.sym # of pins=23
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_Sbox.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_Sbox.sch
+.subckt EESPFAL_Sbox  GND x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar Dis1 CLK1 CLK2 Dis2 CLK3 Dis3 s0
++ s0_bar s1_bar s1 s2 s2_bar s3_bar s3
+*.PININFO GND:B x0:I x0_bar:I x1:I x1_bar:I x2:I x2_bar:I x3:I x3_bar:I Dis1:I CLK1:I CLK2:I Dis2:I
+*+ CLK3:I Dis3:I s0:O s0_bar:O s1_bar:O s1:O s2:O s2_bar:O s3_bar:O s3:O
+x4 GND x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar s3_bar CLK1 s3 Dis1 Dis3 CLK3 Dis2 CLK2 EESPFAL_s3
+x2 GND x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar s1_bar s1 CLK1 Dis1 Dis3 CLK3 Dis2 CLK2 EESPFAL_s1
+x3 GND x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar CLK1 Dis1 Dis3 Dis2 CLK3 CLK2 s2_bar s2 EESPFAL_s2
+x1 GND x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar CLK1 Dis1 CLK3 Dis2 CLK2 Dis3 s0 s0_bar EESPFAL_s0
+.ends
+
+
+* expanding   symbol:  EESPFAL_XOR_v3.sym # of pins=9
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_XOR_v3.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_XOR_v3.sch
+.subckt EESPFAL_XOR_v3  A A_bar B B_bar OUT OUT_bar Dis GND CLK
+*.PININFO A:I A_bar:I B:I B_bar:I OUT:O OUT_bar:O Dis:I GND:B CLK:I
+XM4 OUT_bar OUT CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM3 OUT_bar OUT GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 OUT OUT_bar CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM11 net2 B OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM10 CLK A net1 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM12 CLK A_bar net2 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM8 net3 B_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM9 net4 B OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM13 CLK A_bar net3 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM14 CLK A net4 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM7 net1 B_bar OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM1 OUT OUT_bar GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM6 OUT_bar Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM5 OUT Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+.ends
+
+
+* expanding   symbol:  EESPFAL_s3.sym # of pins=17
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_s3.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_s3.sch
+.subckt EESPFAL_s3  GND x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar s3_bar CLK1 s3 Dis1 Dis3 CLK3 Dis2
++ CLK2
+*.PININFO GND:B x0:I x0_bar:I x1:I x1_bar:I x2:I x2_bar:I x3:I x3_bar:I s3_bar:O CLK1:I s3:O Dis1:I
+*+ Dis3:I CLK3:I Dis2:I CLK2:I
+x9 net11 net12 net13 net14 net15 net16 s3 s3_bar Dis3 GND CLK3 EESPFAL_3in_NOR_v2
+x4 x2_bar x2 x0 x0_bar x3 x3_bar net9 net10 Dis1 GND CLK1 EESPFAL_3in_NAND_v2
+x1 x1 x1_bar x0 x0_bar net1 net2 Dis1 GND CLK1 EESPFAL_XOR_v3
+x2 x3_bar x3 net4 net3 Dis1 GND CLK1 EESPFAL_INV4
+x3 x2 x2_bar x3 x3_bar net5 net6 Dis1 GND CLK1 EESPFAL_XOR_v3
+x7 x1 x1_bar net8 net7 Dis1 GND CLK1 EESPFAL_INV4
+x6 net9 net10 net16 net15 Dis2 GND CLK2 EESPFAL_INV4
+x8 net5 net6 net7 net8 net13 net14 Dis2 GND CLK2 EESPFAL_NAND_v3
+x5 net2 net1 net3 net4 net11 net12 Dis2 GND CLK2 EESPFAL_NAND_v3
+.ends
+
+
+* expanding   symbol:  EESPFAL_s1.sym # of pins=17
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_s1.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_s1.sch
+.subckt EESPFAL_s1  GND x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar s1_bar s1 CLK1 Dis1 Dis3 CLK3 Dis2
++ CLK2
+*.PININFO GND:B x0:I x0_bar:I x1:I x1_bar:I x2:I x2_bar:I x3:I x3_bar:I s1_bar:O s1:O CLK1:I Dis1:I
+*+ Dis3:I CLK3:I Dis2:I CLK2:I
+x4 x3_bar x3 x1 x1_bar x0_bar x0 3_AND1 3_NAND1 Dis1 GND CLK1 EESPFAL_3in_NAND_v2
+x5 XNOR1 XOR1 x3_BUF x3_bar_BUF AND1 NAND1 Dis2 GND CLK2 EESPFAL_NAND_v3
+x6 3_AND1 3_NAND1 net2 net1 Dis2 GND CLK2 EESPFAL_INV4
+x8 XOR2 XOR2_bar x2_bar_BUF x2_BUF AND2 NAND2 Dis2 GND CLK2 EESPFAL_NAND_v3
+x9 AND1 NAND1 AND2 NAND2 net1 net2 s1 s1_bar Dis3 GND CLK3 EESPFAL_3in_NOR_v2
+x7 x2 x2_bar x2_bar_BUF x2_BUF Dis1 GND CLK1 EESPFAL_INV4
+x1 x2 x2_bar x0 x0_bar XOR1 XNOR1 Dis1 GND CLK1 EESPFAL_XOR_v3
+x2 x3 x3_bar x3_bar_BUF x3_BUF Dis1 GND CLK1 EESPFAL_INV4
+x3 x1 x1_bar x3 x3_bar XOR2 XOR2_bar Dis1 GND CLK1 EESPFAL_XOR_v3
+.ends
+
+
+* expanding   symbol:  EESPFAL_s2.sym # of pins=17
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_s2.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_s2.sch
+.subckt EESPFAL_s2  GND x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar CLK1 Dis1 Dis3 Dis2 CLK3 CLK2 s2_bar
++ s2
+*.PININFO GND:B x0:I x0_bar:I x1:I x1_bar:I x2:I x2_bar:I x3:I x3_bar:I CLK1:I Dis1:I Dis3:I Dis2:I
+*+ CLK3:I CLK2:I s2_bar:O s2:O
+x5 XNOR1 XOR1 x1_bar_BUF x1_BUF AND1 NAND1 Dis2 GND CLK2 EESPFAL_NAND_v3
+x6 4_AND1 4_NAND1 4_NAND_BUF1 4_AND_BUF1 Dis2 GND CLK2 EESPFAL_INV4
+x8 XOR2 XOR2_bar x2_BUF x2_bar_BUF AND2 NAND2 Dis2 GND CLK2 EESPFAL_NAND_v3
+x9 AND1 NAND1 AND2 NAND2 4_AND_BUF1 4_NAND_BUF1 s2 s2_bar Dis3 GND CLK3 EESPFAL_3in_NOR_v2
+x4 x3_bar x3 x1 x1_bar x0 x0_bar x2 x2_bar 4_AND1 4_NAND1 Dis1 GND CLK1 EESPFAL_4in_NAND
+x1 x3 x3_bar x2 x2_bar XOR1 XNOR1 Dis1 GND CLK1 EESPFAL_XOR_v3
+x2 x1_bar x1 x1_BUF x1_bar_BUF Dis1 GND CLK1 EESPFAL_INV4
+x3 x1 x1_bar x0 x0_bar XOR2 XOR2_bar Dis1 GND CLK1 EESPFAL_XOR_v3
+x7 x2_bar x2 x2_bar_BUF x2_BUF Dis1 GND CLK1 EESPFAL_INV4
+.ends
+
+
+* expanding   symbol:  EESPFAL_s0.sym # of pins=17
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_s0.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_s0.sch
+.subckt EESPFAL_s0  GND x0 x0_bar x1 x1_bar x2 x2_bar x3 x3_bar CLK1 Dis1 CLK3 Dis2 CLK2 Dis3 s0
++ s0_bar
+*.PININFO GND:B x0:I x0_bar:I x1:I x1_bar:I x2:I x2_bar:I x3:I x3_bar:I CLK1:I Dis1:I CLK3:I Dis2:I
+*+ CLK2:I Dis3:I s0:O s0_bar:O
+x7 x0 x0_bar x3 x3_bar XOR1 XNOR1 Dis1 GND CLK1 EESPFAL_XOR_v3
+x1 x1 x1_bar x2_bar x2 OR1 NOR1 Dis1 GND CLK1 EESPFAL_NOR_v3
+x2 AND2 NAND2 AND3 NAND3 s0 s0_bar Dis3 GND CLK3 EESPFAL_NOR_v3
+x3 x2 x2_bar x1_bar x1 AND1 NAND1 Dis1 GND CLK1 EESPFAL_NAND_v3
+x4 XNOR1 XOR1 AND1 NAND1 AND3 NAND3 Dis2 GND CLK2 EESPFAL_NAND_v3
+x5 XOR1 XNOR1 OR1 NOR1 AND2 NAND2 Dis2 GND CLK2 EESPFAL_NAND_v3
+.ends
+
+
+* expanding   symbol:  EESPFAL_3in_NOR_v2.sym # of pins=11
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_3in_NOR_v2.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_3in_NOR_v2.sch
+.subckt EESPFAL_3in_NOR_v2  A A_bar B B_bar C C_bar OUT OUT_bar Dis GND CLK
+*.PININFO A:I A_bar:I B:I B_bar:I C:I C_bar:I OUT:O OUT_bar:O Dis:I GND:B CLK:I
+XM9 net2 B_bar net1 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM4 OUT_bar OUT CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM10 CLK B OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM3 OUT_bar OUT GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM8 CLK A_bar net2 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM1 OUT OUT_bar GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM7 CLK A OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 OUT OUT_bar CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM5 OUT Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM11 net1 C_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM6 OUT_bar Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM12 CLK C OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+.ends
+
+
+* expanding   symbol:  EESPFAL_3in_NAND_v2.sym # of pins=11
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_3in_NAND_v2.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_3in_NAND_v2.sch
+.subckt EESPFAL_3in_NAND_v2  A A_bar B B_bar C C_bar OUT OUT_bar Dis GND CLK
+*.PININFO A:I A_bar:I B:I B_bar:I C:I C_bar:I OUT:O OUT_bar:O Dis:I GND:B CLK:I
+XM4 OUT_bar OUT CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM3 OUT_bar OUT GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 OUT OUT_bar CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM11 CLK B_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM7 CLK A_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM8 net1 B net2 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM1 OUT OUT_bar GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM5 OUT Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM6 OUT_bar Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM10 CLK C_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM9 CLK A net1 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM12 net2 C OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+.ends
+
+
+* expanding   symbol:  EESPFAL_INV4.sym # of pins=7
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_INV4.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_INV4.sch
+.subckt EESPFAL_INV4  A A_bar OUT OUT_bar Dis GND CLK
+*.PININFO A:I A_bar:I OUT:O OUT_bar:O Dis:I GND:B CLK:I
+XM7 CLK A_bar OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM3 OUT_bar OUT GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM5 OUT Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM6 OUT_bar Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM8 CLK A OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 OUT OUT_bar CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM1 OUT OUT_bar GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM4 OUT_bar OUT CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+.ends
+
+
+* expanding   symbol:  EESPFAL_NAND_v3.sym # of pins=9
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_NAND_v3.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_NAND_v3.sch
+.subckt EESPFAL_NAND_v3  A A_bar B B_bar OUT OUT_bar Dis GND CLK
+*.PININFO A:I A_bar:I B:I B_bar:I OUT:O OUT_bar:O Dis:I GND:B CLK:I
+XM6 OUT_bar Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM9 CLK A net1 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM4 OUT_bar OUT CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM3 OUT_bar OUT GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 OUT OUT_bar CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM11 CLK B_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM7 CLK A_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM8 net1 B OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM1 OUT OUT_bar GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM5 OUT Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+.ends
+
+
+* expanding   symbol:  EESPFAL_4in_NAND.sym # of pins=13
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_4in_NAND.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_4in_NAND.sch
+.subckt EESPFAL_4in_NAND  A A_bar B B_bar C C_bar D D_bar OUT OUT_bar Dis GND CLK
+*.PININFO A:I A_bar:I B:I B_bar:I C:I C_bar:I D:I D_bar:I OUT:O OUT_bar:O Dis:I GND:B CLK:I
+XM2 OUT OUT_bar CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM11 CLK B_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM7 CLK A_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM8 net1 B net2 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM1 OUT OUT_bar GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM5 OUT Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM6 OUT_bar Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM10 CLK C_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM9 CLK A net1 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM12 net2 C net3 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM4 OUT_bar OUT CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM13 CLK D_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM3 OUT_bar OUT GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM14 net3 D OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+.ends
+
+
+* expanding   symbol:  EESPFAL_NOR_v3.sym # of pins=9
+* sym_path: /home/jchin2/skywater_stuff/EESPFAL_NOR_v3.sym
+* sch_path: /home/jchin2/skywater_stuff/EESPFAL_NOR_v3.sch
+.subckt EESPFAL_NOR_v3  A A_bar B B_bar OUT OUT_bar Dis GND CLK
+*.PININFO A:I A_bar:I B:I B_bar:I OUT:O OUT_bar:O Dis:I GND:B CLK:I
+XM5 OUT Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM6 OUT_bar Dis GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM9 net1 B_bar OUT_bar GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XM4 OUT_bar OUT CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+XM10 CLK B OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM3 OUT_bar OUT GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM8 CLK A_bar net1 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM1 OUT OUT_bar GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM7 CLK A OUT GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1 
+XM2 OUT OUT_bar CLK CLK sky130_fd_pr__pfet_01v8 L=0.15 W=1.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=2 m=2 
+.ends
+
+** flattened .save nodes
+.end

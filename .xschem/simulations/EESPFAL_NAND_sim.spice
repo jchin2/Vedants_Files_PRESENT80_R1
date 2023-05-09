@@ -1,0 +1,39 @@
+**.subckt EESPFAL_NAND_sim
+x1 A A_bar B B_bar OUT OUT_bar Dis0 GND CLK0 EESPFAL_NAND_v3
+Vin1 A GND pulse(0,1.8,0,50ps,50ps,100ns,200ns)
+Vin2 A_bar GND pulse(1.8,0,0,50ps,50ps,100ns,200ns)
+Vdis0 Dis0 GND pulse(0,1.8,2ns,0.5ns,0.5ns,20ns,100ns)
+Vin3 B GND pulse(0,1.8,0,50ps,50ps,200ns,400ns)
+Vin4 B_bar GND pulse(1.8,0,0,50ps,50ps,200ns,400ns)
+C1 OUT GND 20f m=1
+C2 OUT_bar GND 20f m=1
+Vclk0 CLK0 GND pulse(0,1.8,25ns,25ns,25ns,25ns,100ns)
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/magic_layout_stuff/EESPFAL_NAND_v3.spice
+.control
+op
+tran 0.1n 2u
+plot v(A)
+plot v(A_bar)
+plot v(B)
+plot v(CLK0) v(Dis0) v(A) (v(CLK0)*i(vclk0))
+plot v(OUT)
+plot v(OUT_bar)
+plot i(vclk0)
+plot (v(CLK0)*i(vclk0))
+plot (v(CLK0)*i(vclk0))+(v(Dis0)*i(Vdis0))
+let P_insta = clk0 *vclk0#branch
+plot P_insta
+save all
+wrdata EESPFAL_NAND_v2.raw P_insta out out_bar
+.endc
+.save all
+
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

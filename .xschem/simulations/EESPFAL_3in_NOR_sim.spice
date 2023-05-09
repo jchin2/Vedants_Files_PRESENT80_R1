@@ -1,0 +1,34 @@
+**.subckt EESPFAL_3in_NOR_sim
+Vclk0 CLK0 GND pulse(0,1.8,25ns,25ns,25ns,25ns,100ns)
+Vin1 A GND pulse(0,1.8,0,1ps,1ps,100ns,200ns)
+Vin2 A_bar GND pulse(1.8,0,0,1ps,1ps,100ns,200ns)
+Vdis0 Dis0 GND pulse(0,1.8,1ps,1ps,1ps,25ns,100ns)
+Vin3 B GND pulse(0,1.8,0,1ps,1ps,200ns,400ns)
+Vin4 B_bar GND pulse(1.8,0,0,1ps,1ps,200ns,400ns)
+Vin5 C GND pulse(0,1.8,0,1ps,1ps,400ns,800ns)
+Vin6 C_bar GND pulse(1.8,0,0,1ps,1ps,400ns,800ns)
+x1 A A_bar B B_bar C C_bar OUT OUT_bar Dis0 GND CLK0 EESPFAL_3in_NOR_v2
+**** begin user architecture code
+
+.lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/magic_layout_stuff/EESPFAL_3in_NOR_v2.spice
+.control
+tran 0.1n 4u
+plot v(CLK0)
+plot v(Dis0)
+plot v(A)
+plot v(A_bar)
+plot v(B)
+plot v(B_bar)
+plot v(C)
+plot v(C_bar)
+plot v(OUT)
+plot v(OUT_bar)
+.endc
+.save all
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+** flattened .save nodes
+.end

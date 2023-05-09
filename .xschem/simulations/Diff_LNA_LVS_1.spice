@@ -1,0 +1,34 @@
+.subckt Diff_LNA_LVS_1 IN1 IN2 VDD OUT1 OUT2 Ground
+*.PININFO IN1:I IN2:I VDD:I OUT1:O OUT2:O Ground:B
+XM5 OUT1 VDD net2 Ground sky130_fd_pr__nfet_01v8_lvt L=0.15 W=4.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=10 m=10 
+XM3 net4 net3 Ground Ground sky130_fd_pr__nfet_01v8_lvt L=0.15 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=4 m=4 
+XM6 net3 net3 Ground Ground sky130_fd_pr__nfet_01v8_lvt L=0.15 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=4 m=4 
+XM4 net2 IN2 net4 Ground sky130_fd_pr__nfet_01v8_lvt L=0.15 W=4.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=10 m=10 
+XM2 OUT2 VDD net1 Ground sky130_fd_pr__nfet_01v8_lvt L=0.15 W=4.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=10 m=10 
+XM1 net1 IN1 net4 Ground sky130_fd_pr__nfet_01v8_lvt L=0.15 W=4.5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=10 m=10 
+R2 net3 VDD sky130_fd_pr__res_generic_po W=0.44 L=1.69 m=1
+R3 OUT1 VDD sky130_fd_pr__res_generic_m3 W=0.3 L=0.3 m=1
+R11 OUT2 VDD sky130_fd_pr__res_generic_m3 W=0.3 L=0.3 m=1
+XR12 OUT1 net5 Ground sky130_fd_pr__res_xhigh_po W=0.35 L=0.69 mult=1 m=1
+XR1 net6 net5 Ground sky130_fd_pr__res_xhigh_po W=0.35 L=0.69 mult=1 m=1
+XR4 net6 net7 Ground sky130_fd_pr__res_xhigh_po W=0.35 L=0.69 mult=1 m=1
+XR5 VDD net7 Ground sky130_fd_pr__res_xhigh_po W=0.35 L=0.69 mult=1 m=1
+XR6 OUT2 net8 Ground sky130_fd_pr__res_xhigh_po W=0.35 L=0.69 mult=1 m=1
+XR7 net9 net8 Ground sky130_fd_pr__res_xhigh_po W=0.35 L=0.69 mult=1 m=1
+XR8 net9 net10 Ground sky130_fd_pr__res_xhigh_po W=0.35 L=0.69 mult=1 m=1
+XR9 VDD net10 Ground sky130_fd_pr__res_xhigh_po W=0.35 L=0.69 mult=1 m=1
+.ends
+** flattened .save nodes
+.end
