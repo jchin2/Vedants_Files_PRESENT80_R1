@@ -1,0 +1,12 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1671306811
+<< metal4 >>
+rect 3460 900 3670 1290
+rect 4310 1120 4460 1290
+use sky130_fd_pr__cap_mim_m3_1_NVRRZV  sky130_fd_pr__cap_mim_m3_1_NVRRZV_0
+timestamp 1671306811
+transform 1 0 2975 0 1 2395
+box -1355 -1305 1354 1305
+<< end >>

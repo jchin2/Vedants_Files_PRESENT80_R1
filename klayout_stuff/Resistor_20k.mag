@@ -1,0 +1,15 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1671058898
+<< locali >>
+rect 1140 997 1174 1031
+<< metal1 >>
+rect 1500 1406 1768 1686
+rect 1182 696 1450 976
+rect 1818 696 2086 976
+use sky130_fd_pr__res_xhigh_po_0p35_2RLX6B  sky130_fd_pr__res_xhigh_po_0p35_2RLX6B_0
+timestamp 1671058898
+transform 1 0 1634 0 1 1191
+box -512 -501 512 501
+<< end >>

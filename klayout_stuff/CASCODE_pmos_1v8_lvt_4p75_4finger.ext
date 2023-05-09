@@ -1,0 +1,33 @@
+timestamp 1671043643
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use pmos_1v8_lvt_4p75_Lbody_4finger pmos_1v8_lvt_4p75_Lbody_4finger_0 1 0 -511 0 1 -273
+use pmos_1v8_lvt_4p75_Rbody_4finger pmos_1v8_lvt_4p75_Rbody_4finger_0 1 0 369 0 1 -273
+node "li_1319_127#" 256 371.472 1319 127 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32000 1680 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n561_127#" 256 371.472 -561 127 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32000 1680 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_339_967#" 145 101.168 339 967 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4800 320 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_190_380#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" 16.3543
+cap "pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_190_380#" -11.4736
+cap "pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#" 4.57826
+cap "pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" 10.5465
+cap "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_190_380#" "pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#" 18.4011
+cap "pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" 48.314
+cap "pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" -10.1666
+cap "pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" 6.21719
+cap "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" 12.2365
+cap "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_190_380#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" 5.8853
+cap "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_190_380#" "pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#" 3.01265
+cap "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_190_380#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" 0.409358
+merge "pmos_1v8_lvt_4p75_Rbody_4finger_0/VSUBS" "pmos_1v8_lvt_4p75_Lbody_4finger_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pmos_1v8_lvt_4p75_Lbody_4finger_0/VSUBS" "VSUBS"
+merge "pmos_1v8_lvt_4p75_Rbody_4finger_0/a_n30_380#" "li_1319_127#" -3065.67 0 0 0 0 -680400 -3600 0 0 0 0 -100800 -1920 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -67200 -8320 0 0 0 0 0 0 0 0 0 0 0 0
+merge "li_1319_127#" "pmos_1v8_lvt_4p75_Rbody_4finger_0/w_n240_170#"
+merge "pmos_1v8_lvt_4p75_Rbody_4finger_0/w_n240_170#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_n30_380#"
+merge "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_n30_380#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#"
+merge "pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "li_n561_127#"
+merge "pmos_1v8_lvt_4p75_Rbody_4finger_0/a_90_330#" "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" -114.586 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" "a_339_967#"

@@ -1,0 +1,47 @@
+* NGSPICE file created from Mixer--TOP.ext - technology: sky130A
+
+.subckt pmos_1v8_lvt_4p75_Rbody_4finger w_n240_170# a_190_380# a_90_330# a_n30_380#
+X0 a_190_380# a_90_330# a_n30_380# w_n240_170# sky130_fd_pr__pfet_01v8_lvt ad=5.04e+12p pd=1.92e+07u as=7.56e+12p ps=2.88e+07u w=4.2e+06u l=500000u M=4
+.ends
+
+.subckt pmos_1v8_lvt_4p75_Lbody_4finger w_n240_170# a_190_380# a_90_330# a_n30_380#
+X0 a_190_380# a_90_330# a_n30_380# w_n240_170# sky130_fd_pr__pfet_01v8_lvt ad=5.04e+12p pd=1.92e+07u as=7.56e+12p ps=2.88e+07u w=4.2e+06u l=500000u M=4
+.ends
+
+.subckt CASCODE_pmos_1v8_lvt_4p75_4finger a_339_967# pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#
++ li_n561_127# pmos_1v8_lvt_4p75_Lbody_4finger_0/a_190_380#
+Xpmos_1v8_lvt_4p75_Rbody_4finger_0 li_n561_127# pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#
++ a_339_967# li_n561_127# pmos_1v8_lvt_4p75_Rbody_4finger
+Xpmos_1v8_lvt_4p75_Lbody_4finger_0 li_n561_127# pmos_1v8_lvt_4p75_Lbody_4finger_0/a_190_380#
++ a_339_967# li_n561_127# pmos_1v8_lvt_4p75_Lbody_4finger
+.ends
+
+.subckt nmos_1v8_lvt_4p75_body_4finger a_n1990_20# a_n2110_20# a_n1770_20# a_n1870_n10#
+X0 a_n1770_20# a_n1870_n10# a_n1990_20# a_n2110_20# sky130_fd_pr__nfet_01v8_lvt ad=5.7e+12p pd=2.14e+07u as=8.55e+12p ps=3.21e+07u w=4.75e+06u l=500000u M=4
+.ends
+
+.subckt fuckthisresistor3 a_n512_69# a_n512_n501# VSUBS
+X0 a_n512_n501# a_n512_69# VSUBS sky130_fd_pr__res_xhigh_po w=350000u l=690000u
+.ends
+
+.subckt nmos_1v8_lvt_4p2_body_4finger a_n1430_60# a_n1770_60# a_n1530_30# a_n1650_60#
+X0 a_n1650_60# a_n1530_30# a_n1430_60# a_n1770_60# sky130_fd_pr__nfet_01v8_lvt ad=7.56e+12p pd=2.88e+07u as=5.04e+12p ps=1.92e+07u w=4.2e+06u l=500000u M=4
+.ends
+
+.subckt Mixer--TOP Ground VDD v_bias_p RFP RFN LOP LON VoutP VoutN
+XCASCODE_pmos_1v8_lvt_4p75_4finger_0 v_bias_p PdrainM8_NsourceM3_M4_Ndrain_M5 VDD
++ Pdrain_NsourceM1_M2_Ndrain_M6 CASCODE_pmos_1v8_lvt_4p75_4finger
+Xnmos_1v8_lvt_4p75_body_4finger_0 Ground Ground PdrainM8_NsourceM3_M4_Ndrain_M5 RFN
++ nmos_1v8_lvt_4p75_body_4finger
+Xnmos_1v8_lvt_4p75_body_4finger_1 Ground Ground Pdrain_NsourceM1_M2_Ndrain_M6 RFP
++ nmos_1v8_lvt_4p75_body_4finger
+Xfuckthisresistor3_0 VDD VoutN Ground fuckthisresistor3
+Xfuckthisresistor3_1 VDD VoutP Ground fuckthisresistor3
+Xnmos_1v8_lvt_4p2_body_4finger_0 VoutN Ground LOP PdrainM8_NsourceM3_M4_Ndrain_M5
++ nmos_1v8_lvt_4p2_body_4finger
+Xnmos_1v8_lvt_4p2_body_4finger_1 VoutP Ground LON PdrainM8_NsourceM3_M4_Ndrain_M5
++ nmos_1v8_lvt_4p2_body_4finger
+Xnmos_1v8_lvt_4p2_body_4finger_2 VoutN Ground LON Pdrain_NsourceM1_M2_Ndrain_M6 nmos_1v8_lvt_4p2_body_4finger
+Xnmos_1v8_lvt_4p2_body_4finger_3 VoutP Ground LOP Pdrain_NsourceM1_M2_Ndrain_M6 nmos_1v8_lvt_4p2_body_4finger
+.ends
+

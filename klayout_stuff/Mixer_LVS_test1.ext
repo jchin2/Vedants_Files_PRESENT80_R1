@@ -1,0 +1,114 @@
+timestamp 1671080676
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__pfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__nfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__res_xhigh_po l=l w=w
+parameters sky130_fd_pr__res_xhigh_po_5p73 l=l
+parameters sky130_fd_pr__res_xhigh_po_2p85 l=l
+parameters sky130_fd_pr__res_xhigh_po_1p41 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p69 l=l
+parameters sky130_fd_pr__res_xhigh_po_0p35 l=l
+port "RFN" 5 1811 -6729 1826 -6713 m1
+port "RFP" 4 1811 -6812 1826 -6796 m1
+port "LON" 7 1816 -5390 1834 -5373 m1
+port "LOP" 6 1815 -5473 1833 -5456 m1
+port "VoutN" 9 8448 -5281 8467 -5264 m2
+port "VoutP" 8 2381 -5169 2397 -5156 m2
+port "v_bias_p" 1 1815 -3768 1830 -3755 m1
+port "VDD" 3 5368 -3489 5406 -3455 m1
+port "Ground" 2 5333 -7025 5512 -6991 m1
+node "RFN" 2748 1921.95 1811 -6729 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 460880 10372 0 0 6400 320 128452 9038 0 0 0 0 0 0 0 0 0 0
+node "RFP" 2780 2269.4 1811 -6812 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 469000 10536 0 0 6400 320 85360 5960 0 0 0 0 0 0 0 0 0 0
+node "LON" 5263 3204.3 1816 -5390 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 830280 18944 0 0 19200 960 166704 11440 0 0 0 0 0 0 0 0 0 0
+node "LOP" 5190 3462.64 1815 -5473 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 813600 18616 0 0 19200 960 188908 13026 0 0 0 0 0 0 0 0 0 0
+node "VoutN" 5357 2883.75 8448 -5281 m2 0 0 0 0 0 0 0 0 403200 7680 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 420140 12584 163434 10782 64164 4446 0 0 0 0 0 0 0 0
+node "a_8291_n4593#" 3943 0 8291 -4593 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9660 416 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_5592_n6455#" 13740 3653.99 5592 -6455 ndif 0 0 0 0 0 0 0 0 732000 13880 228000 4280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 807570 25416 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2038_n6423#" 13740 3691.39 2038 -6423 ndif 0 0 0 0 0 0 0 0 732000 13880 228000 4280 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 807570 25416 0 0 0 0 0 0 0 0 0 0 0 0
+node "VoutP" 5342 2336.89 2381 -5169 m2 0 0 0 0 0 0 0 0 403200 7680 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 412300 12388 169778 11098 61084 4226 0 0 0 0 0 0 0 0
+node "a_2505_n4593#" 3943 0 2505 -4593 xres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9660 416 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "v_bias_p" 5656 1497.89 1815 -3768 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 933840 20340 0 0 206160 5314 17096 1084 0 0 0 0 0 0 0 0 0 0
+node "VDD" 16373 17854.6 5368 -3489 m1 0 0 0 0 2900520 7124 0 0 228000 4280 570000 10700 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1683584 39648 1149500 25046 0 0 0 0 0 0 0 0 0 0
+substrate "Ground" 0 0 5333 -7025 m1 0 0 0 0 0 0 0 0 570000 10700 631200 11960 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2306960 45580 1056700 21334 0 0 0 0 0 0 0 0 0 0
+cap "LON" "LOP" 3788.09
+cap "RFP" "a_2038_n6423#" 194.071
+cap "VoutN" "RFN" 78.0282
+cap "VoutN" "a_5592_n6455#" 1292.46
+cap "VDD" "a_2038_n6423#" 1342.92
+cap "VoutP" "a_2038_n6423#" 1210.73
+cap "LOP" "VoutN" 280.159
+cap "LON" "v_bias_p" 11.7012
+cap "RFP" "a_5592_n6455#" 22.5906
+cap "RFP" "RFN" 2081.88
+cap "LON" "VoutN" 224.886
+cap "a_5592_n6455#" "VDD" 1341.8
+cap "VDD" "RFN" 63.6373
+cap "a_5592_n6455#" "VoutP" 1141.6
+cap "RFN" "VoutP" 87.4635
+cap "VoutN" "v_bias_p" 129.444
+cap "LOP" "RFP" 91.8072
+cap "LOP" "VDD" 4.04445
+cap "LOP" "VoutP" 468.14
+cap "a_5592_n6455#" "a_2038_n6423#" 65.286
+cap "RFN" "a_2038_n6423#" 41.2723
+cap "LON" "RFP" 22.52
+cap "LON" "VDD" 0.306455
+cap "LON" "VoutP" 921.966
+cap "RFP" "v_bias_p" 21.6629
+cap "LOP" "a_2038_n6423#" 483.626
+cap "VDD" "v_bias_p" 2416.96
+cap "VoutP" "v_bias_p" 48.5491
+cap "VoutN" "RFP" 83.6301
+cap "VoutN" "VDD" 530.768
+cap "VoutN" "VoutP" 2030.19
+cap "a_5592_n6455#" "RFN" 186.7
+cap "LON" "a_2038_n6423#" 271.482
+cap "a_2038_n6423#" "v_bias_p" 160.272
+cap "LOP" "a_5592_n6455#" 407.165
+cap "LOP" "RFN" 359.199
+cap "VoutN" "a_2038_n6423#" 1202.86
+cap "RFP" "VDD" 63.5144
+cap "RFP" "VoutP" 81.2772
+cap "LON" "a_5592_n6455#" 160.363
+cap "LON" "RFN" 2412.96
+cap "VDD" "VoutP" 204.874
+cap "a_5592_n6455#" "v_bias_p" 142.155
+cap "RFN" "v_bias_p" 21.6737
+device msubckt sky130_fd_pr__nfet_01v8_lvt 8606 -6423 8607 -6422 l=100 w=840 "Ground" "LOP" 200 0 "VoutN" 840 0 "a_5592_n6455#" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 8386 -6423 8387 -6422 l=100 w=840 "Ground" "LOP" 200 0 "a_5592_n6455#" 840 0 "VoutN" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 8166 -6423 8167 -6422 l=100 w=840 "Ground" "LOP" 200 0 "VoutN" 840 0 "a_5592_n6455#" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 7946 -6423 7947 -6422 l=100 w=840 "Ground" "LOP" 200 0 "a_5592_n6455#" 840 0 "VoutN" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 7726 -6423 7727 -6422 l=100 w=840 "Ground" "LON" 200 0 "VoutP" 840 0 "a_5592_n6455#" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 7506 -6423 7507 -6422 l=100 w=840 "Ground" "LON" 200 0 "a_5592_n6455#" 840 0 "VoutP" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 7286 -6423 7287 -6422 l=100 w=840 "Ground" "LON" 200 0 "VoutP" 840 0 "a_5592_n6455#" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 7066 -6423 7067 -6422 l=100 w=840 "Ground" "LON" 200 0 "a_5592_n6455#" 840 0 "VoutP" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 6152 -6455 6153 -6454 l=100 w=950 "Ground" "RFN" 200 0 "a_5592_n6455#" 950 0 "Ground" 950 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5932 -6455 5933 -6454 l=100 w=950 "Ground" "RFN" 200 0 "Ground" 950 0 "a_5592_n6455#" 950 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5712 -6455 5713 -6454 l=100 w=950 "Ground" "RFN" 200 0 "a_5592_n6455#" 950 0 "Ground" 950 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5492 -6455 5493 -6454 l=100 w=950 "Ground" "RFN" 200 0 "Ground" 950 0 "a_5592_n6455#" 950 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5272 -6455 5273 -6454 l=100 w=950 "Ground" "RFP" 200 0 "a_2038_n6423#" 950 0 "Ground" 950 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5052 -6455 5053 -6454 l=100 w=950 "Ground" "RFP" 200 0 "Ground" 950 0 "a_2038_n6423#" 950 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4832 -6455 4833 -6454 l=100 w=950 "Ground" "RFP" 200 0 "a_2038_n6423#" 950 0 "Ground" 950 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 4612 -6455 4613 -6454 l=100 w=950 "Ground" "RFP" 200 0 "Ground" 950 0 "a_2038_n6423#" 950 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3698 -6423 3699 -6422 l=100 w=840 "Ground" "LON" 200 0 "VoutN" 840 0 "a_2038_n6423#" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3478 -6423 3479 -6422 l=100 w=840 "Ground" "LON" 200 0 "a_2038_n6423#" 840 0 "VoutN" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3258 -6423 3259 -6422 l=100 w=840 "Ground" "LON" 200 0 "VoutN" 840 0 "a_2038_n6423#" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 3038 -6423 3039 -6422 l=100 w=840 "Ground" "LON" 200 0 "a_2038_n6423#" 840 0 "VoutN" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2818 -6423 2819 -6422 l=100 w=840 "Ground" "LOP" 200 0 "VoutP" 840 0 "a_2038_n6423#" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2598 -6423 2599 -6422 l=100 w=840 "Ground" "LOP" 200 0 "a_2038_n6423#" 840 0 "VoutP" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2378 -6423 2379 -6422 l=100 w=840 "Ground" "LOP" 200 0 "VoutP" 840 0 "a_2038_n6423#" 840 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 2158 -6423 2159 -6422 l=100 w=840 "Ground" "LOP" 200 0 "a_2038_n6423#" 840 0 "VoutP" 840 0
+device rsubckt sky130_fd_pr__res_xhigh_po 8291 -4593 8292 -4592 l=138 w=70 "Ground" "a_8291_n4593#" 0 0 "VoutN" 70 0 "VDD" 70 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 6153 -4850 6154 -4849 l=100 w=950 "VDD" "v_bias_p" 200 0 "a_5592_n6455#" 950 0 "VDD" 950 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 5933 -4850 5934 -4849 l=100 w=950 "VDD" "v_bias_p" 200 0 "VDD" 950 0 "a_5592_n6455#" 950 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 5713 -4850 5714 -4849 l=100 w=950 "VDD" "v_bias_p" 200 0 "a_5592_n6455#" 950 0 "VDD" 950 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 5493 -4850 5494 -4849 l=100 w=950 "VDD" "v_bias_p" 200 0 "VDD" 950 0 "a_5592_n6455#" 950 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 5273 -4850 5274 -4849 l=100 w=950 "VDD" "v_bias_p" 200 0 "a_2038_n6423#" 950 0 "VDD" 950 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 5053 -4850 5054 -4849 l=100 w=950 "VDD" "v_bias_p" 200 0 "VDD" 950 0 "a_2038_n6423#" 950 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 4833 -4850 4834 -4849 l=100 w=950 "VDD" "v_bias_p" 200 0 "a_2038_n6423#" 950 0 "VDD" 950 0
+device msubckt sky130_fd_pr__pfet_01v8_lvt 4613 -4850 4614 -4849 l=100 w=950 "VDD" "v_bias_p" 200 0 "VDD" 950 0 "a_2038_n6423#" 950 0
+device rsubckt sky130_fd_pr__res_xhigh_po 2505 -4593 2506 -4592 l=138 w=70 "Ground" "a_2505_n4593#" 0 0 "VoutP" 70 0 "VDD" 70 0

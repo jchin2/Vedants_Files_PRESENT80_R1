@@ -1,0 +1,744 @@
+timestamp 1671047253
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use nmos_1v8_lvt_4p2_body_4finger nmos_1v8_lvt_4p2_body_4finger_3 1 0 -1076 0 1 -1969
+use nmos_1v8_lvt_4p2_body_4finger nmos_1v8_lvt_4p2_body_4finger_2 -1 0 -2496 0 1 -1969
+use P_pcon_li_single P_pcon_li_single_6 1 0 -2576 0 1 -2063
+use P_pcon_li_single P_pcon_li_single_4 1 0 -1696 0 1 -2145
+use nmos_1v8_lvt_4p75_body_4finger nmos_1v8_lvt_4p75_body_4finger_1 1 0 1718 0 1 -1961
+use nmos_1v8_lvt_4p75_body_4finger nmos_1v8_lvt_4p75_body_4finger_0 -1 0 -382 0 1 -1961
+use P_pcon_li_single P_pcon_li_single_1 1 0 1417 0 1 -2227
+use P_pcon_li_single P_pcon_li_single_0 1 0 -122 0 1 -2309
+use nmos_1v8_lvt_4p2_body_4finger nmos_1v8_lvt_4p2_body_4finger_1 1 0 3832 0 1 -1969
+use nmos_1v8_lvt_4p2_body_4finger nmos_1v8_lvt_4p2_body_4finger_0 -1 0 2412 0 1 -1969
+use P_pcon_li_single P_pcon_li_single_5 1 0 3209 0 1 -2063
+use P_pcon_li_single P_pcon_li_single_3 1 0 2332 0 1 -2145
+use P_pcon_li_single P_pcon_li_single_7 1 0 -2586 0 1 -969
+use P_pcon_li_single P_pcon_li_single_2 1 0 -1706 0 1 -969
+use fuckthisresistor3 fuckthisresistor3_1 1 0 -1747 0 1 -10
+use Li_via_M1 Li_via_M1_4 1 0 -2244 0 1 -887
+use Li_via_M1 Li_via_M1_2 1 0 -1166 0 1 -779
+use Li_via_M2 Li_via_M2_0 1 0 -2244 0 1 -669
+use CASCODE_pmos_1v8_lvt_4p75_4finger CASCODE_pmos_1v8_lvt_4p75_4finger_0 1 0 270 0 1 -443
+use fuckthisresistor3 fuckthisresistor3_0 1 0 4152 0 1 -10
+use Li_via_M1 Li_via_M1_3 1 0 2462 0 1 -887
+use Li_via_M1 Li_via_M1_1 1 0 3655 0 1 -779
+use Li_via_M1 Li_via_M1_0 1 0 -2560 0 1 619
+use Poly_pcon_Li_double Poly_pcon_Li_double_0 1 0 -131 0 1 619
+port "VoutP" 8 5601 -658 5617 -645 m2
+port "VoutN" 9 5600 -769 5619 -752 m2
+port "v_bias_p" 3 -2949 631 -2934 644 m1
+port "RFN" 5 -2953 -2215 -2938 -2199 m1
+port "RFP" 4 -2953 -2298 -2938 -2282 m1
+port "Ground" 1 569 -2511 748 -2477 m1
+port "LON" 7 -2948 -876 -2930 -859 m1
+port "LOP" 6 -2949 -959 -2931 -942 m1
+port "VDD" 2 604 1025 642 1059 m1
+node "VoutP" 35 1657.87 5601 -658 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 218988 15698 0 0 0 0 0 0 0 0
+node "m1_n2184_n881#" 21 951.991 -2184 -881 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129528 9308 0 0 0 0 0 0 0 0 0 0
+node "VoutN" 9 485.616 5600 -769 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3136 224 60216 4164 0 0 0 0 0 0 0 0
+node "m1_n1106_n774#" 21 1886.42 -1106 -774 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132748 9538 0 0 0 0 0 0 0 0 0 0
+node "m1_n2252_n677#" 0 63.9989 -2252 -677 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3136 224 3136 224 0 0 0 0 0 0 0 0
+node "v_bias_p" 2 113.125 -2949 631 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10696 820 0 0 0 0 0 0 0 0 0 0
+node "RFN" 32 316.658 -2953 -2215 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 128452 9038 0 0 0 0 0 0 0 0 0 0
+node "RFP" 26 190.296 -2953 -2298 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 85360 5960 0 0 0 0 0 0 0 0 0 0
+node "Ndrain_M1_M4_R2negative" 91 260.917 3640 -1009 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34860 1136 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_2442_n1009#" 16 65.905 2442 -1009 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8160 364 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_1588_n1921#" 291 397.306 1588 -1921 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36400 1900 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n292_n1921#" 291 397.67 -292 -1921 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36400 1900 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n1693_n2142#" 93 388.27 -1693 -2142 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 123344 8480 0 0 0 0 0 0 0 0 0 0
+node "li_n2573_n2060#" 100 1627.17 -2573 -2060 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 172540 11994 0 0 0 0 0 0 0 0 0 0
+node "MB_M1" 1633 9584.09 -4866 -2534 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1388560 26720 1056700 21334 0 0 0 0 0 0 0 0 0 0
+equiv "MB_M1" "Ground"
+node "li_1348_n965#" 391 445.205 1348 -965 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35326 2146 0 0 0 0 0 0 0 0 0 0 0 0
+node "PdrainM8_NsourceM3_M4_Ndrain_M5" 101 247.79 1075 -933 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36516 1210 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n923_n1089#" 390 443.129 -923 -1089 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35190 2138 0 0 0 0 0 0 0 0 0 0 0 0
+node "Pdrain_NsourceM1_M2_Ndrain_M6" 101 246.291 196 -931 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36380 1206 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n1186_n1009#" 34 109.584 -1186 -1009 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16880 582 0 0 0 0 0 0 0 0 0 0 0 0
+node "LON" 19 452.1 -2948 -876 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 43360 2960 0 0 0 0 0 0 0 0 0 0
+node "Ndrain_M2_M3_Rnegative" 91 246.907 -2259 -1009 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 34860 1136 0 0 0 0 0 0 0 0 0 0 0 0
+node "LOP" 15 135.561 -2949 -959 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 16368 1032 0 0 0 0 0 0 0 0 0 0
+node "li_n2500_599#" 376 826.931 -2500 599 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 187920 4858 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 1717 9763.71 604 1025 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 910184 22170 1107400 23362 0 0 0 0 0 0 0 0 0 0
+node "a_3182_n2003#" 75 102.197 3182 -2003 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6400 328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_2302_n2085#" 70 160.354 2302 -2085 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14600 492 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_1388_n2171#" 96 209.275 1388 -2171 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20000 600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n152_n2249#" 134 281.733 -152 -2249 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27800 756 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1726_n2099#" 77 180.458 -1726 -2099 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16000 520 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n2606_n2003#" 75 102.197 -2606 -2003 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6400 328 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n151_563#" 2318 1075.06 -151 563 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56056 3352 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_n2573_n2060#" "VoutP" 8.22822
+cap "RFN" "VoutP" 0.232001
+cap "VDD" "Pdrain_NsourceM1_M2_Ndrain_M6" 2.65926
+cap "li_1588_n1921#" "li_n1693_n2142#" 0.532669
+cap "li_n923_n1089#" "PdrainM8_NsourceM3_M4_Ndrain_M5" 0.0515179
+cap "VDD" "Ndrain_M2_M3_Rnegative" 3.52036
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "RFN" 0.160898
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "li_n2573_n2060#" 2.43819
+cap "li_n923_n1089#" "LON" 4.05879
+cap "VoutP" "Pdrain_NsourceM1_M2_Ndrain_M6" 10.9829
+cap "a_n1726_n2099#" "li_n1693_n2142#" 3.24843
+cap "VDD" "a_n151_563#" 80.4451
+cap "a_3182_n2003#" "MB_M1" 6.02885
+cap "m1_n2252_n677#" "RFN" 0.0375952
+cap "m1_n2252_n677#" "li_n2573_n2060#" 0.267449
+cap "RFN" "LON" 0.061764
+cap "li_n2573_n2060#" "LON" 32.359
+cap "a_2302_n2085#" "VoutP" 0.102897
+cap "m1_n2184_n881#" "li_n1693_n2142#" 0.315228
+cap "VDD" "Ndrain_M1_M4_R2negative" 5.74779
+cap "Ndrain_M2_M3_Rnegative" "VoutP" 3.03372
+cap "RFP" "li_n1693_n2142#" 0.318815
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "Pdrain_NsourceM1_M2_Ndrain_M6" 18.471
+cap "a_n151_563#" "li_1348_n965#" 0.15809
+cap "a_n151_563#" "VoutP" 5.11144
+cap "LOP" "LON" 458.782
+cap "a_n2606_n2003#" "LON" 0.749919
+cap "VDD" "VoutP" 4.74675
+cap "li_n292_n1921#" "m1_n1106_n774#" 7.48263
+cap "li_n2573_n2060#" "a_1388_n2171#" 8.10352
+cap "RFN" "a_1388_n2171#" 2.75686
+cap "Ndrain_M1_M4_R2negative" "VoutP" 10.3166
+cap "a_n152_n2249#" "li_n1693_n2142#" 7.56166
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "a_n151_563#" 1.92458
+cap "li_n923_n1089#" "li_n1186_n1009#" 11.9344
+cap "m1_n2252_n677#" "Ndrain_M2_M3_Rnegative" 17.7255
+cap "li_n923_n1089#" "m1_n1106_n774#" 13.7185
+cap "Ndrain_M2_M3_Rnegative" "LON" 16.4738
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "VDD" 2.65926
+cap "m1_n1106_n774#" "RFN" 0.0766259
+cap "li_n1186_n1009#" "RFN" 0.223285
+cap "li_n2573_n2060#" "li_n1186_n1009#" 2.28399
+cap "m1_n1106_n774#" "li_n2573_n2060#" 25.7195
+cap "VoutP" "li_1348_n965#" 3.23666
+cap "m1_n2252_n677#" "VDD" 4.69405
+cap "MB_M1" "li_1588_n1921#" 7.4596
+cap "a_2302_n2085#" "a_1388_n2171#" 2.38084
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "li_1348_n965#" 0.273171
+cap "li_n1186_n1009#" "LOP" 0.284444
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "VoutP" 10.9852
+cap "li_n1186_n1009#" "Pdrain_NsourceM1_M2_Ndrain_M6" 2.86022
+cap "a_n1726_n2099#" "MB_M1" 12.6692
+cap "m1_n1106_n774#" "Pdrain_NsourceM1_M2_Ndrain_M6" 23.2774
+cap "li_n2500_599#" "m1_n2184_n881#" 1.65827
+cap "VoutP" "LON" 1.35574
+cap "m1_n1106_n774#" "a_2302_n2085#" 1.1799
+cap "m1_n2252_n677#" "VoutP" 97.9065
+cap "LOP" "v_bias_p" 0.00116202
+cap "MB_M1" "m1_n2184_n881#" 33.065
+cap "li_n1186_n1009#" "Ndrain_M2_M3_Rnegative" 4.94118
+cap "m1_n1106_n774#" "Ndrain_M2_M3_Rnegative" 0.873275
+cap "RFP" "MB_M1" 862.042
+cap "m1_n1106_n774#" "a_n151_563#" 4.41794
+cap "m1_n2184_n881#" "li_1588_n1921#" 7.80485
+cap "m1_n1106_n774#" "VDD" 1.96136
+cap "li_n292_n1921#" "li_n1693_n2142#" 0.532669
+cap "VoutP" "a_1388_n2171#" 0.100016
+cap "li_1348_n965#" "a_1388_n2171#" 2.58043
+cap "VoutN" "MB_M1" 2.15722
+cap "m1_n2252_n677#" "LON" 12.5989
+cap "m1_n1106_n774#" "Ndrain_M1_M4_R2negative" 4.84089
+cap "VDD" "v_bias_p" 69.8718
+cap "MB_M1" "a_n152_n2249#" 40.4901
+cap "li_n2573_n2060#" "li_2442_n1009#" 1.31419
+cap "a_n1726_n2099#" "m1_n2184_n881#" 1.56437
+cap "li_n923_n1089#" "li_n1693_n2142#" 2.0548
+cap "RFN" "li_n1693_n2142#" 2389.15
+cap "li_n2573_n2060#" "li_n1693_n2142#" 3014.64
+cap "m1_n1106_n774#" "li_1348_n965#" 13.7638
+cap "li_n1186_n1009#" "VoutP" 0.525897
+cap "RFP" "a_n1726_n2099#" 0.416962
+cap "m1_n1106_n774#" "VoutP" 34.7566
+cap "RFP" "m1_n2184_n881#" 0.0867257
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "m1_n1106_n774#" 23.5205
+cap "a_n1726_n2099#" "a_n152_n2249#" 1.47626
+cap "Pdrain_NsourceM1_M2_Ndrain_M6" "li_n1693_n2142#" 0.215366
+cap "li_n1186_n1009#" "LON" 5.87075
+cap "a_2302_n2085#" "li_n1693_n2142#" 2.03502
+cap "m1_n2184_n881#" "a_n152_n2249#" 2.15229
+cap "li_n2573_n2060#" "a_3182_n2003#" 2.42656
+cap "v_bias_p" "LON" 9.53708
+cap "RFP" "a_n152_n2249#" 3.13037
+cap "Ndrain_M1_M4_R2negative" "li_2442_n1009#" 2.55456
+cap "li_n292_n1921#" "MB_M1" 7.4596
+cap "m1_n1106_n774#" "a_1388_n2171#" 1.33972
+cap "li_n923_n1089#" "li_n2500_599#" 14.1281
+cap "li_1348_n965#" "li_2442_n1009#" 9.33333
+cap "a_2302_n2085#" "a_3182_n2003#" 1.39487
+cap "VoutP" "li_2442_n1009#" 0.374233
+cap "li_n923_n1089#" "MB_M1" 19.8156
+cap "RFN" "MB_M1" 438.722
+cap "li_n2573_n2060#" "MB_M1" 333.074
+cap "li_1348_n965#" "li_n1693_n2142#" 2.05638
+cap "VoutP" "li_n1693_n2142#" 0.66503
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "li_2442_n1009#" 0.517321
+cap "li_n2573_n2060#" "li_1588_n1921#" 8.34838
+cap "LOP" "MB_M1" 5.96808
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "li_n1693_n2142#" 0.216777
+cap "a_n2606_n2003#" "MB_M1" 5.70568
+cap "MB_M1" "Pdrain_NsourceM1_M2_Ndrain_M6" 1.94372
+cap "li_n292_n1921#" "m1_n2184_n881#" 7.80485
+cap "a_2302_n2085#" "MB_M1" 11.7106
+cap "LON" "li_n1693_n2142#" 1.08736
+cap "li_n2500_599#" "Ndrain_M2_M3_Rnegative" 2.64865
+cap "li_n292_n1921#" "RFP" 0.477693
+cap "li_n2573_n2060#" "a_n1726_n2099#" 11.1149
+cap "RFN" "a_n1726_n2099#" 0.419537
+cap "li_n923_n1089#" "m1_n2184_n881#" 13.579
+cap "VoutP" "a_3182_n2003#" 0.0754489
+cap "Ndrain_M2_M3_Rnegative" "MB_M1" 2.26195
+cap "RFN" "m1_n2184_n881#" 0.12168
+cap "li_n2500_599#" "VDD" 408.356
+cap "li_n2573_n2060#" "m1_n2184_n881#" 131.4
+cap "li_n923_n1089#" "RFP" 2.5266
+cap "RFP" "RFN" 2050.33
+cap "li_n2573_n2060#" "RFP" 0.350948
+cap "a_n2606_n2003#" "a_n1726_n2099#" 1.39487
+cap "a_1388_n2171#" "li_n1693_n2142#" 7.59338
+cap "Ndrain_M1_M4_R2negative" "MB_M1" 2.26195
+cap "li_n923_n1089#" "a_n152_n2249#" 3.25423
+cap "m1_n1106_n774#" "li_2442_n1009#" 2.5675
+cap "m1_n2184_n881#" "Pdrain_NsourceM1_M2_Ndrain_M6" 15.1366
+cap "li_n2500_599#" "VoutP" 13.6741
+cap "RFP" "LOP" 0.0479658
+cap "li_1348_n965#" "MB_M1" 19.824
+cap "a_2302_n2085#" "m1_n2184_n881#" 1.45629
+cap "li_n2573_n2060#" "a_n152_n2249#" 9.37103
+cap "RFN" "a_n152_n2249#" 7.12808
+cap "RFP" "a_n2606_n2003#" 0.29603
+cap "m1_n1106_n774#" "li_n1693_n2142#" 0.116064
+cap "VoutP" "MB_M1" 1.54246
+cap "li_n1186_n1009#" "li_n1693_n2142#" 0.270565
+cap "Ndrain_M2_M3_Rnegative" "m1_n2184_n881#" 4.18618
+cap "a_n151_563#" "m1_n2184_n881#" 0.786226
+cap "RFP" "Ndrain_M2_M3_Rnegative" 0.1612
+cap "li_1348_n965#" "li_1588_n1921#" 40.3676
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "MB_M1" 1.94936
+cap "VoutP" "li_1588_n1921#" 0.458507
+cap "VDD" "m1_n2184_n881#" 0.171485
+cap "m1_n2252_n677#" "li_n2500_599#" 0.987281
+cap "li_n2500_599#" "LON" 1.39771
+cap "Ndrain_M1_M4_R2negative" "m1_n2184_n881#" 0.57523
+cap "LON" "MB_M1" 5.73444
+cap "VoutP" "a_n1726_n2099#" 0.106205
+cap "m1_n1106_n774#" "a_3182_n2003#" 0.620642
+cap "li_1348_n965#" "m1_n2184_n881#" 13.6243
+cap "VoutP" "m1_n2184_n881#" 5.68688
+cap "VoutN" "VDD" 2.64585
+cap "RFP" "VoutP" 0.000253656
+cap "VoutN" "Ndrain_M1_M4_R2negative" 24.9721
+cap "MB_M1" "a_1388_n2171#" 28.4656
+cap "li_n292_n1921#" "li_n923_n1089#" 40.18
+cap "a_n1726_n2099#" "LON" 2.4055
+cap "li_n292_n1921#" "RFN" 0.50349
+cap "li_n292_n1921#" "li_n2573_n2060#" 8.34838
+cap "PdrainM8_NsourceM3_M4_Ndrain_M5" "m1_n2184_n881#" 15.1681
+cap "li_n2500_599#" "li_n1186_n1009#" 2.40515
+cap "li_n2500_599#" "m1_n1106_n774#" 5.73889
+cap "VoutN" "VoutP" 1000.68
+cap "m1_n1106_n774#" "MB_M1" 21.2782
+cap "li_n1186_n1009#" "MB_M1" 2.58508
+cap "LON" "m1_n2184_n881#" 464.01
+cap "VoutP" "a_n152_n2249#" 0.105326
+cap "li_n923_n1089#" "RFN" 1.69405
+cap "li_n923_n1089#" "li_n2573_n2060#" 6.93719
+cap "li_n2500_599#" "v_bias_p" 4.19866
+cap "m1_n2252_n677#" "RFP" 9.32816e-06
+cap "RFP" "LON" 0.0479658
+cap "li_n2573_n2060#" "RFN" 257.665
+cap "m1_n1106_n774#" "li_1588_n1921#" 7.48263
+cap "m1_n2184_n881#" "a_1388_n2171#" 1.7276
+cap "LOP" "RFN" 11.0569
+cap "li_n2573_n2060#" "LOP" 3.91712
+cap "a_n2606_n2003#" "RFN" 0.300736
+cap "li_n2573_n2060#" "a_n2606_n2003#" 2.34917
+cap "RFN" "Pdrain_NsourceM1_M2_Ndrain_M6" 0.159623
+cap "li_n2573_n2060#" "Pdrain_NsourceM1_M2_Ndrain_M6" 2.41989
+cap "li_n2573_n2060#" "a_2302_n2085#" 9.91828
+cap "m1_n1106_n774#" "m1_n2184_n881#" 1657.23
+cap "li_n1186_n1009#" "m1_n2184_n881#" 17.2018
+cap "Ndrain_M2_M3_Rnegative" "RFN" 0.21765
+cap "li_n2573_n2060#" "Ndrain_M2_M3_Rnegative" 3.20976
+cap "li_n923_n1089#" "a_n151_563#" 0.160517
+cap "RFP" "li_n1186_n1009#" 0.175025
+cap "LOP" "a_n2606_n2003#" 1.29779
+cap "m1_n1106_n774#" "RFP" 0.0397122
+cap "a_1388_n2171#" "a_n152_n2249#" 2.36111
+cap "li_n292_n1921#" "VoutP" 0.458507
+cap "MB_M1" "li_2442_n1009#" 2.56929
+cap "VoutN" "m1_n1106_n774#" 95.5639
+cap "Ndrain_M2_M3_Rnegative" "LOP" 4.7802
+cap "MB_M1" "li_n1693_n2142#" 305.227
+cap "m1_n1106_n774#" "a_n152_n2249#" 1.60763
+cap "li_n923_n1089#" "li_1348_n965#" 0.658824
+cap "li_n923_n1089#" "VoutP" 3.22825
+cap "a_n151_563#" "Pdrain_NsourceM1_M2_Ndrain_M6" 1.92286
+cap "li_n2573_n2060#" "li_1348_n965#" 6.96027
+cap "RFN" "li_1348_n965#" 1.63546
+cap "RFP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 1.60575
+cap "LOP" "RFN" 7.45281
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "LON" 0.65411
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 5.50626
+cap "LOP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 150.947
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 2.62819
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "LOP" 33.2919
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "RFN" 10.365
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "RFN" 4.28216
+cap "LOP" "LON" 1.89277
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 2.43383
+cap "RFP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" -0.202781
+cap "LON" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 12.7143
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "LOP" 40.0948
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 0.323012
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "LON" 5.10135
+cap "RFP" "LOP" 3.10808
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "RFN" 2.29655
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 92.8409
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" 7.72542
+cap "RFP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 4.75203
+cap "LOP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 31.0272
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 11.1564
+cap "RFN" "LON" 4.32361
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "RFN" 8.0921
+cap "Ground" "LON" 77.5944
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.000131405
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 0.0208062
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 161.657
+cap "Ground" "RFP" 20.0792
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "LON" 8.7533
+cap "LOP" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 77.4986
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "RFP" 1.53476
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 10.1326
+cap "Ground" "RFN" 1.57839
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.574877
+cap "RFN" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 1.62466
+cap "LOP" "LON" 71.9295
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "LON" 3.67866
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 16.7417
+cap "LOP" "RFP" 1.02197
+cap "LOP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 118.1
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "RFP" 6.50131
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 6.77817
+cap "LOP" "RFN" 1.07847
+cap "RFN" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 3.34738
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "LON" 52.4113
+cap "RFP" "LON" 4.71544
+cap "LOP" "Ground" 47.281
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 36.8992
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "RFP" 10.9991
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" 0.00769906
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 0.992701
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 0.27798
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "Ground" 1.1555
+cap "fuckthisresistor3_1/a_n512_n501#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 0.47734
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "li_n2573_n2060#" 1.06804
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" 0.071803
+cap "li_n2573_n2060#" "Ground" 143.99
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "Ground" 18.8538
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" "Ground" 24.956
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 2.23109
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" "Ground" 0.00644797
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "li_n2573_n2060#" 69.8151
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 17.587
+cap "Ground" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" 0.000306495
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" 7.3913
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 0.00550321
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "Ground" 5.90368
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1530_30#" 0.529028
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "fuckthisresistor3_1/a_n512_n501#" 0.00953865
+cap "Ground" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" 0.00644797
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 7.18835
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "Ground" 36.4135
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 9.6345
+cap "Ground" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/a_90_330#" 0.000306495
+cap "li_n2573_n2060#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 72.04
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 8.68966
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 5.01007
+cap "Ground" "fuckthisresistor3_1/a_n512_n501#" -0.243346
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 0.000478285
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 1.65582
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" 0.0334663
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 90.5552
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "li_n2573_n2060#" 1.46082
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Rbody_4finger_0/a_90_330#" "Ground" 1.53248e-05
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.316243
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 6.16335
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 70.9435
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" 0.00687429
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 1.30388
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 13.9527
+cap "VoutP" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.136375
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 2.19762
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 72.1557
+cap "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.487113
+cap "Ground" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Rbody_4finger_0/a_90_330#" 0.00647378
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 9.4259
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1770_20#" 5.7476
+cap "fuckthisresistor3_0/a_n512_n501#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.262416
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 130.362
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 27.3503
+cap "VoutP" "Ground" 0.235913
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 169.033
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Rbody_4finger_0/a_90_330#" "Ground" 0.00612557
+cap "Ground" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/w_n240_170#" 2.07203
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 1.65582
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1770_20#" 7.18835
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 69.7981
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 7.39046
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 12.4728
+cap "fuckthisresistor3_0/a_n512_n501#" "Ground" 0.51593
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 4.27208
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Rbody_4finger_0/a_90_330#" "Ground" 0.00647378
+cap "Ground" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Rbody_4finger_0/a_90_330#" 0.00644797
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 83.1515
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 11.0216
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 3.35519
+cap "VoutP" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 0.570618
+cap "VoutP" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 0.0344355
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 3.22337
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 232.637
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 11.1564
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 33.5536
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" -0.0342722
+cap "VoutP" "Ground" -0.0228127
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 10.2446
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 168.66
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 45.7433
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" -1.11952
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 76.4872
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 50.24
+cap "VoutP" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 0.145524
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 1.24072
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" 15.2228
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 67.2303
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 8.54952
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 0.000131405
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 0.323012
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" 1.97813
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 41.8278
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" 0.136741
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "VoutP" -0.0827341
+cap "VoutP" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" 0.0147917
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 0.724978
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" 4.61978
+cap "VoutN" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 2.62819
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "VoutN" 2.56501
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" 118.516
+cap "VoutP" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 0.0999794
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" "VoutN" 5.10135
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "VoutN" 28.7436
+cap "VoutN" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" 1.66832
+cap "v_bias_p" "LOP" 0.598535
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "LON" -0.143253
+cap "LON" "fuckthisresistor3_1/a_n512_69#" 0.306455
+cap "LON" "LOP" 58.2805
+cap "RFN" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 0.447825
+cap "LOP" "fuckthisresistor3_1/a_n512_69#" 1.83507
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "LOP" 0.354405
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "LON" 29.2997
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 27.3784
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 0.0229237
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "LOP" 33.221
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "RFP" 0.352246
+cap "RFN" "LOP" 0.573993
+cap "LON" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 63.0505
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "fuckthisresistor3_1/a_n512_69#" 0.68398
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 0.379039
+cap "LOP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 34.2738
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 0.0492994
+cap "v_bias_p" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" -0.751678
+cap "RFP" "LOP" 0.469815
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "LON" 176.711
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "fuckthisresistor3_1/a_n512_69#" 12.1911
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "LOP" 32.5564
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 1.85737
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" -0.101454
+cap "v_bias_p" "LON" 2.18164
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 51.8808
+cap "LON" "RFN" 0.782833
+cap "LON" "RFP" 1.24854
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 211.108
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 9.70102e-06
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 166.624
+cap "LON" "v_bias_p" 0.478015
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 0.00142343
+cap "LOP" "RFN" 0.20884
+cap "Ground" "RFP" 1.12519
+cap "RFP" "LOP" 0.170766
+cap "RFN" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 0.464945
+cap "RFP" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 2.46441
+cap "v_bias_p" "LOP" 0.00191786
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "RFN" -0.0719438
+cap "LON" "LOP" 33.0103
+cap "RFP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 3.43262
+cap "v_bias_p" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 0.487872
+cap "Ground" "LON" 3.51373
+cap "LON" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 10.1136
+cap "LON" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 37.9684
+cap "Ground" "LOP" 0.624838
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "RFN" 0.0609952
+cap "LOP" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 7.09027
+cap "RFP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 0.0500788
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 3.3888
+cap "LOP" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 1.33141
+cap "v_bias_p" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" -7.21645e-16
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 46.9437
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 10.0003
+cap "LON" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 166.264
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.0374473
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "LOP" 30.0471
+cap "fuckthisresistor3_1/a_n512_n501#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 192.214
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 4.18098
+cap "li_n2573_n2060#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 0.851299
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" 60.6501
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 12.2075
+cap "VDD" "fuckthisresistor3_1/a_n512_n501#" 209.697
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1530_30#" "Ground" 0.109681
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 67.9343
+cap "VDD" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 199.583
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 11.9323
+cap "Ground" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" 0.0508669
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" "Ground" 8.18686e-05
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" 3.75498
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 31.3484
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 185.418
+cap "fuckthisresistor3_1/a_n512_n501#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 1.97228
+cap "fuckthisresistor3_1/a_n512_n501#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 136.755
+cap "VDD" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" -6.869
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 1.84186
+cap "Ground" "VDD" 29.7857
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 0.963054
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.0923585
+cap "VDD" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 131.5
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 7.22484
+cap "li_n2573_n2060#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 0.379741
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.167828
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 1.91372
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 19.9304
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 6.71998
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.00597286
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 1.0125
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" 8.40325
+cap "fuckthisresistor3_1/a_n512_n501#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" 64.2957
+cap "Ground" "fuckthisresistor3_1/a_n512_n501#" 244.963
+cap "VDD" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.53557
+cap "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 55.502
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 0.933928
+cap "VDD" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 69.6511
+cap "li_n2573_n2060#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.00692911
+cap "VDD" "VoutP" 166.063
+cap "fuckthisresistor3_0/a_n512_n501#" "VDD" 168.773
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 4.29698
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "VDD" -6.8837
+cap "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 7.67473
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "VDD" 11.9394
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "VoutP" 112.511
+cap "fuckthisresistor3_0/a_n512_n501#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 65.5188
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 23.3517
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 77.5626
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "VDD" 103.665
+cap "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" "Ground" 1.82474
+cap "VoutP" "Ground" 94.6362
+cap "fuckthisresistor3_0/a_n512_n501#" "Ground" 9.67352
+cap "nmos_1v8_lvt_4p75_body_4finger_1/a_n1770_20#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 4.18098
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "Ground" 0.00855626
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "Ground" 122.399
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 2.05641
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 0.631143
+cap "VDD" "Ground" 11.6124
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "VoutP" 60.9937
+cap "fuckthisresistor3_0/a_n512_n501#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 6.68213
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 18.1138
+cap "nmos_1v8_lvt_4p75_body_4finger_1/a_n1770_20#" "Ground" 0.918009
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "Ground" 214.799
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 74.5866
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "VDD" 69.1174
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "Ground" 0.109681
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" "Ground" 3.7549
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1770_20#" 0.513622
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 58.7485
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 0.742347
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.844295
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "VoutP" 56.4655
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "fuckthisresistor3_0/a_n512_n501#" 57.6172
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "Ground" 7.78592
+cap "Ground" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 14.7436
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" 157.151
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 8.59745
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 0.0208845
+cap "Ground" "VoutP" 8.60043
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 22.7336
+cap "VoutP" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 77.2242
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" 10.9255
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" 96.0945
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "Ground" 1.00144
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 1.34132
+cap "Ground" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 3.5473
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 3.42467
+cap "VoutP" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" 25.4676
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "VoutP" 28.0489
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 2.07895
+cap "VoutP" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 55.7756
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 9.70102e-06
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" 30.6766
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" 69.7319
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 12.3049
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 3.49289
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "Ground" 11.9836
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" 44.9611
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "VoutP" 54.8136
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 0.118574
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 0.00538769
+cap "fuckthisresistor3_0/a_n512_69#" "VoutP" 11.3596
+cap "fuckthisresistor3_0/a_n512_69#" "VoutN" 0.0601012
+cap "VoutN" "VoutP" 19.2108
+cap "VoutN" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 3.09877
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 0.0229237
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" "VoutP" 3.60401
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" "VoutN" 51.5369
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 1.06912
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 0.234739
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 0.233541
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "VoutP" 2.04103
+cap "VoutN" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" 24.9831
+cap "VoutN" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 1.03935
+cap "fuckthisresistor3_0/a_n512_69#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 2.36278
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" 0.048628
+cap "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "VoutP" 2.78901
+cap "VoutN" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" 60.5637
+cap "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" 0.0109801
+cap "fuckthisresistor3_1/a_n512_69#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" -1.46842
+cap "v_bias_p" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" 5.41819
+cap "LOP" "v_bias_p" 0.738586
+cap "v_bias_p" "LON" 1.06872
+cap "v_bias_p" "fuckthisresistor3_1/a_n512_69#" 40.9379
+cap "v_bias_p" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 0.352005
+cap "LOP" "v_bias_p" 0.0039462
+cap "v_bias_p" "LON" 0.960127
+cap "v_bias_p" "VDD" 2.84217e-14
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1990_20#" 0.0146541
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1650_60#" "VDD" 79.8782
+cap "VDD" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1990_20#" 0.0418139
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "VDD" 500.726
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "fuckthisresistor3_1/a_n512_n501#" 0.381991
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.00592334
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 0.249021
+cap "nmos_1v8_lvt_4p75_body_4finger_1/a_n2110_20#" "VDD" 0.0228429
+cap "VDD" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 1.50851
+cap "nmos_1v8_lvt_4p2_body_4finger_2/a_n1650_60#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" 5.99565
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1990_20#" 0.0204657
+cap "VDD" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1990_20#" 0.053991
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n2110_20#" 0.00255219
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" 2.24599
+cap "VDD" "fuckthisresistor3_1/a_n512_n501#" 1.28118
+cap "VDD" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" 0.000799549
+cap "VDD" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" 0.850487
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "fuckthisresistor3_0/a_n512_n501#" 0.0725978
+cap "VDD" "VoutP" 0.798827
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" 0.551209
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" 2.11765
+cap "VDD" "fuckthisresistor3_0/a_n512_n501#" 0.956785
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 0.074522
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1990_20#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" 0.0146541
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "VDD" 81.584
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "VDD" 117.06
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "VDD" 1.48611
+cap "VDD" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" 0.639213
+cap "nmos_1v8_lvt_4p75_body_4finger_0/a_n1990_20#" "VDD" 0.0537487
+cap "nmos_1v8_lvt_4p75_body_4finger_1/a_n2110_20#" "VDD" 0.0312593
+cap "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "VoutP" 0.0466853
+cap "fuckthisresistor3_0/a_n512_69#" "VoutP" -0.136011
+cap "fuckthisresistor3_0/a_n512_69#" "VoutN" -1.87036
+merge "Poly_pcon_Li_double_0/VSUBS" "Li_via_M1_0/VSUBS" -3545.34 0 0 0 0 0 0 0 0 -114000 -2140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -76000 -11660 0 0 0 0 0 0 0 0 0 0 0 0
+merge "Li_via_M1_0/VSUBS" "Li_via_M1_1/VSUBS"
+merge "Li_via_M1_1/VSUBS" "Li_via_M1_3/VSUBS"
+merge "Li_via_M1_3/VSUBS" "fuckthisresistor3_0/VSUBS"
+merge "fuckthisresistor3_0/VSUBS" "P_pcon_li_single_5/VSUBS"
+merge "P_pcon_li_single_5/VSUBS" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1770_60#"
+merge "nmos_1v8_lvt_4p2_body_4finger_0/a_n1770_60#" "P_pcon_li_single_3/VSUBS"
+merge "P_pcon_li_single_3/VSUBS" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#"
+merge "nmos_1v8_lvt_4p2_body_4finger_1/a_n1770_60#" "P_pcon_li_single_1/VSUBS"
+merge "P_pcon_li_single_1/VSUBS" "P_pcon_li_single_0/VSUBS"
+merge "P_pcon_li_single_0/VSUBS" "li_1588_n1921#"
+merge "li_1588_n1921#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n2110_20#"
+merge "nmos_1v8_lvt_4p75_body_4finger_0/a_n2110_20#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1990_20#"
+merge "nmos_1v8_lvt_4p75_body_4finger_0/a_n1990_20#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1990_20#"
+merge "nmos_1v8_lvt_4p75_body_4finger_1/a_n1990_20#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n2110_20#"
+merge "nmos_1v8_lvt_4p75_body_4finger_1/a_n2110_20#" "li_n292_n1921#"
+merge "li_n292_n1921#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/VSUBS"
+merge "CASCODE_pmos_1v8_lvt_4p75_4finger_0/VSUBS" "Ground"
+merge "Ground" "Li_via_M1_2/VSUBS"
+merge "Li_via_M1_2/VSUBS" "P_pcon_li_single_2/VSUBS"
+merge "P_pcon_li_single_2/VSUBS" "P_pcon_li_single_4/VSUBS"
+merge "P_pcon_li_single_4/VSUBS" "Li_via_M2_0/VSUBS"
+merge "Li_via_M2_0/VSUBS" "Li_via_M1_4/VSUBS"
+merge "Li_via_M1_4/VSUBS" "fuckthisresistor3_1/VSUBS"
+merge "fuckthisresistor3_1/VSUBS" "P_pcon_li_single_7/VSUBS"
+merge "P_pcon_li_single_7/VSUBS" "P_pcon_li_single_6/VSUBS"
+merge "P_pcon_li_single_6/VSUBS" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1770_60#"
+merge "nmos_1v8_lvt_4p2_body_4finger_2/a_n1770_60#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#"
+merge "nmos_1v8_lvt_4p2_body_4finger_3/a_n1770_60#" "VSUBS"
+merge "VSUBS" "MB_M1"
+merge "P_pcon_li_single_3/a_n20_n20#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" -797.321 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1120 -908 0 0 -3468 -408 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_4p2_body_4finger_1/a_n1530_30#" "a_2302_n2085#"
+merge "a_2302_n2085#" "P_pcon_li_single_2/a_n20_n20#"
+merge "P_pcon_li_single_2/a_n20_n20#" "LON"
+merge "LON" "P_pcon_li_single_4/a_n20_n20#"
+merge "P_pcon_li_single_4/a_n20_n20#" "li_n1693_n2142#"
+merge "li_n1693_n2142#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#"
+merge "nmos_1v8_lvt_4p2_body_4finger_2/a_n1530_30#" "a_n1726_n2099#"
+merge "nmos_1v8_lvt_4p2_body_4finger_0/a_n1650_60#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#" -1228.96 0 0 0 0 0 0 0 0 -100800 -1920 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -67472 -2340 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Rbody_4finger_0/a_190_380#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#"
+merge "nmos_1v8_lvt_4p2_body_4finger_1/a_n1650_60#" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#"
+merge "nmos_1v8_lvt_4p75_body_4finger_0/a_n1770_20#" "li_1348_n965#"
+merge "li_1348_n965#" "PdrainM8_NsourceM3_M4_Ndrain_M5"
+merge "Poly_pcon_Li_double_0/a_n20_n20#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" -1562.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1640 -3578 0 0 0 -320 0 -56 0 0 0 0 0 0 0 0 0 0
+merge "CASCODE_pmos_1v8_lvt_4p75_4finger_0/a_339_967#" "a_n151_563#"
+merge "a_n151_563#" "Li_via_M1_0/li_n20_n20#"
+merge "Li_via_M1_0/li_n20_n20#" "v_bias_p"
+merge "v_bias_p" "li_n2500_599#"
+merge "P_pcon_li_single_5/a_n20_n20#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" -1629.64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -880 0 0 -3468 -408 -39200 -2800 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_4p2_body_4finger_0/a_n1530_30#" "a_3182_n2003#"
+merge "a_3182_n2003#" "P_pcon_li_single_7/a_n20_n20#"
+merge "P_pcon_li_single_7/a_n20_n20#" "LOP"
+merge "LOP" "P_pcon_li_single_6/a_n20_n20#"
+merge "P_pcon_li_single_6/a_n20_n20#" "li_n2573_n2060#"
+merge "li_n2573_n2060#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1530_30#"
+merge "nmos_1v8_lvt_4p2_body_4finger_3/a_n1530_30#" "a_n2606_n2003#"
+merge "Li_via_M1_3/li_n20_n20#" "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" -3285.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11200 -1200 -3136 -336 -81536 -5880 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_4p2_body_4finger_1/a_n1430_60#" "li_2442_n1009#"
+merge "li_2442_n1009#" "Li_via_M2_0/m2_n20_n20#"
+merge "Li_via_M2_0/m2_n20_n20#" "VoutP"
+merge "VoutP" "Li_via_M2_0/li_n20_n20#"
+merge "Li_via_M2_0/li_n20_n20#" "m1_n2252_n677#"
+merge "m1_n2252_n677#" "Li_via_M1_4/li_n20_n20#"
+merge "Li_via_M1_4/li_n20_n20#" "m1_n2184_n881#"
+merge "m1_n2184_n881#" "fuckthisresistor3_1/a_n512_n501#"
+merge "fuckthisresistor3_1/a_n512_n501#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#"
+merge "nmos_1v8_lvt_4p2_body_4finger_3/a_n1430_60#" "Ndrain_M2_M3_Rnegative"
+merge "P_pcon_li_single_0/a_n20_n20#" "RFP" -384.252 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "RFP" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#"
+merge "nmos_1v8_lvt_4p75_body_4finger_1/a_n1870_n10#" "a_n152_n2249#"
+merge "fuckthisresistor3_0/a_n512_69#" "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/a_n30_380#" -1560.88 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -296 0 -200 0 0 0 0 0 0 0 0 0 0
+merge "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/a_n30_380#" "fuckthisresistor3_1/a_n512_69#"
+merge "fuckthisresistor3_1/a_n512_69#" "VDD"
+merge "Li_via_M1_1/li_n20_n20#" "Li_via_M1_2/li_n20_n20#" -1346.42 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5680 -902 -3136 -336 0 0 0 0 0 0 0 0 0 0
+merge "Li_via_M1_2/li_n20_n20#" "m1_n1106_n774#"
+merge "m1_n1106_n774#" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#"
+merge "nmos_1v8_lvt_4p2_body_4finger_2/a_n1430_60#" "li_n1186_n1009#"
+merge "li_n1186_n1009#" "VoutN"
+merge "VoutN" "fuckthisresistor3_0/a_n512_n501#"
+merge "fuckthisresistor3_0/a_n512_n501#" "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#"
+merge "nmos_1v8_lvt_4p2_body_4finger_0/a_n1430_60#" "Ndrain_M1_M4_R2negative"
+merge "CASCODE_pmos_1v8_lvt_4p75_4finger_0/pmos_1v8_lvt_4p75_Lbody_4finger_0/a_190_380#" "nmos_1v8_lvt_4p75_body_4finger_1/a_n1770_20#" -1195.54 0 0 0 0 0 0 0 0 -100800 -1920 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -67200 -2328 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_4p75_body_4finger_1/a_n1770_20#" "Pdrain_NsourceM1_M2_Ndrain_M6"
+merge "Pdrain_NsourceM1_M2_Ndrain_M6" "nmos_1v8_lvt_4p2_body_4finger_2/a_n1650_60#"
+merge "nmos_1v8_lvt_4p2_body_4finger_2/a_n1650_60#" "li_n923_n1089#"
+merge "li_n923_n1089#" "nmos_1v8_lvt_4p2_body_4finger_3/a_n1650_60#"
+merge "P_pcon_li_single_1/a_n20_n20#" "RFN" -399.206 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -320 -368 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "RFN" "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#"
+merge "nmos_1v8_lvt_4p75_body_4finger_0/a_n1870_n10#" "a_1388_n2171#"
