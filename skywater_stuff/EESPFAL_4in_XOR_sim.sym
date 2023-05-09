@@ -1,0 +1,256 @@
+v {xschem version=3.0.0 file_version=1.2 }
+G {}
+K {}
+V {}
+S {}
+E {}
+N -410 40 -410 60 { lab=x0_bar_S}
+N -410 120 -410 140 { lab=GND}
+N -380 70 -380 90 { lab=x0_S}
+N -380 150 -380 170 { lab=GND}
+N -350 100 -350 120 { lab=x1_bar_S}
+N -350 180 -350 200 { lab=GND}
+N -320 130 -320 150 { lab=x1_S}
+N -320 200 -320 220 { lab=GND}
+N -290 160 -290 180 { lab=x2_bar_S}
+N -290 240 -290 260 { lab=GND}
+N -260 190 -260 210 { lab=x2_S}
+N -260 270 -260 290 { lab=GND}
+N -230 220 -230 240 { lab=x3_bar_S}
+N -230 300 -230 320 { lab=GND}
+N -200 250 -200 270 { lab=x3_S}
+N -200 330 -200 350 { lab=GND}
+N -420 -380 -420 -340 { lab=CLK0_S}
+N -420 -280 -420 -260 { lab=GND}
+N -420 -190 -420 -150 { lab=Dis0_S}
+N -420 -90 -420 -70 { lab=GND}
+N -380 -160 -380 -120 { lab=Dis1_S}
+N -380 -60 -380 -40 { lab=GND}
+N -340 -130 -340 -90 { lab=Dis2_S}
+N -340 -30 -340 -10 { lab=GND}
+N -300 -100 -300 -60 { lab=Dis3_S}
+N -300 0 -300 20 { lab=GND}
+N -380 -350 -380 -310 { lab=CLK1_S}
+N -380 -250 -380 -230 { lab=GND}
+N -340 -320 -340 -280 { lab=CLK2_S}
+N -340 -220 -340 -200 { lab=GND}
+N -300 -290 -300 -250 { lab=CLK3_S}
+N -300 -190 -300 -170 { lab=GND}
+N -320 370 -320 390 { lab=k0_S}
+N -240 430 -240 450 { lab=k2_S}
+N -200 460 -200 480 { lab=k3_S}
+N -280 400 -280 420 { lab=k1_S}
+N -330 590 -330 610 { lab=k0_bar_S}
+N -250 650 -250 670 { lab=k2_bar_S}
+N -210 680 -210 700 { lab=k3_bar_S}
+N -290 620 -290 640 { lab=k1_bar_S}
+N 200 -400 220 -400 { lab=x0_S}
+N 200 -380 220 -380 { lab=x0_bar_S}
+N 200 -160 220 -160 { lab=x3_S}
+N 200 -140 220 -140 { lab=x3_bar_S}
+N 200 -80 220 -80 { lab=Dis0_S}
+N 200 -320 220 -320 { lab=x1_S}
+N 200 -300 220 -300 { lab=x1_bar_S}
+N 200 -220 220 -220 { lab=x2_bar_S}
+N 200 -240 220 -240 { lab=x2_S}
+N 520 -400 550 -400 { lab=XOR0_S}
+N 520 -380 550 -380 { lab=XOR0_bar_S}
+N 200 -60 220 -60 { lab=CLK0_S}
+N 520 -360 550 -360 { lab=XOR1_S}
+N 520 -340 550 -340 { lab=XOR1_bar_S}
+N 520 -320 550 -320 { lab=XOR2_S}
+N 520 -300 550 -300 { lab=XOR2_bar_S}
+N 520 -280 550 -280 { lab=XOR3_S}
+N 520 -260 550 -260 { lab=XOR3_bar_S}
+N 200 -360 220 -360 { lab=k0_S}
+N 200 -340 220 -340 { lab=k0_bar_S}
+N 200 -280 220 -280 { lab=k1_S}
+N 200 -260 220 -260 { lab=k1_bar_S}
+N 200 -200 220 -200 { lab=k2_S}
+N 200 -180 220 -180 { lab=k2_bar_S}
+N 200 -120 220 -120 { lab=k3_S}
+N 200 -100 220 -100 { lab=k3_bar_S}
+N 820 -410 840 -410 { lab=x0_S}
+N 820 -390 840 -390 { lab=x0_bar_S}
+N 820 -170 840 -170 { lab=x3_S}
+N 820 -150 840 -150 { lab=x3_bar_S}
+N 820 -90 840 -90 { lab=Dis0_S}
+N 820 -330 840 -330 { lab=x1_S}
+N 820 -310 840 -310 { lab=x1_bar_S}
+N 820 -230 840 -230 { lab=x2_bar_S}
+N 820 -250 840 -250 { lab=x2_S}
+N 1140 -410 1170 -410 { lab=XOR0_flat}
+N 1140 -390 1170 -390 { lab=XOR0_bar_flat}
+N 820 -70 840 -70 { lab=CLK0_S}
+N 1140 -370 1170 -370 { lab=XOR1_flat}
+N 1140 -350 1170 -350 { lab=XOR1_bar_flat}
+N 1140 -330 1170 -330 { lab=XOR2_flat}
+N 1140 -310 1170 -310 { lab=XOR2_bar_flat}
+N 1140 -290 1170 -290 { lab=XOR3_flat}
+N 1140 -270 1170 -270 { lab=XOR3_bar_flat}
+N 820 -370 840 -370 { lab=k0_S}
+N 820 -350 840 -350 { lab=k0_bar_S}
+N 820 -290 840 -290 { lab=k1_S}
+N 820 -270 840 -270 { lab=k1_bar_S}
+N 820 -210 840 -210 { lab=k2_S}
+N 820 -190 840 -190 { lab=k2_bar_S}
+N 820 -130 840 -130 { lab=k3_S}
+N 820 -110 840 -110 { lab=k3_bar_S}
+C {devices/gnd.sym} -290 260 0 0 {name=l102 lab=GND}
+C {devices/lab_pin.sym} -260 190 1 0 {name=l103 sig_type=std_logic lab=x2_S}
+C {devices/lab_pin.sym} -230 220 1 0 {name=l104 sig_type=std_logic lab=x3_bar_S}
+C {devices/gnd.sym} -200 350 0 0 {name=l105 lab=GND}
+C {devices/gnd.sym} -230 320 0 0 {name=l106 lab=GND}
+C {devices/lab_pin.sym} -200 250 1 0 {name=l107 sig_type=std_logic lab=x3_S}
+C {devices/vsource.sym} -410 90 0 0 {name=Vin6 value=pulse(0,1.8,0,50ps,50ps,100ns,200ns)}
+C {devices/vsource.sym} -380 120 0 0 {name=Vin7 value=pulse(1.8,0,0,50ps,50ps,100ns,200ns)}
+C {devices/vsource.sym} -350 150 0 0 {name=Vin8 value=pulse(0,1.8,0,50ps,50ps,200ns,400ns)}
+C {devices/vsource.sym} -320 180 0 0 {name=Vin11 value=pulse(1.8,0,0,50ps,50ps,200ns,400ns)}
+C {devices/vsource.sym} -290 210 0 0 {name=Vin13 value=pulse(0,1.8,0,50ps,50ps,400ns,800ns)}
+C {devices/vsource.sym} -260 240 0 0 {name=Vin14 value=pulse(1.8,0,0,50ps,50ps,400ns,800ns)}
+C {devices/vsource.sym} -230 270 0 0 {name=Vin15 value=pulse(0,1.8,0,50ps,50ps,800ns,1600ns)}
+C {devices/vsource.sym} -200 300 0 0 {name=Vin16 value=pulse(1.8,0,0,50ps,50ps,800ns,1600ns)}
+C {devices/vsource.sym} -420 -120 0 0 {name=Vdis17 value=pulse(0,1.8,2ns,50ps,50ps,20ns,100ns)}
+C {devices/gnd.sym} -420 -70 0 0 {name=l108 lab=GND}
+C {devices/lab_pin.sym} -420 -190 1 0 {name=l109 sig_type=std_logic lab=Dis0_S}
+C {devices/gnd.sym} -420 -260 0 0 {name=l110 lab=GND}
+C {devices/vsource.sym} -420 -310 0 0 {name=Vclk18 value=pulse(0,1.8,25ns,25ns,25ns,25ns,100ns)}
+C {devices/lab_pin.sym} -420 -380 1 0 {name=l111 sig_type=std_logic lab=CLK0_S}
+C {devices/vsource.sym} -380 -90 0 0 {name=Vdis19 value=pulse(0,1.8,25ns,50ps,50ps,23ns,100ns)}
+C {devices/gnd.sym} -380 -40 0 0 {name=l112 lab=GND}
+C {devices/lab_pin.sym} -380 -160 1 0 {name=l113 sig_type=std_logic lab=Dis1_S}
+C {devices/vsource.sym} -340 -60 0 0 {name=Vdis20 value=pulse(0,1.8,50ns,50ps,50ps,23ns,100ns)}
+C {devices/gnd.sym} -340 -10 0 0 {name=l114 lab=GND}
+C {devices/lab_pin.sym} -340 -130 1 0 {name=l115 sig_type=std_logic lab=Dis2_S}
+C {devices/vsource.sym} -300 -30 0 0 {name=Vdis21 value=pulse(0,1.8,75ns,50ps,50ps,23ns,100ns)}
+C {devices/gnd.sym} -300 20 0 0 {name=l116 lab=GND}
+C {devices/lab_pin.sym} -300 -100 1 0 {name=l117 sig_type=std_logic lab=Dis3_S}
+C {devices/gnd.sym} -380 -230 0 0 {name=l118 lab=GND}
+C {devices/vsource.sym} -380 -280 0 0 {name=Vclk22 value=pulse(0,1.8,-50ns,25ns,25ns,25ns,100ns)}
+C {devices/lab_pin.sym} -380 -350 1 0 {name=l119 sig_type=std_logic lab=CLK1_S}
+C {devices/gnd.sym} -340 -200 0 0 {name=l120 lab=GND}
+C {devices/vsource.sym} -340 -250 0 0 {name=Vclk23 value=pulse(0,1.8,-125ns,25ns,25ns,25ns,100ns)}
+C {devices/lab_pin.sym} -340 -320 1 0 {name=l121 sig_type=std_logic lab=CLK2_S}
+C {devices/gnd.sym} -300 -170 0 0 {name=l122 lab=GND}
+C {devices/vsource.sym} -300 -220 0 0 {name=Vclk24 value=pulse(0,1.8,-200ns,25ns,25ns,25ns,100ns)}
+C {devices/lab_pin.sym} -300 -290 1 0 {name=l123 sig_type=std_logic lab=CLK3_S}
+C {devices/lab_pin.sym} -410 40 1 0 {name=l124 sig_type=std_logic lab=x0_bar_S}
+C {devices/gnd.sym} -380 170 0 0 {name=l125 lab=GND}
+C {devices/gnd.sym} -410 140 0 0 {name=l126 lab=GND}
+C {devices/lab_pin.sym} -380 70 1 0 {name=l127 sig_type=std_logic lab=x0_S}
+C {devices/lab_pin.sym} -350 100 1 0 {name=l128 sig_type=std_logic lab=x1_bar_S}
+C {devices/gnd.sym} -320 220 0 0 {name=l129 lab=GND}
+C {devices/gnd.sym} -350 200 0 0 {name=l130 lab=GND}
+C {devices/lab_pin.sym} -320 130 1 0 {name=l131 sig_type=std_logic lab=x1_S}
+C {devices/lab_pin.sym} -290 160 1 0 {name=l132 sig_type=std_logic lab=x2_bar_S}
+C {devices/gnd.sym} -260 290 0 0 {name=l133 lab=GND}
+C {devices/code_shown.sym} 80 50 0 0 {name=SPICE only_toplevel=false 
+value= ".lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include ~/magic_layout_stuff/EESPFAL_4in_XOR.spice
+.include ~/magic_layout_stuff/EESPFAL_4in_XOR_flat.spice
+.control
+save all
+tran 0.1n 10u
+plot v(CLK0_S) v(Dis0_S)
+plot v(Dis1_S)
+plot v(XOR0_S)
+plot v(XOR0_flat)
+plot v(XOR1_S)
+plot v(XOR1_flat)
+plot v(XOR2_S)
+plot v(XOR2_flat)
+plot v(XOR3_S)
+plot v(XOR3_flat)
+**let Pinst_CLK0 = (v(CLK0)*i(vclk0))
+**let Pinst_CLK0_CLK2 = (v(CLK0)*i(vclk0))+(v(CLK1)*i(vclk1))+(v(CLK2)*i(vclk2))
+**let Pinst_CLK0_CLK2_Dis0_Dis2 = (v(CLK0)*i(vclk0))+(v(Dis0)*i(Vdis0))+(v(CLK1)*i(vclk1))+(v(Dis1)*i(Vdis1))+(v(CLK2)*i(vclk2))+(v(Dis2)*i(Vdis2))
+**plot Pinst_CLK0
+**plot Pinst_CLK0_CLK2
+**plot Pinst_CLK0_CLK2_Dis0_Dis2
+**wrdata EESPFAL_s0_sim.raw v(s0_normal) v(s0_bar_normal)
+**wrdata EESPFAL_s0_sim_PEX.raw v(s0_flat) v(s0_bar_flat)
+wrdata EESPFAL_4in_XOR_normVSPEX.csv v(XOR0_S) v(XOR0_flat) v(XOR1_S) v(XOR1_flat) v(XOR2_S) v(XOR2_flat) v(XOR3_S) v(XOR3_flat)
+**wrdata s0_sim_Pinst_CLK0_CLK2.csv Pinst_CLK0_CLK2
+**wrdata s0_sim_Pinst_test.csv Pinst_CLK0_CLK2 Pinst_CLK0_CLK2_Dis0_Dis2
+.endc
+"}
+C {devices/vsource.sym} -320 420 0 0 {name=V1 value=1.8}
+C {devices/vsource.sym} -280 450 0 0 {name=V2 value=1.8}
+C {devices/vsource.sym} -240 480 0 0 {name=V3 value=1.8}
+C {devices/vsource.sym} -200 510 0 0 {name=V4 value=1n}
+C {devices/gnd.sym} -320 450 0 0 {name=l9 lab=GND}
+C {devices/gnd.sym} -280 480 0 0 {name=l10 lab=GND}
+C {devices/gnd.sym} -240 510 0 0 {name=l11 lab=GND}
+C {devices/gnd.sym} -200 540 0 0 {name=l12 lab=GND}
+C {devices/lab_pin.sym} -320 370 1 0 {name=l13 sig_type=std_logic lab=k0_S}
+C {devices/lab_pin.sym} -280 400 1 0 {name=l14 sig_type=std_logic lab=k1_S}
+C {devices/lab_pin.sym} -240 430 1 0 {name=l15 sig_type=std_logic lab=k2_S}
+C {devices/lab_pin.sym} -200 460 1 0 {name=l16 sig_type=std_logic lab=k3_S}
+C {devices/vsource.sym} -330 640 0 0 {name=V5 value=1n}
+C {devices/vsource.sym} -290 670 0 0 {name=V6 value=1n}
+C {devices/vsource.sym} -250 700 0 0 {name=V7 value=1n}
+C {devices/vsource.sym} -210 730 0 0 {name=V8 value=1.8}
+C {devices/gnd.sym} -330 670 0 0 {name=l17 lab=GND}
+C {devices/gnd.sym} -290 700 0 0 {name=l18 lab=GND}
+C {devices/gnd.sym} -250 730 0 0 {name=l19 lab=GND}
+C {devices/gnd.sym} -210 760 0 0 {name=l23 lab=GND}
+C {devices/lab_pin.sym} -330 590 1 0 {name=l24 sig_type=std_logic lab=k0_bar_S}
+C {devices/lab_pin.sym} -290 620 1 0 {name=l31 sig_type=std_logic lab=k1_bar_S}
+C {devices/lab_pin.sym} -250 650 1 0 {name=l32 sig_type=std_logic lab=k2_bar_S}
+C {devices/lab_pin.sym} -210 680 1 0 {name=l33 sig_type=std_logic lab=k3_bar_S}
+C {devices/gnd.sym} 520 -240 0 0 {name=l209 lab=GND}
+C {devices/lab_pin.sym} 550 -380 2 0 {name=l210 sig_type=std_logic lab=XOR0_bar_S}
+C {devices/lab_pin.sym} 550 -400 2 0 {name=l211 sig_type=std_logic lab=XOR0_S}
+C {devices/lab_pin.sym} 200 -400 0 0 {name=l212 sig_type=std_logic lab=x0_S}
+C {devices/lab_pin.sym} 200 -380 0 0 {name=l213 sig_type=std_logic lab=x0_bar_S}
+C {devices/lab_pin.sym} 200 -160 0 0 {name=l214 sig_type=std_logic lab=x3_S}
+C {devices/lab_pin.sym} 200 -140 0 0 {name=l215 sig_type=std_logic lab=x3_bar_S}
+C {devices/lab_pin.sym} 200 -80 0 0 {name=l216 sig_type=std_logic lab=Dis0_S}
+C {devices/lab_pin.sym} 200 -60 2 1 {name=l217 sig_type=std_logic lab=CLK0_S}
+C {devices/lab_pin.sym} 200 -300 0 0 {name=l218 sig_type=std_logic lab=x1_bar_S}
+C {devices/lab_pin.sym} 200 -320 0 0 {name=l219 sig_type=std_logic lab=x1_S}
+C {devices/lab_pin.sym} 200 -220 0 0 {name=l220 sig_type=std_logic lab=x2_bar_S}
+C {devices/lab_pin.sym} 200 -240 0 0 {name=l221 sig_type=std_logic lab=x2_S}
+C {EESPFAL_4in_XOR.sym} 370 -230 0 0 {name=x21}
+C {devices/lab_pin.sym} 550 -340 2 0 {name=l222 sig_type=std_logic lab=XOR1_bar_S}
+C {devices/lab_pin.sym} 550 -360 2 0 {name=l223 sig_type=std_logic lab=XOR1_S}
+C {devices/lab_pin.sym} 550 -300 2 0 {name=l224 sig_type=std_logic lab=XOR2_bar_S}
+C {devices/lab_pin.sym} 550 -320 2 0 {name=l225 sig_type=std_logic lab=XOR2_S}
+C {devices/lab_pin.sym} 550 -260 2 0 {name=l226 sig_type=std_logic lab=XOR3_bar_S}
+C {devices/lab_pin.sym} 550 -280 2 0 {name=l227 sig_type=std_logic lab=XOR3_S}
+C {devices/lab_pin.sym} 200 -360 0 0 {name=l228 sig_type=std_logic lab=k0_S}
+C {devices/lab_pin.sym} 200 -280 0 0 {name=l229 sig_type=std_logic lab=k1_S}
+C {devices/lab_pin.sym} 200 -200 0 0 {name=l230 sig_type=std_logic lab=k2_S}
+C {devices/lab_pin.sym} 200 -120 0 0 {name=l231 sig_type=std_logic lab=k3_S}
+C {devices/lab_pin.sym} 200 -340 0 0 {name=l232 sig_type=std_logic lab=k0_bar_S}
+C {devices/lab_pin.sym} 200 -260 0 0 {name=l233 sig_type=std_logic lab=k1_bar_S}
+C {devices/lab_pin.sym} 200 -180 0 0 {name=l234 sig_type=std_logic lab=k2_bar_S}
+C {devices/lab_pin.sym} 200 -100 0 0 {name=l235 sig_type=std_logic lab=k3_bar_S}
+C {devices/gnd.sym} 1140 -250 0 0 {name=l1 lab=GND}
+C {devices/lab_pin.sym} 1170 -390 2 0 {name=l2 sig_type=std_logic lab=XOR0_bar_flat}
+C {devices/lab_pin.sym} 1170 -410 2 0 {name=l3 sig_type=std_logic lab=XOR0_flat}
+C {devices/lab_pin.sym} 820 -410 0 0 {name=l4 sig_type=std_logic lab=x0_S}
+C {devices/lab_pin.sym} 820 -390 0 0 {name=l5 sig_type=std_logic lab=x0_bar_S}
+C {devices/lab_pin.sym} 820 -170 0 0 {name=l6 sig_type=std_logic lab=x3_S}
+C {devices/lab_pin.sym} 820 -150 0 0 {name=l7 sig_type=std_logic lab=x3_bar_S}
+C {devices/lab_pin.sym} 820 -90 0 0 {name=l8 sig_type=std_logic lab=Dis0_S}
+C {devices/lab_pin.sym} 820 -70 2 1 {name=l20 sig_type=std_logic lab=CLK0_S}
+C {devices/lab_pin.sym} 820 -310 0 0 {name=l21 sig_type=std_logic lab=x1_bar_S}
+C {devices/lab_pin.sym} 820 -330 0 0 {name=l22 sig_type=std_logic lab=x1_S}
+C {devices/lab_pin.sym} 820 -230 0 0 {name=l25 sig_type=std_logic lab=x2_bar_S}
+C {devices/lab_pin.sym} 820 -250 0 0 {name=l26 sig_type=std_logic lab=x2_S}
+C {devices/lab_pin.sym} 1170 -350 2 0 {name=l27 sig_type=std_logic lab=XOR1_bar_flat}
+C {devices/lab_pin.sym} 1170 -370 2 0 {name=l28 sig_type=std_logic lab=XOR1_flat}
+C {devices/lab_pin.sym} 1170 -310 2 0 {name=l29 sig_type=std_logic lab=XOR2_bar_flat}
+C {devices/lab_pin.sym} 1170 -330 2 0 {name=l30 sig_type=std_logic lab=XOR2_flat}
+C {devices/lab_pin.sym} 1170 -270 2 0 {name=l34 sig_type=std_logic lab=XOR3_bar_flat}
+C {devices/lab_pin.sym} 1170 -290 2 0 {name=l35 sig_type=std_logic lab=XOR3_flat}
+C {devices/lab_pin.sym} 820 -370 0 0 {name=l36 sig_type=std_logic lab=k0_S}
+C {devices/lab_pin.sym} 820 -290 0 0 {name=l37 sig_type=std_logic lab=k1_S}
+C {devices/lab_pin.sym} 820 -210 0 0 {name=l38 sig_type=std_logic lab=k2_S}
+C {devices/lab_pin.sym} 820 -130 0 0 {name=l39 sig_type=std_logic lab=k3_S}
+C {devices/lab_pin.sym} 820 -350 0 0 {name=l40 sig_type=std_logic lab=k0_bar_S}
+C {devices/lab_pin.sym} 820 -270 0 0 {name=l41 sig_type=std_logic lab=k1_bar_S}
+C {devices/lab_pin.sym} 820 -190 0 0 {name=l42 sig_type=std_logic lab=k2_bar_S}
+C {devices/lab_pin.sym} 820 -110 0 0 {name=l43 sig_type=std_logic lab=k3_bar_S}
+C {EESPFAL_4in_XOR_flat.sym} 990 -240 0 0 {name=x1}

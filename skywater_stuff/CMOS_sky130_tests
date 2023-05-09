@@ -1,0 +1,65 @@
+v {xschem version=3.0.0 file_version=1.2 }
+G {}
+K {}
+V {}
+S {}
+E {}
+N 430 -720 430 -700 { lab=GND}
+N 430 -800 430 -780 { lab=VDD}
+N 430 -540 430 -520 { lab=GND}
+N 470 -510 470 -490 { lab=GND}
+N 430 -630 430 -600 { lab=A}
+N 470 -600 470 -570 { lab=B}
+N 1000 -650 1040 -650 { lab=NOR}
+N 790 -660 850 -660 { lab=A}
+N 790 -640 850 -640 { lab=B}
+N 770 -530 830 -530 { lab=A}
+N 770 -510 830 -510 { lab=B}
+N 1050 -520 1080 -520 { lab=NAND}
+N 430 -320 430 -300 { lab=GND}
+N 470 -290 470 -270 { lab=GND}
+N 430 -410 430 -380 { lab=A_bar}
+N 470 -380 470 -350 { lab=B_bar}
+N 770 -400 830 -400 { lab=A}
+N 770 -440 830 -440 { lab=B}
+N 770 -420 830 -420 { lab=B_bar}
+N 770 -380 830 -380 { lab=A_bar}
+N 1130 -440 1170 -440 { lab=XOR}
+N 980 -770 1040 -770 { lab=INV}
+N 760 -770 830 -770 { lab=A}
+C {devices/vsource.sym} 430 -750 0 0 {name=V1 value=1.8}
+C {devices/gnd.sym} 430 -700 0 0 {name=l7 lab=GND}
+C {devices/vdd.sym} 430 -800 0 0 {name=l8 lab=VDD}
+C {devices/ipin.sym} 430 -630 1 0 {name=p1 lab=A}
+C {devices/ipin.sym} 470 -600 1 0 {name=p2 lab=B}
+C {devices/vsource.sym} 430 -570 0 0 {name=V2 value=pulse(0,1.8,1ps,1ps,1ps,50ns,100ns)}
+C {devices/gnd.sym} 430 -520 0 0 {name=l3 lab=GND}
+C {devices/vsource.sym} 470 -540 0 0 {name=V3 value=pulse(0,1.8,1ps,1ps,1ps,100ns,200ns)}
+C {devices/gnd.sym} 470 -490 0 0 {name=l4 lab=GND}
+C {devices/code_shown.sym} 400 -920 0 0 {name=s1 only_toplevel=false value=".lib /research/pdk/open_pdks/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.tran 10n 1u
+.save all"}
+C {devices/lab_pin.sym} 1040 -650 2 0 {name=l5 sig_type=std_logic lab=NOR}
+C {NOR.sym} 820 -570 0 0 {name=x1}
+C {devices/lab_pin.sym} 790 -660 0 0 {name=l1 sig_type=std_logic lab=A}
+C {devices/lab_pin.sym} 790 -640 0 0 {name=l2 sig_type=std_logic lab=B}
+C {NAND.sym} 910 -510 0 0 {name=x2}
+C {devices/lab_pin.sym} 770 -530 0 0 {name=l6 sig_type=std_logic lab=A}
+C {devices/lab_pin.sym} 770 -510 0 0 {name=l9 sig_type=std_logic lab=B}
+C {devices/lab_pin.sym} 1080 -520 2 0 {name=l10 sig_type=std_logic lab=NAND}
+C {INV.sym} 890 -770 0 0 {name=x3}
+C {devices/lab_pin.sym} 760 -770 0 0 {name=l11 sig_type=std_logic lab=A}
+C {devices/lab_pin.sym} 1035 -770 2 0 {name=l12 sig_type=std_logic lab=INV}
+C {devices/ipin.sym} 430 -410 1 0 {name=p3 lab=A_bar}
+C {devices/ipin.sym} 470 -380 1 0 {name=p4 lab=B_bar}
+C {devices/vsource.sym} 430 -350 0 0 {name=V4 value=pulse(1.8,0,1ps,1ps,1ps,50ns,100ns)}
+C {devices/gnd.sym} 430 -300 0 0 {name=l13 lab=GND}
+C {devices/vsource.sym} 470 -320 0 0 {name=V5 value=pulse(1.8,0,1ps,1ps,1ps,100ns,200ns)}
+C {devices/gnd.sym} 470 -270 0 0 {name=l14 lab=GND}
+C {devices/lab_pin.sym} 770 -400 0 0 {name=l15 sig_type=std_logic lab=A}
+C {devices/lab_pin.sym} 770 -440 0 0 {name=l16 sig_type=std_logic lab=B}
+C {devices/lab_pin.sym} 770 -420 0 0 {name=l17 sig_type=std_logic lab=B_bar}
+C {devices/lab_pin.sym} 770 -380 0 0 {name=l18 sig_type=std_logic lab=A_bar}
+C {devices/lab_pin.sym} 1170 -440 2 0 {name=l19 sig_type=std_logic lab=XOR}
+C {XOR.sym} 980 -410 0 0 {name=x4}
+C {devices/title.sym} 570 -200 0 0 {name=l20 author="Banana_Pineapples"}
