@@ -1,0 +1,63 @@
+timestamp 1670967989
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use sky130_fd_pr__res_generic_po_RWRVR8 sky130_fd_pr__res_generic_po_RWRVR8_0 1 0 -86 0 1 212
+use nmos_1v8_lvt_5p0_body_4finger nmos_1v8_lvt_5p0_body_4finger_0 1 0 1288 0 1 40
+use nmos_1v8_lvt_5p0_4finger nmos_1v8_lvt_5p0_4finger_0 1 0 1888 0 1 40
+port "Ground" 1 664 -164 699 -130 m1
+port "Mirror_out" 3 1749 1090 1771 1110 li
+port "VDD" 2 626 1227 660 1261 m1
+node "Ground" 352 1867.31 664 -164 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164518 4396 201100 4222 0 0 0 0 0 0 0 0 0 0
+node "Mirror_out" 150 128.504 1749 1090 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18720 1016 0 0 0 0 0 0 0 0 0 0 0 0
+node "VDD" 450 1948.56 626 1227 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 240320 5962 207700 4354 0 0 0 0 0 0 0 0 0 0
+node "a_n50_n30#" 656 274.558 -50 -30 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12240 876 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_778_1110#" 193 92.4567 778 1110 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3600 300 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "Mirror_out" "a_778_1110#" 0.726828
+cap "Ground" "Mirror_out" 14.8353
+cap "VDD" "Mirror_out" 240.678
+cap "Ground" "a_n50_n30#" 17.4522
+cap "VDD" "a_n50_n30#" 4.1712
+cap "Ground" "a_778_1110#" 1.30737
+cap "VDD" "a_778_1110#" 3.81144
+cap "VDD" "Ground" 171.573
+cap "VDD" "Ground" 344.894
+cap "Mirror_out" "nmos_1v8_lvt_5p0_body_4finger_0/a_n960_20#" 18.1486
+cap "VDD" "Mirror_out" 65.3418
+cap "nmos_1v8_lvt_5p0_body_4finger_0/a_n960_20#" "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" 1.92056
+cap "VDD" "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" 75.4383
+cap "Mirror_out" "Ground" 47.7133
+cap "VDD" "nmos_1v8_lvt_5p0_body_4finger_0/a_n960_20#" 150.819
+cap "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" "Ground" 201.579
+cap "Mirror_out" "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" 2.28726
+cap "nmos_1v8_lvt_5p0_body_4finger_0/a_n960_20#" "Ground" 103.498
+cap "nmos_1v8_lvt_5p0_body_4finger_0/a_n960_20#" "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" 0.254926
+cap "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" "Ground" 39.7711
+cap "nmos_1v8_lvt_5p0_body_4finger_0/a_n960_20#" "Mirror_out" 2.80278
+cap "Mirror_out" "Ground" 178.019
+cap "VDD" "Ground" 67.7365
+cap "Mirror_out" "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" 12.2442
+cap "nmos_1v8_lvt_5p0_body_4finger_0/a_n960_20#" "Ground" 2.64646
+cap "VDD" "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" 18.2543
+cap "Mirror_out" "VDD" 72.5433
+cap "VDD" "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" 39.5143
+cap "VDD" "Ground" 115.787
+cap "Mirror_out" "VDD" 42.2545
+cap "nmos_1v8_lvt_5p0_body_4finger_0/a_n960_20#" "VDD" 153.509
+cap "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" "VDD" 1.22666
+cap "Mirror_out" "VDD" -41.8357
+cap "VDD" "Ground" 0.799102
+merge "nmos_1v8_lvt_5p0_4finger_0/a_n990_n10#" "nmos_1v8_lvt_5p0_body_4finger_0/a_n990_n10#" -176.928 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -240 -256 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_5p0_body_4finger_0/a_n990_n10#" "a_778_1110#"
+merge "a_778_1110#" "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#"
+merge "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_n242#" "a_n50_n30#"
+merge "nmos_1v8_lvt_5p0_4finger_0/VSUBS" "nmos_1v8_lvt_5p0_4finger_0/a_n1110_20#" -1501.6 0 0 0 0 0 0 0 0 -120000 -2240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80000 -2308 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_5p0_4finger_0/a_n1110_20#" "nmos_1v8_lvt_5p0_body_4finger_0/a_n1230_20#"
+merge "nmos_1v8_lvt_5p0_body_4finger_0/a_n1230_20#" "Ground"
+merge "Ground" "sky130_fd_pr__res_generic_po_RWRVR8_0/VSUBS"
+merge "sky130_fd_pr__res_generic_po_RWRVR8_0/VSUBS" "VSUBS"
+merge "sky130_fd_pr__res_generic_po_RWRVR8_0/a_n44_169#" "VDD" -742.943 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3328 -256 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_5p0_4finger_0/a_n960_20#" "Mirror_out" -143.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0

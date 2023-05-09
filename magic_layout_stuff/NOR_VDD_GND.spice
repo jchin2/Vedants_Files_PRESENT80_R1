@@ -1,0 +1,9 @@
+* NGSPICE file created from NOR_VDD_GND.ext - technology: sky130A
+
+.subckt NOR_VDD_GND A B OUT VDD GND
+X0 a_320_360# A VDD VDD sky130_fd_pr__pfet_01v8 ad=9e+11p pd=4.2e+06u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X1 GND B OUT GND sky130_fd_pr__nfet_01v8 ad=1.8e+12p pd=8.4e+06u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X2 OUT B a_320_360# VDD sky130_fd_pr__pfet_01v8 ad=9e+11p pd=4.2e+06u as=0p ps=0u w=1.5e+06u l=150000u
+X3 OUT A GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+.ends
+

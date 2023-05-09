@@ -1,0 +1,53 @@
+timestamp 1671306811
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8_lvt l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__cap_mim_m3_1 w=w l=l
+port "VDD" 3 34828 2547 35029 2675 m1
+port "Input" 1 35558 -1479 35603 -1429 m1
+port "Ground" 2 39022 -2989 39234 -2862 m1
+node "li_34676_918#" 13 408.346 34676 918 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 67600 1040 67600 1040 67600 1040 0 0 0 0 0 0 0 0
+node "li_34256_918#" 13 370.86 34256 918 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 67600 1040 67600 1040 67600 1040 0 0 0 0 0 0 0 0
+node "li_34676_1338#" 13 373.435 34676 1338 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 67600 1040 67600 1040 67600 1040 0 0 0 0 0 0 0 0
+node "li_34256_1338#" 13 335.943 34256 1338 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 67600 1040 67600 1040 67600 1040 0 0 0 0 0 0 0 0
+node "a_44121_n2238#" 50 0 44121 -2238 mrp1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 106240 1304 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_44121_n1906#" 332 5603.25 44121 -1906 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23360 786 0 0 55327 1588 406803 4542 68119 1044 4185452 9164 551031 5234 0 0 0 0
+node "VDD" 12339 284071 34828 2547 m1 0 0 0 0 0 0 0 0 1200000 22400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4757871 67004 3342240 37532 405600 6240 6225120 37550 232157059 2211504 2127280 6910 0 0
+node "Input" 61 4096.01 35558 -1479 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 767590 50886 0 0 6400 320 6400 320 0 0 0 0 0 0 0 0 0 0
+substrate "Ground" 0 0 39022 -2989 m1 0 0 0 0 0 0 0 0 1440000 26880 238080 4448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23360 786 0 0 4697658 64704 3327864 34866 67600 1040 7138090 11678 1016816 10882 0 0 0 0
+cap "li_34256_918#" "li_34676_918#" 195.739
+cap "li_34256_1338#" "li_34676_1338#" 195.739
+cap "VDD" "a_44121_n1906#" 7000.54
+cap "li_34256_1338#" "li_34256_918#" 196.333
+cap "VDD" "Input" 549.599
+cap "VDD" "li_34676_1338#" 372.263
+cap "VDD" "li_34676_918#" 306.649
+cap "VDD" "li_34256_918#" 385.406
+cap "li_34256_1338#" "VDD" 451.442
+cap "li_34676_1338#" "li_34676_918#" 196.333
+device csubckt sky130_fd_pr__cap_mim_m3_1 44751 -232 44752 -231 w=1760 l=1800 "None" "VDD" 6656 0 "a_44121_n1906#" 992 0
+device csubckt sky130_fd_pr__cap_mim_m3_1 36825 -693 36826 -692 w=2410 l=2410 "None" "VDD" 9216 0 "Ground" 992 0
+device devres sky130_fd_pr__res_generic_po 44121 -2238 44122 -2237 332 320 "a_44121_n2238#" 0 0 "Ground" 320 0 "a_44121_n1906#" 320 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 39283 -2510 39284 -2509 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 39133 -2510 39134 -2509 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 38983 -2510 38984 -2509 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 38833 -2510 38834 -2509 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 38683 -2510 38684 -2509 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 38533 -2510 38534 -2509 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 38383 -2510 38384 -2509 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 38233 -2510 38234 -2509 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 38083 -2510 38084 -2509 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 37933 -2510 37934 -2509 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 37379 -2518 37380 -2517 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 37229 -2518 37230 -2517 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 37079 -2518 37080 -2517 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 36929 -2518 36930 -2517 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 36779 -2518 36780 -2517 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 36629 -2518 36630 -2517 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 36479 -2518 36480 -2517 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 36329 -2518 36330 -2517 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 36179 -2518 36180 -2517 l=30 w=1000 "Ground" "Input" 60 0 "VDD" 1000 0 "Ground" 1000 0
+device msubckt sky130_fd_pr__nfet_01v8_lvt 36029 -2518 36030 -2517 l=30 w=1000 "Ground" "Input" 60 0 "Ground" 1000 0 "VDD" 1000 0

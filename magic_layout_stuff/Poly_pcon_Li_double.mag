@@ -1,0 +1,20 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1671041739
+<< poly >>
+rect -20 37 128 60
+rect -20 3 3 37
+rect 37 3 71 37
+rect 105 3 128 37
+rect -20 -20 128 3
+<< polycont >>
+rect 3 3 37 37
+rect 71 3 105 37
+<< locali >>
+rect -20 37 128 60
+rect -20 3 3 37
+rect 37 3 71 37
+rect 105 3 128 37
+rect -20 -20 128 3
+<< end >>

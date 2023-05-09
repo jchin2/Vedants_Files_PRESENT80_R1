@@ -1,0 +1,12 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1670967604
+<< error_p >>
+rect 17 -246 41 246
+<< locali >>
+rect -17 246 17 303
+rect -17 -303 17 -246
+<< rlocali >>
+rect -17 -246 17 246
+<< end >>

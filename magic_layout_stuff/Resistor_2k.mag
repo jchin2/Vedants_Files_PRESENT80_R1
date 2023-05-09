@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1670990700
+use sky130_fd_pr__res_high_po_0p35_EMMLZX  sky130_fd_pr__res_high_po_0p35_EMMLZX_0
+timestamp 1670990700
+transform 1 0 37 0 1 530
+box -37 -530 37 530
+<< end >>
