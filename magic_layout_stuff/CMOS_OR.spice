@@ -1,0 +1,11 @@
+* NGSPICE file created from CMOS_OR.ext - technology: sky130A
+
+.subckt CMOS_OR GND OR B A VDD
+X0 OR a_n1020_750# VDD VDD sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=3.6e+12p ps=1.44e+07u w=3e+06u l=150000u
+X1 GND B a_n1020_750# GND sky130_fd_pr__nfet_01v8 ad=2.7e+12p pd=1.26e+07u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X2 OR a_n1020_750# GND GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=0p ps=0u w=1.5e+06u l=150000u
+X3 a_n1020_750# B a_n1020_1360# VDD sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=1.8e+12p ps=7.2e+06u w=3e+06u l=150000u
+X4 a_n1020_1360# A VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X5 a_n1020_750# A GND GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+.ends
+

@@ -1,0 +1,30 @@
+* NGSPICE file created from CMOS_4in_XOR.ext - technology: sky130A
+
+.subckt CMOS_XOR GND B A_bar A B_bar XOR VDD
+X0 GND A_bar a_566_259# GND sky130_fd_pr__nfet_01v8 ad=1.8e+12p pd=8.4e+06u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X1 a_266_869# B_bar VDD VDD sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=3.6e+12p ps=1.44e+07u w=3e+06u l=150000u
+X2 a_566_869# A_bar XOR VDD sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=1.8e+12p ps=7.2e+06u w=3e+06u l=150000u
+X3 a_266_259# A GND GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=0p ps=0u w=1.5e+06u l=150000u
+X4 XOR A a_266_869# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X5 a_566_259# B_bar XOR GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X6 VDD B a_566_869# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X7 XOR B a_266_259# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+.ends
+
+.subckt CMOS_INV OUT A VDD GND
+X0 OUT A GND GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X1 OUT A VDD VDD sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=1.8e+12p ps=7.2e+06u w=3e+06u l=150000u
+.ends
+
+.subckt CMOS_4in_XOR GND VDD x0 x0_bar k0 k0_bar x1 x1_bar k1 k1_bar x2 x2_bar k2
++ k2_bar x3 x3_bar k3 k3_bar XOR1 XOR0 XOR2 XOR3 XOR0_bar XOR1_bar XOR2_bar XOR3_bar
+XCMOS_XOR_1 GND k3 x3_bar x3 k3_bar XOR3 VDD CMOS_XOR
+XCMOS_XOR_2 GND k1 x1_bar x1 k1_bar XOR1 VDD CMOS_XOR
+XCMOS_XOR_3 GND k0 x0_bar x0 k0_bar XOR0 VDD CMOS_XOR
+XCMOS_INV_0 XOR2_bar XOR2 VDD GND CMOS_INV
+XCMOS_INV_1 XOR3_bar XOR3 VDD GND CMOS_INV
+XCMOS_INV_2 XOR1_bar XOR1 VDD GND CMOS_INV
+XCMOS_INV_3 XOR0_bar XOR0 VDD GND CMOS_INV
+XCMOS_XOR_0 GND k2 x2_bar x2 k2_bar XOR2 VDD CMOS_XOR
+.ends
+

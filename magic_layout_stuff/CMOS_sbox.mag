@@ -1,0 +1,21 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1677518205
+use CMOS_s0  CMOS_s0_0
+timestamp 1506119369
+transform 1 0 -638 0 1 854
+box -3016 -2076 3643 1953
+use CMOS_s1  CMOS_s1_0
+timestamp 1506119369
+transform 1 0 -1179 0 1 -2374
+box -2475 -1777 3305 2076
+use CMOS_s2  CMOS_s2_0
+timestamp 1506119369
+transform 1 0 -1179 0 1 -5602
+box -2475 -1953 3305 2076
+use CMOS_s3  CMOS_s3_0
+timestamp 1506119369
+transform 1 0 -1179 0 1 -8830
+box -2475 -1777 3305 2076
+<< end >>

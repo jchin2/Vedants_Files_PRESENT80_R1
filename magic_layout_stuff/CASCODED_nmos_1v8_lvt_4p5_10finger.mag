@@ -1,0 +1,39 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1670967604
+<< poly >>
+rect -1824 239 -1794 260
+rect -1674 239 -1644 260
+rect -1524 239 -1494 260
+rect -1374 239 -1344 260
+rect -1224 239 -1194 260
+rect -1074 239 -1044 260
+rect -924 239 -894 260
+rect -774 239 -744 260
+rect -624 239 -594 260
+rect -474 239 -444 260
+rect -1824 209 -444 239
+<< locali >>
+rect -1900 1204 -366 1238
+rect -1900 1170 -1866 1204
+rect -1599 1170 -1565 1204
+rect -1300 1170 -1266 1204
+rect -999 1170 -965 1204
+rect -700 1170 -666 1204
+rect -400 1170 -366 1204
+rect -1754 270 -1714 310
+rect -1455 270 -1415 310
+rect -1155 270 -1115 310
+rect -855 270 -815 310
+rect -554 270 -514 310
+rect -1754 230 -514 270
+use nmos_1v8_lvt_4p5_10finger$1$1  nmos_1v8_lvt_4p5_10finger$1$1_0
+timestamp 1670967604
+transform 1 0 -2024 0 1 260
+box 54 0 1726 980
+use nmos_1v8_lvt_4p5_body_10finger$2  nmos_1v8_lvt_4p5_body_10finger$2_0
+timestamp 1670967604
+transform 1 0 -3524 0 1 260
+box -66 -30 1726 1010
+<< end >>

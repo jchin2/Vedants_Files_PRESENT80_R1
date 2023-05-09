@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1671306811
+use sky130_fd_pr__cap_mim_m3_1_EVCK7J  sky130_fd_pr__cap_mim_m3_1_EVCK7J_0
+timestamp 1671306811
+transform 1 0 6200 0 1 2820
+box -1030 -1000 1029 1000
+<< end >>

@@ -1,0 +1,1694 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1680620700
+<< locali >>
+rect -5065 2303 -5035 2333
+rect -5065 1568 -5035 1598
+rect -5065 1377 -5035 1407
+rect -5065 954 -5035 984
+rect -5065 725 -5035 755
+rect -5065 299 -5035 329
+rect -5065 108 -5035 138
+rect -5065 -628 -5035 -598
+rect -5065 -851 -5035 -821
+rect -5065 -1584 -5035 -1554
+rect -5065 -1778 -5035 -1748
+rect -5065 -2203 -5035 -2173
+rect -5065 -2432 -5035 -2402
+rect -5065 -2853 -5035 -2823
+rect -5065 -3047 -5035 -3017
+rect -5065 -3782 -5035 -3752
+rect -5065 -16632 -5035 -16602
+rect -5065 -17367 -5035 -17337
+rect -5065 -17558 -5035 -17528
+rect -5065 -17981 -5035 -17951
+rect -5065 -18210 -5035 -18180
+rect -5065 -18636 -5035 -18606
+rect -5065 -18827 -5035 -18797
+rect -5065 -19563 -5035 -19533
+rect -5065 -19786 -5035 -19756
+rect -5065 -20519 -5035 -20489
+rect -5065 -20713 -5035 -20683
+rect -5065 -21138 -5035 -21108
+rect -5065 -21367 -5035 -21337
+rect -5065 -21788 -5035 -21758
+rect -5065 -21982 -5035 -21952
+rect -5065 -22717 -5035 -22687
+rect -5065 -23024 -5035 -22994
+rect -5065 -23759 -5035 -23729
+rect -5065 -23950 -5035 -23920
+rect -5065 -24373 -5035 -24343
+rect -5065 -24602 -5035 -24572
+rect -5065 -25028 -5035 -24998
+rect -5065 -25219 -5035 -25189
+rect -5065 -25955 -5035 -25925
+rect -5065 -26178 -5035 -26148
+rect -5065 -26911 -5035 -26881
+rect -5065 -27105 -5035 -27075
+rect -5065 -27530 -5035 -27500
+rect -5065 -27759 -5035 -27729
+rect -5065 -28180 -5035 -28150
+rect -5065 -28374 -5035 -28344
+rect -5065 -29109 -5035 -29079
+rect -5065 -41960 -5035 -41930
+rect -5065 -42695 -5035 -42665
+rect -5065 -42886 -5035 -42856
+rect -5065 -43309 -5035 -43279
+rect -5065 -43538 -5035 -43508
+rect -5059 -43934 -5039 -43933
+rect -5065 -43964 -5035 -43934
+rect -5065 -44155 -5035 -44125
+rect -5065 -44891 -5035 -44861
+rect -5065 -45114 -5035 -45084
+rect -5065 -45847 -5035 -45817
+rect -5065 -46041 -5035 -46011
+rect -5065 -46466 -5035 -46436
+rect -5065 -46695 -5035 -46665
+rect -5065 -47116 -5035 -47086
+rect -5065 -47310 -5035 -47280
+rect -5065 -48045 -5035 -48015
+rect -5065 -48352 -5035 -48322
+rect -5065 -49087 -5035 -49057
+rect -5065 -49278 -5035 -49248
+rect -5065 -49701 -5035 -49671
+rect -5065 -49930 -5035 -49900
+rect -5065 -50356 -5035 -50326
+rect -5065 -50547 -5035 -50517
+rect -5065 -51283 -5035 -51253
+rect -5065 -51506 -5035 -51476
+rect -5065 -52220 -5035 -52209
+rect -5065 -52239 -5032 -52220
+rect -5065 -52433 -5035 -52403
+rect -5065 -52858 -5035 -52828
+rect -5065 -53087 -5035 -53057
+rect -5065 -53508 -5035 -53478
+rect -5065 -53702 -5035 -53672
+rect -5065 -54437 -5035 -54407
+rect -5065 -67287 -5035 -67257
+rect -5065 -68022 -5035 -67992
+rect -5065 -68213 -5035 -68183
+rect -5065 -68636 -5035 -68606
+rect -5065 -68865 -5035 -68835
+rect -5065 -69291 -5035 -69261
+rect -5065 -69482 -5035 -69452
+rect -5065 -70218 -5035 -70188
+rect -5065 -70441 -5035 -70411
+rect -5065 -71174 -5035 -71144
+rect -5065 -71368 -5035 -71338
+rect -5065 -71793 -5035 -71763
+rect -5065 -72022 -5035 -71992
+rect -5065 -72443 -5035 -72413
+rect -5065 -72637 -5035 -72607
+rect -5065 -73372 -5035 -73342
+rect -5065 -73679 -5035 -73649
+rect -5065 -74414 -5035 -74384
+rect -5065 -74605 -5035 -74575
+rect -5065 -75028 -5035 -74998
+rect -5065 -75257 -5035 -75227
+rect -5065 -75683 -5035 -75653
+rect -5065 -75874 -5035 -75844
+rect -5065 -76610 -5035 -76580
+rect -5065 -76833 -5035 -76803
+rect -5065 -77566 -5035 -77536
+rect -5065 -77760 -5035 -77730
+rect -5065 -78185 -5035 -78155
+rect -5065 -78414 -5035 -78384
+rect -5065 -78835 -5035 -78805
+rect -5065 -79029 -5035 -78999
+rect -5065 -79764 -5035 -79734
+rect -5065 -92615 -5035 -92585
+rect -5065 -93350 -5035 -93320
+rect -5065 -93541 -5035 -93511
+rect -5065 -93964 -5035 -93934
+rect -5065 -94193 -5035 -94163
+rect -5065 -94619 -5035 -94589
+rect -5065 -94810 -5035 -94780
+rect -5065 -95546 -5035 -95516
+rect -5065 -95769 -5035 -95739
+rect -5065 -96502 -5035 -96472
+rect -5065 -96696 -5035 -96666
+rect -5065 -97121 -5035 -97091
+rect -5065 -97350 -5035 -97320
+rect -5065 -97771 -5035 -97741
+rect -5065 -97965 -5035 -97935
+rect -5065 -98700 -5035 -98670
+rect -5065 -99007 -5035 -98977
+rect -5065 -99742 -5035 -99712
+rect -5065 -99933 -5035 -99903
+rect -5065 -100356 -5035 -100326
+rect -5065 -100585 -5035 -100555
+rect -5065 -101011 -5035 -100981
+rect -5065 -101202 -5035 -101172
+rect -5065 -101938 -5035 -101908
+rect -5065 -102161 -5035 -102131
+rect -5065 -102869 -5035 -102864
+rect -5065 -102888 -5033 -102869
+rect -5065 -102894 -5035 -102888
+rect -5065 -103088 -5035 -103058
+rect -5065 -103513 -5035 -103483
+rect -5065 -103742 -5035 -103712
+rect -5065 -104163 -5035 -104133
+rect -5056 -104164 -5036 -104163
+rect -5065 -104357 -5035 -104327
+rect -5065 -105092 -5035 -105062
+rect -5065 -117944 -5035 -117914
+rect -5065 -118679 -5035 -118649
+rect -5065 -118870 -5035 -118840
+rect -5065 -119293 -5035 -119263
+rect -5065 -119522 -5035 -119492
+rect -5065 -119922 -5035 -119918
+rect -5066 -119942 -5035 -119922
+rect -5065 -119948 -5035 -119942
+rect -5065 -120120 -5035 -120109
+rect -5065 -120139 -5034 -120120
+rect -5065 -120875 -5035 -120845
+rect -5065 -121098 -5035 -121068
+rect -5065 -121831 -5035 -121801
+rect -5065 -122000 -5035 -121995
+rect -5065 -122020 -5032 -122000
+rect -5065 -122025 -5035 -122020
+rect -5065 -122450 -5035 -122420
+rect -5065 -122679 -5035 -122649
+rect -5065 -123100 -5035 -123070
+rect -5065 -123294 -5035 -123264
+rect -5065 -124029 -5035 -123999
+rect -5065 -124336 -5035 -124306
+rect -5065 -125071 -5035 -125041
+rect -5065 -125262 -5035 -125232
+rect -5065 -125685 -5035 -125655
+rect -5065 -125914 -5035 -125884
+rect -5065 -126340 -5035 -126310
+rect -5065 -126531 -5035 -126501
+rect -5065 -127267 -5035 -127237
+rect -5065 -127490 -5035 -127460
+rect -5065 -128223 -5035 -128193
+rect -5065 -128417 -5035 -128387
+rect -5065 -128842 -5035 -128812
+rect -5065 -129071 -5035 -129041
+rect -5065 -129492 -5035 -129462
+rect -5065 -129686 -5035 -129656
+rect -5065 -130421 -5035 -130391
+rect -5065 -143272 -5035 -143242
+rect -5065 -144007 -5035 -143977
+rect -5065 -144198 -5035 -144168
+rect -5065 -144621 -5035 -144591
+rect -5065 -144850 -5035 -144820
+rect -5065 -145276 -5035 -145246
+rect -5065 -145445 -5035 -145437
+rect -5065 -145464 -5033 -145445
+rect -5065 -145467 -5035 -145464
+rect -5065 -146203 -5035 -146173
+rect -5065 -146426 -5035 -146396
+rect -5065 -147159 -5035 -147129
+rect -5065 -147353 -5035 -147323
+rect -5065 -147778 -5035 -147748
+rect -5065 -148007 -5035 -147977
+rect -5065 -148428 -5035 -148398
+rect -5065 -148622 -5035 -148592
+rect -5065 -149357 -5035 -149327
+rect -5065 -149664 -5035 -149634
+rect -5065 -150399 -5035 -150369
+rect -5065 -150590 -5035 -150560
+rect -5065 -151013 -5035 -150983
+rect -5065 -151242 -5035 -151212
+rect -5065 -151668 -5035 -151638
+rect -5065 -151859 -5035 -151829
+rect -5065 -152595 -5035 -152565
+rect -5065 -152818 -5035 -152788
+rect -5065 -153551 -5035 -153521
+rect -5065 -153745 -5035 -153715
+rect -5065 -154170 -5035 -154140
+rect -5065 -154399 -5035 -154369
+rect -5065 -154820 -5035 -154790
+rect -5065 -155014 -5035 -154984
+rect -5065 -155749 -5035 -155719
+rect -5065 -168576 -5035 -168569
+rect -5065 -168595 -5033 -168576
+rect -5065 -168599 -5035 -168595
+rect -5065 -169334 -5035 -169304
+rect -5065 -169525 -5035 -169495
+rect -5065 -169948 -5035 -169918
+rect -5065 -170177 -5035 -170147
+rect -5065 -170603 -5035 -170573
+rect -5065 -170794 -5035 -170764
+rect -5065 -171530 -5035 -171500
+rect -5065 -171753 -5035 -171723
+rect -5065 -172486 -5035 -172456
+rect -5065 -172680 -5035 -172650
+rect -5065 -173105 -5035 -173075
+rect -5065 -173334 -5035 -173304
+rect -5065 -173755 -5035 -173725
+rect -5065 -173949 -5035 -173919
+rect -5065 -174684 -5035 -174654
+rect -5065 -174991 -5035 -174961
+rect -5065 -175726 -5035 -175696
+rect -5065 -175917 -5035 -175887
+rect -5065 -176340 -5035 -176310
+rect -5065 -176549 -5035 -176539
+rect -5066 -176568 -5035 -176549
+rect -5065 -176569 -5035 -176568
+rect -5065 -176968 -5035 -176965
+rect -5065 -176988 -5032 -176968
+rect -5065 -176995 -5035 -176988
+rect -5065 -177186 -5035 -177156
+rect -5065 -177922 -5035 -177892
+rect -5065 -178145 -5035 -178115
+rect -5065 -178878 -5035 -178848
+rect -5065 -179072 -5035 -179042
+rect -5060 -179073 -5040 -179072
+rect -5065 -179497 -5035 -179467
+rect -5065 -179726 -5035 -179696
+rect -5065 -180147 -5035 -180117
+rect -5065 -180341 -5035 -180311
+rect -5065 -181076 -5035 -181046
+rect -5065 -193927 -5035 -193897
+rect -5065 -194662 -5035 -194632
+rect -5065 -194853 -5035 -194823
+rect -5065 -195276 -5035 -195246
+rect -5065 -195505 -5035 -195475
+rect -5065 -195931 -5035 -195901
+rect -5065 -196122 -5035 -196092
+rect -5065 -196858 -5035 -196828
+rect -5065 -197081 -5035 -197051
+rect -5065 -197814 -5035 -197784
+rect -5065 -198008 -5035 -197978
+rect -5065 -198433 -5035 -198403
+rect -5065 -198662 -5035 -198632
+rect -5065 -199083 -5035 -199053
+rect -5061 -199084 -5041 -199083
+rect -5065 -199277 -5035 -199247
+rect -5065 -200012 -5035 -199982
+<< metal1 >>
+rect -5125 2417 -5091 2451
+rect -5011 2415 -4977 2449
+rect -5147 -16454 -5067 -3930
+rect -5033 -16454 -4873 -3930
+rect -5147 -41782 -5067 -29258
+rect -5033 -41782 -4873 -29258
+rect -5147 -67110 -5067 -54586
+rect -5033 -67110 -4873 -54586
+rect -5147 -92438 -5067 -79914
+rect -5033 -92438 -4873 -79914
+rect -5147 -117766 -5067 -105242
+rect -5033 -117766 -4873 -105242
+rect -5147 -143094 -5067 -130570
+rect -5033 -143094 -4873 -130570
+rect -5147 -168422 -5067 -155898
+rect -5033 -168422 -4873 -155898
+rect -5147 -193750 -5067 -181226
+rect -5033 -193750 -4873 -181226
+<< metal2 >>
+rect 2209 1447 2269 1509
+rect 1152 -2919 1212 -2913
+rect 1147 -2973 1212 -2919
+rect 1147 -2979 1207 -2973
+rect 1146 -6074 1206 -6071
+rect 1145 -6131 1206 -6074
+rect 1145 -6134 1205 -6131
+rect 1150 -9228 1210 -9224
+rect 1145 -9284 1210 -9228
+rect 1145 -9288 1205 -9284
+rect 1147 -11103 1207 -11098
+rect 1145 -11158 1207 -11103
+rect 1145 -11163 1205 -11158
+rect 1148 -14257 1208 -14252
+rect 1145 -14312 1208 -14257
+rect 1145 -14317 1205 -14312
+rect 1147 -17413 1207 -17412
+rect 1146 -17472 1207 -17413
+rect 1146 -17473 1206 -17472
+rect 2207 -21838 2267 -21831
+rect 2207 -21891 2269 -21838
+rect 2209 -21898 2269 -21891
+rect 2209 -23821 2269 -23816
+rect 2207 -23876 2269 -23821
+rect 2207 -23881 2267 -23876
+rect 1146 -28242 1206 -28240
+rect 1146 -28300 1207 -28242
+rect 1147 -28302 1207 -28300
+rect 1142 -31397 1202 -31395
+rect 1142 -31455 1205 -31397
+rect 1145 -31457 1205 -31455
+rect 1145 -34553 1205 -34551
+rect 1145 -34611 1206 -34553
+rect 1146 -34613 1206 -34611
+rect 1142 -36486 1205 -36426
+rect 1145 -39585 1205 -39580
+rect 1145 -39640 1206 -39585
+rect 1146 -39645 1206 -39640
+rect 1147 -42739 1207 -42735
+rect 1147 -42795 1208 -42739
+rect 1148 -42799 1208 -42795
+rect 2207 -47221 2269 -47161
+rect 2204 -49151 2264 -49147
+rect 2204 -49207 2269 -49151
+rect 2209 -49211 2269 -49207
+rect 1147 -53637 1207 -53565
+rect 1144 -56732 1204 -56722
+rect 1144 -56782 1205 -56732
+rect 1145 -56792 1205 -56782
+rect 1145 -59946 1205 -59880
+rect 1146 -61761 1206 -61755
+rect 1145 -61815 1206 -61761
+rect 1145 -61821 1205 -61815
+rect 1144 -64915 1204 -64910
+rect 1144 -64970 1205 -64915
+rect 1145 -64975 1205 -64970
+rect 1148 -68070 1208 -68062
+rect 1147 -68122 1208 -68070
+rect 1147 -68130 1207 -68122
+rect 2208 -72496 2268 -72486
+rect 2208 -72546 2269 -72496
+rect 2209 -72556 2269 -72546
+rect 2204 -74474 2264 -74471
+rect 2204 -74531 2269 -74474
+rect 2209 -74534 2269 -74531
+rect 1146 -78900 1206 -78897
+rect 1146 -78957 1207 -78900
+rect 1147 -78960 1207 -78957
+rect 1146 -82055 1206 -82051
+rect 1145 -82111 1206 -82055
+rect 1145 -82115 1205 -82111
+rect 1144 -85209 1204 -85200
+rect 1144 -85260 1205 -85209
+rect 1145 -85269 1205 -85260
+rect 1144 -87084 1204 -87078
+rect 1144 -87138 1205 -87084
+rect 1145 -87144 1205 -87138
+rect 1145 -90240 1205 -90238
+rect 1145 -90298 1206 -90240
+rect 1146 -90300 1206 -90298
+rect 1147 -93396 1207 -93393
+rect 1143 -93453 1207 -93396
+rect 1143 -93456 1203 -93453
+rect 2209 -97879 2269 -97819
+rect 2206 -99804 2267 -99802
+rect 2206 -99862 2268 -99804
+rect 2208 -99864 2268 -99862
+rect 1141 -104228 1201 -104223
+rect 1141 -104283 1205 -104228
+rect 1144 -104288 1205 -104283
+rect 1144 -107383 1204 -107382
+rect 1142 -107442 1204 -107383
+rect 1142 -107443 1203 -107442
+rect 1142 -110597 1205 -110537
+rect 1142 -112472 1206 -112412
+rect 1146 -115566 1206 -115565
+rect 1142 -115625 1206 -115566
+rect 1142 -115626 1203 -115625
+rect 1144 -118722 1205 -118721
+rect 1144 -118781 1207 -118722
+rect 1147 -118782 1207 -118781
+rect 2209 -123147 2269 -123144
+rect 2206 -123204 2269 -123147
+rect 2206 -123207 2267 -123204
+rect 2206 -125128 2267 -125125
+rect 2202 -125185 2267 -125128
+rect 2202 -125188 2262 -125185
+rect 1144 -129611 1205 -129551
+rect 1145 -129617 1205 -129611
+rect 1147 -132706 1207 -132703
+rect 1142 -132763 1207 -132706
+rect 1142 -132766 1203 -132763
+rect 1142 -135864 1203 -135860
+rect 1142 -135920 1204 -135864
+rect 1144 -135924 1204 -135920
+rect 1142 -137736 1203 -137735
+rect 1142 -137795 1207 -137736
+rect 1147 -137796 1207 -137795
+rect 1142 -140898 1203 -140889
+rect 1142 -140949 1207 -140898
+rect 1147 -140958 1207 -140949
+rect 1144 -144050 1205 -144044
+rect 1144 -144104 1206 -144050
+rect 1146 -144110 1206 -144104
+rect 2206 -148530 2267 -148470
+rect 2207 -148531 2267 -148530
+rect 2207 -150460 2268 -150456
+rect 2205 -150516 2268 -150460
+rect 2205 -150520 2265 -150516
+rect 1148 -154882 1208 -154877
+rect 1145 -154937 1208 -154882
+rect 1145 -154942 1206 -154937
+rect 1143 -158037 1203 -158035
+rect 1143 -158097 1204 -158037
+rect 1146 -161191 1206 -161188
+rect 1143 -161248 1206 -161191
+rect 1143 -161251 1204 -161248
+rect 1147 -163066 1207 -163064
+rect 1143 -163124 1207 -163066
+rect 1143 -163126 1204 -163124
+rect 1143 -166228 1204 -166220
+rect 1143 -166280 1206 -166228
+rect 1146 -166288 1206 -166280
+rect 1145 -169381 1206 -169375
+rect 1144 -169435 1206 -169381
+rect 1144 -169441 1204 -169435
+rect 2207 -173861 2268 -173801
+rect 2206 -175839 2267 -175779
+rect 1145 -180207 1205 -180205
+rect 1143 -180265 1205 -180207
+rect 1143 -180267 1203 -180265
+rect 1143 -183367 1203 -183360
+rect 1143 -183420 1204 -183367
+rect 1144 -183427 1204 -183420
+rect 1143 -186519 1203 -186514
+rect 1143 -186574 1207 -186519
+rect 1147 -186579 1207 -186574
+rect 1143 -188394 1203 -188389
+rect 1143 -188449 1204 -188394
+rect 1144 -188454 1204 -188449
+rect 1143 -191548 1203 -191543
+rect 1143 -191603 1204 -191548
+rect 1144 -191608 1204 -191603
+rect 1145 -194703 1205 -194698
+rect 1145 -194758 1206 -194703
+rect 1146 -194763 1206 -194758
+rect 2207 -199129 2267 -199124
+rect 2207 -199184 2268 -199129
+rect 2208 -199189 2268 -199184
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_0
+timestamp 1509222483
+transform 1 0 -1385 0 -1 -193800
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_1
+timestamp 1509222483
+transform 1 0 -1385 0 -1 -168472
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_2
+timestamp 1509222483
+transform 1 0 -1385 0 1 -181176
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_3
+timestamp 1509222483
+transform 1 0 -1385 0 1 -155848
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_4
+timestamp 1509222483
+transform 1 0 -1385 0 -1 -143144
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_5
+timestamp 1509222483
+transform 1 0 -1385 0 -1 -117816
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_6
+timestamp 1509222483
+transform 1 0 -1385 0 1 -130520
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_7
+timestamp 1509222483
+transform 1 0 -1385 0 -1 -92488
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_8
+timestamp 1509222483
+transform 1 0 -1385 0 -1 -67160
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_9
+timestamp 1509222483
+transform 1 0 -1385 0 -1 -41832
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_10
+timestamp 1509222483
+transform 1 0 -1385 0 -1 -16504
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_11
+timestamp 1509222483
+transform 1 0 -1385 0 1 -29208
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_12
+timestamp 1509222483
+transform 1 0 -1385 0 1 -3880
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_13
+timestamp 1509222483
+transform 1 0 -1385 0 1 -79864
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_14
+timestamp 1509222483
+transform 1 0 -1385 0 1 -54536
+box -3762 -6687 4823 6962
+use CMOS_PRESENT80_R1  CMOS_PRESENT80_R1_15
+timestamp 1509222483
+transform 1 0 -1385 0 1 -105192
+box -3762 -6687 4823 6962
+<< labels >>
+flabel metal1 s -5011 2415 -4977 2449 2 FreeSans 2000 0 0 0 VDD
+port 1 nsew
+flabel metal1 s -5125 2417 -5091 2451 2 FreeSans 2000 0 0 0 GND
+port 2 nsew
+rlabel locali s -5060 -26909 -5040 -26890 4 k10_bar
+port 3 nsew
+rlabel locali s -5050 -26899 -5050 -26899 4 k10_bar
+port 3 nsew
+rlabel locali s -5063 -620 -5043 -601 4 k1
+port 4 nsew
+rlabel locali s -5053 -610 -5053 -610 4 k1
+port 4 nsew
+rlabel locali s -5057 1576 -5037 1595 4 k0_bar
+port 5 nsew
+rlabel locali s -5047 1586 -5047 1586 4 k0_bar
+port 5 nsew
+rlabel locali s -5059 2311 -5039 2330 4 k0
+port 6 nsew
+rlabel locali s -5061 -846 -5041 -827 4 k2
+port 7 nsew
+rlabel locali s -5061 -3777 -5041 -3758 4 k3
+port 8 nsew
+rlabel locali s -5059 114 -5039 133 4 k1_bar
+port 9 nsew
+rlabel locali s -5060 -1582 -5040 -1563 4 k2_bar
+port 10 nsew
+rlabel locali s -5061 -3040 -5041 -3021 4 k3_bar
+port 11 nsew
+rlabel locali s -5058 1386 -5038 1405 4 x0
+port 12 nsew
+rlabel locali s -5057 960 -5037 979 4 x0_bar
+port 13 nsew
+rlabel locali s -5057 307 -5037 327 4 x1
+port 14 nsew
+rlabel locali s -5057 -1773 -5037 -1753 4 x2
+port 15 nsew
+rlabel locali s -5058 -2849 -5038 -2829 4 x3
+port 16 nsew
+rlabel locali s -5058 730 -5038 749 4 x1_bar
+port 17 nsew
+rlabel locali s -5062 -2196 -5042 -2177 4 x2_bar
+port 18 nsew
+rlabel locali s -5057 -2427 -5037 -2408 4 x3_bar
+port 19 nsew
+rlabel locali s -5051 -3030 -5051 -3030 4 k3_bar
+port 11 nsew
+rlabel locali s -5050 -1572 -5050 -1572 4 k2_bar
+port 10 nsew
+rlabel locali s -5049 124 -5049 124 4 k1_bar
+port 9 nsew
+rlabel locali s -5051 -3767 -5051 -3767 4 k3
+port 8 nsew
+rlabel locali s -5051 -836 -5051 -836 4 k2
+port 7 nsew
+rlabel locali s -5049 2321 -5049 2321 4 k0
+port 6 nsew
+rlabel locali s -5047 -2418 -5047 -2418 4 x3_bar
+port 19 nsew
+rlabel locali s -5052 -2187 -5052 -2187 4 x2_bar
+port 18 nsew
+rlabel locali s -5048 739 -5048 739 4 x1_bar
+port 17 nsew
+rlabel locali s -5048 -2839 -5048 -2839 4 x3
+port 16 nsew
+rlabel locali s -5047 -1763 -5047 -1763 4 x2
+port 15 nsew
+rlabel locali s -5047 317 -5047 317 4 x1
+port 14 nsew
+rlabel locali s -5047 969 -5047 969 4 x0_bar
+port 13 nsew
+rlabel locali s -5048 1396 -5048 1396 4 x0
+port 12 nsew
+rlabel locali s -5060 -22716 -5040 -22697 4 k4
+port 20 nsew
+rlabel locali s -5060 -19780 -5040 -19761 4 k5
+port 21 nsew
+rlabel locali s -5061 -19557 -5041 -19538 4 k6
+port 22 nsew
+rlabel locali s -5060 -16625 -5040 -16606 4 k7
+port 23 nsew
+rlabel locali s -5061 -21976 -5041 -21957 4 k4_bar
+port 24 nsew
+rlabel locali s -5058 -20516 -5038 -20497 4 k5_bar
+port 25 nsew
+rlabel locali s -5061 -18822 -5041 -18803 4 k6_bar
+port 26 nsew
+rlabel locali s -5056 -17362 -5036 -17343 4 k7_bar
+port 27 nsew
+rlabel locali s -5060 -21786 -5040 -21766 4 x4
+port 28 nsew
+rlabel locali s -5059 -20709 -5039 -20689 4 x5
+port 29 nsew
+rlabel locali s -5059 -18632 -5039 -18612 4 x6
+port 30 nsew
+rlabel locali s -5056 -17550 -5036 -17530 4 x7
+port 31 nsew
+rlabel locali s -5059 -21361 -5039 -21342 4 x4_bar
+port 32 nsew
+rlabel locali s -5059 -21132 -5039 -21113 4 x5_bar
+port 33 nsew
+rlabel locali s -5062 -18206 -5042 -18187 4 x6_bar
+port 34 nsew
+rlabel locali s -5060 -17977 -5040 -17958 4 x7_bar
+port 35 nsew
+rlabel locali s -5046 -17352 -5046 -17352 4 k7_bar
+port 27 nsew
+rlabel locali s -5051 -18812 -5051 -18812 4 k6_bar
+port 26 nsew
+rlabel locali s -5048 -20506 -5048 -20506 4 k5_bar
+port 25 nsew
+rlabel locali s -5051 -21966 -5051 -21966 4 k4_bar
+port 24 nsew
+rlabel locali s -5050 -16615 -5050 -16615 4 k7
+port 23 nsew
+rlabel locali s -5051 -19547 -5051 -19547 4 k6
+port 22 nsew
+rlabel locali s -5050 -19770 -5050 -19770 4 k5
+port 21 nsew
+rlabel locali s -5050 -22706 -5050 -22706 4 k4
+port 20 nsew
+rlabel locali s -5050 -17968 -5050 -17968 4 x7_bar
+port 35 nsew
+rlabel locali s -5052 -18197 -5052 -18197 4 x6_bar
+port 34 nsew
+rlabel locali s -5049 -21123 -5049 -21123 4 x5_bar
+port 33 nsew
+rlabel locali s -5049 -21352 -5049 -21352 4 x4_bar
+port 32 nsew
+rlabel locali s -5046 -17540 -5046 -17540 4 x7
+port 31 nsew
+rlabel locali s -5049 -18622 -5049 -18622 4 x6
+port 30 nsew
+rlabel locali s -5049 -20699 -5049 -20699 4 x5
+port 29 nsew
+rlabel locali s -5050 -21776 -5050 -21776 4 x4
+port 28 nsew
+rlabel locali s -5059 -28366 -5039 -28347 4 k11_bar
+port 36 nsew
+rlabel locali s -5060 -23751 -5040 -23732 4 k8_bar
+port 37 nsew
+rlabel locali s -5061 -23017 -5041 -22998 4 k8
+port 38 nsew
+rlabel locali s -5059 -25947 -5039 -25928 4 k9
+port 39 nsew
+rlabel locali s -5057 -26172 -5037 -26153 4 k10
+port 40 nsew
+rlabel locali s -5061 -29103 -5041 -29084 4 k11
+port 41 nsew
+rlabel locali s -5061 -27755 -5041 -27736 4 x11_bar
+port 42 nsew
+rlabel locali s -5056 -27524 -5036 -27505 4 x10_bar
+port 43 nsew
+rlabel locali s -5059 -24596 -5039 -24577 4 x9_bar
+port 44 nsew
+rlabel locali s -5060 -24369 -5040 -24350 4 x8_bar
+port 45 nsew
+rlabel locali s -5050 -23741 -5050 -23741 4 k8_bar
+port 37 nsew
+rlabel locali s -5049 -28356 -5049 -28356 4 k11_bar
+port 36 nsew
+rlabel locali s -5051 -29093 -5051 -29093 4 k11
+port 41 nsew
+rlabel locali s -5047 -26162 -5047 -26162 4 k10
+port 40 nsew
+rlabel locali s -5049 -25937 -5049 -25937 4 k9
+port 39 nsew
+rlabel locali s -5051 -23007 -5051 -23007 4 k8
+port 38 nsew
+rlabel locali s -5059 -23944 -5039 -23924 4 x8
+port 46 nsew
+rlabel locali s -5061 -25024 -5041 -25004 4 x9
+port 47 nsew
+rlabel locali s -5060 -27097 -5040 -27077 4 x10
+port 48 nsew
+rlabel locali s -5059 -28180 -5039 -28160 4 x11
+port 49 nsew
+rlabel locali s -5049 -28170 -5049 -28170 4 x11
+port 49 nsew
+rlabel locali s -5050 -27087 -5050 -27087 4 x10
+port 48 nsew
+rlabel locali s -5051 -25014 -5051 -25014 4 x9
+port 47 nsew
+rlabel locali s -5049 -23934 -5049 -23934 4 x8
+port 46 nsew
+rlabel locali s -5050 -24360 -5050 -24360 4 x8_bar
+port 45 nsew
+rlabel locali s -5049 -24587 -5049 -24587 4 x9_bar
+port 44 nsew
+rlabel locali s -5046 -27515 -5046 -27515 4 x10_bar
+port 43 nsew
+rlabel locali s -5051 -27746 -5051 -27746 4 x11_bar
+port 42 nsew
+rlabel locali s -5060 -25210 -5040 -25191 4 k9_bar
+port 50 nsew
+rlabel locali s -5050 -25202 -5050 -25202 4 k9_bar
+port 50 nsew
+rlabel locali s -5059 -41956 -5039 -41937 4 k15
+port 51 nsew
+rlabel locali s -5059 -44886 -5039 -44867 4 k14
+port 52 nsew
+rlabel locali s -5060 -45110 -5040 -45091 4 k13
+port 53 nsew
+rlabel locali s -5060 -48040 -5040 -48021 4 k12
+port 54 nsew
+rlabel locali s -5049 -41946 -5049 -41946 4 k15
+port 51 nsew
+rlabel locali s -5061 -43532 -5041 -43513 4 x14_bar
+port 55 nsew
+rlabel locali s -5062 -46460 -5042 -46441 4 x13_bar
+port 56 nsew
+rlabel locali s -5062 -46688 -5042 -46669 4 x12_bar
+port 57 nsew
+rlabel locali s -5061 -46034 -5041 -46014 4 x13
+port 58 nsew
+rlabel locali s -5059 -44147 -5039 -44128 4 k14_bar
+port 59 nsew
+rlabel locali s -5063 -45844 -5043 -45825 4 k13_bar
+port 60 nsew
+rlabel locali s -5059 -42687 -5039 -42668 4 k15_bar
+port 61 nsew
+rlabel locali s -5059 -47303 -5039 -47284 4 k12_bar
+port 62 nsew
+rlabel locali s -5059 -47114 -5039 -47094 4 x12
+port 63 nsew
+rlabel locali s -5051 -46024 -5051 -46024 4 x13
+port 58 nsew
+rlabel locali s -5059 -43953 -5039 -43933 4 x14
+port 64 nsew
+rlabel locali s -5062 -42882 -5042 -42862 4 x15
+port 65 nsew
+rlabel locali s -5049 -47104 -5049 -47104 4 x12
+port 63 nsew
+rlabel locali s -5049 -43943 -5049 -43943 4 x14
+port 64 nsew
+rlabel locali s -5050 -48030 -5050 -48030 4 k12
+port 54 nsew
+rlabel locali s -5049 -42677 -5049 -42677 4 k15_bar
+port 61 nsew
+rlabel locali s -5050 -45100 -5050 -45100 4 k13
+port 53 nsew
+rlabel locali s -5052 -42872 -5052 -42872 4 x15
+port 65 nsew
+rlabel locali s -5058 -43304 -5038 -43285 4 x15_bar
+port 66 nsew
+rlabel locali s -5049 -44876 -5049 -44876 4 k14
+port 52 nsew
+rlabel locali s -5049 -47293 -5049 -47293 4 k12_bar
+port 62 nsew
+rlabel locali s -5053 -45834 -5053 -45834 4 k13_bar
+port 60 nsew
+rlabel locali s -5049 -44137 -5049 -44137 4 k14_bar
+port 59 nsew
+rlabel locali s -5052 -46679 -5052 -46679 4 x12_bar
+port 57 nsew
+rlabel locali s -5052 -46451 -5052 -46451 4 x13_bar
+port 56 nsew
+rlabel locali s -5051 -43523 -5051 -43523 4 x14_bar
+port 55 nsew
+rlabel locali s -5048 -43295 -5048 -43295 4 x15_bar
+port 66 nsew
+rlabel locali s -5060 -53698 -5040 -53679 4 k19_bar
+port 67 nsew
+rlabel locali s -5052 -52239 -5032 -52220 4 k18_bar
+port 68 nsew
+rlabel locali s -5059 -50540 -5039 -50521 4 k17_bar
+port 69 nsew
+rlabel locali s -5061 -49077 -5041 -49058 4 k16_bar
+port 70 nsew
+rlabel locali s -5057 -53081 -5037 -53062 4 x19_bar
+port 71 nsew
+rlabel locali s -5057 -52855 -5037 -52836 4 x18_bar
+port 72 nsew
+rlabel locali s -5062 -49929 -5042 -49910 4 x17_bar
+port 73 nsew
+rlabel locali s -5060 -49699 -5040 -49680 4 x16_bar
+port 74 nsew
+rlabel locali s -5061 -54433 -5041 -54414 4 k19
+port 75 nsew
+rlabel locali s -5058 -51502 -5038 -51483 4 k18
+port 76 nsew
+rlabel locali s -5060 -51277 -5040 -51258 4 k17
+port 77 nsew
+rlabel locali s -5056 -48343 -5036 -48324 4 k16
+port 78 nsew
+rlabel locali s -5058 -53506 -5038 -53486 4 x19
+port 79 nsew
+rlabel locali s -5055 -52431 -5035 -52411 4 x18
+port 80 nsew
+rlabel locali s -5059 -50351 -5039 -50331 4 x17
+port 81 nsew
+rlabel locali s -5056 -49271 -5036 -49251 4 x16
+port 82 nsew
+rlabel locali s -5048 -51492 -5048 -51492 4 k18
+port 76 nsew
+rlabel locali s -5051 -54423 -5051 -54423 4 k19
+port 75 nsew
+rlabel locali s -5046 -48333 -5046 -48333 4 k16
+port 78 nsew
+rlabel locali s -5050 -51267 -5050 -51267 4 k17
+port 77 nsew
+rlabel locali s -5051 -49067 -5051 -49067 4 k16_bar
+port 70 nsew
+rlabel locali s -5049 -50530 -5049 -50530 4 k17_bar
+port 69 nsew
+rlabel locali s -5042 -52229 -5042 -52229 4 k18_bar
+port 68 nsew
+rlabel locali s -5046 -49261 -5046 -49261 4 x16
+port 82 nsew
+rlabel locali s -5049 -50341 -5049 -50341 4 x17
+port 81 nsew
+rlabel locali s -5045 -52421 -5045 -52421 4 x18
+port 80 nsew
+rlabel locali s -5048 -53496 -5048 -53496 4 x19
+port 79 nsew
+rlabel locali s -5050 -53688 -5050 -53688 4 k19_bar
+port 67 nsew
+rlabel locali s -5050 -49690 -5050 -49690 4 x16_bar
+port 74 nsew
+rlabel locali s -5052 -49920 -5052 -49920 4 x17_bar
+port 73 nsew
+rlabel locali s -5047 -52846 -5047 -52846 4 x18_bar
+port 72 nsew
+rlabel locali s -5047 -53072 -5047 -53072 4 x19_bar
+port 71 nsew
+rlabel locali s -5058 -68635 -5038 -68616 4 x23_bar
+port 83 nsew
+rlabel locali s -5060 -68862 -5040 -68843 4 x22_bar
+port 84 nsew
+rlabel locali s -5059 -72440 -5039 -72420 4 x20
+port 85 nsew
+rlabel locali s -5060 -71363 -5040 -71343 4 x21
+port 86 nsew
+rlabel locali s -5063 -69287 -5043 -69267 4 x22
+port 87 nsew
+rlabel locali s -5060 -68208 -5040 -68188 4 x23
+port 88 nsew
+rlabel locali s -5058 -68015 -5038 -67996 4 k23_bar
+port 89 nsew
+rlabel locali s -5056 -69478 -5036 -69459 4 k22_bar
+port 90 nsew
+rlabel locali s -5055 -71173 -5035 -71154 4 k21_bar
+port 91 nsew
+rlabel locali s -5061 -72635 -5041 -72616 4 k20_bar
+port 92 nsew
+rlabel locali s -5058 -73369 -5038 -73350 4 k20
+port 93 nsew
+rlabel locali s -5056 -70436 -5036 -70417 4 k21
+port 94 nsew
+rlabel locali s -5062 -70209 -5042 -70190 4 k22
+port 95 nsew
+rlabel locali s -5060 -67281 -5040 -67262 4 k23
+port 96 nsew
+rlabel locali s -5061 -71788 -5041 -71769 4 x21_bar
+port 97 nsew
+rlabel locali s -5050 -68198 -5050 -68198 4 x23
+port 88 nsew
+rlabel locali s -5050 -67271 -5050 -67271 4 k23
+port 96 nsew
+rlabel locali s -5052 -70199 -5052 -70199 4 k22
+port 95 nsew
+rlabel locali s -5060 -72017 -5040 -71998 4 x20_bar
+port 98 nsew
+rlabel locali s -5051 -71779 -5051 -71779 4 x21_bar
+port 97 nsew
+rlabel locali s -5050 -68853 -5050 -68853 4 x22_bar
+port 84 nsew
+rlabel locali s -5048 -68626 -5048 -68626 4 x23_bar
+port 83 nsew
+rlabel locali s -5046 -70426 -5046 -70426 4 k21
+port 94 nsew
+rlabel locali s -5048 -73359 -5048 -73359 4 k20
+port 93 nsew
+rlabel locali s -5053 -69277 -5053 -69277 4 x22
+port 87 nsew
+rlabel locali s -5050 -71353 -5050 -71353 4 x21
+port 86 nsew
+rlabel locali s -5051 -72625 -5051 -72625 4 k20_bar
+port 92 nsew
+rlabel locali s -5045 -71163 -5045 -71163 4 k21_bar
+port 91 nsew
+rlabel locali s -5046 -69468 -5046 -69468 4 k22_bar
+port 90 nsew
+rlabel locali s -5048 -68005 -5048 -68005 4 k23_bar
+port 89 nsew
+rlabel locali s -5049 -72430 -5049 -72430 4 x20
+port 85 nsew
+rlabel locali s -5050 -72008 -5050 -72008 4 x20_bar
+port 98 nsew
+rlabel locali s -5059 -75680 -5039 -75660 4 x25
+port 99 nsew
+rlabel locali s -5063 -74601 -5043 -74581 4 x24
+port 100 nsew
+rlabel locali s -5053 -74591 -5053 -74591 4 x24
+port 100 nsew
+rlabel locali s -5049 -75670 -5049 -75670 4 x25
+port 99 nsew
+rlabel locali s -5061 -77757 -5041 -77737 4 x26
+port 101 nsew
+rlabel locali s -5059 -78835 -5039 -78815 4 x27
+port 102 nsew
+rlabel locali s -5060 -78406 -5040 -78387 4 x27_bar
+port 103 nsew
+rlabel locali s -5062 -78182 -5042 -78163 4 x26_bar
+port 104 nsew
+rlabel locali s -5059 -75255 -5039 -75236 4 x25_bar
+port 105 nsew
+rlabel locali s -5061 -73677 -5041 -73658 4 k24
+port 106 nsew
+rlabel locali s -5059 -76601 -5039 -76582 4 k25
+port 107 nsew
+rlabel locali s -5057 -76830 -5037 -76811 4 k26
+port 108 nsew
+rlabel locali s -5059 -79761 -5039 -79742 4 k27
+port 109 nsew
+rlabel locali s -5060 -79025 -5040 -79006 4 k27_bar
+port 110 nsew
+rlabel locali s -5063 -77566 -5043 -77547 4 k26_bar
+port 111 nsew
+rlabel locali s -5058 -75872 -5038 -75853 4 k25_bar
+port 112 nsew
+rlabel locali s -5058 -75028 -5038 -75009 4 x24_bar
+port 113 nsew
+rlabel locali s -5049 -75246 -5049 -75246 4 x25_bar
+port 105 nsew
+rlabel locali s -5052 -78173 -5052 -78173 4 x26_bar
+port 104 nsew
+rlabel locali s -5050 -78397 -5050 -78397 4 x27_bar
+port 103 nsew
+rlabel locali s -5049 -79751 -5049 -79751 4 k27
+port 109 nsew
+rlabel locali s -5047 -76820 -5047 -76820 4 k26
+port 108 nsew
+rlabel locali s -5062 -74409 -5042 -74390 4 k24_bar
+port 114 nsew
+rlabel locali s -5048 -75019 -5048 -75019 4 x24_bar
+port 113 nsew
+rlabel locali s -5051 -73667 -5051 -73667 4 k24
+port 106 nsew
+rlabel locali s -5052 -74399 -5052 -74399 4 k24_bar
+port 114 nsew
+rlabel locali s -5048 -75862 -5048 -75862 4 k25_bar
+port 112 nsew
+rlabel locali s -5053 -77556 -5053 -77556 4 k26_bar
+port 111 nsew
+rlabel locali s -5050 -79015 -5050 -79015 4 k27_bar
+port 110 nsew
+rlabel locali s -5049 -76591 -5049 -76591 4 k25
+port 107 nsew
+rlabel locali s -5049 -78825 -5049 -78825 4 x27
+port 102 nsew
+rlabel locali s -5051 -77747 -5051 -77747 4 x26
+port 101 nsew
+rlabel locali s -5060 -97770 -5040 -97750 4 x28
+port 115 nsew
+rlabel locali s -5061 -96691 -5041 -96671 4 x29
+port 116 nsew
+rlabel locali s -5058 -97346 -5038 -97327 4 x28_bar
+port 117 nsew
+rlabel locali s -5061 -92611 -5041 -92592 4 k31
+port 118 nsew
+rlabel locali s -5056 -95538 -5036 -95519 4 k30
+port 119 nsew
+rlabel locali s -5062 -95767 -5042 -95748 4 k29
+port 120 nsew
+rlabel locali s -5060 -93961 -5040 -93942 4 x31_bar
+port 121 nsew
+rlabel locali s -5057 -93536 -5037 -93516 4 x31
+port 122 nsew
+rlabel locali s -5047 -93526 -5047 -93526 4 x31
+port 122 nsew
+rlabel locali s -5059 -94614 -5039 -94594 4 x30
+port 123 nsew
+rlabel locali s -5048 -97337 -5048 -97337 4 x28_bar
+port 117 nsew
+rlabel locali s -5064 -97116 -5044 -97097 4 x29_bar
+port 124 nsew
+rlabel locali s -5063 -94185 -5043 -94166 4 x30_bar
+port 125 nsew
+rlabel locali s -5059 -98697 -5039 -98678 4 k28
+port 126 nsew
+rlabel locali s -5051 -96681 -5051 -96681 4 x29
+port 116 nsew
+rlabel locali s -5058 -93342 -5038 -93323 4 k31_bar
+port 127 nsew
+rlabel locali s -5059 -94806 -5039 -94787 4 k30_bar
+port 128 nsew
+rlabel locali s -5050 -97760 -5050 -97760 4 x28
+port 115 nsew
+rlabel locali s -5054 -97107 -5054 -97107 4 x29_bar
+port 124 nsew
+rlabel locali s -5050 -93952 -5050 -93952 4 x31_bar
+port 121 nsew
+rlabel locali s -5053 -94176 -5053 -94176 4 x30_bar
+port 125 nsew
+rlabel locali s -5049 -98687 -5049 -98687 4 k28
+port 126 nsew
+rlabel locali s -5052 -95758 -5052 -95758 4 k29
+port 120 nsew
+rlabel locali s -5046 -95529 -5046 -95529 4 k30
+port 119 nsew
+rlabel locali s -5051 -92602 -5051 -92602 4 k31
+port 118 nsew
+rlabel locali s -5062 -97965 -5042 -97946 4 k28_bar
+port 129 nsew
+rlabel locali s -5063 -96500 -5043 -96481 4 k29_bar
+port 130 nsew
+rlabel locali s -5049 -94796 -5049 -94796 4 k30_bar
+port 128 nsew
+rlabel locali s -5048 -93332 -5048 -93332 4 k31_bar
+port 127 nsew
+rlabel locali s -5049 -94604 -5049 -94604 4 x30
+port 123 nsew
+rlabel locali s -5053 -96490 -5053 -96490 4 k29_bar
+port 130 nsew
+rlabel locali s -5052 -97955 -5052 -97955 4 k28_bar
+port 129 nsew
+rlabel locali s -5066 -119942 -5046 -119922 4 x38
+port 131 nsew
+rlabel locali s -5056 -119932 -5056 -119932 4 x38
+port 131 nsew
+rlabel locali s -5066 -176568 -5046 -176549 4 x57_bar
+port 132 nsew
+rlabel locali s -5056 -176559 -5056 -176559 4 x57_bar
+port 132 nsew
+rlabel locali s -5060 -99003 -5040 -98984 4 k32
+port 133 nsew
+rlabel locali s -5059 -101929 -5039 -101910 4 k33
+port 134 nsew
+rlabel locali s -5055 -102156 -5035 -102137 4 k34
+port 135 nsew
+rlabel locali s -5059 -105083 -5039 -105064 4 k35
+port 136 nsew
+rlabel locali s -5059 -100354 -5039 -100335 4 x32_bar
+port 137 nsew
+rlabel locali s -5056 -100583 -5036 -100564 4 x33_bar
+port 138 nsew
+rlabel locali s -5059 -103508 -5039 -103489 4 x34_bar
+port 139 nsew
+rlabel locali s -5061 -103735 -5041 -103716 4 x35_bar
+port 140 nsew
+rlabel locali s -5059 -99736 -5039 -99717 4 k32_bar
+port 141 nsew
+rlabel locali s -5061 -101198 -5041 -101179 4 k33_bar
+port 142 nsew
+rlabel locali s -5053 -102888 -5033 -102869 4 k34_bar
+port 143 nsew
+rlabel locali s -5061 -104353 -5041 -104334 4 k35_bar
+port 144 nsew
+rlabel locali s -5051 -103726 -5051 -103726 4 x35_bar
+port 140 nsew
+rlabel locali s -5049 -103499 -5049 -103499 4 x34_bar
+port 139 nsew
+rlabel locali s -5046 -100574 -5046 -100574 4 x33_bar
+port 138 nsew
+rlabel locali s -5049 -100345 -5049 -100345 4 x32_bar
+port 137 nsew
+rlabel locali s -5049 -101920 -5049 -101920 4 k33
+port 134 nsew
+rlabel locali s -5050 -98994 -5050 -98994 4 k32
+port 133 nsew
+rlabel locali s -5051 -104343 -5051 -104343 4 k35_bar
+port 144 nsew
+rlabel locali s -5056 -104164 -5036 -104144 4 x35
+port 145 nsew
+rlabel locali s -5063 -103085 -5043 -103065 4 x34
+port 146 nsew
+rlabel locali s -5056 -101002 -5036 -100982 4 x33
+port 147 nsew
+rlabel locali s -5055 -99930 -5035 -99910 4 x32
+port 148 nsew
+rlabel locali s -5043 -102878 -5043 -102878 4 k34_bar
+port 143 nsew
+rlabel locali s -5051 -101188 -5051 -101188 4 k33_bar
+port 142 nsew
+rlabel locali s -5049 -99726 -5049 -99726 4 k32_bar
+port 141 nsew
+rlabel locali s -5049 -105074 -5049 -105074 4 k35
+port 136 nsew
+rlabel locali s -5045 -102147 -5045 -102147 4 k34
+port 135 nsew
+rlabel locali s -5045 -99920 -5045 -99920 4 x32
+port 148 nsew
+rlabel locali s -5046 -100992 -5046 -100992 4 x33
+port 147 nsew
+rlabel locali s -5053 -103075 -5053 -103075 4 x34
+port 146 nsew
+rlabel locali s -5046 -104154 -5046 -104154 4 x35
+port 145 nsew
+rlabel locali s -5060 -118860 -5040 -118840 4 x39
+port 149 nsew
+rlabel locali s -5052 -122020 -5032 -122000 4 x37
+port 150 nsew
+rlabel locali s -5061 -124024 -5041 -124005 4 k36
+port 151 nsew
+rlabel locali s -5056 -122669 -5036 -122650 4 x36_bar
+port 152 nsew
+rlabel locali s -5058 -122447 -5038 -122428 4 x37_bar
+port 153 nsew
+rlabel locali s -5060 -119519 -5040 -119500 4 x38_bar
+port 154 nsew
+rlabel locali s -5056 -118677 -5036 -118658 4 k39_bar
+port 155 nsew
+rlabel locali s -5054 -120139 -5034 -120120 4 k38_bar
+port 156 nsew
+rlabel locali s -5062 -121831 -5042 -121812 4 k37_bar
+port 157 nsew
+rlabel locali s -5061 -123292 -5041 -123273 4 k36_bar
+port 158 nsew
+rlabel locali s -5056 -119285 -5036 -119266 4 x39_bar
+port 159 nsew
+rlabel locali s -5050 -118850 -5050 -118850 4 x39
+port 149 nsew
+rlabel locali s -5057 -121092 -5037 -121073 4 k37
+port 160 nsew
+rlabel locali s -5042 -122010 -5042 -122010 4 x37
+port 150 nsew
+rlabel locali s -5058 -123094 -5038 -123074 4 x36
+port 161 nsew
+rlabel locali s -5057 -120867 -5037 -120848 4 k38
+port 162 nsew
+rlabel locali s -5063 -117941 -5043 -117922 4 k39
+port 163 nsew
+rlabel locali s -5048 -123084 -5048 -123084 4 x36
+port 161 nsew
+rlabel locali s -5051 -123282 -5051 -123282 4 k36_bar
+port 158 nsew
+rlabel locali s -5052 -121822 -5052 -121822 4 k37_bar
+port 157 nsew
+rlabel locali s -5044 -120130 -5044 -120130 4 k38_bar
+port 156 nsew
+rlabel locali s -5046 -118668 -5046 -118668 4 k39_bar
+port 155 nsew
+rlabel locali s -5053 -117932 -5053 -117932 4 k39
+port 163 nsew
+rlabel locali s -5047 -120858 -5047 -120858 4 k38
+port 162 nsew
+rlabel locali s -5047 -121083 -5047 -121083 4 k37
+port 160 nsew
+rlabel locali s -5051 -124015 -5051 -124015 4 k36
+port 151 nsew
+rlabel locali s -5046 -119276 -5046 -119276 4 x39_bar
+port 159 nsew
+rlabel locali s -5050 -119510 -5050 -119510 4 x38_bar
+port 154 nsew
+rlabel locali s -5048 -122438 -5048 -122438 4 x37_bar
+port 153 nsew
+rlabel locali s -5046 -122660 -5046 -122660 4 x36_bar
+port 152 nsew
+rlabel locali s -5056 -125908 -5036 -125889 4 x41_bar
+port 164 nsew
+rlabel locali s -5062 -125679 -5042 -125660 4 x40_bar
+port 165 nsew
+rlabel locali s -5060 -125259 -5040 -125239 4 x40
+port 166 nsew
+rlabel locali s -5061 -126333 -5041 -126313 4 x41
+port 167 nsew
+rlabel locali s -5062 -128410 -5042 -128390 4 x42
+port 168 nsew
+rlabel locali s -5061 -129491 -5041 -129471 4 x43
+port 169 nsew
+rlabel locali s -5052 -125670 -5052 -125670 4 x40_bar
+port 165 nsew
+rlabel locali s -5046 -125899 -5046 -125899 4 x41_bar
+port 164 nsew
+rlabel locali s -5059 -129681 -5039 -129662 4 k43_bar
+port 170 nsew
+rlabel locali s -5055 -128223 -5035 -128204 4 k42_bar
+port 171 nsew
+rlabel locali s -5058 -126526 -5038 -126507 4 k41_bar
+port 172 nsew
+rlabel locali s -5063 -125065 -5043 -125046 4 k40_bar
+port 173 nsew
+rlabel locali s -5059 -128836 -5039 -128817 4 x42_bar
+port 174 nsew
+rlabel locali s -5061 -129065 -5041 -129046 4 x43_bar
+port 175 nsew
+rlabel locali s -5051 -129481 -5051 -129481 4 x43
+port 169 nsew
+rlabel locali s -5052 -128400 -5052 -128400 4 x42
+port 168 nsew
+rlabel locali s -5051 -126323 -5051 -126323 4 x41
+port 167 nsew
+rlabel locali s -5050 -125249 -5050 -125249 4 x40
+port 166 nsew
+rlabel locali s -5060 -124331 -5040 -124312 4 k40
+port 176 nsew
+rlabel locali s -5059 -127261 -5039 -127242 4 k41
+port 177 nsew
+rlabel locali s -5058 -127487 -5038 -127468 4 k42
+port 178 nsew
+rlabel locali s -5061 -130416 -5041 -130397 4 k43
+port 179 nsew
+rlabel locali s -5053 -125056 -5053 -125056 4 k40_bar
+port 173 nsew
+rlabel locali s -5048 -126517 -5048 -126517 4 k41_bar
+port 172 nsew
+rlabel locali s -5051 -130407 -5051 -130407 4 k43
+port 179 nsew
+rlabel locali s -5048 -127478 -5048 -127478 4 k42
+port 178 nsew
+rlabel locali s -5049 -127252 -5049 -127252 4 k41
+port 177 nsew
+rlabel locali s -5050 -124322 -5050 -124322 4 k40
+port 176 nsew
+rlabel locali s -5045 -128214 -5045 -128214 4 k42_bar
+port 171 nsew
+rlabel locali s -5049 -129672 -5049 -129672 4 k43_bar
+port 170 nsew
+rlabel locali s -5051 -129056 -5051 -129056 4 x43_bar
+port 175 nsew
+rlabel locali s -5049 -128827 -5049 -128827 4 x42_bar
+port 174 nsew
+rlabel locali s -5059 -148427 -5039 -148407 4 x44
+port 180 nsew
+rlabel locali s -5060 -144616 -5040 -144597 4 x47_bar
+port 181 nsew
+rlabel locali s -5060 -144846 -5040 -144827 4 x46_bar
+port 182 nsew
+rlabel locali s -5059 -144000 -5039 -143981 4 k47_bar
+port 183 nsew
+rlabel locali s -5053 -145464 -5033 -145445 4 k46_bar
+port 184 nsew
+rlabel locali s -5050 -144607 -5050 -144607 4 x47_bar
+port 181 nsew
+rlabel locali s -5061 -147157 -5041 -147138 4 k45_bar
+port 185 nsew
+rlabel locali s -5059 -148614 -5039 -148595 4 k44_bar
+port 186 nsew
+rlabel locali s -5063 -147771 -5043 -147752 4 x45_bar
+port 187 nsew
+rlabel locali s -5057 -148002 -5037 -147983 4 x44_bar
+port 188 nsew
+rlabel locali s -5058 -149352 -5038 -149333 4 k44
+port 189 nsew
+rlabel locali s -5060 -146419 -5040 -146400 4 k45
+port 190 nsew
+rlabel locali s -5057 -146195 -5037 -146176 4 k46
+port 191 nsew
+rlabel locali s -5059 -143265 -5039 -143246 4 k47
+port 192 nsew
+rlabel locali s -5049 -148417 -5049 -148417 4 x44
+port 180 nsew
+rlabel locali s -5059 -147348 -5039 -147328 4 x45
+port 193 nsew
+rlabel locali s -5049 -143256 -5049 -143256 4 k47
+port 192 nsew
+rlabel locali s -5047 -146186 -5047 -146186 4 k46
+port 191 nsew
+rlabel locali s -5050 -146410 -5050 -146410 4 k45
+port 190 nsew
+rlabel locali s -5048 -149343 -5048 -149343 4 k44
+port 189 nsew
+rlabel locali s -5059 -145270 -5039 -145250 4 x46
+port 194 nsew
+rlabel locali s -5058 -144190 -5038 -144170 4 x47
+port 195 nsew
+rlabel locali s -5047 -147993 -5047 -147993 4 x44_bar
+port 188 nsew
+rlabel locali s -5053 -147762 -5053 -147762 4 x45_bar
+port 187 nsew
+rlabel locali s -5050 -144837 -5050 -144837 4 x46_bar
+port 182 nsew
+rlabel locali s -5048 -144180 -5048 -144180 4 x47
+port 195 nsew
+rlabel locali s -5049 -148605 -5049 -148605 4 k44_bar
+port 186 nsew
+rlabel locali s -5051 -147148 -5051 -147148 4 k45_bar
+port 185 nsew
+rlabel locali s -5043 -145455 -5043 -145455 4 k46_bar
+port 184 nsew
+rlabel locali s -5049 -143991 -5049 -143991 4 k47_bar
+port 183 nsew
+rlabel locali s -5049 -145260 -5049 -145260 4 x46
+port 194 nsew
+rlabel locali s -5049 -147338 -5049 -147338 4 x45
+port 193 nsew
+rlabel locali s -5063 -153737 -5043 -153717 4 x50
+port 196 nsew
+rlabel locali s -5060 -151660 -5040 -151640 4 x49
+port 197 nsew
+rlabel locali s -5056 -150585 -5036 -150565 4 x48
+port 198 nsew
+rlabel locali s -5061 -152813 -5041 -152794 4 k50
+port 199 nsew
+rlabel locali s -5060 -152587 -5040 -152568 4 k49
+port 200 nsew
+rlabel locali s -5058 -149659 -5038 -149640 4 k48
+port 201 nsew
+rlabel locali s -5061 -153544 -5041 -153525 4 k50_bar
+port 202 nsew
+rlabel locali s -5057 -151855 -5037 -151836 4 k49_bar
+port 203 nsew
+rlabel locali s -5055 -150396 -5035 -150377 4 k48_bar
+port 204 nsew
+rlabel locali s -5050 -151650 -5050 -151650 4 x49
+port 197 nsew
+rlabel locali s -5053 -153727 -5053 -153727 4 x50
+port 196 nsew
+rlabel locali s -5046 -150575 -5046 -150575 4 x48
+port 198 nsew
+rlabel locali s -5048 -149650 -5048 -149650 4 k48
+port 201 nsew
+rlabel locali s -5050 -152578 -5050 -152578 4 k49
+port 200 nsew
+rlabel locali s -5063 -151008 -5043 -150989 4 x48_bar
+port 205 nsew
+rlabel locali s -5061 -151240 -5041 -151221 4 x49_bar
+port 206 nsew
+rlabel locali s -5051 -152804 -5051 -152804 4 k50
+port 199 nsew
+rlabel locali s -5045 -150387 -5045 -150387 4 k48_bar
+port 204 nsew
+rlabel locali s -5047 -151846 -5047 -151846 4 k49_bar
+port 203 nsew
+rlabel locali s -5051 -153535 -5051 -153535 4 k50_bar
+port 202 nsew
+rlabel locali s -5051 -151231 -5051 -151231 4 x49_bar
+port 206 nsew
+rlabel locali s -5053 -150999 -5053 -150999 4 x48_bar
+port 205 nsew
+rlabel locali s -5062 -169520 -5042 -169500 4 x55
+port 207 nsew
+rlabel locali s -5058 -170596 -5038 -170576 4 x54
+port 208 nsew
+rlabel locali s -5060 -172676 -5040 -172656 4 x53
+port 209 nsew
+rlabel locali s -5053 -168595 -5033 -168576 4 k55
+port 210 nsew
+rlabel locali s -5060 -171525 -5040 -171506 4 k54
+port 211 nsew
+rlabel locali s -5059 -171750 -5039 -171731 4 k53
+port 212 nsew
+rlabel locali s -5060 -174680 -5040 -174661 4 k52
+port 213 nsew
+rlabel locali s -5059 -155745 -5039 -155726 4 k51
+port 214 nsew
+rlabel locali s -5057 -173752 -5037 -173732 4 x52
+port 215 nsew
+rlabel locali s -5059 -154817 -5039 -154797 4 x51
+port 216 nsew
+rlabel locali s -5049 -154807 -5049 -154807 4 x51
+port 216 nsew
+rlabel locali s -5047 -173742 -5047 -173742 4 x52
+port 215 nsew
+rlabel locali s -5050 -172666 -5050 -172666 4 x53
+port 209 nsew
+rlabel locali s -5048 -170586 -5048 -170586 4 x54
+port 208 nsew
+rlabel locali s -5052 -169510 -5052 -169510 4 x55
+port 207 nsew
+rlabel locali s -5060 -173101 -5040 -173082 4 x53_bar
+port 217 nsew
+rlabel locali s -5062 -173330 -5042 -173311 4 x52_bar
+port 218 nsew
+rlabel locali s -5057 -154392 -5037 -154373 4 x51_bar
+port 219 nsew
+rlabel locali s -5060 -154165 -5040 -154146 4 x50_bar
+port 220 nsew
+rlabel locali s -5059 -169945 -5039 -169926 4 x55_bar
+port 221 nsew
+rlabel locali s -5050 -154156 -5050 -154156 4 x50_bar
+port 220 nsew
+rlabel locali s -5047 -154383 -5047 -154383 4 x51_bar
+port 219 nsew
+rlabel locali s -5052 -173321 -5052 -173321 4 x52_bar
+port 218 nsew
+rlabel locali s -5050 -173092 -5050 -173092 4 x53_bar
+port 217 nsew
+rlabel locali s -5062 -170174 -5042 -170155 4 x54_bar
+port 222 nsew
+rlabel locali s -5049 -169936 -5049 -169936 4 x55_bar
+port 221 nsew
+rlabel locali s -5052 -170165 -5052 -170165 4 x54_bar
+port 222 nsew
+rlabel locali s -5049 -155736 -5049 -155736 4 k51
+port 214 nsew
+rlabel locali s -5050 -174671 -5050 -174671 4 k52
+port 213 nsew
+rlabel locali s -5049 -171741 -5049 -171741 4 k53
+port 212 nsew
+rlabel locali s -5050 -171516 -5050 -171516 4 k54
+port 211 nsew
+rlabel locali s -5043 -168586 -5043 -168586 4 k55
+port 210 nsew
+rlabel locali s -5057 -169326 -5037 -169307 4 k55_bar
+port 223 nsew
+rlabel locali s -5060 -170788 -5040 -170769 4 k54_bar
+port 224 nsew
+rlabel locali s -5059 -172486 -5039 -172467 4 k53_bar
+port 225 nsew
+rlabel locali s -5062 -155010 -5042 -154991 4 k51_bar
+port 226 nsew
+rlabel locali s -5062 -173944 -5042 -173925 4 k52_bar
+port 227 nsew
+rlabel locali s -5049 -172477 -5049 -172477 4 k53_bar
+port 225 nsew
+rlabel locali s -5050 -170779 -5050 -170779 4 k54_bar
+port 224 nsew
+rlabel locali s -5047 -169317 -5047 -169317 4 k55_bar
+port 223 nsew
+rlabel locali s -5052 -173935 -5052 -173935 4 k52_bar
+port 227 nsew
+rlabel locali s -5052 -155001 -5052 -155001 4 k51_bar
+port 226 nsew
+rlabel locali s -5058 -175718 -5038 -175699 4 k56_bar
+port 228 nsew
+rlabel locali s -5052 -176988 -5032 -176968 4 x57
+port 229 nsew
+rlabel locali s -5059 -175914 -5039 -175894 4 x56
+port 230 nsew
+rlabel locali s -5060 -176334 -5040 -176315 4 x56_bar
+port 231 nsew
+rlabel locali s -5049 -175904 -5049 -175904 4 x56
+port 230 nsew
+rlabel locali s -5057 -174983 -5037 -174964 4 k56
+port 232 nsew
+rlabel locali s -5047 -174974 -5047 -174974 4 k56
+port 232 nsew
+rlabel locali s -5042 -176978 -5042 -176978 4 x57
+port 229 nsew
+rlabel locali s -5050 -176325 -5050 -176325 4 x56_bar
+port 231 nsew
+rlabel locali s -5048 -175709 -5048 -175709 4 k56_bar
+port 228 nsew
+rlabel locali s -5060 -194846 -5040 -194826 4 x63
+port 233 nsew
+rlabel locali s -5059 -178877 -5039 -178858 4 k58_bar
+port 234 nsew
+rlabel locali s -5060 -177182 -5040 -177163 4 k57_bar
+port 235 nsew
+rlabel locali s -5060 -194661 -5040 -194642 4 k63_bar
+port 236 nsew
+rlabel locali s -5055 -180145 -5035 -180125 4 x59
+port 237 nsew
+rlabel locali s -5060 -179073 -5040 -179053 4 x58
+port 238 nsew
+rlabel locali s -5061 -196117 -5041 -196098 4 k62_bar
+port 239 nsew
+rlabel locali s -5056 -197814 -5036 -197795 4 k61_bar
+port 240 nsew
+rlabel locali s -5059 -195272 -5039 -195253 4 x63_bar
+port 241 nsew
+rlabel locali s -5061 -195496 -5041 -195477 4 x62_bar
+port 242 nsew
+rlabel locali s -5060 -198427 -5040 -198408 4 x61_bar
+port 243 nsew
+rlabel locali s -5058 -198658 -5038 -198639 4 x60_bar
+port 244 nsew
+rlabel locali s -5061 -199272 -5041 -199253 4 k60_bar
+port 245 nsew
+rlabel locali s -5055 -180335 -5035 -180316 4 k59_bar
+port 246 nsew
+rlabel locali s -5060 -179492 -5040 -179473 4 x58_bar
+port 247 nsew
+rlabel locali s -5060 -179720 -5040 -179701 4 x59_bar
+port 248 nsew
+rlabel locali s -5048 -198649 -5048 -198649 4 x60_bar
+port 244 nsew
+rlabel locali s -5050 -198418 -5050 -198418 4 x61_bar
+port 243 nsew
+rlabel locali s -5058 -193923 -5038 -193904 4 k63
+port 249 nsew
+rlabel locali s -5055 -196854 -5035 -196835 4 k62
+port 250 nsew
+rlabel locali s -5062 -197080 -5042 -197061 4 k61
+port 251 nsew
+rlabel locali s -5060 -200008 -5040 -199989 4 k60
+port 252 nsew
+rlabel locali s -5061 -181070 -5041 -181051 4 k59
+port 253 nsew
+rlabel locali s -5056 -178143 -5036 -178124 4 k58
+port 254 nsew
+rlabel locali s -5059 -198002 -5039 -197982 4 x61
+port 255 nsew
+rlabel locali s -5061 -177913 -5041 -177894 4 k57
+port 256 nsew
+rlabel locali s -5046 -178134 -5046 -178134 4 k58
+port 254 nsew
+rlabel locali s -5051 -181061 -5051 -181061 4 k59
+port 253 nsew
+rlabel locali s -5050 -199999 -5050 -199999 4 k60
+port 252 nsew
+rlabel locali s -5052 -197071 -5052 -197071 4 k61
+port 251 nsew
+rlabel locali s -5045 -196845 -5045 -196845 4 k62
+port 250 nsew
+rlabel locali s -5048 -193914 -5048 -193914 4 k63
+port 249 nsew
+rlabel locali s -5049 -197992 -5049 -197992 4 x61
+port 255 nsew
+rlabel locali s -5060 -195928 -5040 -195908 4 x62
+port 257 nsew
+rlabel locali s -5051 -177904 -5051 -177904 4 k57
+port 256 nsew
+rlabel locali s -5061 -199084 -5041 -199064 4 x60
+port 258 nsew
+rlabel locali s -5050 -179711 -5050 -179711 4 x59_bar
+port 248 nsew
+rlabel locali s -5050 -179483 -5050 -179483 4 x58_bar
+port 247 nsew
+rlabel locali s -5050 -179063 -5050 -179063 4 x58
+port 238 nsew
+rlabel locali s -5045 -180135 -5045 -180135 4 x59
+port 237 nsew
+rlabel locali s -5050 -195918 -5050 -195918 4 x62
+port 257 nsew
+rlabel locali s -5050 -194836 -5050 -194836 4 x63
+port 233 nsew
+rlabel locali s -5051 -199074 -5051 -199074 4 x60
+port 258 nsew
+rlabel locali s -5050 -177173 -5050 -177173 4 k57_bar
+port 235 nsew
+rlabel locali s -5049 -178868 -5049 -178868 4 k58_bar
+port 234 nsew
+rlabel locali s -5045 -180326 -5045 -180326 4 k59_bar
+port 246 nsew
+rlabel locali s -5051 -199263 -5051 -199263 4 k60_bar
+port 245 nsew
+rlabel locali s -5046 -197805 -5046 -197805 4 k61_bar
+port 240 nsew
+rlabel locali s -5051 -196108 -5051 -196108 4 k62_bar
+port 239 nsew
+rlabel locali s -5050 -194652 -5050 -194652 4 k63_bar
+port 236 nsew
+rlabel locali s -5051 -195487 -5051 -195487 4 x62_bar
+port 242 nsew
+rlabel locali s -5049 -195263 -5049 -195263 4 x63_bar
+port 241 nsew
+rlabel metal2 s 1145 -59940 1205 -59880 4 s19
+port 259 nsew
+rlabel metal2 s 1144 -56782 1204 -56722 4 s18
+port 260 nsew
+rlabel metal2 s 1147 -53625 1207 -53565 4 s17
+port 261 nsew
+rlabel metal2 s 2204 -49207 2264 -49147 4 s16
+port 262 nsew
+rlabel metal2 s 1142 -36486 1202 -36426 4 s15
+port 263 nsew
+rlabel metal2 s 1146 -39645 1206 -39585 4 s14
+port 264 nsew
+rlabel metal2 s 1148 -42799 1208 -42739 4 s13
+port 265 nsew
+rlabel metal2 s 2207 -47221 2267 -47161 4 s12
+port 266 nsew
+rlabel metal2 s 1146 -34613 1206 -34553 4 s11
+port 267 nsew
+rlabel metal2 s 1142 -31455 1202 -31395 4 s10
+port 268 nsew
+rlabel metal2 s 1146 -28300 1206 -28240 4 s9
+port 269 nsew
+rlabel metal2 s 2207 -23881 2267 -23821 4 s8
+port 270 nsew
+rlabel metal2 s 1147 -11158 1207 -11098 4 s7
+port 271 nsew
+rlabel metal2 s 1148 -14312 1208 -14252 4 s6
+port 272 nsew
+rlabel metal2 s 1146 -17473 1206 -17413 4 s5
+port 273 nsew
+rlabel metal2 s 2207 -21891 2267 -21831 4 s4
+port 274 nsew
+rlabel metal2 s 1150 -9284 1210 -9224 4 s3
+port 275 nsew
+rlabel metal2 s 1146 -6131 1206 -6071 4 s2
+port 276 nsew
+rlabel metal2 s 1152 -2973 1212 -2913 4 s1
+port 277 nsew
+rlabel metal2 s 2209 1449 2269 1509 4 s0
+port 278 nsew
+rlabel metal2 s 2208 -72546 2268 -72486 4 s20
+port 279 nsew
+rlabel metal2 s 1148 -68122 1208 -68062 4 s21
+port 280 nsew
+rlabel metal2 s 1144 -64970 1204 -64910 4 s22
+port 281 nsew
+rlabel metal2 s 1146 -61815 1206 -61755 4 s23
+port 282 nsew
+rlabel metal2 s 2204 -74531 2264 -74471 4 s24
+port 283 nsew
+rlabel metal2 s 1146 -78957 1206 -78897 4 s25
+port 284 nsew
+rlabel metal2 s 1146 -82111 1206 -82051 4 s26
+port 285 nsew
+rlabel metal2 s 1144 -85260 1204 -85200 4 s27
+port 286 nsew
+rlabel metal2 s 2209 -97879 2269 -97819 4 s28
+port 287 nsew
+rlabel metal2 s 1143 -93456 1203 -93396 4 s29
+port 288 nsew
+rlabel metal2 s 1146 -90300 1206 -90240 4 s30
+port 289 nsew
+rlabel metal2 s 1144 -87138 1204 -87078 4 s31
+port 290 nsew
+rlabel metal2 s 2206 -99862 2266 -99802 4 s32
+port 291 nsew
+rlabel metal2 s 1144 -104288 1204 -104228 4 s33
+port 292 nsew
+rlabel metal2 s 1142 -107443 1202 -107383 4 s34
+port 293 nsew
+rlabel metal2 s 1142 -110597 1202 -110537 4 s35
+port 294 nsew
+rlabel metal2 s 2206 -123207 2266 -123147 4 s36
+port 295 nsew
+rlabel metal2 s 1144 -118781 1204 -118721 4 s37
+port 296 nsew
+rlabel metal2 s 1142 -115626 1202 -115566 4 s38
+port 297 nsew
+rlabel metal2 s 1142 -112472 1202 -112412 4 s39
+port 298 nsew
+rlabel metal2 s 2206 -125185 2266 -125125 4 s40
+port 299 nsew
+rlabel metal2 s 1144 -129611 1204 -129551 4 s41
+port 300 nsew
+rlabel metal2 s 1142 -132766 1202 -132706 4 s42
+port 301 nsew
+rlabel metal2 s 1142 -135920 1202 -135860 4 s43
+port 302 nsew
+rlabel metal2 s 2206 -148530 2266 -148470 4 s44
+port 303 nsew
+rlabel metal2 s 1144 -144104 1204 -144044 4 s45
+port 304 nsew
+rlabel metal2 s 1142 -140949 1202 -140889 4 s46
+port 305 nsew
+rlabel metal2 s 1142 -137795 1202 -137735 4 s47
+port 306 nsew
+rlabel metal2 s 2207 -150516 2267 -150456 4 s48
+port 307 nsew
+rlabel metal2 s 1145 -154942 1205 -154882 4 s49
+port 308 nsew
+rlabel metal2 s 1143 -158097 1203 -158037 4 s50
+port 309 nsew
+rlabel metal2 s 1143 -161251 1203 -161191 4 s51
+port 310 nsew
+rlabel metal2 s 2207 -173861 2267 -173801 4 s52
+port 311 nsew
+rlabel metal2 s 1145 -169435 1205 -169375 4 s53
+port 312 nsew
+rlabel metal2 s 1143 -166280 1203 -166220 4 s54
+port 313 nsew
+rlabel metal2 s 1143 -163126 1203 -163066 4 s55
+port 314 nsew
+rlabel metal2 s 2207 -175839 2267 -175779 4 s56
+port 315 nsew
+rlabel metal2 s 1145 -180265 1205 -180205 4 s57
+port 316 nsew
+rlabel metal2 s 1143 -183420 1203 -183360 4 s58
+port 317 nsew
+rlabel metal2 s 1143 -186574 1203 -186514 4 s59
+port 318 nsew
+rlabel metal2 s 2208 -199189 2268 -199129 4 s60
+port 319 nsew
+rlabel metal2 s 1146 -194763 1206 -194703 4 s61
+port 320 nsew
+rlabel metal2 s 1144 -191608 1204 -191548 4 s62
+port 321 nsew
+rlabel metal2 s 1144 -188454 1204 -188394 4 s63
+port 322 nsew
+<< properties >>
+string path -24.765 -968.750 -24.765 -906.130 
+<< end >>

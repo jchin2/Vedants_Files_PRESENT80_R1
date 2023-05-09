@@ -1,0 +1,65 @@
+timestamp 1670967604
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use nmos_1v8_lvt_4p5_10finger$1$1 nmos_1v8_lvt_4p5_10finger$1$1_0 1 0 -2024 0 1 260
+use nmos_1v8_lvt_4p5_body_10finger$2 nmos_1v8_lvt_4p5_body_10finger$2_0 1 0 -3524 0 1 260
+node "li_n1754_230#" 461 533.241 -1754 230 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57600 2960 0 0 0 0 0 0 0 0 0 0 0 0
+node "li_n1900_1170#" 654 656.786 -1900 1170 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59092 3544 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_n1824_209#" 2555 929.753 -1824 209 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47700 3240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_n1900_1170#" "li_n1754_230#" 42.8433
+cap "li_n1900_1170#" "a_n1824_209#" 9.18055
+cap "li_n1754_230#" "a_n1824_209#" 53.6986
+cap "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" 4.17115
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 4.56979
+cap "nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 0.332611
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0#" 1.23087
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" 2.96113
+cap "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 6.63626
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" 4.56979
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_n40_30#" 0.00074704
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" 25.3268
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 67.7542
+cap "nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 7.29445
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" 88.5034
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0#" 6.33339
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 775.877
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" 4.66869
+cap "nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" -0.460533
+cap "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 16.1094
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0#" 11.3333
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0#" 0.349928
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" 22.2378
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" 0.0444201
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_200_0#" 0.141384
+cap "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" 0.499202
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 20.4704
+cap "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 198.376
+cap "nmos_1v8_lvt_4p5_body_10finger$2_0/a_230_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" 0.226426
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1580_30#" "nmos_1v8_lvt_4p5_body_10finger$2_0/a_80_30#" -817.718 0 0 0 0 0 0 0 0 -108000 -2040 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -68800 -2288 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_4p5_body_10finger$2_0/a_80_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1280_30#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1280_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_980_30#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_980_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_680_30#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_680_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_380_30#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_380_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_80_30#" "li_n1900_1170#"
+merge "nmos_1v8_lvt_4p5_body_10finger$2_0/a_n40_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/VSUBS" "VSUBS"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1550_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1400_0#" -185.319 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1400_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1250_0#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1250_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1100_0#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1100_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_950_0#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_950_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_800_0#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_800_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_650_0#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_650_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_500_0#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_500_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_350_0#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_350_0#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_200_0#" "a_n1824_209#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1430_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1130_30#" -362.584 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -400 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_1130_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_830_30#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_830_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_530_30#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_530_30#" "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#"
+merge "nmos_1v8_lvt_4p5_10finger$1$1_0/a_230_30#" "li_n1754_230#"

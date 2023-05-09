@@ -1,0 +1,15 @@
+* NGSPICE file created from CMOS_4in_AND.ext - technology: sky130A
+
+.subckt CMOS_4in_AND GND OUT A B C D VDD
+X0 a_n1300_870# B VDD VDD sky130_fd_pr__pfet_01v8 ad=3.6e+12p pd=1.44e+07u as=7.2e+12p ps=2.88e+07u w=3e+06u l=150000u
+X1 a_n1300_870# D VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X2 OUT a_n1300_870# VDD VDD sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=0p ps=0u w=3e+06u l=150000u
+X3 a_n1000_260# B a_n1150_260# GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X4 VDD A a_n1300_870# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X5 VDD C a_n1300_870# VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X6 a_n1300_260# D GND GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=1.8e+12p ps=8.4e+06u w=1.5e+06u l=150000u
+X7 OUT a_n1300_870# GND GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=0p ps=0u w=1.5e+06u l=150000u
+X8 a_n1300_870# A a_n1000_260# GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=0p ps=0u w=1.5e+06u l=150000u
+X9 a_n1150_260# C a_n1300_260# GND sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.5e+06u l=150000u
+.ends
+

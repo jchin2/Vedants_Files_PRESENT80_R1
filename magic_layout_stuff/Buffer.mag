@@ -1,0 +1,29 @@
+magic
+tech sky130A
+timestamp 1662418877
+<< locali >>
+rect 0 20 25 40
+rect 445 20 470 40
+<< metal1 >>
+rect -5 270 25 560
+rect 135 270 235 560
+rect 0 60 25 200
+rect 135 60 235 200
+use CMOS_INV  CMOS_INV_0
+timestamp 1662342865
+transform 1 0 1260 0 1 -410
+box -1260 410 -1025 1000
+use CMOS_INV  CMOS_INV_1
+timestamp 1662342865
+transform 1 0 1495 0 1 -410
+box -1260 410 -1025 1000
+<< labels >>
+rlabel metal1 -5 410 -5 410 7 VP
+port 0 w
+rlabel metal1 0 130 0 130 7 VN
+port 3 w
+rlabel locali 0 25 0 25 7 A
+port 1 w
+rlabel locali 470 25 470 25 7 OUT
+port 2 w
+<< end >>

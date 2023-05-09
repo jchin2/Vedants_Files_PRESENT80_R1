@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1670986233
+use sky130_fd_pr__cap_mim_m3_1_N6UQRQ  sky130_fd_pr__cap_mim_m3_1_N6UQRQ_0
+timestamp 1670986233
+transform 1 0 -2669 0 1 -2570
+box -7369 -7650 7488 7650
+<< end >>

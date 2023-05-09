@@ -1,0 +1,9 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1671306811
+use sky130_fd_pr__res_generic_po_ENKXMX  sky130_fd_pr__res_generic_po_ENKXMX_0
+timestamp 1671306811
+transform 1 0 140 0 1 239
+box -160 -239 160 239
+<< end >>

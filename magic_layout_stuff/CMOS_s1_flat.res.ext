@@ -1,0 +1,1344 @@
+scale 1000 1 500000
+rnode "x1_bar.t0" 0 445.432 1720 799 0
+rnode "x1_bar.t1" 0 395.841 1870 39 0
+rnode "x1_bar" 0 7979.96 -1135 1206 0
+rnode "CMOS_XOR_0/A_bar" 0 1118.77 1828 -198 0
+resist "CMOS_XOR_0/A_bar" "x1_bar" 47.5747
+resist "CMOS_XOR_0/A_bar" "x1_bar.t1" 392.02
+resist "x1_bar.t1" "x1_bar.t0" 1345.61
+rnode "x1.t3" 0 279.821 1570 799 0
+rnode "x1.t0" 0 109.59 1420 39 0
+rnode "x1.n0" 0 310.857 1395 244 0
+rnode "CMOS_XOR_0/A" 0 40.1254 1378 227 0
+rnode "x1.n1" 0 1581.34 1395 244 0
+rnode "x1.t2" 0 310.494 -43 -1389 0
+rnode "x1.t1" 0 257.037 -43 -629 0
+rnode "x1.n2" 0 412.463 -68 -409 0
+rnode "x1" 0 4758.84 -1249 1267 0
+rnode "CMOS_3in_AND_0/B" 0 429.434 -85 -426 0
+resist "CMOS_3in_AND_0/B" "x1.n2" 2.72
+resist "x1.n1" "CMOS_XOR_0/A" 2.72
+resist "x1.n1" "x1.n0" 8.76379
+resist "x1.n2" "x1.n1" 211.591
+resist "CMOS_3in_AND_0/B" "x1" 355.219
+resist "x1.n0" "x1.t0" 356.59
+resist "x1.n2" "x1.t1" 389.3
+resist "x1.n0" "x1.t3" 993.097
+resist "x1.t1" "x1.t2" 1221.07
+rnode "CMOS_3in_AND_0/OUT.t2" 0 95.2525 2877 -629 0
+rnode "CMOS_3in_AND_0/OUT.t3" 0 114.478 2877 -1389 0
+rnode "CMOS_3in_AND_0/OUT.t1" 0 307.613 512 -1389 0
+rnode "CMOS_3in_AND_0/OUT.t0" 0 284.244 512 -629 0
+rnode "CMOS_3in_AND_0/OUT" 0 188.479 555 -941 0
+rnode "CMOS_3in_AND_0/OUT.n0" 0 694.554 572 -1151 0
+rnode "CMOS_3in_OR_0/C" 0 415.38 2855 -1776 0
+resist "CMOS_3in_AND_0/OUT.n0" "CMOS_3in_AND_0/OUT.t1" 45.1562
+resist "CMOS_3in_AND_0/OUT.n0" "CMOS_3in_AND_0/OUT" 91.7169
+resist "CMOS_3in_AND_0/OUT" "CMOS_3in_AND_0/OUT.t0" 117.958
+resist "CMOS_3in_OR_0/C" "CMOS_3in_AND_0/OUT.t3" 633.02
+resist "CMOS_3in_OR_0/C" "CMOS_3in_AND_0/OUT.n0" 787.238
+resist "CMOS_3in_AND_0/OUT.t3" "CMOS_3in_AND_0/OUT.t2" 1221.07
+rnode "x0.t0" 0 143.099 12 799 0
+rnode "x0.t1" 0 56.0436 -138 39 0
+rnode "x0.n0" 0 160.062 -163 244 0
+rnode "x0" 0 2455.12 -1477 1267 0
+rnode "CMOS_XNOR_0/A" 0 255.672 -180 227 0
+resist "CMOS_XNOR_0/A" "x0.n0" 78.72
+resist "x0.n0" "x0.t1" 356.59
+resist "CMOS_XNOR_0/A" "x0" 393.477
+resist "x0.n0" "x0.t0" 993.097
+rnode "x3_bar.t3" 0 165.246 1720 39 0
+rnode "x3_bar.t1" 0 151.267 1420 799 0
+rnode "x3_bar" 0 705.919 -678 1208 0
+rnode "x3_bar.t2" 0 161.496 107 -629 0
+rnode "x3_bar.t0" 0 193.462 107 -1389 0
+rnode "CMOS_3in_AND_0/A" 0 27.1313 115 -1776 0
+rnode "x3_bar.n0" 0 302.3 132 -1759 0
+rnode "x3_bar.n1" 0 3619.03 -649 -181 0
+rnode "x3_bar.n2" 0 979.604 1365 435 0
+rnode "CMOS_XOR_0/B_bar" 0 24.5474 1342 410 0
+resist "x3_bar.n1" "x3_bar" 2.1666
+resist "x3_bar.n0" "CMOS_3in_AND_0/A" 2.72
+resist "CMOS_XOR_0/B_bar" "x3_bar.n2" 3.68
+resist "x3_bar.n2" "x3_bar.n1" 12.4109
+resist "x3_bar.n1" "x3_bar.n0" 41.0049
+resist "x3_bar.n2" "x3_bar.t3" 528.72
+resist "x3_bar.n2" "x3_bar.t1" 616.084
+resist "x3_bar.n0" "x3_bar.t0" 630.3
+resist "x3_bar.t0" "x3_bar.t2" 1221.07
+rnode "x0_bar.t2" 0 331.682 162 799 0
+rnode "x0_bar.t0" 0 294.756 312 39 0
+rnode "x0_bar" 0 1026.7 -1364 1206 0
+rnode "x0_bar.t3" 0 139.919 -193 -629 0
+rnode "x0_bar.t1" 0 210.01 -193 -1389 0
+rnode "x0_bar.n0" 0 251.828 -218 -1009 0
+rnode "CMOS_3in_AND_0/C" 0 428.983 -235 -1026 0
+rnode "x0_bar.n1" 0 4415.98 -1333 -181 0
+rnode "CMOS_XNOR_0/A_bar" 0 720.14 270 -198 0
+resist "x0_bar.n1" "x0_bar" 2.16632
+resist "CMOS_3in_AND_0/C" "x0_bar.n0" 78.72
+resist "x0_bar.n1" "CMOS_3in_AND_0/C" 339.092
+resist "CMOS_XNOR_0/A_bar" "x0_bar.t0" 392.02
+resist "CMOS_XNOR_0/A_bar" "x0_bar.n1" 507.08
+resist "x0_bar.n0" "x0_bar.t1" 570.366
+resist "x0_bar.n0" "x0_bar.t3" 570.366
+resist "x0_bar.t0" "x0_bar.t2" 1345.61
+rnode "x2.t1" 0 747.456 12 39 0
+rnode "x2.t0" 0 502.401 312 799 0
+rnode "x2" 0 4440.14 -1021 1268 0
+rnode "CMOS_XNOR_0/B" 0 590.005 270 1152 0
+resist "CMOS_XNOR_0/B" "x2" 390.114
+resist "CMOS_XNOR_0/B" "x2.t0" 633.02
+resist "x2.t0" "x2.t1" 924.95
+rnode "x2_bar.t2" 0 252.531 162 39 0
+rnode "x2_bar.t1" 0 251.373 -138 799 0
+rnode "x2_bar.n0" 0 674.814 -193 435 0
+rnode "x2_bar" 0 682.154 -908 1207 0
+rnode "x2_bar.t3" 0 218.481 2577 799 0
+rnode "x2_bar.t0" 0 149.317 2577 39 0
+rnode "x2_bar.n1" 0 305.144 2522 429 0
+rnode "CMOS_AND_0/B" 0 41.4625 2505 412 0
+rnode "x2_bar.n2" 0 1808.12 2522 429 0
+rnode "x2_bar.n3" 0 5688.05 -877 435 0
+rnode "CMOS_XNOR_0/B_bar" 0 238.552 -216 410 0
+resist "x2_bar.n3" "x2_bar" 1.20532
+resist "x2_bar.n2" "CMOS_AND_0/B" 2.72
+resist "CMOS_XNOR_0/B_bar" "x2_bar.n0" 3.68
+resist "x2_bar.n2" "x2_bar.n1" 8.76379
+resist "x2_bar.n3" "x2_bar.n2" 19.6906
+resist "CMOS_XNOR_0/B_bar" "x2_bar.n3" 198.92
+resist "x2_bar.n0" "x2_bar.t2" 528.72
+resist "x2_bar.n1" "x2_bar.t3" 547.727
+resist "x2_bar.n1" "x2_bar.t0" 579.86
+resist "x2_bar.n0" "x2_bar.t1" 683.32
+rnode "x3.t3" 0 484.531 1570 39 0
+rnode "x3.t0" 0 325.677 1870 799 0
+rnode "x3" 0 101.182 -793 1268 0
+rnode "x3.t2" 0 86.4266 1365 -629 0
+rnode "x3.t1" 0 126.459 1365 -1389 0
+rnode "x3.n0" 0 176.621 1310 -1019 0
+rnode "CMOS_AND_1/B" 0 23.999 1293 -1036 0
+rnode "x3.n1" 0 929.404 1310 -1019 0
+rnode "x3.n2" 0 3656.04 -763 1165 0
+rnode "CMOS_XOR_0/B" 0 309.664 1828 1152 0
+resist "x3.n2" "x3" 0.156599
+resist "x3.n1" "CMOS_AND_1/B" 2.72
+resist "x3.n1" "x3.n0" 8.76379
+resist "x3.n2" "x3.n1" 14.1999
+resist "CMOS_XOR_0/B" "x3.n2" 42.8939
+resist "x3.n0" "x3.t1" 547.727
+resist "x3.n0" "x3.t2" 579.86
+resist "CMOS_XOR_0/B" "x3.t0" 633.02
+resist "x3.t0" "x3.t3" 924.95
+rnode "VDD.t30" 0 72.8021 2742 799 0
+rnode "VDD.t14" 0 72.8021 3102 799 0
+rnode "VDD.n0" 0 205.244 3249 1283 0
+rnode "VDD.n1" 0 18.9529 3177 1283 0
+rnode "VDD.n2" 0 15.1623 3177 1283 0
+rnode "VDD.n3" 0 153.412 3177 1283 0
+rnode "VDD.t13" 0 98.277 3117 799 0
+rnode "VDD.n4" 0 101.714 3105 1283 0
+rnode "VDD.n5" 0 18.9529 3105 1283 0
+rnode "VDD.n6" 0 15.1623 3105 1283 0
+rnode "VDD.n7" 0 55.2179 3105 1283 0
+rnode "VDD.n8" 0 378.278 3042 1233 0
+rnode "VDD.n9" 0 174.367 3033 1283 0
+rnode "VDD.n10" 0 18.9529 3033 1283 0
+rnode "VDD.n11" 0 15.1623 3033 1283 0
+rnode "VDD.n12" 0 10.661 3033 1283 0
+rnode "VDD.n13" 0 174.367 2961 1283 0
+rnode "VDD.n14" 0 18.9529 2961 1283 0
+rnode "VDD.n15" 0 15.1623 2961 1283 0
+rnode "VDD.n16" 0 18.9529 2961 1283 0
+rnode "VDD.n17" 0 174.367 2889 1283 0
+rnode "VDD.n18" 0 18.9529 2889 1283 0
+rnode "VDD.n19" 0 15.1623 2889 1283 0
+rnode "VDD.n20" 0 18.9529 2889 1283 0
+rnode "VDD.n21" 0 174.367 2817 1283 0
+rnode "VDD.n22" 0 18.9529 2817 1283 0
+rnode "VDD.n23" 0 15.1623 2817 1283 0
+rnode "VDD.n24" 0 11.3191 2817 1283 0
+rnode "VDD.n25" 0 371.434 2803 1233 0
+rnode "VDD.t27" 0 72.8021 2562 799 0
+rnode "VDD.n26" 0 146.695 2037 1283 0
+rnode "VDD.t3" 0 72.8021 1885 799 0
+rnode "CMOS_XOR_0/VDD" 0 9.47647 1585 1263 0
+rnode "VDD.n27" 0 131.986 1533 1283 0
+rnode "VDD.n28" 0 18.9529 1533 1283 0
+rnode "VDD.t23" 0 72.8021 1405 799 0
+rnode "VDD.n29" 0 171.329 839 1283 0
+rnode "VDD.t18" 0 72.8021 698 799 0
+rnode "VDD.t39" 0 72.8021 327 799 0
+rnode "CMOS_XNOR_0/VDD" 0 9.47647 27 1263 0
+rnode "VDD.t28" 0 87.1835 12 799 0
+rnode "VDD.n30" 0 129.564 47 1283 0
+rnode "VDD.n31" 0 18.9529 47 1283 0
+rnode "VDD.t10" 0 72.8021 -153 799 0
+rnode "VDD.t32" 0 47.3823 -58 -1389 0
+rnode "VDD.t12" 0 47.3823 -178 -1389 0
+rnode "VDD.n32" 0 193.069 -118 -1161 0
+rnode "CMOS_3in_AND_0/VDD" 0 9.47647 27 -1893 0
+rnode "VDD.t21" 0 72.8018 122 -1389 0
+rnode "VDD.t34" 0 72.8018 482 -1389 0
+rnode "VDD.t25" 0 72.8018 1350 -1389 0
+rnode "CMOS_AND_1/VDD" 0 7.63382 1585 -1893 0
+rnode "VDD.t6" 0 72.8018 1890 -1389 0
+rnode "VDD.t8" 0 72.8018 2562 -1389 0
+rnode "CMOS_3in_OR_0/VDD" 0 9.47647 2797 -1893 0
+rnode "VDD.t16" 0 72.8018 3252 -1389 0
+rnode "VDD.n33" 0 204.276 3321 -1873 0
+rnode "VDD.n34" 0 18.9529 3321 -1873 0
+rnode "VDD.n35" 0 15.1623 3321 -1873 0
+rnode "VDD.n36" 0 165.925 3321 -1873 0
+rnode "VDD.t15" 0 99.1192 3267 -1389 0
+rnode "VDD.n37" 0 108.979 3249 -1873 0
+rnode "VDD.n38" 0 18.9529 3249 -1873 0
+rnode "VDD.n39" 0 15.1623 3249 -1873 0
+rnode "VDD.n40" 0 50.9649 3249 -1873 0
+rnode "VDD.n41" 0 378.278 3193 -1823 0
+rnode "VDD.n42" 0 174.367 3177 -1873 0
+rnode "VDD.n43" 0 18.9529 3177 -1873 0
+rnode "VDD.n44" 0 15.1623 3177 -1873 0
+rnode "VDD.n45" 0 11.5823 3177 -1873 0
+rnode "VDD.n46" 0 174.367 3105 -1873 0
+rnode "VDD.n47" 0 18.9529 3105 -1873 0
+rnode "VDD.n48" 0 15.1623 3105 -1873 0
+rnode "VDD.n49" 0 18.9529 3105 -1873 0
+rnode "VDD.n50" 0 174.367 3033 -1873 0
+rnode "VDD.n51" 0 18.9529 3033 -1873 0
+rnode "VDD.n52" 0 15.1623 3033 -1873 0
+rnode "VDD.n53" 0 18.9529 3033 -1873 0
+rnode "VDD.n54" 0 174.367 2961 -1873 0
+rnode "VDD.n55" 0 18.9529 2961 -1873 0
+rnode "VDD.n56" 0 15.1623 2961 -1873 0
+rnode "VDD.n57" 0 18.9529 2961 -1873 0
+rnode "VDD.t1" 0 87.1835 2877 -1389 0
+rnode "VDD.n58" 0 101.714 2889 -1873 0
+rnode "VDD.n59" 0 18.9529 2889 -1873 0
+rnode "VDD.n60" 0 15.1623 2889 -1873 0
+rnode "VDD.n61" 0 18.9529 2889 -1873 0
+rnode "VDD.n62" 0 12.1088 2817 -1873 0
+rnode "VDD.n63" 0 159.836 2817 -1873 0
+rnode "VDD.n64" 0 18.9529 2817 -1873 0
+rnode "VDD.n65" 0 15.1623 2817 -1873 0
+rnode "VDD.t35" 0 87.1835 2727 -1389 0
+rnode "VDD.n66" 0 108.979 2745 -1873 0
+rnode "VDD.n67" 0 18.9529 2745 -1873 0
+rnode "VDD.n68" 0 15.1623 2745 -1873 0
+rnode "VDD.n69" 0 16.3206 2745 -1873 0
+rnode "VDD.n70" 0 152.571 2673 -1873 0
+rnode "VDD.n71" 0 18.9529 2673 -1873 0
+rnode "VDD.n72" 0 15.1623 2673 -1873 0
+rnode "VDD.n73" 0 18.9529 2673 -1873 0
+rnode "VDD.t7" 0 100.057 2577 -1389 0
+rnode "VDD.n74" 0 116.245 2601 -1873 0
+rnode "VDD.n75" 0 18.9529 2601 -1873 0
+rnode "VDD.n76" 0 15.1623 2601 -1873 0
+rnode "VDD.n77" 0 18.9529 2601 -1873 0
+rnode "VDD.n78" 0 191.579 2529 -1873 0
+rnode "VDD.n79" 0 18.9529 2529 -1873 0
+rnode "VDD.n80" 0 15.1623 2529 -1873 0
+rnode "VDD.n81" 0 13.0301 2529 -1873 0
+rnode "VDD.n82" 0 378.278 2502 -1823 0
+rnode "VDD.n83" 0 184.531 2457 -1873 0
+rnode "VDD.n84" 0 61.2022 2457 -1873 0
+rnode "VDD.n85" 0 157.783 2037 -1873 0
+rnode "VDD.n86" 0 64.7558 2037 -1873 0
+rnode "VDD.n87" 0 197.257 1965 -1873 0
+rnode "VDD.n88" 0 18.9529 1965 -1873 0
+rnode "VDD.n89" 0 15.1623 1965 -1873 0
+rnode "VDD.n90" 0 18.9529 1965 -1873 0
+rnode "VDD.t5" 0 98.2769 1905 -1389 0
+rnode "VDD.n91" 0 101.714 1893 -1873 0
+rnode "VDD.n92" 0 18.9529 1893 -1873 0
+rnode "VDD.n93" 0 15.1623 1893 -1873 0
+rnode "VDD.n94" 0 17.7684 1893 -1873 0
+rnode "VDD.n95" 0 378.278 1830 -1823 0
+rnode "VDD.n96" 0 174.367 1821 -1873 0
+rnode "VDD.n97" 0 18.9529 1821 -1873 0
+rnode "VDD.n98" 0 15.1623 1821 -1873 0
+rnode "VDD.n99" 0 10.661 1821 -1873 0
+rnode "VDD.n100" 0 174.367 1749 -1873 0
+rnode "VDD.n101" 0 18.9529 1749 -1873 0
+rnode "VDD.n102" 0 15.1623 1749 -1873 0
+rnode "VDD.n103" 0 18.9529 1749 -1873 0
+rnode "VDD.n104" 0 174.367 1677 -1873 0
+rnode "VDD.n105" 0 18.9529 1677 -1873 0
+rnode "VDD.n106" 0 15.1623 1677 -1873 0
+rnode "VDD.n107" 0 18.9529 1677 -1873 0
+rnode "VDD.t37" 0 72.8018 1530 -1389 0
+rnode "VDD.n108" 0 371.434 1591 -1823 0
+rnode "VDD.n109" 0 11.3191 1605 -1873 0
+rnode "VDD.n110" 0 174.367 1605 -1873 0
+rnode "VDD.n111" 0 18.9529 1605 -1873 0
+rnode "VDD.n112" 0 15.1623 1605 -1873 0
+rnode "VDD.t36" 0 87.1835 1515 -1389 0
+rnode "VDD.n113" 0 108.979 1533 -1873 0
+rnode "VDD.n114" 0 18.9529 1533 -1873 0
+rnode "VDD.n115" 0 15.1623 1533 -1873 0
+rnode "VDD.n116" 0 16.3206 1533 -1873 0
+rnode "VDD.n117" 0 152.571 1461 -1873 0
+rnode "VDD.n118" 0 18.9529 1461 -1873 0
+rnode "VDD.n119" 0 15.1623 1461 -1873 0
+rnode "VDD.n120" 0 18.9529 1461 -1873 0
+rnode "VDD.t24" 0 100.057 1365 -1389 0
+rnode "VDD.n121" 0 116.245 1389 -1873 0
+rnode "VDD.n122" 0 18.9529 1389 -1873 0
+rnode "VDD.n123" 0 15.1623 1389 -1873 0
+rnode "VDD.n124" 0 18.9529 1389 -1873 0
+rnode "VDD.n125" 0 191.579 1317 -1873 0
+rnode "VDD.n126" 0 18.9529 1317 -1873 0
+rnode "VDD.n127" 0 15.1623 1317 -1873 0
+rnode "VDD.n128" 0 13.0301 1317 -1873 0
+rnode "VDD.n129" 0 378.278 1290 -1823 0
+rnode "VDD.n130" 0 184.531 1245 -1873 0
+rnode "VDD.n131" 0 87.7889 1245 -1873 0
+rnode "VDD.n132" 0 171.328 623 -1873 0
+rnode "VDD.n133" 0 91.3426 623 -1873 0
+rnode "VDD.n134" 0 195.611 551 -1873 0
+rnode "VDD.n135" 0 18.9529 551 -1873 0
+rnode "VDD.n136" 0 15.1623 551 -1873 0
+rnode "VDD.n137" 0 18.9529 551 -1873 0
+rnode "VDD.t33" 0 99.1192 497 -1389 0
+rnode "VDD.n138" 0 108.979 479 -1873 0
+rnode "VDD.n139" 0 18.9529 479 -1873 0
+rnode "VDD.n140" 0 15.1623 479 -1873 0
+rnode "VDD.n141" 0 16.9787 479 -1873 0
+rnode "VDD.n142" 0 378.278 422 -1823 0
+rnode "VDD.n143" 0 174.367 407 -1873 0
+rnode "VDD.n144" 0 18.9529 407 -1873 0
+rnode "VDD.n145" 0 15.1623 407 -1873 0
+rnode "VDD.n146" 0 11.4507 407 -1873 0
+rnode "VDD.n147" 0 174.367 335 -1873 0
+rnode "VDD.n148" 0 18.9529 335 -1873 0
+rnode "VDD.n149" 0 15.1623 335 -1873 0
+rnode "VDD.n150" 0 18.9529 335 -1873 0
+rnode "VDD.n151" 0 174.367 263 -1873 0
+rnode "VDD.n152" 0 18.9529 263 -1873 0
+rnode "VDD.n153" 0 15.1623 263 -1873 0
+rnode "VDD.n154" 0 18.9529 263 -1873 0
+rnode "VDD.n155" 0 174.367 191 -1873 0
+rnode "VDD.n156" 0 18.9529 191 -1873 0
+rnode "VDD.n157" 0 15.1623 191 -1873 0
+rnode "VDD.n158" 0 10.661 191 -1873 0
+rnode "VDD.n159" 0 378.278 182 -1823 0
+rnode "VDD.t20" 0 87.1835 107 -1389 0
+rnode "VDD.n160" 0 101.714 119 -1873 0
+rnode "VDD.n161" 0 18.9529 119 -1873 0
+rnode "VDD.n162" 0 15.1623 119 -1873 0
+rnode "VDD.n163" 0 17.7684 119 -1873 0
+rnode "VDD.n164" 0 12.1088 47 -1873 0
+rnode "VDD.n165" 0 159.836 47 -1873 0
+rnode "VDD.n166" 0 18.9529 47 -1873 0
+rnode "VDD.n167" 0 15.1623 47 -1873 0
+rnode "VDD.t31" 0 87.1835 -43 -1389 0
+rnode "VDD.n168" 0 108.979 -25 -1873 0
+rnode "VDD.n169" 0 18.9529 -25 -1873 0
+rnode "VDD.n170" 0 15.1623 -25 -1873 0
+rnode "VDD.n171" 0 16.3206 -25 -1873 0
+rnode "VDD.n172" 0 152.571 -97 -1873 0
+rnode "VDD.n173" 0 18.9529 -97 -1873 0
+rnode "VDD.n174" 0 15.1623 -97 -1873 0
+rnode "VDD.n175" 0 12.2404 -97 -1873 0
+rnode "VDD.n176" 0 163.246 -118 -1823 0
+rnode "VDD.t11" 0 100.057 -193 -1389 0
+rnode "VDD.n177" 0 116.245 -169 -1873 0
+rnode "VDD.n178" 0 18.9529 -169 -1873 0
+rnode "VDD.n179" 0 15.1623 -169 -1873 0
+rnode "VDD.n180" 0 16.189 -169 -1873 0
+rnode "VDD.n181" 0 191.579 -241 -1873 0
+rnode "VDD.n182" 0 18.9529 -241 -1873 0
+rnode "VDD.n183" 0 15.1623 -241 -1873 0
+rnode "VDD.n184" 0 18.9529 -241 -1873 0
+rnode "VDD.n185" 0 184.531 -313 -1873 0
+rnode "VDD.n186" 0 360.686 -313 -1873 0
+rnode "VDD" 0 7.63382 -443 1267 0
+rnode "VDD.n187" 0 348.417 -421 1233 0
+rnode "VDD.n188" 0 106.916 -313 1283 0
+rnode "VDD.n189" 0 23.6912 -313 1283 0
+rnode "VDD.n190" 0 195.432 -241 1283 0
+rnode "VDD.n191" 0 18.9529 -241 1283 0
+rnode "VDD.n192" 0 15.1623 -241 1283 0
+rnode "VDD.n193" 0 13.1618 -241 1283 0
+rnode "VDD.n194" 0 378.278 -213 1233 0
+rnode "VDD.t9" 0 87.1835 -138 799 0
+rnode "VDD.n195" 0 134.464 -169 1283 0
+rnode "VDD.n196" 0 18.9529 -169 1283 0
+rnode "VDD.n197" 0 15.1623 -169 1283 0
+rnode "VDD.n198" 0 15.2676 -169 1283 0
+rnode "VDD.n199" 0 136.83 -97 1283 0
+rnode "VDD.n200" 0 18.9529 -97 1283 0
+rnode "VDD.n201" 0 15.1623 -97 1283 0
+rnode "VDD.n202" 0 18.9529 -97 1283 0
+rnode "VDD.n203" 0 16.3206 -25 1283 0
+rnode "VDD.n204" 0 131.986 -25 1283 0
+rnode "VDD.n205" 0 18.9529 -25 1283 0
+rnode "VDD.n206" 0 15.1623 -25 1283 0
+rnode "VDD.n207" 0 15.1623 47 1283 0
+rnode "VDD.n208" 0 12.1088 47 1283 0
+rnode "VDD.n209" 0 139.251 119 1283 0
+rnode "VDD.n210" 0 18.9529 119 1283 0
+rnode "VDD.n211" 0 15.1623 119 1283 0
+rnode "VDD.n212" 0 18.9529 119 1283 0
+rnode "VDD.t19" 0 87.1835 162 799 0
+rnode "VDD.n213" 0 122.299 191 1283 0
+rnode "VDD.n214" 0 18.9529 191 1283 0
+rnode "VDD.n215" 0 15.1623 191 1283 0
+rnode "VDD.n216" 0 18.9529 191 1283 0
+rnode "VDD.n217" 0 146.517 263 1283 0
+rnode "VDD.n218" 0 18.9529 263 1283 0
+rnode "VDD.n219" 0 15.1623 263 1283 0
+rnode "VDD.n220" 0 18.9529 263 1283 0
+rnode "VDD.t38" 0 87.1835 312 799 0
+rnode "VDD.n221" 0 115.034 335 1283 0
+rnode "VDD.n222" 0 18.9529 335 1283 0
+rnode "VDD.n223" 0 15.1623 335 1283 0
+rnode "VDD.n224" 0 16.3206 335 1283 0
+rnode "VDD.n225" 0 378.278 387 1233 0
+rnode "VDD.n226" 0 174.367 407 1283 0
+rnode "VDD.n227" 0 18.9529 407 1283 0
+rnode "VDD.n228" 0 15.1623 407 1283 0
+rnode "VDD.n229" 0 12.1088 407 1283 0
+rnode "VDD.n230" 0 174.367 479 1283 0
+rnode "VDD.n231" 0 18.9529 479 1283 0
+rnode "VDD.n232" 0 15.1623 479 1283 0
+rnode "VDD.n233" 0 18.9529 479 1283 0
+rnode "VDD.n234" 0 174.367 551 1283 0
+rnode "VDD.n235" 0 18.9529 551 1283 0
+rnode "VDD.n236" 0 15.1623 551 1283 0
+rnode "VDD.n237" 0 18.9529 551 1283 0
+rnode "VDD.n238" 0 174.367 623 1283 0
+rnode "VDD.n239" 0 18.9529 623 1283 0
+rnode "VDD.n240" 0 15.1623 623 1283 0
+rnode "VDD.n241" 0 11.4507 623 1283 0
+rnode "VDD.n242" 0 378.278 638 1233 0
+rnode "VDD.t17" 0 99.1192 713 799 0
+rnode "VDD.n243" 0 108.979 695 1283 0
+rnode "VDD.n244" 0 18.9529 695 1283 0
+rnode "VDD.n245" 0 15.1623 695 1283 0
+rnode "VDD.n246" 0 16.9787 695 1283 0
+rnode "VDD.n247" 0 195.61 839 1283 0
+rnode "VDD.n248" 0 18.9529 767 1283 0
+rnode "VDD.n249" 0 15.1623 767 1283 0
+rnode "VDD.n250" 0 18.9529 767 1283 0
+rnode "VDD.n251" 0 62.9132 839 1283 0
+rnode "VDD.n252" 0 106.916 1245 1283 0
+rnode "VDD.n253" 0 62.9132 1245 1283 0
+rnode "VDD.n254" 0 195.432 1317 1283 0
+rnode "VDD.n255" 0 18.9529 1317 1283 0
+rnode "VDD.n256" 0 15.1623 1317 1283 0
+rnode "VDD.n257" 0 13.1618 1317 1283 0
+rnode "VDD.n258" 0 378.278 1345 1233 0
+rnode "VDD.t22" 0 87.1835 1420 799 0
+rnode "VDD.n259" 0 134.464 1389 1283 0
+rnode "VDD.n260" 0 18.9529 1389 1283 0
+rnode "VDD.n261" 0 15.1623 1389 1283 0
+rnode "VDD.n262" 0 15.2676 1389 1283 0
+rnode "VDD.n263" 0 136.83 1461 1283 0
+rnode "VDD.n264" 0 18.9529 1461 1283 0
+rnode "VDD.n265" 0 15.1623 1461 1283 0
+rnode "VDD.n266" 0 18.9529 1461 1283 0
+rnode "VDD.n267" 0 16.3206 1533 1283 0
+rnode "VDD.n268" 0 15.1623 1533 1283 0
+rnode "VDD.t0" 0 87.1835 1570 799 0
+rnode "VDD.n269" 0 129.564 1605 1283 0
+rnode "VDD.n270" 0 18.9529 1605 1283 0
+rnode "VDD.n271" 0 15.1623 1605 1283 0
+rnode "VDD.n272" 0 12.1088 1605 1283 0
+rnode "VDD.n273" 0 139.251 1677 1283 0
+rnode "VDD.n274" 0 18.9529 1677 1283 0
+rnode "VDD.n275" 0 15.1623 1677 1283 0
+rnode "VDD.n276" 0 18.9529 1677 1283 0
+rnode "VDD.t4" 0 87.1835 1720 799 0
+rnode "VDD.n277" 0 122.299 1749 1283 0
+rnode "VDD.n278" 0 18.9529 1749 1283 0
+rnode "VDD.n279" 0 15.1623 1749 1283 0
+rnode "VDD.n280" 0 18.9529 1749 1283 0
+rnode "VDD.n281" 0 146.517 1821 1283 0
+rnode "VDD.n282" 0 18.9529 1821 1283 0
+rnode "VDD.n283" 0 15.1623 1821 1283 0
+rnode "VDD.n284" 0 18.9529 1821 1283 0
+rnode "VDD.t2" 0 87.1835 1870 799 0
+rnode "VDD.n285" 0 125.055 1893 1283 0
+rnode "VDD.n286" 0 18.9529 1893 1283 0
+rnode "VDD.n287" 0 15.1623 1893 1283 0
+rnode "VDD.n288" 0 16.3206 1893 1283 0
+rnode "VDD.n289" 0 378.278 1945 1233 0
+rnode "VDD.n290" 0 208.811 2037 1283 0
+rnode "VDD.n291" 0 18.9529 1965 1283 0
+rnode "VDD.n292" 0 15.1623 1965 1283 0
+rnode "VDD.n293" 0 12.1088 1965 1283 0
+rnode "VDD.n294" 0 64.7558 2037 1283 0
+rnode "VDD.n295" 0 184.531 2457 1283 0
+rnode "VDD.n296" 0 61.2022 2457 1283 0
+rnode "VDD.n297" 0 378.278 2502 1233 0
+rnode "VDD.n298" 0 191.579 2529 1283 0
+rnode "VDD.n299" 0 18.9529 2529 1283 0
+rnode "VDD.n300" 0 15.1623 2529 1283 0
+rnode "VDD.n301" 0 13.0301 2529 1283 0
+rnode "VDD.t26" 0 100.057 2577 799 0
+rnode "VDD.n302" 0 116.245 2601 1283 0
+rnode "VDD.n303" 0 18.9529 2601 1283 0
+rnode "VDD.n304" 0 15.1623 2601 1283 0
+rnode "VDD.n305" 0 18.9529 2601 1283 0
+rnode "VDD.n306" 0 152.571 2673 1283 0
+rnode "VDD.n307" 0 18.9529 2673 1283 0
+rnode "VDD.n308" 0 15.1623 2673 1283 0
+rnode "VDD.n309" 0 18.9529 2673 1283 0
+rnode "VDD.t29" 0 87.1835 2727 799 0
+rnode "VDD.n310" 0 108.979 2745 1283 0
+rnode "VDD.n311" 0 18.9529 2745 1283 0
+rnode "VDD.n312" 0 15.1623 2745 1283 0
+rnode "VDD.n313" 0 16.3206 2745 1283 0
+rnode "CMOS_AND_0/VDD" 0 7.63382 2797 1263 0
+resist "CMOS_AND_0/VDD" "VDD.n25" 0.007
+resist "VDD.n108" "CMOS_AND_1/VDD" 0.007
+resist "VDD.n12" "VDD.n8" 0.011
+resist "VDD.n159" "VDD.n158" 0.011
+resist "VDD.n99" "VDD.n95" 0.011
+resist "VDD.n25" "VDD.n24" 0.017
+resist "VDD.n109" "VDD.n108" 0.017
+resist "VDD.n242" "VDD.n241" 0.018
+resist "VDD.n146" "VDD.n142" 0.018
+resist "VDD.n45" "VDD.n41" 0.02
+resist "VDD.n208" "CMOS_XNOR_0/VDD" 0.025
+resist "VDD.n229" "VDD.n225" 0.025
+resist "VDD.n272" "CMOS_XOR_0/VDD" 0.025
+resist "VDD.n293" "VDD.n289" 0.025
+resist "VDD.n164" "CMOS_3in_AND_0/VDD" 0.025
+resist "VDD.n62" "CMOS_3in_OR_0/VDD" 0.025
+resist "VDD.n176" "VDD.n175" 0.026
+resist "VDD.n187" "VDD" 0.027
+resist "VDD.n301" "VDD.n297" 0.033
+resist "VDD.n129" "VDD.n128" 0.033
+resist "VDD.n82" "VDD.n81" 0.033
+resist "VDD.n194" "VDD.n193" 0.035
+resist "VDD.n258" "VDD.n257" 0.035
+resist "VDD.n198" "VDD.n194" 0.055
+resist "VDD.n262" "VDD.n258" 0.055
+resist "VDD.n297" "VDD.n296" 0.056
+resist "VDD.n131" "VDD.n129" 0.056
+resist "VDD.n84" "VDD.n82" 0.056
+resist "VDD.n180" "VDD.n176" 0.063
+resist "VDD.n203" "CMOS_XNOR_0/VDD" 0.065
+resist "VDD.n225" "VDD.n224" 0.065
+resist "VDD.n267" "CMOS_XOR_0/VDD" 0.065
+resist "VDD.n289" "VDD.n288" 0.065
+resist "CMOS_AND_0/VDD" "VDD.n313" 0.065
+resist "VDD.n171" "CMOS_3in_AND_0/VDD" 0.065
+resist "VDD.n116" "CMOS_AND_1/VDD" 0.065
+resist "VDD.n69" "CMOS_3in_OR_0/VDD" 0.065
+resist "VDD.n41" "VDD.n40" 0.07
+resist "VDD.n246" "VDD.n242" 0.071
+resist "VDD.n142" "VDD.n141" 0.071
+resist "VDD.n8" "VDD.n7" 0.078
+resist "VDD.n163" "VDD.n159" 0.078
+resist "VDD.n95" "VDD.n94" 0.078
+resist "VDD.n193" "VDD.n189" 0.09
+resist "VDD.n202" "VDD.n198" 0.09
+resist "VDD.n203" "VDD.n202" 0.09
+resist "VDD.n212" "VDD.n208" 0.09
+resist "VDD.n216" "VDD.n212" 0.09
+resist "VDD.n220" "VDD.n216" 0.09
+resist "VDD.n224" "VDD.n220" 0.09
+resist "VDD.n233" "VDD.n229" 0.09
+resist "VDD.n237" "VDD.n233" 0.09
+resist "VDD.n241" "VDD.n237" 0.09
+resist "VDD.n250" "VDD.n246" 0.09
+resist "VDD.n251" "VDD.n250" 0.09
+resist "VDD.n257" "VDD.n253" 0.09
+resist "VDD.n266" "VDD.n262" 0.09
+resist "VDD.n267" "VDD.n266" 0.09
+resist "VDD.n276" "VDD.n272" 0.09
+resist "VDD.n280" "VDD.n276" 0.09
+resist "VDD.n284" "VDD.n280" 0.09
+resist "VDD.n288" "VDD.n284" 0.09
+resist "VDD.n294" "VDD.n293" 0.09
+resist "VDD.n305" "VDD.n301" 0.09
+resist "VDD.n309" "VDD.n305" 0.09
+resist "VDD.n313" "VDD.n309" 0.09
+resist "VDD.n24" "VDD.n20" 0.09
+resist "VDD.n20" "VDD.n16" 0.09
+resist "VDD.n16" "VDD.n12" 0.09
+resist "VDD.n186" "VDD.n184" 0.09
+resist "VDD.n184" "VDD.n180" 0.09
+resist "VDD.n175" "VDD.n171" 0.09
+resist "VDD.n164" "VDD.n163" 0.09
+resist "VDD.n158" "VDD.n154" 0.09
+resist "VDD.n154" "VDD.n150" 0.09
+resist "VDD.n150" "VDD.n146" 0.09
+resist "VDD.n141" "VDD.n137" 0.09
+resist "VDD.n137" "VDD.n133" 0.09
+resist "VDD.n128" "VDD.n124" 0.09
+resist "VDD.n124" "VDD.n120" 0.09
+resist "VDD.n120" "VDD.n116" 0.09
+resist "VDD.n109" "VDD.n107" 0.09
+resist "VDD.n107" "VDD.n103" 0.09
+resist "VDD.n103" "VDD.n99" 0.09
+resist "VDD.n94" "VDD.n90" 0.09
+resist "VDD.n90" "VDD.n86" 0.09
+resist "VDD.n81" "VDD.n77" 0.09
+resist "VDD.n77" "VDD.n73" 0.09
+resist "VDD.n73" "VDD.n69" 0.09
+resist "VDD.n62" "VDD.n61" 0.09
+resist "VDD.n61" "VDD.n57" 0.09
+resist "VDD.n57" "VDD.n53" 0.09
+resist "VDD.n53" "VDD.n49" 0.09
+resist "VDD.n49" "VDD.n45" 0.09
+resist "VDD.n189" "VDD.n187" 0.135
+resist "VDD.n253" "VDD.n251" 0.507
+resist "VDD.n296" "VDD.n294" 0.525
+resist "VDD.n86" "VDD.n84" 0.525
+resist "VDD.n133" "VDD.n131" 0.777
+resist "VDD.n40" "VDD.n36" 1.14459
+resist "VDD.n7" "VDD.n3" 1.14483
+resist "VDD.n176" "VDD.n32" 2.32888
+resist "VDD.n36" "VDD.n35" 2.56234
+resist "VDD.n3" "VDD.n2" 2.56247
+resist "VDD.n191" "VDD.n190" 4.28759
+resist "VDD.n255" "VDD.n254" 4.28759
+resist "VDD.n299" "VDD.n298" 4.28759
+resist "VDD.n79" "VDD.n78" 4.28759
+resist "VDD.n126" "VDD.n125" 4.28759
+resist "VDD.n182" "VDD.n181" 4.28759
+resist "VDD.n135" "VDD.n134" 4.28759
+resist "VDD.n88" "VDD.n87" 4.28759
+resist "VDD.n34" "VDD.n33" 4.28759
+resist "VDD.n248" "VDD.n247" 4.2876
+resist "VDD.n291" "VDD.n290" 4.2876
+resist "VDD.n1" "VDD.n0" 4.2876
+resist "VDD.n189" "VDD.n188" 4.65
+resist "VDD.n193" "VDD.n192" 4.65
+resist "VDD.n198" "VDD.n197" 4.65
+resist "VDD.n202" "VDD.n201" 4.65
+resist "VDD.n206" "VDD.n203" 4.65
+resist "VDD.n208" "VDD.n207" 4.65
+resist "VDD.n212" "VDD.n211" 4.65
+resist "VDD.n216" "VDD.n215" 4.65
+resist "VDD.n220" "VDD.n219" 4.65
+resist "VDD.n224" "VDD.n223" 4.65
+resist "VDD.n229" "VDD.n228" 4.65
+resist "VDD.n233" "VDD.n232" 4.65
+resist "VDD.n237" "VDD.n236" 4.65
+resist "VDD.n241" "VDD.n240" 4.65
+resist "VDD.n246" "VDD.n245" 4.65
+resist "VDD.n250" "VDD.n249" 4.65
+resist "VDD.n251" "VDD.n29" 4.65
+resist "VDD.n253" "VDD.n252" 4.65
+resist "VDD.n257" "VDD.n256" 4.65
+resist "VDD.n262" "VDD.n261" 4.65
+resist "VDD.n266" "VDD.n265" 4.65
+resist "VDD.n268" "VDD.n267" 4.65
+resist "VDD.n272" "VDD.n271" 4.65
+resist "VDD.n276" "VDD.n275" 4.65
+resist "VDD.n280" "VDD.n279" 4.65
+resist "VDD.n284" "VDD.n283" 4.65
+resist "VDD.n288" "VDD.n287" 4.65
+resist "VDD.n293" "VDD.n292" 4.65
+resist "VDD.n294" "VDD.n26" 4.65
+resist "VDD.n296" "VDD.n295" 4.65
+resist "VDD.n301" "VDD.n300" 4.65
+resist "VDD.n305" "VDD.n304" 4.65
+resist "VDD.n309" "VDD.n308" 4.65
+resist "VDD.n313" "VDD.n312" 4.65
+resist "VDD.n24" "VDD.n23" 4.65
+resist "VDD.n20" "VDD.n19" 4.65
+resist "VDD.n16" "VDD.n15" 4.65
+resist "VDD.n12" "VDD.n11" 4.65
+resist "VDD.n7" "VDD.n6" 4.65
+resist "VDD.n81" "VDD.n80" 4.65
+resist "VDD.n77" "VDD.n76" 4.65
+resist "VDD.n73" "VDD.n72" 4.65
+resist "VDD.n69" "VDD.n68" 4.65
+resist "VDD.n65" "VDD.n62" 4.65
+resist "VDD.n61" "VDD.n60" 4.65
+resist "VDD.n57" "VDD.n56" 4.65
+resist "VDD.n53" "VDD.n52" 4.65
+resist "VDD.n49" "VDD.n48" 4.65
+resist "VDD.n45" "VDD.n44" 4.65
+resist "VDD.n40" "VDD.n39" 4.65
+resist "VDD.n84" "VDD.n83" 4.65
+resist "VDD.n86" "VDD.n85" 4.65
+resist "VDD.n128" "VDD.n127" 4.65
+resist "VDD.n124" "VDD.n123" 4.65
+resist "VDD.n120" "VDD.n119" 4.65
+resist "VDD.n116" "VDD.n115" 4.65
+resist "VDD.n112" "VDD.n109" 4.65
+resist "VDD.n107" "VDD.n106" 4.65
+resist "VDD.n103" "VDD.n102" 4.65
+resist "VDD.n99" "VDD.n98" 4.65
+resist "VDD.n94" "VDD.n93" 4.65
+resist "VDD.n90" "VDD.n89" 4.65
+resist "VDD.n131" "VDD.n130" 4.65
+resist "VDD.n133" "VDD.n132" 4.65
+resist "VDD.n184" "VDD.n183" 4.65
+resist "VDD.n180" "VDD.n179" 4.65
+resist "VDD.n175" "VDD.n174" 4.65
+resist "VDD.n171" "VDD.n170" 4.65
+resist "VDD.n167" "VDD.n164" 4.65
+resist "VDD.n163" "VDD.n162" 4.65
+resist "VDD.n158" "VDD.n157" 4.65
+resist "VDD.n154" "VDD.n153" 4.65
+resist "VDD.n150" "VDD.n149" 4.65
+resist "VDD.n146" "VDD.n145" 4.65
+resist "VDD.n141" "VDD.n140" 4.65
+resist "VDD.n137" "VDD.n136" 4.65
+resist "VDD.n186" "VDD.n185" 4.65
+resist "VDD.n187" "VDD.n186" 4.91
+resist "VDD.n192" "VDD.n191" 8.85486
+resist "VDD.n196" "VDD.n195" 8.85486
+resist "VDD.n197" "VDD.n196" 8.85486
+resist "VDD.n200" "VDD.n199" 8.85486
+resist "VDD.n201" "VDD.n200" 8.85486
+resist "VDD.n205" "VDD.n204" 8.85486
+resist "VDD.n206" "VDD.n205" 8.85486
+resist "VDD.n31" "VDD.n30" 8.85486
+resist "VDD.n207" "VDD.n31" 8.85486
+resist "VDD.n210" "VDD.n209" 8.85486
+resist "VDD.n211" "VDD.n210" 8.85486
+resist "VDD.n214" "VDD.n213" 8.85486
+resist "VDD.n215" "VDD.n214" 8.85486
+resist "VDD.n218" "VDD.n217" 8.85486
+resist "VDD.n219" "VDD.n218" 8.85486
+resist "VDD.n222" "VDD.n221" 8.85486
+resist "VDD.n223" "VDD.n222" 8.85486
+resist "VDD.n227" "VDD.n226" 8.85486
+resist "VDD.n228" "VDD.n227" 8.85486
+resist "VDD.n231" "VDD.n230" 8.85486
+resist "VDD.n232" "VDD.n231" 8.85486
+resist "VDD.n235" "VDD.n234" 8.85486
+resist "VDD.n236" "VDD.n235" 8.85486
+resist "VDD.n239" "VDD.n238" 8.85486
+resist "VDD.n240" "VDD.n239" 8.85486
+resist "VDD.n244" "VDD.n243" 8.85486
+resist "VDD.n245" "VDD.n244" 8.85486
+resist "VDD.n249" "VDD.n248" 8.85486
+resist "VDD.n256" "VDD.n255" 8.85486
+resist "VDD.n260" "VDD.n259" 8.85486
+resist "VDD.n261" "VDD.n260" 8.85486
+resist "VDD.n264" "VDD.n263" 8.85486
+resist "VDD.n265" "VDD.n264" 8.85486
+resist "VDD.n28" "VDD.n27" 8.85486
+resist "VDD.n268" "VDD.n28" 8.85486
+resist "VDD.n270" "VDD.n269" 8.85486
+resist "VDD.n271" "VDD.n270" 8.85486
+resist "VDD.n274" "VDD.n273" 8.85486
+resist "VDD.n275" "VDD.n274" 8.85486
+resist "VDD.n278" "VDD.n277" 8.85486
+resist "VDD.n279" "VDD.n278" 8.85486
+resist "VDD.n282" "VDD.n281" 8.85486
+resist "VDD.n283" "VDD.n282" 8.85486
+resist "VDD.n286" "VDD.n285" 8.85486
+resist "VDD.n287" "VDD.n286" 8.85486
+resist "VDD.n292" "VDD.n291" 8.85486
+resist "VDD.n300" "VDD.n299" 8.85486
+resist "VDD.n303" "VDD.n302" 8.85486
+resist "VDD.n304" "VDD.n303" 8.85486
+resist "VDD.n307" "VDD.n306" 8.85486
+resist "VDD.n308" "VDD.n307" 8.85486
+resist "VDD.n311" "VDD.n310" 8.85486
+resist "VDD.n312" "VDD.n311" 8.85486
+resist "VDD.n22" "VDD.n21" 8.85486
+resist "VDD.n23" "VDD.n22" 8.85486
+resist "VDD.n18" "VDD.n17" 8.85486
+resist "VDD.n19" "VDD.n18" 8.85486
+resist "VDD.n14" "VDD.n13" 8.85486
+resist "VDD.n15" "VDD.n14" 8.85486
+resist "VDD.n10" "VDD.n9" 8.85486
+resist "VDD.n11" "VDD.n10" 8.85486
+resist "VDD.n5" "VDD.n4" 8.85486
+resist "VDD.n6" "VDD.n5" 8.85486
+resist "VDD.n2" "VDD.n1" 8.85486
+resist "VDD.n80" "VDD.n79" 8.85486
+resist "VDD.n75" "VDD.n74" 8.85486
+resist "VDD.n76" "VDD.n75" 8.85486
+resist "VDD.n71" "VDD.n70" 8.85486
+resist "VDD.n72" "VDD.n71" 8.85486
+resist "VDD.n67" "VDD.n66" 8.85486
+resist "VDD.n68" "VDD.n67" 8.85486
+resist "VDD.n64" "VDD.n63" 8.85486
+resist "VDD.n65" "VDD.n64" 8.85486
+resist "VDD.n59" "VDD.n58" 8.85486
+resist "VDD.n60" "VDD.n59" 8.85486
+resist "VDD.n55" "VDD.n54" 8.85486
+resist "VDD.n56" "VDD.n55" 8.85486
+resist "VDD.n51" "VDD.n50" 8.85486
+resist "VDD.n52" "VDD.n51" 8.85486
+resist "VDD.n47" "VDD.n46" 8.85486
+resist "VDD.n48" "VDD.n47" 8.85486
+resist "VDD.n43" "VDD.n42" 8.85486
+resist "VDD.n44" "VDD.n43" 8.85486
+resist "VDD.n38" "VDD.n37" 8.85486
+resist "VDD.n39" "VDD.n38" 8.85486
+resist "VDD.n127" "VDD.n126" 8.85486
+resist "VDD.n122" "VDD.n121" 8.85486
+resist "VDD.n123" "VDD.n122" 8.85486
+resist "VDD.n118" "VDD.n117" 8.85486
+resist "VDD.n119" "VDD.n118" 8.85486
+resist "VDD.n114" "VDD.n113" 8.85486
+resist "VDD.n115" "VDD.n114" 8.85486
+resist "VDD.n111" "VDD.n110" 8.85486
+resist "VDD.n112" "VDD.n111" 8.85486
+resist "VDD.n105" "VDD.n104" 8.85486
+resist "VDD.n106" "VDD.n105" 8.85486
+resist "VDD.n101" "VDD.n100" 8.85486
+resist "VDD.n102" "VDD.n101" 8.85486
+resist "VDD.n97" "VDD.n96" 8.85486
+resist "VDD.n98" "VDD.n97" 8.85486
+resist "VDD.n92" "VDD.n91" 8.85486
+resist "VDD.n93" "VDD.n92" 8.85486
+resist "VDD.n183" "VDD.n182" 8.85486
+resist "VDD.n178" "VDD.n177" 8.85486
+resist "VDD.n179" "VDD.n178" 8.85486
+resist "VDD.n173" "VDD.n172" 8.85486
+resist "VDD.n174" "VDD.n173" 8.85486
+resist "VDD.n169" "VDD.n168" 8.85486
+resist "VDD.n170" "VDD.n169" 8.85486
+resist "VDD.n166" "VDD.n165" 8.85486
+resist "VDD.n167" "VDD.n166" 8.85486
+resist "VDD.n161" "VDD.n160" 8.85486
+resist "VDD.n162" "VDD.n161" 8.85486
+resist "VDD.n156" "VDD.n155" 8.85486
+resist "VDD.n157" "VDD.n156" 8.85486
+resist "VDD.n152" "VDD.n151" 8.85486
+resist "VDD.n153" "VDD.n152" 8.85486
+resist "VDD.n148" "VDD.n147" 8.85486
+resist "VDD.n149" "VDD.n148" 8.85486
+resist "VDD.n144" "VDD.n143" 8.85486
+resist "VDD.n145" "VDD.n144" 8.85486
+resist "VDD.n139" "VDD.n138" 8.85486
+resist "VDD.n140" "VDD.n139" 8.85486
+resist "VDD.n136" "VDD.n135" 8.85486
+resist "VDD.n89" "VDD.n88" 8.85486
+resist "VDD.n35" "VDD.n34" 8.85486
+resist "VDD.n170" "VDD.n167" 11.52
+resist "VDD.n115" "VDD.n112" 11.52
+resist "VDD.n68" "VDD.n65" 11.52
+resist "VDD.n271" "VDD.n268" 11.52
+resist "VDD.n207" "VDD.n206" 11.52
+resist "VDD.n160" "VDD.t20" 12.391
+resist "VDD.n91" "VDD.t5" 12.391
+resist "VDD.n58" "VDD.t1" 12.391
+resist "VDD.n4" "VDD.t13" 12.391
+resist "VDD.n168" "VDD.t31" 18.586
+resist "VDD.n138" "VDD.t33" 18.586
+resist "VDD.n113" "VDD.t36" 18.586
+resist "VDD.n66" "VDD.t35" 18.586
+resist "VDD.n37" "VDD.t15" 18.586
+resist "VDD.n310" "VDD.t29" 18.586
+resist "VDD.n243" "VDD.t17" 18.586
+resist "VDD.n32" "VDD.t12" 19.7
+resist "VDD.n32" "VDD.t32" 19.7
+resist "VDD.n159" "VDD.t21" 22.0288
+resist "VDD.n142" "VDD.t34" 22.0288
+resist "VDD.n129" "VDD.t25" 22.0288
+resist "VDD.n108" "VDD.t37" 22.0288
+resist "VDD.n95" "VDD.t6" 22.0288
+resist "VDD.n82" "VDD.t8" 22.0288
+resist "VDD.n41" "VDD.t16" 22.0288
+resist "VDD.n8" "VDD.t14" 22.0289
+resist "VDD.n25" "VDD.t30" 22.0289
+resist "VDD.n297" "VDD.t27" 22.0289
+resist "VDD.n289" "VDD.t3" 22.0289
+resist "VDD.n258" "VDD.t23" 22.0289
+resist "VDD.n242" "VDD.t18" 22.0289
+resist "VDD.n225" "VDD.t39" 22.0289
+resist "VDD.n194" "VDD.t10" 22.0289
+resist "VDD.n285" "VDD.t2" 23.75
+resist "VDD.n221" "VDD.t38" 23.75
+resist "VDD.n177" "VDD.t11" 24.782
+resist "VDD.n121" "VDD.t24" 24.782
+resist "VDD.n74" "VDD.t7" 24.782
+resist "VDD.n302" "VDD.t26" 24.782
+resist "VDD.n277" "VDD.t4" 29.945
+resist "VDD.n213" "VDD.t19" 29.945
+resist "VDD.n259" "VDD.t22" 32.01
+resist "VDD.n195" "VDD.t9" 32.01
+resist "VDD.n269" "VDD.t0" 36.141
+resist "VDD.n30" "VDD.t28" 36.141
+rnode "s1.t0" 0 0 3282 -629 0
+rnode "s1" 0 0 3326 -917 0
+rnode "s1.n0" 0 0 3343 -922 0
+rnode "s1.n1" 0 0 3343 -900 0
+rnode "s1.t1" 0 0 3282 -1389 0
+rnode "s1.n2" 0 0 3343 -972 0
+rnode "CMOS_3in_OR_0/OR" 0 0 3325 -923 0
+resist "s1.n0" "s1" 0.373707
+resist "s1.n1" "s1.n0" 3.08442
+resist "CMOS_3in_OR_0/OR" "s1.n1" 3.68
+resist "CMOS_3in_OR_0/OR" "s1.n2" 7.84
+resist "s1.n1" "s1.t0" 98.4381
+resist "s1.n2" "s1.t1" 120.552
+rnode "GND.t27" 0 0 2892 -629 0
+rnode "GND.t15" 0 0 3102 39 0
+rnode "GND.t17" 0 0 3252 -629 0
+rnode "GND.n0" 0 0 3321 -295 0
+rnode "GND.n1" 0 0 3321 -295 0
+rnode "GND.n2" 0 0 3321 -295 0
+rnode "GND.n3" 0 0 3321 -295 0
+rnode "GND.t16" 0 0 3267 -629 0
+rnode "GND.n4" 0 0 3249 -295 0
+rnode "GND.n5" 0 0 3249 -295 0
+rnode "GND.n6" 0 0 3249 -295 0
+rnode "GND.n7" 0 0 3249 -295 0
+rnode "GND.n8" 0 0 3191 -345 0
+rnode "GND.n9" 0 0 3177 -295 0
+rnode "GND.n10" 0 0 3177 -295 0
+rnode "GND.n11" 0 0 3177 -295 0
+rnode "GND.n12" 0 0 3177 -295 0
+rnode "GND.t14" 0 0 3117 39 0
+rnode "GND.n13" 0 0 3105 -295 0
+rnode "GND.n14" 0 0 3105 -295 0
+rnode "GND.n15" 0 0 3105 -295 0
+rnode "GND.n16" 0 0 3105 -295 0
+rnode "GND.n17" 0 0 3042 -245 0
+rnode "GND.n18" 0 0 3033 -295 0
+rnode "GND.n19" 0 0 3033 -295 0
+rnode "GND.n20" 0 0 3033 -295 0
+rnode "GND.n21" 0 0 3033 -295 0
+rnode "GND.n22" 0 0 2961 -295 0
+rnode "GND.n23" 0 0 2961 -295 0
+rnode "GND.n24" 0 0 2961 -295 0
+rnode "GND.n25" 0 0 2961 -295 0
+rnode "GND.n26" 0 0 2952 -345 0
+rnode "GND.t26" 0 0 2877 -629 0
+rnode "GND.n27" 0 0 2889 -295 0
+rnode "GND.n28" 0 0 2889 -295 0
+rnode "GND.n29" 0 0 2889 -295 0
+rnode "GND.n30" 0 0 2889 -295 0
+rnode "GND.n31" 0 0 2817 -295 0
+rnode "GND.n32" 0 0 2817 -295 0
+rnode "GND.n33" 0 0 2817 -295 0
+rnode "GND.n34" 0 0 2817 -295 0
+rnode "GND.t30" 0 0 2712 -629 0
+rnode "GND.t9" 0 0 2592 -629 0
+rnode "GND.n35" 0 0 2652 -733 0
+rnode "GND.t8" 0 0 2562 39 0
+rnode "GND.n36" 0 0 2457 -295 0
+rnode "GND.t6" 0 0 1885 39 0
+rnode "GND.t1" 0 0 1890 -629 0
+rnode "CMOS_XOR_0/GND!" 0 0 1585 -315 0
+rnode "GND.t4" 0 0 1405 39 0
+rnode "GND.t32" 0 0 1350 -629 0
+rnode "GND.n37" 0 0 1245 -295 0
+rnode "GND.t19" 0 0 698 39 0
+rnode "GND.t29" 0 0 482 -629 0
+rnode "GND.t11" 0 0 327 39 0
+rnode "CMOS_XNOR_0/GND!" 0 0 27 -315 0
+rnode "GND.t24" 0 0 -153 39 0
+rnode "GND.t13" 0 0 -208 -629 0
+rnode "GND" 0 0 -552 -312 0
+rnode "GND.n38" 0 0 -313 -295 0
+rnode "GND.n39" 0 0 -268 -345 0
+rnode "GND.n40" 0 0 -241 -295 0
+rnode "GND.n41" 0 0 -241 -295 0
+rnode "GND.n42" 0 0 -241 -295 0
+rnode "GND.n43" 0 0 -241 -295 0
+rnode "GND.n44" 0 0 -213 -245 0
+rnode "GND.t23" 0 0 -138 39 0
+rnode "GND.t12" 0 0 -193 -629 0
+rnode "GND.n45" 0 0 -169 -295 0
+rnode "GND.n46" 0 0 -169 -295 0
+rnode "GND.n47" 0 0 -169 -295 0
+rnode "GND.n48" 0 0 -169 -295 0
+rnode "GND.n49" 0 0 -97 -295 0
+rnode "GND.n50" 0 0 -97 -295 0
+rnode "GND.n51" 0 0 -97 -295 0
+rnode "GND.n52" 0 0 -97 -295 0
+rnode "GND.n53" 0 0 -25 -295 0
+rnode "GND.t25" 0 0 -43 -629 0
+rnode "GND.n54" 0 0 -25 -295 0
+rnode "GND.n55" 0 0 -25 -295 0
+rnode "GND.n56" 0 0 -25 -295 0
+rnode "GND.t35" 0 0 12 39 0
+rnode "GND.n57" 0 0 47 -295 0
+rnode "GND.n58" 0 0 47 -295 0
+rnode "GND.n59" 0 0 47 -295 0
+rnode "GND.n60" 0 0 47 -295 0
+rnode "GND.t20" 0 0 107 -629 0
+rnode "GND.n61" 0 0 119 -295 0
+rnode "GND.n62" 0 0 119 -295 0
+rnode "GND.n63" 0 0 119 -295 0
+rnode "GND.n64" 0 0 119 -295 0
+rnode "GND.t21" 0 0 162 39 0
+rnode "GND.n65" 0 0 191 -295 0
+rnode "GND.n66" 0 0 191 -295 0
+rnode "GND.n67" 0 0 191 -295 0
+rnode "GND.n68" 0 0 191 -295 0
+rnode "GND.n69" 0 0 263 -295 0
+rnode "GND.n70" 0 0 263 -295 0
+rnode "GND.n71" 0 0 263 -295 0
+rnode "GND.n72" 0 0 263 -295 0
+rnode "GND.t10" 0 0 312 39 0
+rnode "GND.n73" 0 0 335 -295 0
+rnode "GND.n74" 0 0 335 -295 0
+rnode "GND.n75" 0 0 335 -295 0
+rnode "GND.n76" 0 0 335 -295 0
+rnode "GND.n77" 0 0 387 -245 0
+rnode "GND.n78" 0 0 407 -295 0
+rnode "GND.n79" 0 0 407 -295 0
+rnode "GND.n80" 0 0 407 -295 0
+rnode "GND.n81" 0 0 407 -295 0
+rnode "GND.n82" 0 0 422 -345 0
+rnode "GND.t28" 0 0 497 -629 0
+rnode "GND.n83" 0 0 479 -295 0
+rnode "GND.n84" 0 0 479 -295 0
+rnode "GND.n85" 0 0 479 -295 0
+rnode "GND.n86" 0 0 479 -295 0
+rnode "GND.n87" 0 0 551 -295 0
+rnode "GND.n88" 0 0 551 -295 0
+rnode "GND.n89" 0 0 551 -295 0
+rnode "GND.n90" 0 0 551 -295 0
+rnode "GND.t18" 0 0 713 39 0
+rnode "GND.n91" 0 0 658 -78 0
+rnode "GND.n92" 0 0 623 -295 0
+rnode "GND.n93" 0 0 623 -295 0
+rnode "GND.n94" 0 0 623 -295 0
+rnode "GND.n95" 0 0 623 -295 0
+rnode "GND.n96" 0 0 638 -245 0
+rnode "GND.n97" 0 0 695 -295 0
+rnode "GND.n98" 0 0 695 -295 0
+rnode "GND.n99" 0 0 695 -295 0
+rnode "GND.n100" 0 0 767 -295 0
+rnode "GND.n101" 0 0 767 -295 0
+rnode "GND.n102" 0 0 767 -295 0
+rnode "GND.n103" 0 0 767 -295 0
+rnode "GND.n104" 0 0 767 -295 0
+rnode "GND.n105" 0 0 839 -295 0
+rnode "GND.n106" 0 0 839 -295 0
+rnode "GND.n107" 0 0 1245 -295 0
+rnode "GND.n108" 0 0 1290 -345 0
+rnode "GND.n109" 0 0 1317 -295 0
+rnode "GND.n110" 0 0 1317 -295 0
+rnode "GND.n111" 0 0 1317 -295 0
+rnode "GND.n112" 0 0 1317 -295 0
+rnode "GND.n113" 0 0 1345 -245 0
+rnode "GND.t3" 0 0 1420 39 0
+rnode "GND.t31" 0 0 1365 -629 0
+rnode "GND.n114" 0 0 1389 -295 0
+rnode "GND.n115" 0 0 1389 -295 0
+rnode "GND.n116" 0 0 1389 -295 0
+rnode "GND.n117" 0 0 1389 -295 0
+rnode "GND.n118" 0 0 1461 -295 0
+rnode "GND.n119" 0 0 1461 -295 0
+rnode "GND.n120" 0 0 1461 -295 0
+rnode "GND.n121" 0 0 1461 -295 0
+rnode "GND.n122" 0 0 1533 -295 0
+rnode "GND.t34" 0 0 1515 -629 0
+rnode "GND.n123" 0 0 1533 -295 0
+rnode "GND.n124" 0 0 1533 -295 0
+rnode "GND.n125" 0 0 1533 -295 0
+rnode "GND.t2" 0 0 1570 39 0
+rnode "GND.n126" 0 0 1605 -295 0
+rnode "GND.n127" 0 0 1605 -295 0
+rnode "GND.n128" 0 0 1605 -295 0
+rnode "GND.n129" 0 0 1605 -295 0
+rnode "GND.n130" 0 0 1677 -295 0
+rnode "GND.n131" 0 0 1677 -295 0
+rnode "GND.n132" 0 0 1677 -295 0
+rnode "GND.n133" 0 0 1677 -295 0
+rnode "GND.t33" 0 0 1720 39 0
+rnode "GND.n134" 0 0 1749 -295 0
+rnode "GND.n135" 0 0 1749 -295 0
+rnode "GND.n136" 0 0 1749 -295 0
+rnode "GND.n137" 0 0 1749 -295 0
+rnode "GND.n138" 0 0 1821 -295 0
+rnode "GND.n139" 0 0 1821 -295 0
+rnode "GND.n140" 0 0 1821 -295 0
+rnode "GND.n141" 0 0 1821 -295 0
+rnode "GND.n142" 0 0 1830 -345 0
+rnode "GND.t0" 0 0 1905 -629 0
+rnode "GND.t5" 0 0 1870 39 0
+rnode "GND.n143" 0 0 1893 -295 0
+rnode "GND.n144" 0 0 1893 -295 0
+rnode "GND.n145" 0 0 1893 -295 0
+rnode "GND.n146" 0 0 1893 -295 0
+rnode "GND.n147" 0 0 1945 -245 0
+rnode "GND.n148" 0 0 1965 -295 0
+rnode "GND.n149" 0 0 1965 -295 0
+rnode "GND.n150" 0 0 1965 -295 0
+rnode "GND.n151" 0 0 1965 -295 0
+rnode "GND.n152" 0 0 2037 -295 0
+rnode "GND.n153" 0 0 2037 -295 0
+rnode "GND.n154" 0 0 2457 -295 0
+rnode "GND.n155" 0 0 2502 -245 0
+rnode "GND.n156" 0 0 2529 -295 0
+rnode "GND.n157" 0 0 2529 -295 0
+rnode "GND.n158" 0 0 2529 -295 0
+rnode "GND.n159" 0 0 2529 -295 0
+rnode "GND.t7" 0 0 2577 39 0
+rnode "GND.n160" 0 0 2601 -295 0
+rnode "GND.n161" 0 0 2601 -295 0
+rnode "GND.n162" 0 0 2601 -295 0
+rnode "GND.n163" 0 0 2601 -295 0
+rnode "GND.n164" 0 0 2652 -345 0
+rnode "GND.n165" 0 0 2673 -295 0
+rnode "GND.n166" 0 0 2673 -295 0
+rnode "GND.n167" 0 0 2673 -295 0
+rnode "GND.n168" 0 0 2673 -295 0
+rnode "GND.t22" 0 0 2727 39 0
+rnode "GND.n169" 0 0 2745 -295 0
+rnode "GND.n170" 0 0 2745 -295 0
+rnode "GND.n171" 0 0 2745 -295 0
+rnode "GND.n172" 0 0 2745 -295 0
+rnode "CMOS_3in_OR_0/GND!" 0 0 2797 -315 0
+resist "GND.n142" "GND.n141" 0.011
+resist "GND.n26" "GND.n25" 0.011
+resist "GND.n21" "GND.n17" 0.011
+resist "GND.n12" "GND.n8" 0.017
+resist "GND.n82" "GND.n81" 0.018
+resist "GND.n96" "GND.n95" 0.018
+resist "GND.n60" "CMOS_XNOR_0/GND!" 0.025
+resist "GND.n81" "GND.n77" 0.025
+resist "GND.n129" "CMOS_XOR_0/GND!" 0.025
+resist "GND.n151" "GND.n147" 0.025
+resist "CMOS_3in_OR_0/GND!" "GND.n34" 0.025
+resist "GND.n168" "GND.n164" 0.026
+resist "GND.n43" "GND.n39" 0.033
+resist "GND.n112" "GND.n108" 0.033
+resist "GND.n159" "GND.n155" 0.033
+resist "GND.n44" "GND.n43" 0.035
+resist "GND.n113" "GND.n112" 0.035
+resist "GND.n149" "GND.n148" 0.0473341
+resist "GND.n48" "GND.n44" 0.055
+resist "GND.n117" "GND.n113" 0.055
+resist "GND.n108" "GND.n107" 0.056
+resist "GND.n155" "GND.n154" 0.056
+resist "GND.n164" "GND.n163" 0.063
+resist "GND.n53" "CMOS_XNOR_0/GND!" 0.065
+resist "GND.n77" "GND.n76" 0.065
+resist "GND.n122" "CMOS_XOR_0/GND!" 0.065
+resist "GND.n147" "GND.n146" 0.065
+resist "CMOS_3in_OR_0/GND!" "GND.n172" 0.065
+resist "GND.n86" "GND.n82" 0.071
+resist "GND.n99" "GND.n96" 0.071
+resist "GND.n8" "GND.n7" 0.072
+resist "GND.n41" "GND.n40" 0.0735695
+resist "GND.n110" "GND.n109" 0.0735695
+resist "GND.n146" "GND.n142" 0.078
+resist "GND.n30" "GND.n26" 0.078
+resist "GND.n17" "GND.n16" 0.078
+resist "GND.n52" "GND.n48" 0.09
+resist "GND.n53" "GND.n52" 0.09
+resist "GND.n64" "GND.n60" 0.09
+resist "GND.n68" "GND.n64" 0.09
+resist "GND.n72" "GND.n68" 0.09
+resist "GND.n76" "GND.n72" 0.09
+resist "GND.n90" "GND.n86" 0.09
+resist "GND.n95" "GND.n90" 0.09
+resist "GND.n102" "GND.n99" 0.09
+resist "GND.n106" "GND.n102" 0.09
+resist "GND.n121" "GND.n117" 0.09
+resist "GND.n122" "GND.n121" 0.09
+resist "GND.n133" "GND.n129" 0.09
+resist "GND.n137" "GND.n133" 0.09
+resist "GND.n141" "GND.n137" 0.09
+resist "GND.n153" "GND.n151" 0.09
+resist "GND.n163" "GND.n159" 0.09
+resist "GND.n172" "GND.n168" 0.09
+resist "GND.n34" "GND.n30" 0.09
+resist "GND.n25" "GND.n21" 0.09
+resist "GND.n16" "GND.n12" 0.09
+resist "GND.n107" "GND.n106" 0.507
+resist "GND.n104" "GND.n103" 0.52379
+resist "GND.n154" "GND.n153" 0.525
+resist "GND.n7" "GND.n3" 1.14459
+resist "GND.n3" "GND.n2" 2.56234
+resist "GND.n157" "GND.n156" 2.75888
+resist "GND.n106" "GND.n105" 4.65
+resist "GND.n43" "GND.n42" 4.65
+resist "GND.n48" "GND.n47" 4.65
+resist "GND.n52" "GND.n51" 4.65
+resist "GND.n56" "GND.n53" 4.65
+resist "GND.n60" "GND.n59" 4.65
+resist "GND.n64" "GND.n63" 4.65
+resist "GND.n68" "GND.n67" 4.65
+resist "GND.n72" "GND.n71" 4.65
+resist "GND.n76" "GND.n75" 4.65
+resist "GND.n81" "GND.n80" 4.65
+resist "GND.n86" "GND.n85" 4.65
+resist "GND.n90" "GND.n89" 4.65
+resist "GND.n95" "GND.n94" 4.65
+resist "GND.n99" "GND.n98" 4.65
+resist "GND.n102" "GND.n101" 4.65
+resist "GND.n159" "GND.n158" 4.65
+resist "GND.n163" "GND.n162" 4.65
+resist "GND.n168" "GND.n167" 4.65
+resist "GND.n172" "GND.n171" 4.65
+resist "GND.n34" "GND.n33" 4.65
+resist "GND.n30" "GND.n29" 4.65
+resist "GND.n25" "GND.n24" 4.65
+resist "GND.n21" "GND.n20" 4.65
+resist "GND.n16" "GND.n15" 4.65
+resist "GND.n12" "GND.n11" 4.65
+resist "GND.n7" "GND.n6" 4.65
+resist "GND.n154" "GND.n36" 4.65
+resist "GND.n153" "GND.n152" 4.65
+resist "GND.n112" "GND.n111" 4.65
+resist "GND.n117" "GND.n116" 4.65
+resist "GND.n121" "GND.n120" 4.65
+resist "GND.n125" "GND.n122" 4.65
+resist "GND.n129" "GND.n128" 4.65
+resist "GND.n133" "GND.n132" 4.65
+resist "GND.n137" "GND.n136" 4.65
+resist "GND.n141" "GND.n140" 4.65
+resist "GND.n146" "GND.n145" 4.65
+resist "GND.n151" "GND.n150" 4.65
+resist "GND.n107" "GND.n37" 4.65
+resist "GND.n39" "GND.n38" 4.706
+resist "GND.n164" "GND.n35" 6.21033
+resist "GND.n1" "GND.n0" 8.10839
+resist "GND.n42" "GND.n41" 9.15447
+resist "GND.n46" "GND.n45" 9.15447
+resist "GND.n47" "GND.n46" 9.15447
+resist "GND.n50" "GND.n49" 9.15447
+resist "GND.n51" "GND.n50" 9.15447
+resist "GND.n55" "GND.n54" 9.15447
+resist "GND.n56" "GND.n55" 9.15447
+resist "GND.n58" "GND.n57" 9.15447
+resist "GND.n59" "GND.n58" 9.15447
+resist "GND.n62" "GND.n61" 9.15447
+resist "GND.n63" "GND.n62" 9.15447
+resist "GND.n66" "GND.n65" 9.15447
+resist "GND.n67" "GND.n66" 9.15447
+resist "GND.n70" "GND.n69" 9.15447
+resist "GND.n71" "GND.n70" 9.15447
+resist "GND.n74" "GND.n73" 9.15447
+resist "GND.n75" "GND.n74" 9.15447
+resist "GND.n79" "GND.n78" 9.15447
+resist "GND.n80" "GND.n79" 9.15447
+resist "GND.n84" "GND.n83" 9.15447
+resist "GND.n85" "GND.n84" 9.15447
+resist "GND.n88" "GND.n87" 9.15447
+resist "GND.n89" "GND.n88" 9.15447
+resist "GND.n93" "GND.n92" 9.15447
+resist "GND.n94" "GND.n93" 9.15447
+resist "GND.n98" "GND.n97" 9.15447
+resist "GND.n101" "GND.n100" 9.15447
+resist "GND.n158" "GND.n157" 9.15447
+resist "GND.n161" "GND.n160" 9.15447
+resist "GND.n162" "GND.n161" 9.15447
+resist "GND.n166" "GND.n165" 9.15447
+resist "GND.n167" "GND.n166" 9.15447
+resist "GND.n170" "GND.n169" 9.15447
+resist "GND.n171" "GND.n170" 9.15447
+resist "GND.n32" "GND.n31" 9.15447
+resist "GND.n33" "GND.n32" 9.15447
+resist "GND.n28" "GND.n27" 9.15447
+resist "GND.n29" "GND.n28" 9.15447
+resist "GND.n23" "GND.n22" 9.15447
+resist "GND.n24" "GND.n23" 9.15447
+resist "GND.n19" "GND.n18" 9.15447
+resist "GND.n20" "GND.n19" 9.15447
+resist "GND.n14" "GND.n13" 9.15447
+resist "GND.n15" "GND.n14" 9.15447
+resist "GND.n10" "GND.n9" 9.15447
+resist "GND.n11" "GND.n10" 9.15447
+resist "GND.n5" "GND.n4" 9.15447
+resist "GND.n6" "GND.n5" 9.15447
+resist "GND.n111" "GND.n110" 9.15447
+resist "GND.n115" "GND.n114" 9.15447
+resist "GND.n116" "GND.n115" 9.15447
+resist "GND.n119" "GND.n118" 9.15447
+resist "GND.n120" "GND.n119" 9.15447
+resist "GND.n124" "GND.n123" 9.15447
+resist "GND.n125" "GND.n124" 9.15447
+resist "GND.n127" "GND.n126" 9.15447
+resist "GND.n128" "GND.n127" 9.15447
+resist "GND.n131" "GND.n130" 9.15447
+resist "GND.n132" "GND.n131" 9.15447
+resist "GND.n135" "GND.n134" 9.15447
+resist "GND.n136" "GND.n135" 9.15447
+resist "GND.n139" "GND.n138" 9.15447
+resist "GND.n140" "GND.n139" 9.15447
+resist "GND.n144" "GND.n143" 9.15447
+resist "GND.n145" "GND.n144" 9.15447
+resist "GND.n150" "GND.n149" 9.15447
+resist "GND.n2" "GND.n1" 9.15447
+resist "GND.n59" "GND.n56" 11.52
+resist "GND.n128" "GND.n125" 11.52
+resist "GND.n105" "GND.n104" 17.2629
+resist "GND.n35" "GND.t9" 24
+resist "GND.n35" "GND.t30" 24
+resist "GND.n77" "GND.t11" 30.21
+resist "GND.n96" "GND.t19" 30.21
+resist "GND.n113" "GND.t4" 30.21
+resist "GND.n147" "GND.t6" 30.21
+resist "GND.n155" "GND.t8" 30.21
+resist "GND.n17" "GND.t15" 30.21
+resist "GND.n8" "GND.t17" 30.2101
+resist "GND.n26" "GND.t27" 30.2101
+resist "GND.n142" "GND.t1" 30.2101
+resist "GND.n108" "GND.t32" 30.2101
+resist "GND.n82" "GND.t29" 30.2101
+resist "GND.n39" "GND.t13" 30.2101
+resist "GND.n44" "GND.t24" 30.2102
+resist "GND.n38" "GND" 37.9304
+resist "GND.n143" "GND.t0" 51.764
+resist "GND.n27" "GND.t26" 51.764
+resist "GND.n13" "GND.t14" 51.764
+resist "GND.n61" "GND.t20" 51.764
+resist "GND.n123" "GND.t34" 77.647
+resist "GND.n169" "GND.t22" 77.647
+resist "GND.n4" "GND.t16" 77.647
+resist "GND.n54" "GND.t25" 77.647
+resist "GND.n83" "GND.t28" 77.647
+resist "GND.n143" "GND.t5" 99.215
+resist "GND.n73" "GND.t10" 99.215
+resist "GND.n114" "GND.t31" 103.529
+resist "GND.n160" "GND.t7" 103.529
+resist "GND.n45" "GND.t12" 103.529
+resist "GND.n134" "GND.t33" 125.098
+resist "GND.n65" "GND.t21" 125.098
+resist "GND.n114" "GND.t3" 133.725
+resist "GND.n45" "GND.t23" 133.725
+resist "GND.n126" "GND.t2" 150.98
+resist "GND.n57" "GND.t35" 150.98
+resist "GND.n92" "GND.n91" 150.98
+resist "GND.n91" "GND.t18" 2383.33
+device msubckt sky130_fd_pr__pfet_01v8 1555 499 1556 500  "VDD.t0" "x1.t3" 60 0 "a_1435_499#" 600 0 "CMOS_XOR_0/XOR" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 1855 -111 1856 -110  "GND.t5" "x1_bar.t1" 60 0 "a_1735_n111#" 300 0 "GND.t6" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 698 -111 699 -110  "GND.t18" "a_27_n111#" 60 0 "GND.t19" 300 0 "CMOS_XNOR_0/XNOR" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 2562 499 2563 500  "VDD.t26" "x2_bar.t3" 60 0 "VDD.t27" 600 0 "a_2592_499#" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 147 -111 148 -110  "GND.t21" "x2_bar.t2" 60 0 "a_27_n111#" 300 0 "a_177_n111#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -208 -779 -207 -778  "GND.t12" "x0_bar.t3" 60 0 "GND.t13" 300 0 "a_n178_n779#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -153 -111 -152 -110  "GND.t23" "x0.t1" 60 0 "GND.t24" 300 0 "a_n123_n111#" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 2862 -1689 2863 -1688  "VDD.t1" "CMOS_3in_AND_0/OUT.t3" 60 0 "a_2742_n1689#" 600 0 "a_2442_n779#" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 482 -1689 483 -1688  "VDD.t33" "a_n328_n1689#" 60 0 "VDD.t34" 600 0 "CMOS_3in_AND_0/OUT.t1" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 3102 -111 3103 -110  "GND.t14" "a_2592_499#" 60 0 "GND.t15" 300 0 "CMOS_3in_OR_0/B" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1705 -111 1706 -110  "GND.t33" "x3_bar.t3" 60 0 "CMOS_XOR_0/XOR" 300 0 "a_1735_n111#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1555 -111 1556 -110  "GND.t2" "x3.t3" 60 0 "a_1435_n111#" 300 0 "CMOS_XOR_0/XOR" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 147 499 148 500  "VDD.t19" "x0_bar.t2" 60 0 "a_27_n111#" 600 0 "a_177_499#" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 1705 499 1706 500  "VDD.t4" "x1_bar.t0" 60 0 "CMOS_XOR_0/XOR" 600 0 "a_1735_499#" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 1890 -1689 1891 -1688  "VDD.t5" "a_1380_n1689#" 60 0 "VDD.t6" 600 0 "CMOS_3in_OR_0/A" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 -58 -1689 -57 -1688  "VDD.t31" "x1.t2" 60 0 "VDD.t32" 600 0 "a_n328_n1689#" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 2712 499 2713 500  "VDD.t29" "CMOS_XOR_0/XOR" 60 0 "a_2592_499#" 600 0 "VDD.t30" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 92 -779 93 -778  "GND.t20" "x3_bar.t2" 60 0 "a_n28_n779#" 300 0 "a_n328_n1689#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 -58 -779 -57 -778  "GND.t25" "x1.t1" 60 0 "a_n178_n779#" 300 0 "a_n28_n779#" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 -153 499 -152 500  "VDD.t9" "x2_bar.t1" 60 0 "VDD.t10" 600 0 "a_n123_499#" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 1405 499 1406 500  "VDD.t22" "x3_bar.t1" 60 0 "VDD.t23" 600 0 "a_1435_499#" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 3252 -1689 3253 -1688  "VDD.t15" "a_2442_n779#" 60 0 "VDD.t16" 600 0 "s1.t1" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 1500 -779 1501 -778  "GND.t34" "CMOS_XNOR_0/XNOR" 60 0 "a_1380_n779#" 300 0 "a_1380_n1689#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1350 -779 1351 -778  "GND.t31" "x3.t2" 60 0 "GND.t32" 300 0 "a_1380_n779#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 1405 -111 1406 -110  "GND.t3" "x1.t0" 60 0 "GND.t4" 300 0 "a_1435_n111#" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 3102 499 3103 500  "VDD.t13" "a_2592_499#" 60 0 "VDD.t14" 600 0 "CMOS_3in_OR_0/B" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 -208 -1689 -207 -1688  "VDD.t11" "x0_bar.t1" 60 0 "a_n328_n1689#" 600 0 "VDD.t12" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 2862 -779 2863 -778  "GND.t26" "CMOS_3in_AND_0/OUT.t2" 60 0 "a_2442_n779#" 300 0 "GND.t27" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 482 -779 483 -778  "GND.t28" "a_n328_n1689#" 60 0 "GND.t29" 300 0 "CMOS_3in_AND_0/OUT.t0" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 -3 499 -2 500  "VDD.t28" "x0.t0" 60 0 "a_n123_499#" 600 0 "a_27_n111#" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 92 -1689 93 -1688  "VDD.t20" "x3_bar.t0" 60 0 "a_n328_n1689#" 600 0 "VDD.t21" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 -3 -111 -2 -110  "GND.t35" "x2.t1" 60 0 "a_n123_n111#" 300 0 "a_27_n111#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 297 -111 298 -110  "GND.t10" "x0_bar.t0" 60 0 "a_177_n111#" 300 0 "GND.t11" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1500 -1689 1501 -1688  "VDD.t36" "CMOS_XNOR_0/XNOR" 60 0 "a_1380_n1689#" 600 0 "VDD.t37" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 2712 -779 2713 -778  "GND.t22" "CMOS_3in_OR_0/B" 60 0 "GND.t30" 300 0 "a_2442_n779#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 2562 -779 2563 -778  "GND.t7" "CMOS_3in_OR_0/A" 60 0 "a_2442_n779#" 300 0 "GND.t9" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 698 499 699 500  "VDD.t17" "a_27_n111#" 60 0 "VDD.t18" 600 0 "CMOS_XNOR_0/XNOR" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 297 499 298 500  "VDD.t38" "x2.t0" 60 0 "a_177_499#" 600 0 "VDD.t39" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 2712 -1689 2713 -1688  "VDD.t35" "CMOS_3in_OR_0/B" 60 0 "a_2592_n1689#" 600 0 "a_2742_n1689#" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 1350 -1689 1351 -1688  "VDD.t24" "x3.t1" 60 0 "VDD.t25" 600 0 "a_1380_n1689#" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 1890 -779 1891 -778  "GND.t0" "a_1380_n1689#" 60 0 "GND.t1" 300 0 "CMOS_3in_OR_0/A" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 2712 -111 2713 -110  "GND.t22" "CMOS_XOR_0/XOR" 60 0 "a_2592_n111#" 300 0 "a_2592_499#" 300 0
+device msubckt sky130_fd_pr__nfet_01v8 2562 -111 2563 -110  "GND.t7" "x2_bar.t0" 60 0 "GND.t8" 300 0 "a_2592_n111#" 300 0
+device msubckt sky130_fd_pr__pfet_01v8 1855 499 1856 500  "VDD.t2" "x3.t0" 60 0 "a_1735_499#" 600 0 "VDD.t3" 600 0
+device msubckt sky130_fd_pr__pfet_01v8 2562 -1689 2563 -1688  "VDD.t7" "CMOS_3in_OR_0/A" 60 0 "VDD.t8" 600 0 "a_2592_n1689#" 600 0
+device msubckt sky130_fd_pr__nfet_01v8 3252 -779 3253 -778  "GND.t16" "a_2442_n779#" 60 0 "GND.t17" 300 0 "s1.t0" 300 0

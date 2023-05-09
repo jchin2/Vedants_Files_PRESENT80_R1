@@ -1,0 +1,107 @@
+| units: 500000 tech: sky130A format: MIT
+x CMOS_AND_0/A a_425_640# VDD VDD l=30 w=600 x=545 y=640 sky130_fd_pr__pfet_01v8
+x x0 a_n1990_n1548# VDD VDD l=30 w=600 x=-1869 y=-1547 sky130_fd_pr__pfet_01v8
+x x2 a_n787_n1548# VDD VDD l=30 w=600 x=-666 y=-1547 sky130_fd_pr__pfet_01v8
+x a_425_640# VDD CMOS_AND_0/AND VDD l=30 w=600 x=935 y=640 sky130_fd_pr__pfet_01v8
+x a_n2140_n1548# GND CMOS_AND_1/B GND l=30 w=300 x=-1468 y=-637 sky130_fd_pr__nfet_01v8
+x x1_bar VDD a_n787_n1548# VDD l=30 w=600 x=-816 y=-1547 sky130_fd_pr__pfet_01v8
+x x1 VDD a_n787_640# VDD l=30 w=600 x=-816 y=640 sky130_fd_pr__pfet_01v8
+x x1 GND a_n787_30# GND l=30 w=300 x=-816 y=30 sky130_fd_pr__nfet_01v8
+x a_n787_n1548# GND CMOS_AND_1/A GND l=30 w=300 x=-276 y=-637 sky130_fd_pr__nfet_01v8
+x x0 a_n2290_640# CMOS_AND_0/A VDD l=30 w=600 x=-2169 y=640 sky130_fd_pr__pfet_01v8
+x CMOS_AND_0/AND VDD a_1637_640# VDD l=30 w=600 x=1607 y=640 sky130_fd_pr__pfet_01v8
+x a_n787_n1548# VDD CMOS_AND_1/A VDD l=30 w=600 x=-276 y=-1547 sky130_fd_pr__pfet_01v8
+x x0_bar a_n2140_n1548# a_n1990_n638# GND l=30 w=300 x=-2019 y=-637 sky130_fd_pr__nfet_01v8
+x CMOS_AND_0/AND GND a_1637_30# GND l=30 w=300 x=1607 y=30 sky130_fd_pr__nfet_01v8
+x x3 a_n1990_640# VDD VDD l=30 w=600 x=-1869 y=640 sky130_fd_pr__pfet_01v8
+x x3 a_n2290_30# CMOS_AND_0/A GND l=30 w=300 x=-2169 y=30 sky130_fd_pr__nfet_01v8
+x CMOS_AND_0/B VDD a_425_640# VDD l=30 w=600 x=395 y=640 sky130_fd_pr__pfet_01v8
+x CMOS_AND_0/B GND a_425_30# GND l=30 w=300 x=395 y=30 sky130_fd_pr__nfet_01v8
+x a_n787_30# VDD CMOS_AND_0/B VDD l=30 w=600 x=-276 y=640 sky130_fd_pr__pfet_01v8
+x a_1637_30# VDD s0 VDD l=30 w=600 x=2147 y=640 sky130_fd_pr__pfet_01v8
+x x2_bar a_n787_640# a_n787_30# VDD l=30 w=600 x=-666 y=640 sky130_fd_pr__pfet_01v8
+x x0 a_n2290_n638# a_n2140_n1548# GND l=30 w=300 x=-2169 y=-637 sky130_fd_pr__nfet_01v8
+x x3 GND a_n2290_n638# GND l=30 w=300 x=-2319 y=-637 sky130_fd_pr__nfet_01v8
+x x1_bar GND a_n787_n638# GND l=30 w=300 x=-816 y=-637 sky130_fd_pr__nfet_01v8
+x x2 a_n787_n638# a_n787_n1548# GND l=30 w=300 x=-666 y=-637 sky130_fd_pr__nfet_01v8
+x x2_bar a_n787_30# GND GND l=30 w=300 x=-666 y=30 sky130_fd_pr__nfet_01v8
+x CMOS_AND_1/AND a_1637_640# a_1637_30# VDD l=30 w=600 x=1757 y=640 sky130_fd_pr__pfet_01v8
+x x3 a_n2290_n1548# a_n2140_n1548# VDD l=30 w=600 x=-2169 y=-1547 sky130_fd_pr__pfet_01v8
+x x3_bar CMOS_AND_0/A a_n1990_30# GND l=30 w=300 x=-2019 y=30 sky130_fd_pr__nfet_01v8
+x CMOS_AND_1/B GND a_425_n638# GND l=30 w=300 x=395 y=-637 sky130_fd_pr__nfet_01v8
+x CMOS_AND_1/A a_425_n638# a_425_n1548# GND l=30 w=300 x=545 y=-637 sky130_fd_pr__nfet_01v8
+x x0_bar VDD a_n2290_n1548# VDD l=30 w=600 x=-2319 y=-1547 sky130_fd_pr__pfet_01v8
+x a_n2140_n1548# VDD CMOS_AND_1/B VDD l=30 w=600 x=-1468 y=-1547 sky130_fd_pr__pfet_01v8
+x x0_bar CMOS_AND_0/A a_n1990_640# VDD l=30 w=600 x=-2019 y=640 sky130_fd_pr__pfet_01v8
+x a_425_640# GND CMOS_AND_0/AND GND l=30 w=300 x=935 y=30 sky130_fd_pr__nfet_01v8
+x a_n787_30# GND CMOS_AND_0/B GND l=30 w=300 x=-276 y=30 sky130_fd_pr__nfet_01v8
+x x0_bar a_n1990_30# GND GND l=30 w=300 x=-1869 y=30 sky130_fd_pr__nfet_01v8
+x x3_bar VDD a_n2290_640# VDD l=30 w=600 x=-2319 y=640 sky130_fd_pr__pfet_01v8
+x a_425_n1548# VDD CMOS_AND_1/AND VDD l=30 w=600 x=935 y=-1547 sky130_fd_pr__pfet_01v8
+x x3_bar a_n1990_n638# GND GND l=30 w=300 x=-1869 y=-637 sky130_fd_pr__nfet_01v8
+x x0 GND a_n2290_30# GND l=30 w=300 x=-2319 y=30 sky130_fd_pr__nfet_01v8
+x CMOS_AND_1/AND a_1637_30# GND GND l=30 w=300 x=1757 y=30 sky130_fd_pr__nfet_01v8
+x CMOS_AND_1/B VDD a_425_n1548# VDD l=30 w=600 x=395 y=-1547 sky130_fd_pr__pfet_01v8
+x CMOS_AND_1/A a_425_n1548# VDD VDD l=30 w=600 x=545 y=-1547 sky130_fd_pr__pfet_01v8
+x CMOS_AND_0/A a_425_30# a_425_640# GND l=30 w=300 x=545 y=30 sky130_fd_pr__nfet_01v8
+x a_1637_30# GND s0 GND l=30 w=300 x=2147 y=30 sky130_fd_pr__nfet_01v8
+x x3_bar a_n2140_n1548# a_n1990_n1548# VDD l=30 w=600 x=-2019 y=-1547 sky130_fd_pr__pfet_01v8
+x a_425_n1548# GND CMOS_AND_1/AND GND l=30 w=300 x=935 y=-637 sky130_fd_pr__nfet_01v8
+C x2 x2_bar 3.89
+C x3 x3_bar 3.47
+C x0_bar x0 2.88
+C x3 x2_bar 2.86
+C x1_bar x1 3.44
+C x0_bar x1 2.42
+C x1_bar x2 2.97
+R a_n1990_n1548# 985
+R a_n2290_n1548# 985
+R a_425_n638# 300
+R a_n787_n638# 300
+R a_n1990_n638# 300
+R a_n2290_n638# 300
+R a_425_n1548# 3621
+R CMOS_AND_1/B 3693
+R a_n787_n1548# 3621
+R x1_bar 2404
+= x1_bar CMOS_AND_2/B
+R a_n2140_n1548# 3519
+R CMOS_AND_1/A 3892
+R x2 2379
+= x2 CMOS_AND_2/A
+R a_425_30# 300
+R a_n1990_30# 300
+R a_n2290_30# 300
+R s0 1524
+= s0 CMOS_OR_0/OR
+R a_1637_640# 985
+R a_n787_640# 985
+R a_n1990_640# 985
+R a_n2290_640# 985
+R a_1637_30# 3621
+R CMOS_AND_1/AND 3961
+R CMOS_AND_0/AND 3659
+R a_425_640# 3621
+R CMOS_AND_0/A 3944
+R CMOS_AND_0/B 3659
+R a_n787_30# 3621
+R x2_bar 2449
+= x2_bar CMOS_OR_1/B
+R x1 2475
+= x1 CMOS_OR_1/A
+C x0_bar GND 2.05
+R x0_bar 5491
+= x0_bar CMOS_XOR_0/A_bar
+C x0 GND 2.13
+R x0 5383
+= x0 CMOS_XOR_0/A
+C x3_bar GND 4.67
+R x3_bar 5042
+= x3_bar CMOS_XOR_0/B_bar
+R x3 4949
+= x3 CMOS_XOR_0/B
+C VDD GND 26.53
+R VDD 64003
+= VDD CMOS_XOR_0/VDD
+R GND 20628
+= GND CMOS_XOR_0/GND!

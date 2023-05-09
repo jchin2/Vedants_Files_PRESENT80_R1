@@ -1,0 +1,904 @@
+timestamp 1509222483
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use CMOS_INV CMOS_INV_3 1 0 517 0 1 -784
+use CMOS_INV CMOS_INV_2 1 0 517 0 1 2372
+use CMOS_INV CMOS_INV_1 1 0 517 0 -1 784
+use CMOS_INV CMOS_INV_0 1 0 517 0 -1 -2372
+use CMOS_XOR CMOS_XOR_3 1 0 -80 0 1 2372
+use CMOS_XOR CMOS_XOR_2 1 0 -80 0 -1 784
+use CMOS_XOR CMOS_XOR_1 1 0 -80 0 -1 -2372
+use CMOS_XOR CMOS_XOR_0 1 0 -80 0 1 -784
+port "VDD" 2 -606 3139 -572 3173 m1
+port "k3" 17 -736 -3053 -716 -3033 li
+port "k3_bar" 18 -734 -2318 -714 -2298 li
+port "XOR3" 22 624 -2225 658 -2191 m2
+port "XOR3_bar" 26 624 -2133 658 -2099 m2
+port "x3" 15 -732 -2127 -712 -2107 li
+port "x3_bar" 16 -732 -1703 -712 -1683 li
+port "x2_bar" 12 -736 -1474 -716 -1454 li
+port "XOR2_bar" 25 624 -1057 658 -1023 m2
+port "x2" 11 -731 -1049 -711 -1029 li
+port "XOR2" 21 624 -965 658 -931 m2
+port "k2_bar" 14 -735 -858 -715 -838 li
+port "k2" 13 -736 -123 -716 -103 li
+port "k1" 9 -738 103 -718 123 li
+port "k1_bar" 10 -733 837 -713 857 li
+port "XOR1" 19 624 931 658 965 m2
+port "XOR1_bar" 24 624 1023 658 1057 m2
+port "x1" 7 -731 1030 -711 1050 li
+port "x1_bar" 8 -732 1453 -712 1473 li
+port "GND" 1 -716 1565 -688 1592 m1
+port "x0_bar" 4 -731 1682 -711 1702 li
+port "XOR0_bar" 23 624 2099 658 2133 m2
+port "x0" 3 -730 2108 -710 2128 li
+port "XOR0" 20 624 2191 658 2225 m2
+port "k0_bar" 6 -732 2298 -712 2318 li
+port "k0" 5 -732 3034 -712 3054 li
+node "VDD" 10 1619.32 -606 3139 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 521360 13152 0 0 0 0 0 0 0 0 0 0
+node "k3" 263 374.56 -736 -3053 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32880 1724 0 0 0 0 0 0 0 0 0 0 0 0
+node "k3_bar" 109 83.085 -734 -2318 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13680 764 0 0 0 0 0 0 0 0 0 0 0 0
+node "XOR3" 33 309.845 624 -2225 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7760 388 6400 320 19080 954 0 0 0 0 0 0 0 0
+node "XOR3_bar" 13 165.996 624 -2133 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6400 320 6400 320 6400 320 0 0 0 0 0 0 0 0
+node "x3" 119 114.336 -732 -2127 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14880 824 0 0 0 0 0 0 0 0 0 0 0 0
+node "x3_bar" 263 237.986 -732 -1703 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32880 1724 0 0 0 0 0 0 0 0 0 0 0 0
+node "x2_bar" 263 237.986 -736 -1474 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32880 1724 0 0 0 0 0 0 0 0 0 0 0 0
+node "XOR2_bar" 13 165.996 624 -1057 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6400 320 6400 320 6400 320 0 0 0 0 0 0 0 0
+node "x2" 119 114.336 -731 -1049 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14880 824 0 0 0 0 0 0 0 0 0 0 0 0
+node "XOR2" 33 308.012 624 -965 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7760 388 6400 320 19080 954 0 0 0 0 0 0 0 0
+node "k2_bar" 109 83.085 -735 -858 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13680 764 0 0 0 0 0 0 0 0 0 0 0 0
+node "k2" 263 237.663 -736 -123 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32880 1724 0 0 0 0 0 0 0 0 0 0 0 0
+node "k1" 263 237.663 -738 103 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32880 1724 0 0 0 0 0 0 0 0 0 0 0 0
+node "k1_bar" 109 83.085 -733 837 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13680 764 0 0 0 0 0 0 0 0 0 0 0 0
+node "XOR1" 33 308.012 624 931 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7760 388 6400 320 19080 954 0 0 0 0 0 0 0 0
+node "XOR1_bar" 13 165.996 624 1023 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6400 320 6400 320 6400 320 0 0 0 0 0 0 0 0
+node "x1" 119 114.336 -731 1030 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14880 824 0 0 0 0 0 0 0 0 0 0 0 0
+node "x1_bar" 263 237.986 -732 1453 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32880 1724 0 0 0 0 0 0 0 0 0 0 0 0
+node "GND" 114 1770.9 -716 1565 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35520 1208 512960 12984 0 0 0 0 0 0 0 0 0 0
+node "x0_bar" 263 237.986 -731 1682 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32880 1724 0 0 0 0 0 0 0 0 0 0 0 0
+node "XOR0_bar" 13 165.996 624 2099 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6400 320 6400 320 6400 320 0 0 0 0 0 0 0 0
+node "x0" 119 114.336 -730 2108 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14880 824 0 0 0 0 0 0 0 0 0 0 0 0
+node "XOR0" 33 322.817 624 2191 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7760 388 6400 320 20440 1022 0 0 0 0 0 0 0 0
+node "k0_bar" 109 83.085 -732 2298 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13680 764 0 0 0 0 0 0 0 0 0 0 0 0
+node "k0" 263 374.56 -732 3034 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32880 1724 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_350_n3012#" 31214 43.47 350 -3012 nw 0 0 0 0 14490 1422 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_350_n834#" 31214 43.47 350 -834 nw 0 0 0 0 14490 1422 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_350_144#" 31214 43.47 350 144 nw 0 0 0 0 14490 1422 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_350_2322#" 31214 43.47 350 2322 nw 0 0 0 0 14490 1422 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "k1" "x1_bar" 9.61098
+cap "VDD" "x2_bar" 32.0637
+cap "x0_bar" "VDD" 31.9916
+cap "GND" "w_350_n834#" 0.0517273
+cap "XOR2_bar" "x2" 4.46496
+cap "k2_bar" "GND" 20.041
+cap "w_350_144#" "XOR0" 0.388251
+cap "k3_bar" "x3" 63.4172
+cap "x0_bar" "x0" 27.0545
+cap "XOR3_bar" "XOR3" 151.005
+cap "k2_bar" "x2" 63.4172
+cap "k2" "GND" 25.247
+cap "XOR0_bar" "XOR0" 151.005
+cap "VDD" "XOR1_bar" 4.9845
+cap "VDD" "GND" 5323.29
+cap "GND" "k0_bar" 17.9325
+cap "k2" "x2" 0.948081
+cap "XOR3_bar" "x3" 4.46496
+cap "k1" "GND" 25.247
+cap "k1_bar" "GND" 20.041
+cap "XOR2" "GND" 2.0984
+cap "x0_bar" "k0" 9.61098
+cap "GND" "x0" 23.5704
+cap "VDD" "x2" 27.1626
+cap "k3" "x3" 0.948081
+cap "GND" "k3_bar" 17.9325
+cap "k3" "x3_bar" 9.61098
+cap "w_350_2322#" "GND" 0.0517273
+cap "x3_bar" "x3" 27.0545
+cap "XOR1" "XOR1_bar" 151.005
+cap "VDD" "w_350_144#" 1.81193
+cap "x0_bar" "x1_bar" 89.3617
+cap "k0" "GND" 24.6684
+cap "x1" "VDD" 27.1626
+cap "XOR1" "GND" 2.0984
+cap "x2_bar" "x3_bar" 89.3617
+cap "k1_bar" "w_350_144#" 0.0184764
+cap "XOR3_bar" "GND" 0.922193
+cap "VDD" "XOR0" 8.76035
+cap "XOR2" "w_350_144#" 1.83349
+cap "k1_bar" "x1" 63.4172
+cap "k1" "x1" 0.948081
+cap "GND" "XOR3" 2.0984
+cap "VDD" "XOR0_bar" 4.9845
+cap "k3" "GND" 24.6684
+cap "k2_bar" "w_350_n834#" 0.0184764
+cap "VDD" "w_350_n3012#" 1.81193
+cap "XOR0_bar" "x0" 4.46496
+cap "GND" "x3" 23.5704
+cap "VDD" "XOR2_bar" 4.9845
+cap "XOR2" "w_350_n3012#" 0.388251
+cap "x1_bar" "GND" 140.385
+cap "k2" "k2_bar" 13.7784
+cap "GND" "x3_bar" 140.313
+cap "w_350_2322#" "XOR0" 7.64553
+cap "XOR2" "XOR2_bar" 151.005
+cap "XOR1" "w_350_144#" 7.64553
+cap "x0_bar" "GND" 140.313
+cap "GND" "x2_bar" 140.385
+cap "w_350_n3012#" "k3_bar" 0.0184764
+cap "VDD" "k2_bar" 22.1457
+cap "VDD" "w_350_n834#" 1.81193
+cap "XOR1" "XOR0" 20.8431
+cap "XOR2" "w_350_n834#" 7.64553
+cap "x2_bar" "x2" 27.0545
+cap "XOR1" "XOR0_bar" 1.82026
+cap "k2" "VDD" 32.3203
+cap "GND" "XOR1_bar" 0.922193
+cap "k2" "k1" 123.742
+cap "VDD" "k0_bar" 20.0372
+cap "x1" "x1_bar" 27.0545
+cap "k1_bar" "VDD" 22.1457
+cap "w_350_n3012#" "XOR3" 7.64553
+cap "XOR3_bar" "XOR2_bar" 15.9179
+cap "k1" "VDD" 32.3203
+cap "VDD" "XOR2" 8.68422
+cap "k1" "k1_bar" 13.7784
+cap "VDD" "x0" 25.7535
+cap "x0" "k0_bar" 63.4172
+cap "XOR3" "XOR2_bar" 1.82026
+cap "GND" "x2" 24.9795
+cap "XOR1" "w_350_n834#" 1.83349
+cap "VDD" "k3_bar" 20.0372
+cap "w_350_n834#" "XOR3" 0.388251
+cap "VDD" "w_350_2322#" 1.81193
+cap "w_350_2322#" "k0_bar" 0.0184764
+cap "x1" "XOR1_bar" 4.46496
+cap "XOR1_bar" "XOR0" 1.82026
+cap "w_350_144#" "GND" 0.0517273
+cap "k0" "VDD" 32.1303
+cap "k0" "k0_bar" 13.7784
+cap "VDD" "XOR1" 8.68422
+cap "x1" "GND" 24.9795
+cap "VDD" "XOR3_bar" 4.9845
+cap "GND" "XOR0" 2.10065
+cap "XOR0_bar" "XOR1_bar" 15.9179
+cap "k0" "x0" 0.948081
+cap "VDD" "XOR3" 8.68422
+cap "XOR2" "XOR3_bar" 1.82026
+cap "XOR0_bar" "GND" 0.922193
+cap "VDD" "k3" 32.1303
+cap "XOR2" "XOR3" 20.8431
+cap "w_350_n3012#" "GND" 0.0517273
+cap "VDD" "x3" 25.7535
+cap "k2" "x2_bar" 9.61098
+cap "w_350_2322#" "XOR1" 0.388251
+cap "GND" "XOR2_bar" 0.922193
+cap "x1_bar" "VDD" 32.0637
+cap "VDD" "x3_bar" 31.9916
+cap "k3" "k3_bar" 13.7784
+cap "CMOS_XOR_1/a_n210_0#" "CMOS_INV_0/VDD" 5.54364
+cap "k3" "CMOS_XOR_0/B" 3.5715e-06
+cap "XOR3_bar" "x3" 0.214761
+cap "k3_bar" "CMOS_INV_3/GND" 0.311453
+cap "CMOS_INV_3/GND" "XOR3_bar" 0.428859
+cap "CMOS_INV_3/GND" "x3" 0.140281
+cap "k3" "CMOS_XOR_1/a_n210_0#" 13.9349
+cap "x3_bar" "CMOS_INV_0/VDD" 3.06653
+cap "k3" "x2" 3.5715e-06
+cap "x3_bar" "XOR3" 3.86954e-05
+cap "CMOS_XOR_1/a_n210_0#" "XOR3_bar" 0.683531
+cap "XOR3" "CMOS_INV_0/VDD" 79.9074
+cap "CMOS_XOR_1/a_90_0#" "CMOS_INV_0/VDD" 5.98566
+cap "CMOS_INV_3/GND" "CMOS_XOR_1/a_n210_0#" 0.436877
+cap "k3" "CMOS_XOR_1/a_n210_n610#" 3.45627
+cap "x3_bar" "x2_bar" 0.0133558
+cap "x3_bar" "k3" 1.16457
+cap "k3" "CMOS_INV_0/VDD" 481.21
+cap "k3" "XOR3" 81.8312
+cap "k3" "CMOS_XOR_1/a_90_0#" 8.12871
+cap "x3_bar" "XOR3_bar" 0.240218
+cap "x3_bar" "k3_bar" 0.0457581
+cap "XOR3_bar" "CMOS_INV_0/VDD" 19.6963
+cap "k3_bar" "CMOS_INV_0/VDD" -2.65362
+cap "x3_bar" "x3" 0.0457581
+cap "CMOS_XOR_1/a_90_0#" "XOR3_bar" 0.856851
+cap "XOR3" "XOR3_bar" 26.0215
+cap "k3" "x2_bar" 0.152353
+cap "x3_bar" "CMOS_INV_3/GND" 0.127484
+cap "CMOS_INV_3/GND" "CMOS_INV_0/VDD" 10.7586
+cap "x3" "CMOS_INV_0/VDD" 2.74553
+cap "k3" "CMOS_XOR_1/a_90_n610#" 2.01616
+cap "CMOS_INV_3/GND" "CMOS_XOR_1/a_90_0#" 0.360804
+cap "XOR3" "CMOS_INV_3/GND" 14.5453
+cap "k3_bar" "x2_bar" 0.0133558
+cap "k3" "XOR3_bar" 0.260475
+cap "k3_bar" "k3" 14.3195
+cap "x2_bar" "x3" 0.0133558
+cap "k3" "CMOS_INV_3/GND" 7.82618
+cap "k3" "x3" 8.17074
+cap "k3" "k2_bar" 3.5715e-06
+cap "k3_bar" "XOR3_bar" 0.184655
+cap "CMOS_INV_3/GND" "CMOS_INV_0/VDD" -0.474027
+cap "CMOS_INV_0/VDD" "XOR3" 0.414822
+cap "CMOS_INV_0/VDD" "XOR3_bar" 1.56169
+cap "CMOS_XOR_2/A" "x2_bar" 1.43399e-05
+cap "CMOS_INV_3/GND" "CMOS_XOR_1/a_90_0#" 0.0216737
+cap "x2_bar" "XOR2_bar" 1.85184
+cap "XOR2" "XOR3" 50.4318
+cap "XOR3" "CMOS_XOR_0/a_90_0#" 0.377493
+cap "XOR2" "x3_bar" 1.91607
+cap "k2" "CMOS_XOR_0/a_n210_n610#" 1.51714
+cap "x3_bar" "CMOS_XOR_0/a_90_0#" 0.27587
+cap "CMOS_XOR_1/a_n210_0#" "x3_bar" 8.70231
+cap "CMOS_XOR_1/a_n210_n610#" "k2" 2.94135
+cap "CMOS_XOR_1/a_n210_n610#" "XOR3_bar" 0.682679
+cap "x3" "CMOS_INV_3/VDD" 7.12745
+cap "x2_bar" "k2_bar" 20.4608
+cap "k3_bar" "k2" 4.33859
+cap "k3_bar" "XOR3_bar" 9.40835
+cap "CMOS_INV_3/GND" "k2" -1.68315
+cap "CMOS_XOR_1/a_90_n610#" "k2" 2.25745
+cap "CMOS_XOR_1/a_90_n610#" "XOR3_bar" 0.86003
+cap "CMOS_INV_3/GND" "XOR3_bar" 18.8012
+cap "CMOS_XOR_2/A_bar" "x2_bar" 1.43399e-05
+cap "k3" "CMOS_INV_3/VDD" 29.8788
+cap "k3" "x3" -6.70468
+cap "x2" "k2" -4.54669
+cap "CMOS_XOR_1/a_90_0#" "k2_bar" 0.174989
+cap "XOR3" "CMOS_INV_3/VDD" 135.051
+cap "XOR3" "x3" 4.40439
+cap "CMOS_XOR_0/a_90_n610#" "CMOS_INV_3/VDD" 1.15661
+cap "k2" "XOR2_bar" 13.3077
+cap "x2_bar" "XOR2" 82.7777
+cap "XOR2_bar" "XOR3_bar" 14.7594
+cap "x2_bar" "CMOS_XOR_0/a_90_0#" 5.07634
+cap "x3_bar" "CMOS_INV_3/VDD" 55.9831
+cap "x3_bar" "x3" 9.99929
+cap "x2_bar" "CMOS_XOR_1/a_n210_0#" 0.321625
+cap "XOR3" "k3" 66.3771
+cap "k3" "CMOS_XOR_0/a_90_n610#" 2.25745
+cap "k3_bar" "CMOS_XOR_0/a_n210_n610#" 2.16858
+cap "k3" "x3_bar" 12.1813
+cap "k3_bar" "CMOS_XOR_1/a_n210_n610#" -0.549115
+cap "k2_bar" "k2" -0.798822
+cap "CMOS_INV_3/GND" "CMOS_XOR_0/a_n210_n610#" 2.09403
+cap "XOR3" "CMOS_XOR_0/a_90_n610#" 3.87522
+cap "CMOS_INV_3/GND" "CMOS_XOR_1/a_n210_n610#" 2.09403
+cap "CMOS_XOR_2/XOR" "k2" 3.93312
+cap "XOR3" "x3_bar" 92.5672
+cap "CMOS_XOR_2/A_bar" "k2" 0.494086
+cap "CMOS_XOR_1/a_90_n610#" "k3_bar" -0.271868
+cap "CMOS_INV_3/GND" "k3_bar" -10.7997
+cap "CMOS_XOR_0/a_90_n610#" "x3_bar" 0.31984
+cap "k3_bar" "x2" 2.12275
+cap "CMOS_XOR_1/a_90_n610#" "CMOS_INV_3/GND" 2.38435
+cap "XOR2_bar" "CMOS_XOR_0/a_n210_n610#" 0.682679
+cap "k3" "CMOS_XOR_0/a_n210_0#" 0.660685
+cap "CMOS_INV_3/GND" "x2" 25.3231
+cap "x2_bar" "CMOS_INV_3/VDD" 54.2969
+cap "x2_bar" "x3" 1.01351
+cap "x2_bar" "k1" 0.170269
+cap "XOR2" "k2" -0.508426
+cap "XOR2" "XOR3_bar" -0.143452
+cap "x2_bar" "k3" 5.56837
+cap "CMOS_XOR_1/a_n210_0#" "k2" 0.660685
+cap "CMOS_INV_3/GND" "XOR2_bar" 18.5324
+cap "CMOS_XOR_1/a_90_0#" "CMOS_INV_3/VDD" 0.566335
+cap "CMOS_XOR_1/a_n210_0#" "XOR3_bar" 0.374714
+cap "x2" "XOR2_bar" -0.114365
+cap "CMOS_XOR_0/a_n210_0#" "x3_bar" 0.321625
+cap "x2_bar" "XOR3" 7.0265
+cap "x2_bar" "CMOS_XOR_0/a_90_n610#" 4.28158
+cap "k3_bar" "k2_bar" 7.752
+cap "CMOS_INV_3/GND" "k2_bar" -9.77424
+cap "x2_bar" "x3_bar" -76.8314
+cap "CMOS_XOR_1/a_90_n610#" "k2_bar" 0.779042
+cap "k2_bar" "x2" 3.48067
+cap "CMOS_INV_3/VDD" "k2" 20.7675
+cap "CMOS_XOR_1/a_90_0#" "x3_bar" 5.07634
+cap "x3" "k2" 1.28544
+cap "x3" "XOR3_bar" 0.788652
+cap "CMOS_INV_3/VDD" "XOR3_bar" 11.6249
+cap "k2_bar" "XOR2_bar" 6.6088
+cap "k1" "k2" 2.62871
+cap "CMOS_INV_1/OUT" "XOR2_bar" 0.0705592
+cap "k2" "CMOS_XOR_2/a_90_0#" 1.57916
+cap "XOR2" "k3_bar" 4.50681
+cap "k3_bar" "CMOS_XOR_0/a_90_0#" 0.174989
+cap "x2_bar" "CMOS_XOR_0/a_n210_0#" 8.70231
+cap "k3" "k2" 16.3014
+cap "CMOS_XOR_1/a_n210_0#" "k3_bar" -0.991429
+cap "CMOS_INV_3/GND" "XOR2" 26.8565
+cap "k3" "XOR3_bar" 17.1329
+cap "XOR2" "x2" 3.22888
+cap "CMOS_INV_3/GND" "CMOS_XOR_1/a_n210_0#" 0.0262435
+cap "XOR3" "k2" 11.4019
+cap "XOR3" "XOR3_bar" 65.8965
+cap "XOR2" "XOR2_bar" 21.1901
+cap "x3_bar" "k2" 5.54326
+cap "x3_bar" "XOR3_bar" 2.86378
+cap "CMOS_INV_3/VDD" "CMOS_XOR_0/a_n210_n610#" 1.33984
+cap "x2_bar" "CMOS_XOR_1/a_90_0#" 0.27587
+cap "CMOS_INV_3/VDD" "CMOS_XOR_1/a_n210_n610#" 1.33984
+cap "CMOS_XOR_2/B_bar" "x2_bar" 1.43399e-05
+cap "k3_bar" "CMOS_INV_3/VDD" 28.2117
+cap "k3_bar" "x3" 6.05737
+cap "k3" "CMOS_XOR_0/a_n210_n610#" 2.94135
+cap "XOR2" "k2_bar" -0.484935
+cap "CMOS_INV_3/GND" "CMOS_INV_3/VDD" 403.745
+cap "CMOS_XOR_1/a_90_n610#" "CMOS_INV_3/VDD" 1.15661
+cap "k3" "CMOS_XOR_1/a_n210_n610#" 1.51714
+cap "CMOS_INV_3/GND" "x3" 27.4043
+cap "k1" "CMOS_INV_3/GND" 0.112748
+cap "x2" "CMOS_INV_3/VDD" 3.78905
+cap "x3" "x2" 6.43169
+cap "k3_bar" "k3" 3.52993
+cap "CMOS_XOR_2/XOR" "XOR2" 0.807469
+cap "k1" "x2" 0.0135006
+cap "CMOS_INV_3/GND" "k3" 4.04011
+cap "x2_bar" "k2" 13.005
+cap "k3" "x2" 1.2629
+cap "CMOS_INV_3/VDD" "XOR2_bar" -1.67091
+cap "x3_bar" "CMOS_XOR_0/a_n210_n610#" 0.377168
+cap "k3_bar" "XOR3" 14.8764
+cap "k3_bar" "CMOS_XOR_0/a_90_n610#" 0.779042
+cap "x3_bar" "CMOS_XOR_1/a_n210_n610#" 7.33985
+cap "CMOS_INV_3/GND" "XOR3" 134.593
+cap "CMOS_XOR_1/a_90_n610#" "XOR3" 5.26252
+cap "k3_bar" "x3_bar" 22.1512
+cap "CMOS_INV_3/GND" "CMOS_XOR_0/a_90_n610#" 2.38435
+cap "CMOS_XOR_1/a_90_0#" "k2" 0.453156
+cap "CMOS_XOR_1/a_90_0#" "XOR3_bar" 0.473976
+cap "CMOS_XOR_1/a_90_n610#" "x3_bar" 4.28158
+cap "CMOS_INV_3/GND" "x3_bar" 390.424
+cap "k2_bar" "CMOS_INV_3/VDD" 5.09033
+cap "x3_bar" "x2" 0.994868
+cap "k2_bar" "x3" 0.798888
+cap "XOR3" "XOR2_bar" 6.76156
+cap "k1" "k2_bar" 0.0135006
+cap "CMOS_XOR_0/a_90_n610#" "XOR2_bar" 0.86003
+cap "k3_bar" "CMOS_XOR_0/a_n210_0#" 0.0631676
+cap "k3" "k2_bar" 2.93564
+cap "x2_bar" "CMOS_XOR_0/a_n210_n610#" 7.33985
+cap "x2_bar" "CMOS_XOR_1/a_n210_n610#" 0.377168
+cap "XOR3" "k2_bar" 3.26463
+cap "x2_bar" "k3_bar" 1.34441
+cap "XOR2" "CMOS_INV_3/VDD" 16.9732
+cap "CMOS_XOR_0/a_90_n610#" "k2_bar" -0.271868
+cap "CMOS_XOR_1/a_90_n610#" "x2_bar" 0.31984
+cap "x2_bar" "CMOS_INV_3/GND" 390.186
+cap "k1" "XOR2" 0.0497882
+cap "CMOS_XOR_1/a_n210_0#" "CMOS_INV_3/VDD" 0.621188
+cap "x3_bar" "k2_bar" 1.23138
+cap "x2_bar" "x2" 9.97748
+cap "XOR2" "k3" 8.15644
+cap "k3" "CMOS_XOR_0/a_90_0#" 0.453156
+cap "CMOS_XOR_1/a_90_0#" "k3_bar" -0.376097
+cap "CMOS_INV_3/VDD" "CMOS_INV_3/GND" -0.948054
+cap "XOR3" "CMOS_INV_3/GND" 3.12576
+cap "CMOS_INV_3/GND" "XOR2_bar" 6.31588
+cap "XOR2" "CMOS_INV_3/GND" 0.550369
+cap "CMOS_INV_3/GND" "XOR3_bar" 6.30718
+cap "XOR3" "CMOS_INV_3/VDD" 7.98688
+cap "CMOS_INV_3/VDD" "XOR2_bar" 0.291602
+cap "XOR3" "XOR2_bar" 0.875584
+cap "XOR2" "XOR2_bar" 0.00042174
+cap "XOR2_bar" "CMOS_INV_1/OUT" 0.000967044
+cap "CMOS_INV_3/VDD" "XOR3_bar" 5.63786
+cap "XOR3" "XOR3_bar" 4.02321
+cap "XOR2_bar" "XOR3_bar" 2.39659
+cap "XOR2" "XOR3_bar" -0.0547168
+cap "CMOS_XOR_0/a_n210_n610#" "k1" 0.361475
+cap "x2_bar" "k2" 0.340864
+cap "XOR2" "CMOS_XOR_1/a_90_0#" 0.377493
+cap "XOR2" "XOR1_bar" 3.99453
+cap "XOR2" "CMOS_XOR_1/VDD" 0.944814
+cap "k1" "x1" 8.17074
+cap "XOR1" "x1_bar" 3.86954e-05
+cap "k2" "XOR2_bar" 3.98911
+cap "k1" "XOR1_bar" 0.0906415
+cap "x2_bar" "w_350_n3012#" 0.0368271
+cap "GND" "CMOS_XOR_2/a_90_0#" 0.133867
+cap "XOR3_bar" "XOR2_bar" 0.317467
+cap "w_350_n3012#" "XOR2_bar" 0.00184056
+cap "k2" "CMOS_XOR_2/a_n210_n610#" 0.361475
+cap "x3_bar" "k2_bar" 0.151553
+cap "k3_bar" "x2" 0.00600855
+cap "CMOS_XOR_0/a_n210_0#" "GND" 0.463121
+cap "GND" "CMOS_XOR_2/a_n210_0#" 0.162092
+cap "k3_bar" "CMOS_INV_3/VDD" 0.05454
+cap "CMOS_XOR_0/a_90_0#" "XOR2_bar" 1.33083
+cap "k2_bar" "x2" 2.5767
+cap "XOR3" "CMOS_INV_3/VDD" 0.15666
+cap "x2_bar" "XOR1" 0.0311195
+cap "k2_bar" "CMOS_INV_3/VDD" 50.6479
+cap "x2" "x1_bar" 7.24203e-06
+cap "XOR1" "XOR2_bar" 0.0224366
+cap "x1" "x0_bar" 0.0133558
+cap "w_350_n3012#" "k2" 0.443896
+cap "XOR2" "k3_bar" 2.83045
+cap "CMOS_XOR_2/a_90_0#" "XOR1_bar" 0.298172
+cap "x1_bar" "CMOS_INV_3/VDD" 6.91968
+cap "x1" "GND" 0.0684516
+cap "CMOS_XOR_1/B" "k2_bar" 1.40296
+cap "k1_bar" "x2" 0.291743
+cap "k2" "CMOS_XOR_0/a_90_0#" 8.12871
+cap "GND" "XOR1_bar" 0.152639
+cap "CMOS_XOR_2/a_n210_0#" "XOR1_bar" 0.237859
+cap "XOR2" "XOR3" 12.4919
+cap "k2" "CMOS_XOR_2/a_90_n610#" 0.240491
+cap "XOR2" "k2_bar" 15.3613
+cap "k1_bar" "CMOS_INV_3/VDD" 1.42905
+cap "k2_bar" "k1" 1.73464
+cap "x3_bar" "x2_bar" 0.17223
+cap "XOR2" "x1_bar" 0.154131
+cap "XOR1" "k2" 5.70548
+cap "x2" "x2_bar" 0.0675719
+cap "k1" "x1_bar" 1.16457
+cap "XOR2" "k1_bar" 0.217396
+cap "x1" "XOR1_bar" 0.0747336
+cap "x2" "XOR2_bar" 1.11778
+cap "k1" "CMOS_XOR_3/A" 3.5715e-06
+cap "x2_bar" "CMOS_INV_3/VDD" 12.6462
+cap "k1_bar" "k1" 14.3195
+cap "k2_bar" "CMOS_XOR_1/a_n210_0#" 0.0631676
+cap "CMOS_INV_3/VDD" "XOR2_bar" 35.0394
+cap "x3_bar" "k2" 0.184279
+cap "CMOS_XOR_1/B" "x2_bar" 0.00681717
+cap "CMOS_XOR_0/a_90_n610#" "k2" 2.01616
+cap "XOR2" "x2_bar" 10.7779
+cap "x3" "k2_bar" 1.32987
+cap "CMOS_XOR_0/a_n210_0#" "k2_bar" -0.991429
+cap "k2_bar" "CMOS_XOR_2/a_90_0#" 0.953524
+cap "k2_bar" "CMOS_XOR_2/a_n210_0#" 2.71446
+cap "x2_bar" "k1" 1.31667
+cap "x2" "k2" 7.41275
+cap "XOR2" "XOR2_bar" 70.7279
+cap "k2_bar" "GND" -0.714028
+cap "k1" "CMOS_XOR_3/B_bar" 3.5715e-06
+cap "CMOS_INV_3/VDD" "k2" 551.964
+cap "x1_bar" "x0_bar" 0.0133558
+cap "x2" "w_350_n3012#" 0.0368271
+cap "x1_bar" "GND" 0.0621583
+cap "k1_bar" "x0_bar" 0.0133558
+cap "CMOS_XOR_0/a_n210_n610#" "k2_bar" -0.549115
+cap "w_350_n3012#" "CMOS_INV_3/VDD" 0.0201829
+cap "k1" "CMOS_XOR_2/a_n210_n610#" 3.45627
+cap "CMOS_XOR_1/B" "k2" 1.47767
+cap "k1_bar" "GND" 0.234673
+cap "CMOS_INV_3/VDD" "CMOS_XOR_0/a_90_0#" 6.55199
+cap "k2_bar" "x1" 1.07263
+cap "XOR2" "k2" 142.113
+cap "k1" "k2" -77.4544
+cap "XOR2" "XOR3_bar" 6.91194
+cap "x1" "x1_bar" 0.0457581
+cap "XOR2" "w_350_n3012#" 3.96396
+cap "x1_bar" "XOR1_bar" 0.0835923
+cap "XOR1" "CMOS_INV_3/VDD" 23.7539
+cap "x2_bar" "GND" 0.366194
+cap "CMOS_XOR_0/a_n210_0#" "XOR2_bar" 1.05825
+cap "GND" "XOR2_bar" 0.697701
+cap "k1" "CMOS_XOR_0/a_90_0#" 1.56164
+cap "k1_bar" "XOR1_bar" 0.0642571
+cap "k1" "CMOS_XOR_2/a_90_n610#" 2.01616
+cap "x3_bar" "x2" 0.0319943
+cap "XOR2" "XOR1" 44.4024
+cap "x3_bar" "CMOS_INV_3/VDD" 0.192995
+cap "x3" "k2" 3.5715e-06
+cap "x2_bar" "x1" 7.24203e-06
+cap "XOR1" "k1" 81.3896
+cap "k2" "CMOS_XOR_2/a_90_0#" 1.56164
+cap "CMOS_XOR_0/a_n210_0#" "k2" 13.9349
+cap "k3_bar" "k2_bar" 0.882993
+cap "k2" "CMOS_XOR_2/a_n210_0#" 3.19526
+cap "GND" "k2" 15.9267
+cap "x2" "CMOS_INV_3/VDD" 13.8549
+cap "XOR3" "k2_bar" 4.07262
+cap "XOR2_bar" "XOR1_bar" 4.7944
+cap "XOR2" "x3_bar" 5.11403
+cap "XOR2" "CMOS_XOR_0/a_90_n610#" 5.26252
+cap "CMOS_XOR_1/B" "x2" 0.0225365
+cap "CMOS_XOR_0/a_n210_n610#" "k2" 3.45627
+cap "CMOS_XOR_0/a_90_n610#" "k1" 0.240491
+cap "GND" "CMOS_XOR_0/a_90_0#" 0.382478
+cap "k2_bar" "x1_bar" 1.21356
+cap "XOR2" "x2" 1.17552
+cap "CMOS_XOR_1/B" "CMOS_INV_3/VDD" 0.151502
+cap "x1" "k2" 2.23863
+cap "x2" "k1" 1.73815
+cap "XOR2" "CMOS_INV_3/VDD" 235.064
+cap "k2_bar" "k1_bar" 2.69531
+cap "CMOS_XOR_1/VDD" "k2" 0.167152
+cap "k1" "CMOS_INV_3/VDD" 515.322
+cap "XOR1" "GND" 5.08979
+cap "k3_bar" "x2_bar" 0.0251757
+cap "XOR2" "CMOS_XOR_1/B" 3.36489
+cap "k1_bar" "x1_bar" 0.0457581
+cap "XOR3" "x2_bar" 0.00359719
+cap "k2_bar" "x2_bar" 1.73612
+cap "XOR3" "XOR2_bar" 0.00692999
+cap "XOR2" "k1" 6.15043
+cap "k2_bar" "XOR2_bar" 1.76794
+cap "CMOS_XOR_1/a_n210_n610#" "k2_bar" 2.16858
+cap "x2_bar" "x1_bar" 1.65586
+cap "x3" "x2" 0.28744
+cap "XOR1" "XOR1_bar" 9.05701
+cap "k1" "CMOS_XOR_3/B" 3.5715e-06
+cap "x2" "GND" 1.08467
+cap "k2_bar" "CMOS_XOR_1/VDD" 0.033881
+cap "x3" "CMOS_INV_3/VDD" 0.157002
+cap "k3_bar" "k2" 3.5715e-06
+cap "k1_bar" "x2_bar" 0.275118
+cap "XOR2" "CMOS_XOR_1/a_90_n610#" 3.87522
+cap "CMOS_INV_3/VDD" "CMOS_XOR_2/a_90_0#" 2.18564
+cap "CMOS_XOR_0/a_n210_0#" "CMOS_INV_3/VDD" 6.16483
+cap "XOR3" "k2" 0.11945
+cap "CMOS_INV_3/VDD" "GND" 17.0953
+cap "CMOS_INV_3/VDD" "CMOS_XOR_2/a_n210_0#" 2.02811
+cap "k2_bar" "k2" 18.6482
+cap "XOR2" "CMOS_XOR_2/a_90_0#" 0.420726
+cap "x1_bar" "k2" 1.20392
+cap "k2_bar" "w_350_n3012#" 0.432576
+cap "x2" "x1" 1.65584
+cap "k1" "x0_bar" 0.152353
+cap "XOR2" "GND" 122.281
+cap "CMOS_XOR_0/a_n210_0#" "k1" 2.36324
+cap "k1" "CMOS_XOR_2/a_90_0#" 8.12871
+cap "x2_bar" "XOR2_bar" 1.25216
+cap "k2_bar" "CMOS_XOR_0/a_90_0#" -0.376097
+cap "k1" "CMOS_XOR_2/a_n210_0#" 13.9349
+cap "XOR2" "CMOS_INV_0/VDD" 1.22848
+cap "x1" "CMOS_INV_3/VDD" 6.70927
+cap "k1_bar" "k2" 1.3887
+cap "k1" "GND" 10.146
+cap "CMOS_INV_3/VDD" "XOR1_bar" 9.68635
+cap "k2_bar" "XOR1" 5.06571
+cap "XOR1" "XOR2_bar" 0.000874153
+cap "GND" "CMOS_INV_3/VDD" -0.948054
+cap "XOR2_bar" "XOR3_bar" 0.0228598
+cap "XOR2_bar" "GND" -0.00869603
+cap "XOR1_bar" "CMOS_INV_3/VDD" 1.59827
+cap "XOR2_bar" "CMOS_INV_3/VDD" 7.69278
+cap "XOR2" "w_350_n3012#" 0.23055
+cap "XOR3" "XOR2_bar" 0.000448616
+cap "XOR2_bar" "XOR1_bar" 0.845214
+cap "XOR2" "XOR3_bar" 0.93075
+cap "XOR2" "GND" 2.57539
+cap "XOR2" "CMOS_INV_3/VDD" 9.43918
+cap "XOR2" "XOR1_bar" 0.58345
+cap "XOR2_bar" "XOR2" 4.02279
+cap "XOR2_bar" "w_350_n3012#" 0.000119149
+cap "XOR1" "CMOS_INV_3/VDD" 0.414822
+cap "CMOS_XOR_0/a_n210_0#" "k1" 0.832021
+cap "CMOS_XOR_0/a_n210_0#" "k1_bar" 2.71446
+cap "GND" "CMOS_XOR_3/a_90_n610#" 0.214302
+cap "k1" "CMOS_XOR_3/a_90_n610#" 2.25745
+cap "VDD" "x1" 10.8145
+cap "k1_bar" "CMOS_XOR_3/a_90_n610#" 0.779042
+cap "GND" "x1_bar" 390.49
+cap "x1_bar" "k1" 12.1813
+cap "k0_bar" "x1" 0.798888
+cap "x1_bar" "k1_bar" 22.1512
+cap "x0_bar" "CMOS_XOR_3/a_90_0#" 5.07634
+cap "VDD" "CMOS_XOR_3/a_90_n610#" 0.0917238
+cap "CMOS_XOR_0/A_bar" "k1" 0.494086
+cap "CMOS_XOR_2/a_90_n610#" "XOR1" 5.26252
+cap "XOR1_bar" "XOR0_bar" 8.84432
+cap "CMOS_XOR_0/A_bar" "k1_bar" 0.938438
+cap "VDD" "x1_bar" 59.8673
+cap "CMOS_XOR_3/a_n210_n610#" "XOR0_bar" 0.0150227
+cap "k0_bar" "x1_bar" 0.548299
+cap "x0_bar" "CMOS_XOR_3/a_n210_n610#" 7.33985
+cap "CMOS_XOR_2/a_90_0#" "x1_bar" 5.07634
+cap "XOR0" "x1_bar" 1.91607
+cap "x0_bar" "XOR0_bar" 0.00572473
+cap "k0" "GND" -3.68885
+cap "GND" "CMOS_XOR_2/a_n210_0#" 0.301028
+cap "k0" "k1" 10.0981
+cap "GND" "XOR1" 144.048
+cap "k0" "k1_bar" 1.81
+cap "k1" "XOR1" 66.3771
+cap "CMOS_XOR_2/a_n210_0#" "k1_bar" -0.991429
+cap "XOR1" "k1_bar" 14.8764
+cap "GND" "x0" 0.138733
+cap "x0" "k1" 1.2629
+cap "XOR1_bar" "x1" 0.928679
+cap "k2_bar" "k1_bar" 0.875418
+cap "x0" "k1_bar" 1.42559
+cap "CMOS_XOR_0/a_90_0#" "XOR1" 0.420726
+cap "k0" "VDD" 2.12062
+cap "VDD" "CMOS_XOR_2/a_n210_0#" 4.13672
+cap "VDD" "XOR1" 234.264
+cap "k0" "k0_bar" 0.0456198
+cap "k2" "x1" 0.140572
+cap "CMOS_XOR_3/a_90_0#" "x1_bar" 0.27587
+cap "k0_bar" "XOR1" 3.13503
+cap "VDD" "x0" 2.29745
+cap "x0_bar" "x1" 1.01351
+cap "XOR2_bar" "XOR1" 3.9721
+cap "XOR0" "XOR1" 50.4016
+cap "CMOS_XOR_3/a_n210_0#" "k1" 0.660685
+cap "XOR1_bar" "x1_bar" 3.02041
+cap "CMOS_XOR_3/a_n210_0#" "k1_bar" 0.0631676
+cap "x2" "k1" 0.627549
+cap "CMOS_XOR_3/a_n210_n610#" "x1_bar" 0.377168
+cap "CMOS_XOR_2/a_90_n610#" "GND" 2.38435
+cap "x2" "k1_bar" 0.875418
+cap "XOR0_bar" "CMOS_XOR_3/a_90_n610#" 0.0188319
+cap "CMOS_XOR_2/a_90_n610#" "k1_bar" -0.271868
+cap "k2" "x1_bar" 0.283026
+cap "CMOS_XOR_2/a_n210_n610#" "k1" 1.51714
+cap "CMOS_XOR_2/a_n210_n610#" "GND" 2.09403
+cap "x0_bar" "CMOS_XOR_3/a_90_n610#" 4.28158
+cap "CMOS_XOR_2/a_n210_n610#" "k1_bar" -0.549115
+cap "x0_bar" "x1_bar" -77.3047
+cap "CMOS_XOR_2/a_90_n610#" "VDD" 1.15661
+cap "VDD" "CMOS_XOR_2/a_n210_n610#" 1.33984
+cap "CMOS_XOR_3/a_90_0#" "XOR1" 0.377493
+cap "GND" "k1" 4.09752
+cap "GND" "k1_bar" -10.7229
+cap "k1" "k1_bar" 3.52993
+cap "XOR1_bar" "CMOS_XOR_2/a_n210_0#" 0.820387
+cap "XOR1_bar" "XOR1" 82.861
+cap "CMOS_XOR_0/a_90_0#" "k1" 1.57916
+cap "k2" "XOR1" 0.494731
+cap "x1_bar" "x1" 9.99929
+cap "VDD" "k1" 57.8686
+cap "VDD" "GND" 338.673
+cap "k0" "XOR0_bar" 0.00472002
+cap "CMOS_XOR_0/a_90_0#" "k1_bar" 0.953524
+cap "VDD" "k1_bar" 54.7211
+cap "k0" "x0_bar" 7.89816
+cap "k0_bar" "GND" -5.8072
+cap "XOR0_bar" "XOR1" 6.94794
+cap "CMOS_XOR_2/a_90_0#" "GND" 0.248611
+cap "k0_bar" "k1" 2.69934
+cap "x0_bar" "CMOS_XOR_2/a_n210_0#" 0.321625
+cap "k0_bar" "k1_bar" 5.58572
+cap "GND" "XOR0" -6.77816
+cap "x0_bar" "XOR1" 6.97016
+cap "XOR0" "k1" 8.15644
+cap "CMOS_XOR_2/a_90_0#" "k1_bar" -0.376097
+cap "XOR0_bar" "x0" 0.00405834
+cap "XOR0" "k1_bar" 4.50681
+cap "x1_bar" "CMOS_XOR_3/a_90_n610#" 0.31984
+cap "x0_bar" "x0" 9.32226
+cap "XOR2" "XOR1" 1.91238
+cap "k0_bar" "VDD" 2.01815
+cap "VDD" "CMOS_XOR_2/a_90_0#" 4.36636
+cap "XOR1_bar" "CMOS_XOR_2/a_90_n610#" 0.86003
+cap "VDD" "XOR0" 3.74273
+cap "XOR1_bar" "CMOS_XOR_2/a_n210_n610#" 0.682679
+cap "k0_bar" "XOR0" 4.67964e-05
+cap "CMOS_XOR_0/A_bar" "x1_bar" 1.43399e-05
+cap "k0" "x1" 0.0225383
+cap "XOR1" "x1" 4.40439
+cap "x0_bar" "CMOS_XOR_3/a_n210_0#" 8.70231
+cap "CMOS_XOR_3/a_90_0#" "k1" 0.453156
+cap "k2_bar" "x1" 0.0945296
+cap "x0_bar" "CMOS_XOR_2/a_90_n610#" 0.31984
+cap "x0" "x1" 4.41766
+cap "CMOS_XOR_3/a_90_0#" "k1_bar" 0.174989
+cap "x0_bar" "CMOS_XOR_2/a_n210_n610#" 0.377168
+cap "XOR1_bar" "GND" 19.0775
+cap "XOR1" "CMOS_XOR_3/a_90_n610#" 3.87522
+cap "XOR1_bar" "k1" 17.3028
+cap "k0" "x1_bar" 0.922288
+cap "XOR1_bar" "k1_bar" 9.52875
+cap "CMOS_XOR_3/a_n210_n610#" "GND" 0.188791
+cap "CMOS_XOR_3/a_n210_n610#" "k1" 2.94135
+cap "CMOS_XOR_2/a_n210_0#" "x1_bar" 8.70231
+cap "x1_bar" "XOR1" 92.5672
+cap "GND" "k2" 0.112748
+cap "CMOS_XOR_3/a_n210_n610#" "k1_bar" 2.16858
+cap "k2" "k1" 3.17031
+cap "k2_bar" "x1_bar" 1.43399e-05
+cap "k2" "k1_bar" 0.35944
+cap "GND" "XOR0_bar" 5.30906
+cap "x0" "x1_bar" 0.555388
+cap "x0_bar" "GND" 389.523
+cap "x0_bar" "k1" 5.46805
+cap "XOR1_bar" "VDD" 23.684
+cap "CMOS_XOR_0/A_bar" "XOR1" 0.123011
+cap "x0_bar" "k1_bar" 1.34441
+cap "CMOS_XOR_3/a_n210_n610#" "VDD" 0.106254
+cap "XOR1_bar" "CMOS_XOR_2/a_90_0#" 1.03266
+cap "XOR2" "k1" 3.93312
+cap "XOR1_bar" "XOR0" -0.143452
+cap "XOR1_bar" "XOR2_bar" 2.01278
+cap "XOR2" "k1_bar" 4.84831
+cap "VDD" "XOR0_bar" 0.374986
+cap "x0_bar" "VDD" 52.1766
+cap "k0_bar" "XOR0_bar" 0.00527952
+cap "CMOS_XOR_3/a_n210_0#" "x1_bar" 0.321625
+cap "x0_bar" "k0_bar" 17.4042
+cap "XOR0_bar" "XOR0" 0.56796
+cap "k0" "XOR1" 3.699
+cap "x2" "x1_bar" 1.43399e-05
+cap "x0_bar" "CMOS_XOR_2/a_90_0#" 0.27587
+cap "CMOS_XOR_2/a_90_n610#" "x1_bar" 4.28158
+cap "x0_bar" "XOR0" 79.7854
+cap "GND" "x1" 26.3393
+cap "k1" "x1" -6.70468
+cap "CMOS_XOR_2/a_n210_n610#" "x1_bar" 7.33985
+cap "k0" "x0" 0.0456198
+cap "x1" "k1_bar" 6.05737
+cap "GND" "XOR0" 0.676495
+cap "XOR1" "XOR0_bar" 0.932152
+cap "XOR1_bar" "VDD" 6.38624
+cap "XOR1_bar" "GND" 6.30718
+cap "GND" "VDD" -0.948054
+cap "XOR1_bar" "XOR1" 4.02321
+cap "XOR1" "VDD" 9.25491
+cap "XOR2_bar" "XOR1_bar" 0.733179
+cap "XOR1_bar" "XOR0_bar" 1.26265
+cap "XOR1" "GND" 3.12576
+cap "XOR0_bar" "VDD" 0.0121107
+cap "XOR1_bar" "XOR0" -0.0547168
+cap "XOR0_bar" "GND" 2.85885
+cap "XOR2_bar" "XOR1" 0.582576
+cap "CMOS_XOR_3/a_n210_n610#" "VDD" 1.23358
+cap "k0" "k0_bar" 17.8038
+cap "CMOS_XOR_3/a_90_0#" "k0" 8.12871
+cap "k0_bar" "CMOS_XOR_2/a_n210_0#" 0.0631676
+cap "x0" "VDD" 4.30036
+cap "k0" "x0_bar" 5.44769
+cap "x1_bar" "k0_bar" 0.834638
+cap "CMOS_XOR_3/a_n210_n610#" "XOR0_bar" 0.667656
+cap "x1_bar" "x0_bar" 0.645474
+cap "k0" "CMOS_XOR_2/a_n210_0#" 0.660685
+cap "x0" "XOR0_bar" 0.999355
+cap "CMOS_XOR_3/a_90_n610#" "VDD" 1.06489
+cap "GND" "k0_bar" -4.68107
+cap "VDD" "XOR1" 0.15666
+cap "x1_bar" "k0" 4.80525
+cap "CMOS_XOR_2/B" "k0_bar" 1.63926
+cap "CMOS_XOR_3/a_90_0#" "GND" 0.382478
+cap "w_350_144#" "x0" 2.60499
+cap "XOR0" "k0_bar" 14.9058
+cap "GND" "x0_bar" 1.02865
+cap "k0_bar" "k1_bar" 3.04928
+cap "x0_bar" "CMOS_XOR_2/B" 0.107129
+cap "VDD" "XOR0_bar" 30.2736
+cap "CMOS_XOR_3/a_n210_0#" "k0_bar" -0.991429
+cap "XOR0" "x0_bar" 13.7932
+cap "k0_bar" "CMOS_XOR_2/VDD" 0.033881
+cap "CMOS_XOR_3/a_90_n610#" "XOR0_bar" 0.841198
+cap "XOR0_bar" "XOR1" -0.17945
+cap "k0" "GND" 15.5551
+cap "x0_bar" "k1_bar" 0.0251757
+cap "k0" "CMOS_XOR_2/B" 7.68101
+cap "w_350_144#" "VDD" 0.0201829
+cap "XOR0" "k0" 142.071
+cap "k0" "k1_bar" 2.5286
+cap "CMOS_XOR_3/a_n210_0#" "k0" 13.9349
+cap "k0" "CMOS_XOR_2/VDD" 0.563186
+cap "XOR0" "x1_bar" 5.11403
+cap "w_350_144#" "XOR0_bar" 0.672585
+cap "XOR0_bar" "XOR1_bar" 6.23257
+cap "CMOS_XOR_3/a_n210_n610#" "k0_bar" -0.549115
+cap "x1" "x0" 2.30147
+cap "k0_bar" "CMOS_XOR_2/a_90_n610#" 0.779042
+cap "x0" "k0_bar" 6.05737
+cap "k0_bar" "CMOS_XOR_2/a_n210_n610#" 2.16858
+cap "XOR0" "GND" 155.916
+cap "XOR0" "CMOS_XOR_2/B" 3.36489
+cap "k0_bar" "CMOS_XOR_2/a_90_0#" 0.174989
+cap "x0" "x0_bar" 0.72279
+cap "CMOS_XOR_3/a_n210_n610#" "k0" 4.97341
+cap "CMOS_XOR_3/a_n210_0#" "GND" 0.463121
+cap "x1" "VDD" 0.157002
+cap "XOR0" "k1_bar" 2.83045
+cap "k0" "CMOS_XOR_2/a_90_n610#" 2.25745
+cap "XOR0" "CMOS_XOR_2/VDD" 0.944814
+cap "VDD" "k0_bar" 21.4648
+cap "k0" "x0" 1.42044
+cap "CMOS_XOR_3/a_90_n610#" "k0_bar" -0.271868
+cap "CMOS_XOR_3/a_90_0#" "VDD" 6.55199
+cap "k0" "CMOS_XOR_2/a_n210_n610#" 2.94135
+cap "k0_bar" "XOR1" 4.20223
+cap "k0" "CMOS_XOR_2/a_90_0#" 0.453156
+cap "x0_bar" "VDD" 6.03003
+cap "x0_bar" "XOR1" 0.0599322
+cap "x1_bar" "x0" 0.471474
+cap "k0_bar" "XOR0_bar" 8.21619
+cap "k0" "VDD" 504.242
+cap "CMOS_XOR_3/a_90_0#" "XOR0_bar" 1.33083
+cap "CMOS_XOR_3/a_90_n610#" "k0" 2.01616
+cap "CMOS_XOR_3/a_n210_n610#" "GND" 1.90524
+cap "k0" "XOR1" 7.82234
+cap "x0_bar" "XOR0_bar" 3.09827
+cap "w_350_144#" "k0_bar" 2.09581
+cap "GND" "x0" 27.4058
+cap "x0" "CMOS_XOR_2/B" 0.0225365
+cap "XOR0" "CMOS_XOR_2/a_90_n610#" 3.87522
+cap "x1_bar" "VDD" 0.192995
+cap "w_350_144#" "x0_bar" 1.0359
+cap "XOR0" "x0" 4.41239
+cap "k0" "XOR0_bar" 17.2921
+cap "XOR0" "CMOS_INV_1/VDD" 1.22848
+cap "x0" "k1_bar" 0.703163
+cap "XOR0" "CMOS_XOR_2/a_90_0#" 0.377493
+cap "w_350_144#" "k0" 4.31416
+cap "x0" "CMOS_XOR_2/VDD" 0.827175
+cap "GND" "VDD" 86.9725
+cap "CMOS_XOR_3/a_90_n610#" "GND" 2.17005
+cap "CMOS_XOR_2/B" "VDD" 0.151502
+cap "XOR0" "VDD" 204.679
+cap "XOR0" "CMOS_XOR_3/a_90_n610#" 5.26252
+cap "VDD" "k1_bar" 0.05454
+cap "XOR0" "XOR1" 12.5221
+cap "CMOS_XOR_3/a_n210_0#" "VDD" 6.16483
+cap "GND" "XOR0_bar" 13.921
+cap "x1" "k0_bar" 1.32987
+cap "XOR0" "XOR0_bar" 91.4948
+cap "CMOS_XOR_3/a_90_0#" "k0_bar" -0.376097
+cap "CMOS_XOR_3/a_n210_0#" "XOR0_bar" 1.05825
+cap "XOR0" "XOR1_bar" 6.91194
+cap "x0_bar" "k0_bar" 4.79274
+cap "w_350_144#" "XOR0" 4.51072
+cap "x1" "k0" 1.2629
+cap "XOR0_bar" "XOR1" -0.0561192
+cap "XOR1_bar" "XOR0" 0.93075
+cap "XOR0_bar" "GND" 3.44833
+cap "XOR0_bar" "VDD" 6.81105
+cap "w_350_144#" "XOR0" 0.30709
+cap "XOR0_bar" "XOR0" 4.02321
+cap "XOR0_bar" "XOR1_bar" 1.1568
+cap "GND" "VDD" -0.474027
+cap "XOR0_bar" "w_350_144#" 0.376394
+cap "GND" "XOR0" 3.16558
+cap "VDD" "XOR0" 10.7997
+cap "CMOS_INV_2/GND" "VDD" 0.122953
+merge "CMOS_XOR_3/A" "x0" -77.0497 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_3/GND!" "CMOS_INV_2/GND" -4118.78 0 0 0 0 0 0 0 0 0 0 -259800 -6396 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -207840 -6476 -259800 -6396 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_INV_2/GND" "CMOS_XOR_2/GND!"
+merge "CMOS_XOR_2/GND!" "CMOS_INV_1/GND"
+merge "CMOS_INV_1/GND" "CMOS_XOR_0/GND!"
+merge "CMOS_XOR_0/GND!" "CMOS_XOR_1/GND!"
+merge "CMOS_XOR_1/GND!" "GND"
+merge "GND" "CMOS_INV_0/GND"
+merge "CMOS_INV_0/GND" "CMOS_INV_3/GND"
+merge "CMOS_INV_3/GND" "VSUBS"
+merge "CMOS_XOR_0/XOR" "CMOS_INV_3/A" -640.432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 -1640 -162 0 0 0 0 0 0 0 0
+merge "CMOS_INV_3/A" "XOR2"
+merge "CMOS_XOR_2/A" "x1" -85.5584 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_0/A_bar" "x2_bar" -207.781 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_0/B_bar" "k2_bar" -106.536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_1/XOR" "CMOS_INV_0/A" -575.608 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 -1640 -162 0 0 0 0 0 0 0 0
+merge "CMOS_INV_0/A" "XOR3"
+merge "CMOS_XOR_0/A" "x2" -85.5584 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_1/A" "x3" -77.0497 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_3/VDD" "CMOS_INV_2/VDD" -5095.33 0 0 0 0 -294326 -13680 0 0 -131900 -3438 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -105520 -3278 -131900 -3838 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_INV_2/VDD" "w_350_2322#"
+merge "w_350_2322#" "CMOS_XOR_2/VDD"
+merge "CMOS_XOR_2/VDD" "CMOS_XOR_1/VDD"
+merge "CMOS_XOR_1/VDD" "VDD"
+merge "VDD" "CMOS_INV_0/VDD"
+merge "CMOS_INV_0/VDD" "w_350_n3012#"
+merge "w_350_n3012#" "CMOS_INV_1/VDD"
+merge "CMOS_INV_1/VDD" "w_350_144#"
+merge "w_350_144#" "CMOS_XOR_0/VDD"
+merge "CMOS_XOR_0/VDD" "CMOS_INV_3/VDD"
+merge "CMOS_INV_3/VDD" "w_350_n834#"
+merge "CMOS_XOR_3/B_bar" "k0_bar" -72.3836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_2/B_bar" "k1_bar" -106.536 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_2/B" "k1" -365.482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_1/B_bar" "k3_bar" -72.3836 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_INV_0/OUT" "XOR3_bar" -183.394 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3200 -240 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_INV_2/OUT" "XOR0_bar" -183.394 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3200 -240 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_0/B" "k2" -365.482 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_2/XOR" "CMOS_INV_1/A" -640.432 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 -1640 -162 0 0 0 0 0 0 0 0
+merge "CMOS_INV_1/A" "XOR1"
+merge "CMOS_INV_3/OUT" "XOR2_bar" -189.818 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3200 -240 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_2/A_bar" "x1_bar" -207.781 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_3/B" "k0" -454.565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_3/A_bar" "x0_bar" -200.005 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_1/B" "k3" -454.565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_1/A_bar" "x3_bar" -200.005 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 0 0 0 0 0 0 0 0 0 0
+merge "CMOS_XOR_3/XOR" "CMOS_INV_2/A" -578.747 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -80 0 0 -1640 -162 0 0 0 0 0 0 0 0
+merge "CMOS_INV_2/A" "XOR0"
+merge "CMOS_INV_1/OUT" "XOR1_bar" -189.818 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3200 -240 0 0 0 0 0 0 0 0 0 0 0 0

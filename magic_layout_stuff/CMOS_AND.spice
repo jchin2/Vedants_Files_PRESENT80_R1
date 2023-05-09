@@ -1,0 +1,11 @@
+* NGSPICE file created from CMOS_AND.ext - technology: sky130A
+
+.subckt CMOS_AND GND AND A B VDD
+X0 AND a_30_440# GND GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=1.8e+12p ps=8.4e+06u w=1.5e+06u l=150000u
+X1 VDD A a_30_440# VDD sky130_fd_pr__pfet_01v8 ad=5.4e+12p pd=2.16e+07u as=1.8e+12p ps=7.2e+06u w=3e+06u l=150000u
+X2 a_30_n170# B GND GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=0p ps=0u w=1.5e+06u l=150000u
+X3 AND a_30_440# VDD VDD sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=0p ps=0u w=3e+06u l=150000u
+X4 a_30_440# B VDD VDD sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=3e+06u l=150000u
+X5 a_30_440# A a_30_n170# GND sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=0p ps=0u w=1.5e+06u l=150000u
+.ends
+

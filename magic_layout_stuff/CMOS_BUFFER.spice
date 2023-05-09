@@ -1,0 +1,12 @@
+* SPICE3 file created from CMOS_BUFFER.ext - technology: sky130A
+
+.subckt CMOS_INV A Y VP VN
+X0 Y A VP VP sky130_fd_pr__pfet_01v8 ad=5.5e+11p pd=3.1e+06u as=5.5e+11p ps=3.1e+06u w=1e+06u l=200000u
+X1 Y A VN VN sky130_fd_pr__nfet_01v8 ad=5.5e+11p pd=3.1e+06u as=5.5e+11p ps=3.1e+06u w=1e+06u l=200000u
+.ends
+
+.subckt CMOS_BUFFER
+XCMOS_INV_0 A CMOS_INV_1/A VP VN CMOS_INV
+XCMOS_INV_1 CMOS_INV_1/A Y VP VN CMOS_INV
+.ends
+

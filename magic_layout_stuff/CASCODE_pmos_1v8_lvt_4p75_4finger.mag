@@ -1,0 +1,18 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1671041739
+<< poly >>
+rect 339 967 459 1007
+<< locali >>
+rect -561 127 -521 927
+rect 1319 127 1359 927
+use pmos_1v8_lvt_4p75_Lbody_4finger  pmos_1v8_lvt_4p75_Lbody_4finger_0
+timestamp 1671041739
+transform 1 0 -511 0 1 -273
+box -240 170 1180 1430
+use pmos_1v8_lvt_4p75_Rbody_4finger  pmos_1v8_lvt_4p75_Rbody_4finger_0
+timestamp 1671041739
+transform 1 0 369 0 1 -273
+box -240 170 1180 1430
+<< end >>

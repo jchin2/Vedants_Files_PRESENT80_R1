@@ -1,0 +1,12 @@
+* NGSPICE file created from Buffer.ext - technology: sky130A
+
+.subckt INV_VP_VN VP A OUT VN
+X0 OUT A VN VN sky130_fd_pr__nfet_01v8 ad=9e+11p pd=4.2e+06u as=9e+11p ps=4.2e+06u w=1.5e+06u l=150000u
+X1 OUT A VP VP sky130_fd_pr__pfet_01v8 ad=1.8e+12p pd=7.2e+06u as=1.8e+12p ps=7.2e+06u w=3e+06u l=150000u
+.ends
+
+.subckt Buffer VP A OUT VN
+XCMOS_INV_0 VP A CMOS_INV_1/A VN CMOS_INV
+XCMOS_INV_1 CMOS_INV_1/A OUT VN VP CMOS_INV
+.ends
+
